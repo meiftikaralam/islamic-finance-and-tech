@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aaoifi-kb"
+version = "0.1.0"
+description = "AAOIFI Shariah Standards knowledge base in simple English"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["aaoifi", "islamic-finance", "shariah", "knowledge-base"]
+authors = [{ name = "Iftikar" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aaoifi_kb = ["data/*.json"]
