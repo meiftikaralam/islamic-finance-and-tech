@@ -9,6 +9,7 @@ Run from the repo root: python3 glossary/build.py
 (also runnable from site/: python3 glossary/build.py resolves paths itself)
 """
 import json
+import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent          # site/glossary
@@ -16,12 +17,40 @@ DATA = HERE / "data.json"
 OUT = HERE / "index.html"
 
 NAV = """<nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Posts</a>
     <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
     <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Glossary</a>
-    <a href="../lab/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Lab</a>
     <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
   </nav>"""
+
+SEARCH_BOX = """<div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>"""
+
+
+def slug(name):
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
 def entry_card(e):
@@ -35,7 +64,7 @@ def entry_card(e):
         ed = f' · <a href="../{e["edition"]}" style="color:#0f5132;">edition</a>' if e.get("edition") else ""
         mention = f'<div style="font-size:12px;color:#888;margin-top:4px;">First mentioned {e["first_mentioned"]}{ed}</div>'
     badge = "🏢" if e["type"] == "company" else "📖"
-    return f"""<div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    return f"""<div id="{slug(e['name'])}" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">{badge} {e["name"]}</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">{e["description"]}</div>
       {web}{src_line}{mention}
@@ -76,6 +105,7 @@ def main():
 <body>
 <div class="wrap">
   {NAV}
+  {SEARCH_BOX}
   <div class="hero" style="margin-top:16px;">
     <h1>Glossary</h1>
     <p>Companies and concepts from the Daily Brief, explained simply.</p>

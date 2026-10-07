@@ -20,12 +20,35 @@
 <body>
 <div class="wrap">
   <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Posts</a>
     <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
     <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Glossary</a>
-    <a href="../lab/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Lab</a>
     <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
   </nav>
+  <div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
   <div class="hero" style="margin-top:16px;">
     <h1>Glossary</h1>
     <p>Companies and concepts from the Daily Brief, explained simply.</p>
@@ -35,70 +58,70 @@
   This page collects them in one place and grows with each new edition.</p>
 
   <h2>🏢 Companies</h2>
-  <div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+  <div id="asal-invest" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Asal Invest</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A US-based registered investment adviser that manages money and gives financial advice to clients. In September 2026 it partnered with RihalQ to get Islamic screening data for its US investors.</div>
       <div style="margin-top:6px;"><a href="https://asalinvest.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://asalinvest.com" style="color:#0f5132;">Asal Invest official website</a>, <a href="https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/" style="color:#0f5132;">IFN Investor monthly review (Sept 2026) — notes the Asal Invest / RihalQ partnership</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="asb-capital" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 ASB Capital</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A fund manager based in Dubai's financial district (DIFC) and controlled by Al Salam Bank, which handles money for investors across the Middle East. In October 2026 it partnered with StepStone Group to launch a private financing fund.</div>
       <div style="margin-top:6px;"><a href="https://asbc.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://asbc.com" style="color:#0f5132;">ASB Capital official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="falah-capital" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Falah Capital</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A small Seattle-based investment firm that filed with US regulators to launch an Islamic exchange-traded fund tracking large American stocks, advised by Exchange Traded Concepts and Mellon Capital with the Shariyah Review Bureau as its Islamic adviser. No official company website could be verified.</div>
       <div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.lse.co.uk/news/us-firms-new-islamic-etf-looks-to-test-muted-investor-demand-grarsikkc3zgeyd.html" style="color:#0f5132;">Reuters (via LSE) — Seattle-based Falah Capital is preparing an Islamic ETF (Oct 2026)</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-06 · <a href="../editions/2026-10-06.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="gulf-islamic-investments" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Gulf Islamic Investments</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">An investment company based in the United Arab Emirates that puts money into property, private businesses, and other opportunities while following Islamic rules. It manages more than $4 billion for investors and in October 2026 bought a majority stake in London House Exchange.</div>
       <div style="margin-top:6px;"><a href="https://www.gii.ae" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.gii.ae" style="color:#0f5132;">Gulf Islamic Investments official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="kt-bank-ag" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 KT Bank AG</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">Germany's first Islamic bank, based in Frankfurt and owned by Turkey's Kuveyt Turk participation bank. It offers accounts, savings, and financing for individuals and businesses using profit-sharing instead of interest.</div>
       <div style="margin-top:6px;"><a href="https://www.kt-bank.de" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.kt-bank.de" style="color:#0f5132;">KT Bank AG official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="london-house-exchange" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 London House Exchange</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A UK platform that lets people buy small slices of rental properties and trade them on a regulated exchange, instead of having to buy a whole house. It started life as Property Partner and is overseen by the UK's Financial Conduct Authority.</div>
       <div style="margin-top:6px;"><a href="https://www.londonhouseexchange.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.londonhouseexchange.com" style="color:#0f5132;">London House Exchange official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="offa" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Offa</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A UK finance company that offers home-buying and buy-to-let products built on Islamic co-ownership, so there is no interest charge. It grew fast after Gulf Islamic Investments took a majority stake, and in 2026 it bought Bank of Ireland's Alburaq Islamic home finance portfolio.</div>
       <div style="margin-top:6px;"><a href="https://www.offa.co.uk" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.offa.co.uk" style="color:#0f5132;">Offa official website</a>, <a href="https://ffnews.com/news/islamic-property-finance-firm-offa-announces-buy-to-let-rate-drops" style="color:#0f5132;">FF News — Offa's buy-to-let rate announcement, referencing the Alburaq acquisition</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-06 · <a href="../editions/2026-10-06.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="rihalq" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 RihalQ</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A halal screening platform that checks whether stocks and other investments meet Islamic guidelines. In September 2026 it teamed up with Asal Invest to supply that screening data to investors across the US. No official company website could be verified; it appears to be a young company covered so far only in Islamic finance trade press.</div>
       <div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/" style="color:#0f5132;">IFN Investor monthly review (Sept 2026) — notes RihalQ's partnership with Asal Invest</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="saturna-capital" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Saturna Capital</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">An investment manager based in Bellingham, Washington, that runs the Amana mutual funds — some of the oldest Islamic mutual funds in the United States. It picks stocks and bonds that pass Islamic screening so observant Muslims can invest with a clear conscience.</div>
       <div style="margin-top:6px;"><a href="https://www.saturna.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.saturna.com" style="color:#0f5132;">Saturna Capital official website</a>, <a href="https://www.sec.gov/Archives/edgar/data/766285/000076628519000023/amagx-summarypro.htm" style="color:#0f5132;">SEC — Amana fund documents naming Saturna Capital Corporation as investment adviser</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="stepstone-group" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 StepStone Group</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">A large US investment firm that manages money for pension funds, governments, and other big investors, focusing on private markets like private equity and private lending. It is listed on the Nasdaq stock exchange under the ticker STEP.</div>
       <div style="margin-top:6px;"><a href="https://www.stepstonegroup.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.stepstonegroup.com" style="color:#0f5132;">StepStone Group official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="wafra-inc" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Wafra Inc.</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">New York-based global alternative investment manager (~$30B AUM); its Global Sukuk Team won Euromoney's World's Best Islamic Fund Manager 2026.</div>
       <div style="margin-top:6px;"><a href="https://www.wafra.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.wafra.com" style="color:#0f5132;">Wafra official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="wahed" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">🏢 Wahed</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">An app-based investing platform that builds portfolios only from halal stocks, Islamic bonds (sukuk), and gold, with scholars checking that everything stays within Islamic rules. It serves hundreds of thousands of customers in the US, UK, Malaysia, and other countries.</div>
       <div style="margin-top:6px;"><a href="https://www.wahed.com" style="color:#0f5132;font-size:13px;">Official website</a></div><div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://www.wahed.com" style="color:#0f5132;">Wahed official website</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-06 · <a href="../editions/2026-10-06.html" style="color:#0f5132;">edition</a></div>
     </div>
 
   <h2>📖 Concepts</h2>
-  <div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+  <div id="fractional-ownership" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">📖 Fractional ownership</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">Owning a small slice of an expensive asset — like a fraction of a rental property — instead of buying the whole thing. Regulated exchanges now let everyday investors buy and sell these slices, which fits Islamic finance naturally since returns come from a real asset you partly own.</div>
       <div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://alternativecreditinvestor.com/2026/10/02/gulf-islamic-investments-takes-majority-stake-in-london-house-exchange/" style="color:#0f5132;">Alternative Credit Investor: GII / London House Exchange</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="islamic-etfs-and-shariah-stock-screening" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">📖 Islamic ETFs and Shariah stock screening</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">How an ETF holding Apple or Microsoft can be halal: the fund tracks an index of stocks screened against Islamic rules — no interest-based income, no alcohol, gambling or arms businesses, and strict limits on debt. A Shariah board certifies compliance, and any small leftover non-compliant income is 'purified' by donating it to charity.</div>
       <div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-06 · <a href="../editions/2026-10-06.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="private-credit" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">📖 Private credit</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">Loans made directly to companies by non-bank lenders (like investment funds) instead of through a bank. It has been one of the fastest-growing corners of conventional finance; Shariah-compliant versions structure the lending without interest — for example through cost-plus sales or profit-sharing deals.</div>
       <div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://alternativecreditinvestor.com/2026/10/05/stepstone-and-asb-capital-launch-shariah-compliant-private-credit-fund/" style="color:#0f5132;">Alternative Credit Investor: ASB StepStone fund</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
-    </div><div style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;">
+    </div><div id="sukuk" style="background:#fff;border:1px solid #e3e3e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;scroll-margin-top:16px;">
       <div style="font-size:16px;font-weight:700;">📖 Sukuk</div>
       <div style="font-size:14px;color:#333;margin-top:4px;line-height:1.6;">Islamic investment certificates. Instead of lending money and collecting interest (which is riba), sukuk holders own a share of a real asset or project — like an airport terminal — and earn returns from the profit it generates. Often called 'Islamic bonds,' but they are ownership certificates, not debt.</div>
       <div style="font-size:12px;color:#888;margin-top:6px;">Sources: <a href="https://github.com/meiftikaralam/islamic-finance-and-tech/blob/kb/sukuk/knowledge-base/sukuk.md" style="color:#0f5132;">AAOIFI knowledge base: Sukuk</a></div><div style="font-size:12px;color:#888;margin-top:4px;">First mentioned 2026-10-07 · <a href="../editions/2026-10-07.html" style="color:#0f5132;">edition</a></div>
