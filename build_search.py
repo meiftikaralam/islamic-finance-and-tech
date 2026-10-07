@@ -106,8 +106,9 @@ for e in data:
         "text": e["description"],
     })
 
-# About + playbook
-for f, typ in [("about.html", "About"), ("playbook/index.html", "How it's made")]:
+# About + playbook + newsletters hub
+for f, typ in [("about.html", "About"), ("playbook/index.html", "How it's made"),
+               ("newsletters.html", "Newsletters")]:
     t = parse(ROOT / f)
     entries.append({
         "title": t.title.strip() or typ,
