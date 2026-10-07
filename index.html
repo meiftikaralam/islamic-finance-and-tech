@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Islamic Finance Daily Brief — Archive</title>
+<title>Islamic Finance Daily Brief — Posts</title>
 <style>
   * { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
@@ -27,18 +27,60 @@
 
   <div class="banner-slot">
     <h1>Islamic Finance Daily Brief</h1>
-    <p>Top stories in Islamic finance — USA focus · beginner friendly</p>
+    <p>All posts — newsletter editions + lab notes · USA focus · beginner friendly</p>
   </div>
 
   <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
+    <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Posts</a>
     <a href="about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
     <a href="glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
-    <a href="lab/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Lab</a>
     <a href="playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
   </nav>
 
-  <h2>Latest editions</h2>
+  <div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
+
+  <h2>🧪 Lab notes</h2>
+
+  <div class="edition">
+    <a href="lab/zoya-finance-api.html">
+      <div class="date">October 7, 2026 · Lab</div>
+      <p class="title">Zoya Finance opened its API: halal screening data for developers</p>
+      <p class="teaser">Executive summary, who the API is for, core features, and how developers, founders, and agent-builders can use it — all from Zoya's public docs.</p>
+    </a>
+  </div>
+
+  <div class="edition">
+    <a href="lab/ai-persona-stock-analysis.html">
+      <div class="date">October 7, 2026 · Lab</div>
+      <p class="title">Experiment: asking AI to value stocks like Buffett and Graham</p>
+      <p class="teaser">Persona-based stock analysis with an AI agent — intrinsic value, margin of safety, and every term explained. A learning experiment, not investment advice.</p>
+    </a>
+  </div>
+
+  <h2>📰 Newsletter editions</h2>
 
   <div class="edition">
     <a href="editions/2026-10-07.html">

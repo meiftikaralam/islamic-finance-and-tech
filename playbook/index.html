@@ -27,12 +27,36 @@
   <div class="banner-slot"><h1>Islamic Finance Daily Brief</h1></div>
 
   <nav>
-    <a href="../index.html">Archive</a>
+    <a href="../index.html">Posts</a>
     <a href="../about.html">About</a>
     <a href="../glossary/index.html">Glossary</a>
-    <a href="../lab/index.html">Lab</a>
     <a href="index.html">How it's made</a>
   </nav>
+
+<div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
 
   <h2>How this newsletter is made</h2>
   <p>In the spirit of openness, here is the exact playbook behind this newsletter — the sources, the rules, and the process. Anyone is free to learn from it or adapt it.</p>
