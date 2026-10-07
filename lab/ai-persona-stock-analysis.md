@@ -11,9 +11,9 @@ Recently I started experimenting with an AI agent for stock analysis — not to 
 
 I picked a stock and gave it to the AI agent with a specific instruction: **analyze this company the way Warren Buffett would.** Estimate the intrinsic value of the business — what it is actually worth based on its earnings power — and tell me whether the current price looks overpriced or underpriced compared to that value. And crucially: **explain every term properly** along the way, so the analysis itself becomes a lesson.
 
-Then I ran the same exercise through a second persona: **Benjamin Graham**, Buffett's teacher and the father of value investing — the quantitative, no-nonsense lens of *Mr. Market*, net-nets, and demanding a margin of safety before paying for anything.
+One ground rule before any of that: the stock had to be Shariah-compliant first. For a Muslim investor the order is fixed — **halal screen first, valuation second** — because there's no point finding a wonderful underpriced business you can't own. I ran the compliance check with screening data like the kind I covered in my [Zoya API deep-dive](zoya-finance-api.html), and only then asked what Buffett would pay for it.
 
-**A correction to my own method — one I should have stated upfront:** before any valuation work, the stock must first pass a Shariah-compliance screen. For a Muslim investor, the order matters: **halal check first, intrinsic-value analysis second.** There is no point finding a wonderful undervalued business you cannot own. So the real workflow is: screen for compliance (using tools like the screening data I covered in my [Zoya API deep-dive](zoya-finance-api.html)), *then* ask what Buffett or Graham would pay for it.
+Then I ran the same exercise through a second persona: **Benjamin Graham**, Buffett's teacher and the father of value investing — the quantitative, no-nonsense lens of *Mr. Market*, net-nets, and demanding a margin of safety before paying for anything.
 
 ## Why personas?
 
