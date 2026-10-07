@@ -1,6 +1,8 @@
 # Experiment: asking AI to value stocks like Buffett and Graham
 
 *October 7, 2026 · by Iftikar*
+(function(){ var box=document.getElementById('site-search'), res=document.getElementById('search-results'); if(!box) return; fetch('../search.json').then(function(r){return r.json();}).then(function(idx){ box.addEventListener('input',function(){ var q=box.value.trim().toLowerCase(); if(q.length<2){res.innerHTML='';return;} var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8); res.innerHTML=hits.length?hits.map(function(h){ return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">' +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>' +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>' +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>'; }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>'; }); }); })();
+
 > **⚠️ Educational purposes only — not investment advice.** Everything in the Lab is a learning experiment. Nothing here is a recommendation to buy, sell, or hold any security. I am not a licensed financial advisor, and AI-generated analysis can be wrong. Always do your own research and consult a qualified professional before making any financial decision.
 
 Recently I started experimenting with an AI agent for stock analysis — not to get stock tips, but to learn *how great investors think*.
@@ -10,6 +12,8 @@ Recently I started experimenting with an AI agent for stock analysis — not to 
 I picked a stock and gave it to the AI agent with a specific instruction: **analyze this company the way Warren Buffett would.** Estimate the intrinsic value of the business — what it is actually worth based on its earnings power — and tell me whether the current price looks overpriced or underpriced compared to that value. And crucially: **explain every term properly** along the way, so the analysis itself becomes a lesson.
 
 Then I ran the same exercise through a second persona: **Benjamin Graham**, Buffett's teacher and the father of value investing — the quantitative, no-nonsense lens of *Mr. Market*, net-nets, and demanding a margin of safety before paying for anything.
+
+**A correction to my own method — one I should have stated upfront:** before any valuation work, the stock must first pass a Shariah-compliance screen. For a Muslim investor, the order matters: **halal check first, intrinsic-value analysis second.** There is no point finding a wonderful undervalued business you cannot own. So the real workflow is: screen for compliance (using tools like the screening data I covered in my [Zoya API deep-dive](zoya-finance-api.html)), *then* ask what Buffett or Graham would pay for it.
 
 ## Why personas?
 
