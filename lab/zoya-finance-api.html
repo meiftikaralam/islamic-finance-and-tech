@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoya Finance opened its API: halal screening data for developers</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+  .hero { background: #0f5132; color: #d1e7dd; padding: 32px 20px; border-radius: 0 0 12px 12px; text-align: center; }
+  .hero h1 { margin: 0; font-size: 24px; color: #fff; }
+  .hero p { margin: 8px 0 0; font-size: 14px; }
+  h2 { font-size: 19px; color: #0f5132; border-bottom: 2px solid #0f5132; padding-bottom: 6px; margin: 30px 0 16px; }
+  p, li { font-size: 15px; line-height: 1.7; color: #333; }
+  .notice { background: #fff8e6; border: 1px solid #e8d48b; border-radius: 10px; padding: 16px 18px; margin: 20px 0; }
+  .notice strong { color: #7a5c00; }
+  .notice p { margin: 6px 0; font-size: 14px; }
+  code { background: #eef2ef; padding: 2px 6px; border-radius: 4px; font-size: 13.5px; }
+  a { color: #0f5132; }
+  footer { text-align: center; font-size: 12px; color: #888; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>🧪 The Lab</h1>
+    <p>Public experiments in learning finance with AI.</p>
+  </div>
+
+  <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
+    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
+    <a href="../glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
+    <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Lab</a>
+    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
+  </nav>
+
+  <div class="notice">
+    <p><strong>⚠️ Educational purposes only — not investment advice.</strong> Everything in the Lab is a learning experiment. Nothing here is a recommendation to buy, sell, or hold any security. I am not a licensed financial advisor, and AI-generated analysis can be wrong. Always do your own research and consult a qualified professional before making any financial decision.</p>
+  </div>
+
+  <p style="font-size:13px;color:#888;">October 7, 2026 · by Iftikar</p>
+  <h2 style="border:none;margin-top:4px;font-size:22px;">Zoya Finance opened its API: halal screening data for developers</h2>
+
+  <p>I have been digging into <a href="https://zoya.finance/api">Zoya Finance's public API</a> — the developer offering from the team behind the Zoya halal investing app. If you have ever wondered how an app decides whether a stock is halal, this API is literally that decision engine, packaged so other people can build on it. Here is what I found in their <a href="https://developer.zoya.finance/docs">public documentation</a>, explained simply.</p>
+
+  <h2>Executive summary</h2>
+  <p>Zoya — the halal investing app that helps people build and monitor Shariah-compliant portfolios — now offers its screening dataset as a public API. Instead of building your own Shariah compliance engine from scratch, you can query Zoya's: send a stock ticker, get back a compliance verdict, the reasoning behind it, and even zakat math. It is a GraphQL API (a modern way of asking a server for exactly the data fields you want), with a free sandbox for testing and paid plans for real data. The short version: <strong>halal screening is now a building block any developer can plug into an app, a brokerage, or an AI agent.</strong></p>
+
+  <h2>Who the API is for</h2>
+  <p>Zoya's own <a href="https://zoya.finance/api">pricing page</a> splits the audience in two, and the split is honest:</p>
+  <ul>
+    <li><strong>Individual investors and researchers</strong> — people studying markets, testing ideas, or building personal tools. The personal plans are "tailored for individual investors and researchers."</li>
+    <li><strong>Businesses and professionals</strong> — fintech builders, brokerages, advisors, and institutions that want compliance data inside their own products. The commercial plans are described as "empowering businesses and professionals."</li>
+  </ul>
+  <p>Their <a href="https://blog.zoya.finance/introducing-the-zoya-api/">launch announcement</a> puts it more ambitiously: the API exists so developers can "build and launch world-class, Shariah-compliant financial products faster and at a fraction of the cost." If I translate that into concrete people: a developer building a halal robo-advisor, a brokerage that wants a "halal" badge next to each stock, a researcher studying compliance trends, or someone like me wiring screening data into an AI agent.</p>
+
+  <h2>Core features of the public API</h2>
+  <p>All of this comes from the <a href="https://developer.zoya.finance/docs">official API reference</a>. The API is organized into three namespaces — think of them as three toolboxes:</p>
+  <ul>
+    <li><strong><code>basicCompliance</code> — the verdict.</strong> Ask for a stock by ticker (<code>report(symbol: "AMD")</code>) and get back the essentials: company name, exchange, the compliance status, the report date, and a purification ratio. You can also pull the whole US list (<code>reports</code>) page by page, filter for only compliant stocks, or get compliance reports for US-listed ETFs and funds (<code>funds</code>). The basic package covers US stocks and US-listed ETFs using the AAOIFI methodology.</li>
+    <li><strong><code>advancedCompliance</code> — the reasoning.</strong> This is where it gets interesting. Beyond the verdict, you see <em>why</em>: a <strong>business screen</strong> (where does the company's revenue come from — broken into compliant, non-compliant, and questionable revenue) and a <strong>financial screen</strong> (debt and interest ratios, like debt-to-market-cap). The advanced package also covers 20+ global markets, lets you look stocks up by FIGI (a permanent security ID that survives ticker changes), and includes a dedicated MENA-region endpoint (<code>menaScreens</code>).</li>
+    <li><strong><code>zakat</code> — the math.</strong> <code>zakat.calculate</code> takes a list of holdings and returns the zakat due. You tell it your intent per holding — <code>ACTIVE</code> (planning to trade within a year, treated like cash) or <code>PASSIVE</code> (long-term holding, where it looks through to the company's assets). It even tells you which calculation method it actually used, so the number is explainable.</li>
+  </ul>
+  <p><strong>How the data model thinks about compliance.</strong> This is my favorite design detail: compliance is not a yes/no flag. It is a four-value scale — <code>COMPLIANT</code>, <code>NON_COMPLIANT</code>, <code>QUESTIONABLE</code> (revenue sits in an area where scholars genuinely disagree, or the filings don't say enough), and <code>UNRATED</code> (no rating exists). The docs explicitly warn: don't let "questionable" or "unrated" silently render as "non-compliant" in your product — they mean "we cannot tell you," not "no." A status is also always relative to a methodology; the same stock can rate differently under different rulebooks. Today the only methodology is AAOIFI, and it is a required input so future methodologies won't break existing code.</p>
+  <p><strong>How you talk to it.</strong> Every call is an HTTP POST to a GraphQL endpoint — <code>https://sandbox-api.zoya.finance/graphql</code> for testing, <code>https://api.zoya.finance/graphql</code> for real data — with your API key in the <code>Authorization</code> header (<code>sandbox-</code> or <code>live-</code> prefix). The sandbox is free and needs no subscription, but its data is randomized — the docs are blunt that it "must not be surfaced as investment or compliance information." Rate limit: 10 requests per second. There is an in-browser API explorer, the full schema is published as a file your editor or AI coding assistant can read, and the announcement mentions an SDK.</p>
+
+  <h2>How different people benefit</h2>
+  <p>Concrete scenarios, based on what the API actually offers:</p>
+  <ul>
+    <li><strong>A fintech founder</strong> building a halal investing app doesn't need to hire scholars and data engineers to build a screening engine — the hardest part of the product is now an API call. That is the difference between a six-month build and a weekend prototype.</li>
+    <li><strong>A brokerage or advisor platform</strong> can show a compliance badge next to every stock, like the "Blue Crescent" indicator one Middle East brokerage built on Zoya's screening tech (reported in the press — more on that below). One query per ticker, and your whole catalog is screened.</li>
+    <li><strong>An investor setting up a startup</strong> around ethical finance can validate the idea cheaply: prototype against the free sandbox, show real screens to early users, and only pay when going live.</li>
+    <li><strong>Someone building AI agents or tools</strong> — this is the one closest to my own experiments — can give an agent a ground-truth compliance source. Instead of the agent guessing whether a stock is halal, it queries Zoya and cites the verdict, the revenue breakdown, and the methodology. That turns a chatbot opinion into a sourced answer.</li>
+    <li><strong>A researcher</strong> can pull the full US compliance list and study patterns: which sectors pass, how purification ratios distribute, how verdicts change over time.</li>
+  </ul>
+
+  <h2>Examples from their documentation</h2>
+  <p>The <a href="https://developer.zoya.finance/docs">docs</a> include complete runnable guides — real queries with real responses. A few that show the range:</p>
+  <ul>
+    <li><strong>One stock's verdict:</strong> query <code>basicCompliance.report</code> for AMD and get back "Advanced Micro Devices Inc., XNAS, COMPLIANT" — about a minute of work, per their quickstart.</li>
+    <li><strong>The full US list, filtered:</strong> page through <code>basicCompliance.reports</code> with a <code>status: COMPLIANT</code> filter to build your own halal stock universe.</li>
+    <li><strong>The full reasoning:</strong> an advanced query for AMD returns the verdict plus <code>businessScreen</code>, <code>financialScreen</code>, and the revenue split — e.g. ~99.7% compliant revenue, ~0.27% non-compliant — plus AAOIFI ratios like debt-to-market-cap.</li>
+    <li><strong>International stocks:</strong> query a London-listed ticker (symbol plus exchange code, like <code>0R0K-LN</code>) for the same detailed report.</li>
+    <li><strong>ETFs:</strong> <code>basicCompliance.funds</code> lists fund reports — their example shows SPDR Gold Shares as COMPLIANT and a total bond market ETF as NON_COMPLIANT, each with a purification ratio and the date the holdings data was current.</li>
+    <li><strong>Zakat:</strong> pass in holdings with quantities and intent, and get back the zakat-liable amount and zakat due per holding and for the portfolio.</li>
+  </ul>
+  <p><strong>A real-world integration (press-reported, not from the docs):</strong> the Middle East brokerage amana partnered with Zoya to put real-time Shariah screening inside its trading app — a "Blue Crescent" icon marking compliant assets, one-click access to the certification behind each verdict, and a dedicated Shariah section. It is the clearest public example of what the commercial side of this data is for: a brokerage renting the screening engine instead of building one.</p>
+
+  <h2>Pricing and the rules of the road</h2>
+  <p>As listed on <a href="https://zoya.finance/api">zoya.finance/api</a> (check the page itself for current numbers): personal plans run from a basic tier (compliance ratings, US stocks, AAOIFI rulebook, personal-use license) up to Advanced at $139/month ($115 billed annually, adding financial ratios and 20+ global markets). Commercial plans start at $399/month ($332 annual) for the basic data with a commercial license, $1,399/month ($1,165 annual) for Advanced with priority support, and a Custom tier with bespoke rulebooks and SLAs. Two license types matter: <strong>personal</strong> (for individuals and researchers — no public display of the data) and <strong>commercial</strong> (internal display allowed; showing data to the public needs Zoya's prior written approval). Attribution is required for everyone — a "Data provided by Zoya" link near the data. And a practical security note from the docs: never expose your API key in a client-side app; proxy requests through your own server.</p>
+
+  <h2>Why I'm writing about this</h2>
+  <p>This Lab is about learning how finance works — and increasingly, finance works through APIs and agents. Zoya's API is a clean example of a genuinely hard problem (Shariah screening, done properly, with scholarly methodology) turned into infrastructure anyone can build on. Whether you are a developer, a founder, or just curious how the halal badge in your brokerage app gets there, it is worth understanding. I will keep experimenting with this kind of data in my own agent work and write up what I learn.</p>
+
+  <div class="notice">
+    <p><strong>⚠️ Please read:</strong> This post is strictly educational — a walkthrough of publicly available developer documentation. I have no relationship with Zoya Finance, and nothing here is an endorsement or a recommendation to use, buy, or subscribe to anything. I am not a financial advisor, this is not financial advice, and AI-assisted content can contain mistakes. API details, pricing, and features change over time — always verify against <a href="https://developer.zoya.finance/docs">Zoya's own documentation</a> before building anything. Do your own research, and talk to a licensed professional before investing.</p>
+    <p style="font-size:12px;color:#888;">(I'm not a lawyer — these are standard educational disclaimers, written in plain language to keep things honest.)</p>
+  </div>
+
+  <footer>Islamic Finance Daily Brief · For educational purposes only — not investment advice.</footer>
+</div>
+</body>
+</html>
