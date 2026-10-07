@@ -1,6 +1,6 @@
-# Lab publishing rule
+# Posts publishing rule
 
-Every Lab post ships as a **pair**: `post-name.md` + `post-name.html`.
+Every post ships as a **pair**: `post-name.md` + `post-name.html`.
 
 - **Write/review in Markdown.** Iftikar reviews PRs in the `.md` file — it must read cleanly on its own: full title, date, all sections, links, and disclaimer text.
 - **Ship both.** The `.html` is the styled published page; the `.md` is its content twin. Never add one without the other.
