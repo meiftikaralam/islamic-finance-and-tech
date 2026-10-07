@@ -19,6 +19,7 @@ NAV = """<nav style="text-align:center;padding:16px 0 0;font-size:14px;">
     <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
     <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
     <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Glossary</a>
+    <a href="../lab/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Lab</a>
     <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
   </nav>"""
 
