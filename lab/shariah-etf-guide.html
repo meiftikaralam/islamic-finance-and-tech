@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETFs, explained: what they are, what makes one Shariah, and the tech underneath</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+  .hero { background: #0f5132; color: #d1e7dd; padding: 32px 20px; border-radius: 0 0 12px 12px; text-align: center; }
+  .hero h1 { margin: 0; font-size: 24px; color: #fff; }
+  .hero p { margin: 8px 0 0; font-size: 14px; }
+  h2 { font-size: 19px; color: #0f5132; border-bottom: 2px solid #0f5132; padding-bottom: 6px; margin: 30px 0 16px; }
+  p, li { font-size: 15px; line-height: 1.7; color: #333; }
+  a { color: #0f5132; }
+  footer { text-align: center; font-size: 12px; color: #888; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Islamic Finance Daily Brief</h1>
+    <p>Posts — essays and experiments on Islamic finance and technology</p>
+  </div>
+
+  <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Posts</a>
+    <a href="../newsletters.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Daily Newsletters</a>
+    <a href="../glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
+    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
+    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
+  </nav>
+
+<div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
+
+  <p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>A note before you read:</strong> this guide is educational only, not investment advice. Nothing here is a recommendation to buy, sell, or hold any security. Funds are listed so you know what exists, not as endorsements. I am not a licensed financial advisor. Do your own research and consult a qualified professional before investing.</p>
+
+  <p style="font-size:13px;color:#888;">October 7, 2026 · by Iftikar</p>
+  <h2 style="border:none;margin-top:4px;font-size:22px;">ETFs, explained: what they are, what makes one Shariah, and the tech underneath</h2>
+
+  <h2>It started in 2007</h2>
+  <p>In 2007, BNP Paribas launched the world's first Islamic ETF. That same year, iShares followed with three of its own: Islamic ETFs tracking world, US, and emerging-market stocks. They were tiny at the time. The idea behind them turned out to be durable, and the mechanics are worth understanding.</p>
+
+  <h2>What is an ETF</h2>
+  <p>An ETF (exchange-traded fund) is a basket of investments you buy in a single trade. Instead of buying 200 stocks one by one, you buy one share of a fund that holds all 200. The fund's price moves with the combined value of everything inside it. You can buy and sell it on a stock exchange during market hours, just like a stock.</p>
+
+  <h2>How it differs from buying stocks</h2>
+  <p>When you buy a stock, you own one company. When you buy an ETF share, you own a slice of everything the fund holds. Three practical differences:</p>
+  <ul>
+    <li><strong>Diversification:</strong> one purchase spreads your money across many companies instead of one.</li>
+    <li><strong>Cost:</strong> most ETFs are passive. They follow an index instead of paying a manager to pick stocks, so annual fees are usually a fraction of a percent.</li>
+    <li><strong>Effort:</strong> you don't research 200 companies. You research one fund: what index it follows, what it holds, what it costs.</li>
+  </ul>
+  <p>The tradeoff: you give up control. You can't remove one company you dislike. You get the whole basket.</p>
+
+  <h2>The risks</h2>
+  <ul>
+    <li><strong>Market risk:</strong> if the stocks inside fall, your ETF falls. Diversification softens single-company blows, not market-wide ones.</li>
+    <li><strong>Tracking error:</strong> the fund can drift from the index it follows, so your return may not match the index exactly.</li>
+    <li><strong>Sector bias:</strong> Shariah screens exclude banks and highly leveraged companies, so Islamic ETFs lean toward technology and energy. That tilt helps some years and hurts in others.</li>
+    <li><strong>Liquidity:</strong> smaller ETFs trade less. Wide gaps between buy and sell prices cost you money.</li>
+    <li><strong>Compliance drift:</strong> a company can become non-compliant after you buy the fund. The index drops it at the next review, but there is a lag.</li>
+  </ul>
+
+  <h2>What makes an ETF Shariah</h2>
+  <p>A Shariah ETF is a normal ETF with one extra layer: everything inside must pass Islamic screens. Two screens run on every company:</p>
+  <ul>
+    <li><strong>Business screen:</strong> the company's main business can't be alcohol, gambling, weapons, pork, tobacco, adult entertainment, or interest-based finance.</li>
+    <li><strong>Financial screen:</strong> even a halal business can fail on its numbers. Typical limits: debt under 33% of total assets, and income from interest or other non-compliant sources under 5% of total revenue.</li>
+  </ul>
+  <p>The ETF itself just tracks an index built from companies that pass both screens. The Shariah work happens at the index level, not in the fund.</p>
+
+  <h2>Who says it's Shariah</h2>
+  <p>Nobody's word is taken on trust. Each index has named scholars or firms behind it:</p>
+  <ul>
+    <li><strong>MSCI Islamic indices</strong> (behind the iShares Islamic ETFs): methodology approved by MSCI's committee of Shariah scholars. An independent Shariah board issued a fatwa on the methodology in March 2007.</li>
+    <li><strong>FTSE Shariah USA Index</strong> (behind HLAL): screened by Yasaar, a Shariah consultancy, which issued a fatwa certifying the index.</li>
+    <li><strong>Dow Jones Islamic Market Index:</strong> overseen by its own Shariah Supervisory Board.</li>
+    <li><strong>FTSE IdealRatings Islamic indices:</strong> screened by IdealRatings, fatwa certified.</li>
+  </ul>
+  <p>A fatwa here is a formal legal opinion, not a casual blessing. It certifies the screening method, and the scholars review compliance on an ongoing basis.</p>
+
+  <h2>The technology behind it</h2>
+  <p>There is real technology here, in three layers.</p>
+  <p><strong>1. The screening engine.</strong> The key company is <strong>IdealRatings</strong>, founded in San Francisco in 2006. Its software scans public filings and news on 40,000+ listed companies for non-compliant activity, then a research team checks the output against 30+ revenue streams per company. Screening runs quarterly. Its data feeds power the Bloomberg Shariah sukuk indices, the FTSE IdealRatings Islamic index series, and Russell-IdealRatings indices. This is the data layer the industry runs on.</p>
+  <p><strong>2. The index calculation.</strong> MSCI, S&amp;P, and FTSE Russell run the screens as code: business-activity filters plus financial-ratio checks, recomputed on schedule, published as indices. When a company breaches a ratio, it gets cut at the next review. This is automated and rules-based, which is why an ETF can promise to track it.</p>
+  <p><strong>3. The ETF plumbing.</strong> Most Shariah ETFs use physical replication: the fund actually buys the stocks. When Microsoft grew past 13% of the MSCI World Islamic index in 2022, BlackRock had to switch its ISWD fund from sample-based tracking to full replication to keep up. Behind the scenes, authorized participants create and redeem ETF shares in bulk against baskets of the underlying stocks, which keeps the market price close to the fund's true value. At BlackRock, this all runs on their Aladdin investment platform.</p>
+
+  <h2>Notable Shariah ETFs</h2>
+  <p><strong>US:</strong></p>
+  <ul>
+    <li><strong>SPUS — SP Funds S&amp;P 500 Sharia Industry Exclusions ETF</strong> (NYSE Arca, 2019). Tracks Shariah-screened S&amp;P 500 stocks. 0.45% annual fee, around $3.3 billion in assets. The largest US-listed Islamic ETF.</li>
+    <li><strong>HLAL — Wahed FTSE USA Shariah ETF</strong> (Nasdaq, 2019). Tracks the FTSE Shariah USA Index, about 200 US companies. 0.50% annual fee, around $1 billion in assets.</li>
+  </ul>
+  <p><strong>UK / EU:</strong></p>
+  <ul>
+    <li><strong>ISWD — iShares MSCI World Islamic UCITS ETF</strong> (London, 2007). The one from the 2007 story. Tracks the MSCI World Islamic Index. 0.30% annual fee, physical replication.</li>
+    <li><strong>ISUS — iShares MSCI USA Islamic UCITS ETF</strong> and <strong>ISDE — iShares MSCI Emerging Markets Islamic UCITS ETF</strong> (London, 2007). The other two from that same launch.</li>
+  </ul>
+  <p>Each one is the same machine: a screening engine builds the index, scholars certify the method, the ETF copies the index.</p>
+
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://www.lse.co.uk/news/ISUS/us-firms-new-islamic-etf-looks-to-test-muted-investor-demand-grarsikkc3zgeyd.html">Reuters: the 2007 Islamic ETF launches (BNP Paribas, iShares)</a></li>
+    <li><a href="https://www.dib.ae/docs/default-source/mutual-funds/factsheet/310326/fs-ishares-msci-world-islamic-ucits-etf.pdf?sfvrsn=fcce71f_1">iShares MSCI World Islamic UCITS ETF factsheet (ISWD)</a></li>
+    <li><a href="https://www.zacks.com/funds/etf/SPUS/profile">SPUS profile: index, fee, launch date</a></li>
+    <li><a href="https://www.marketbeat.com/stocks/NASDAQ/HLAL/">HLAL profile: index, fee, launch date</a></li>
+    <li><a href="https://www-cdn.msci.com/documents/10199/8a59e89f-5134-de21-6a03-082ecfaa9e42">MSCI Islamic Index Series methodology (Shariah approval, screens)</a></li>
+    <li><a href="https://yespress.io/idealratings">IdealRatings: the screening data layer</a></li>
+    <li><a href="https://www.etfstream.com/articles/blackrock-switches-tracking-methodology-on-global-islamic-etf">ETF Stream: BlackRock's ISWD replication switch</a></li>
+    <li><a href="https://www.citigroup.com/global/news/press-release/2026/blackrock-citi-select-etf-middle-office-services-aladdin">Citi: BlackRock runs iShares ETFs on the Aladdin platform</a></li>
+  </ul>
+
+  <p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>Please note:</strong> this guide is strictly educational — my own learning notes. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. Fund details change; verify everything with the fund's own documents before acting. I am not a financial advisor, and AI-assisted content can contain mistakes. Talk to a licensed professional before investing.</p>
+
+  <footer>Islamic Finance Daily Brief · For educational purposes only — not investment advice.</footer>
+</div>
+</body>
+</html>
