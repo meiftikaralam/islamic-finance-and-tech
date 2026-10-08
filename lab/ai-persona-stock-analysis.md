@@ -1,8 +1,6 @@
 # Experiment: asking AI to value stocks like Buffett and Graham
 
 *October 7, 2026 · by Iftikar*
-(function(){ var box=document.getElementById('site-search'), res=document.getElementById('search-results'); if(!box) return; fetch('../search.json').then(function(r){return r.json();}).then(function(idx){ box.addEventListener('input',function(){ var q=box.value.trim().toLowerCase(); if(q.length<2){res.innerHTML='';return;} var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8); res.innerHTML=hits.length?hits.map(function(h){ return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">' +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>' +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>' +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>'; }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>'; }); }); })();
-
 > **⚠️ Educational purposes only — not investment advice.** Everything in the Lab is a learning experiment. Nothing here is a recommendation to buy, sell, or hold any security. I am not a licensed financial advisor, and AI-generated analysis can be wrong. Always do your own research and consult a qualified professional before making any financial decision.
 
 Recently I started experimenting with an AI agent for stock analysis — not to get stock tips, but to learn *how great investors think*.
@@ -34,7 +32,7 @@ After the first runs, I started applying the same approach to a few more stock p
 
 This is experimental, and I'm learning in public. The goal is to show — practically, hands-on — how an ordinary person can use AI to study investing the way the masters do it: carefully, quantitatively, and with humility about what you don't know.
 
-If you try this yourself, start with the questions, not the answers: *What is this business worth? Why? What could I be missing?*
+If you try this yourself, start by asking questions: *What is this business worth? Why? What could I be missing?*
 
 > **⚠️ Please read:** This experiment is strictly educational. I have no intention of promoting any stock or investment — any companies mentioned are examples for learning, not endorsements. I am not a financial advisor, this is not financial advice, and AI analysis frequently makes mistakes. Past performance never guarantees future results. Do your own research, and talk to a licensed professional before investing.
 
