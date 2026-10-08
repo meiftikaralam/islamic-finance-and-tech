@@ -3,7 +3,7 @@
 *October 7, 2026 · by Iftikar*
 ## It started in 2007
 
-In 2007, BNP Paribas launched the world's first Islamic ETF. That same year, iShares followed with three of its own: Islamic ETFs tracking world, US, and emerging-market stocks. They were tiny at the time. The idea behind them turned out to be durable, and the mechanics are worth understanding.
+In 2007, BNP Paribas launched the world's first Islamic ETF. That same year, iShares followed with three of its own: Islamic ETFs tracking world, US, and emerging-market stocks. They were tiny at the time. The idea stuck, and the mechanics are worth understanding.
 
 ## What is an ETF
 
@@ -55,9 +55,9 @@ First, the screening. A company called IdealRatings builds software that reads t
 
 Second, the list becomes an index. Companies like MSCI and FTSE turn that clean list into an official basket: which stocks, and how much of each.
 
-Third, the ETF copies the basket. The fund buys the stocks in it. Then large trading firms trade ETF shares for those same stocks all day, in blocks of tens of thousands of shares. That constant trading keeps the ETF's price pinned to what the stocks are actually worth. Only big firms can do this part — it takes huge capital — but everyday investors benefit from it: the price you see on the exchange stays fair.
+Third, the ETF copies the basket. The fund buys the stocks in it. Then large trading firms trade ETF shares for those same stocks all day, in blocks of tens of thousands of shares. That constant trading keeps the ETF's price pinned to what the stocks are actually worth. Only big firms can do this part, because it takes huge capital. Everyday investors benefit anyway: the price on the exchange stays fair.
 
-The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin. Think of it as the control room: it tracks what each fund holds, measures the risk, and handles the daily work of trading and settling. About $4 trillion of BlackRock's US ETFs run on it.
+The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin. It tracks what each fund holds, measures the risk, and handles the daily work of trading and settling. About $4 trillion of BlackRock's US ETFs run on it.
 
 ## Notable Shariah ETFs
 
@@ -71,7 +71,7 @@ The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. Bla
 - **ISWD — iShares MSCI World Islamic UCITS ETF** (London, 2007). The one from the 2007 story. Tracks the MSCI World Islamic Index. 0.30% annual fee, physical replication.
 - **ISUS — iShares MSCI USA Islamic UCITS ETF** and **ISDE — iShares MSCI Emerging Markets Islamic UCITS ETF** (London, 2007). The other two from that same launch.
 
-Each one is the same machine: a screening engine builds the index, scholars certify the method, the ETF copies the index.
+Every one of them works the same way: a screening engine builds the index, scholars certify the method, the ETF copies the index.
 
 ## Sources
 
