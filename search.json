@@ -23,28 +23,28 @@
  {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "lab/ai-persona-stock-analysis.html",
-  "type": "Lab note",
+  "type": "Post",
   "excerpt": "Posts — essays and experiments on Islamic finance and technology",
   "text": "Experiment: asking AI to value stocks like Buffett and Graham What I did Why personas? What the agent actually did Where this is going"
  },
  {
   "title": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath",
   "url": "lab/shariah-etf-guide.html",
-  "type": "Lab note",
+  "type": "Post",
   "excerpt": "Posts — essays and experiments on Islamic finance and technology",
   "text": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath It started in 2007 What is an ETF How it differs from buying stocks The risks What makes an ETF Shariah Who says it's Shariah The technology behind it Notable Shariah ETFs Sources"
  },
  {
   "title": "Sukuk, finally explained: the beginner's guide I wish I'd had",
   "url": "lab/sukuk-guide.html",
-  "type": "Lab note",
+  "type": "Post",
   "excerpt": "Posts — essays and experiments on Islamic finance and technology",
   "text": "Sukuk, finally explained: the beginner's guide I wish I'd had What is sukuk How it differs from a bond A real life example Sukuk options in the USA Sukuk options in the UK, EU, and Australia Sources"
  },
  {
   "title": "Zoya Finance opened its API: halal screening data for developers",
   "url": "lab/zoya-finance-api.html",
-  "type": "Lab note",
+  "type": "Post",
   "excerpt": "Posts — essays and experiments on Islamic finance and technology",
   "text": "Zoya Finance opened its API: halal screening data for developers Executive summary Who the API is for Core features of the public API How different people benefit Examples from their documentation Pricing and the rules of the road Why I'm writing about this"
  },
