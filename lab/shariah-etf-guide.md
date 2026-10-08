@@ -45,7 +45,7 @@ Nobody's word is taken on trust. Each index has named scholars or firms behind i
 - **Dow Jones Islamic Market Index:** overseen by its own Shariah Supervisory Board.
 - **FTSE IdealRatings Islamic indices:** screened by IdealRatings, fatwa certified.
 
-A fatwa here is a formal legal opinion, not a casual blessing. It certifies the screening method, and the scholars review compliance on an ongoing basis.
+A fatwa is a formal legal opinion. It certifies the screening method, and the scholars review compliance on an ongoing basis.
 
 ## The technology behind it
 
