@@ -1,8 +1,6 @@
 # Sukuk, finally explained: the beginner's guide I wish I'd had
 
 *October 7, 2026 · by Iftikar*
-> **⚠️ Educational purposes only — not investment advice.** This is a learning guide. Nothing here is a recommendation to buy, sell, or hold any security. The funds below are listed so you know what exists, not as endorsements. I am not a licensed financial advisor. Do your own research and consult a qualified professional before investing.
-
 ## What is sukuk
 
 A sukuk is a certificate of ownership in a real asset: a building, a highway, an airport terminal. You earn money from what that asset produces, not from interest. The word itself just means "certificates" in Arabic.
@@ -11,9 +9,9 @@ A sukuk is a certificate of ownership in a real asset: a building, a highway, an
 
 A bond is a loan. You lend money to a government or company, and they pay you interest. Interest (riba) is not allowed in Islamic finance, so a sukuk can't work that way. Instead of lending, you own. Instead of interest, you get a share of the asset's profits or rent. And if the asset loses value, you share that risk. A bondholder is still legally owed their money no matter what.
 
-## A small example
+## A real life example
 
-A government needs $1 billion to build an airport. Instead of borrowing at interest, it issues sukuk linked to the airport. Investors buy them and collectively own a share of it. As the airport earns money from landing fees and shops, investors get their share of the profits. At the end of the agreed period, the government buys the share back and investors get their original money back. No interest at any step.
+In June 2014, the UK became the first Western country to issue a sovereign sukuk. It raised £200 million for five years, using an al-Ijara structure: instead of paying interest, the government paid investors profits from the rental income on three government-owned properties. The profit rate was 2.036%, in line with regular UK government bonds of the same length. Investors placed £2.3 billion in orders, more than ten times what was on offer, with buyers from the UK, the Middle East, and Asia. The UK did it again in March 2021 with a £500 million sukuk. That's the whole idea in action: real assets, real rent, no interest.
 
 ## Sukuk options in the USA
 
@@ -49,7 +47,3 @@ One thing worth knowing: the big UCITS sukuk funds (Franklin included) are not o
 - [Franklin Global Sukuk Fund factsheet](https://www.franklintempleton.lu/download/en-lu/factsheet/d89797bf-8cf0-4e37-b3eb-5263b33100e3/Factsheet-FranklinGlobalSukukFund-A(acc)EUR-16214-T-FF-LU-en-GB.PDF)
 - [Xtrackers Salam Sukuk ETF (XASB) factsheet](https://asbc.com/news/factsheet/global-sukuk-etf-august-2026/)
 - [Hejaz Sukuk Active ETF (SKUK) factsheet](https://learninghub.hejazfs.com.au/hubfs/ETF%20Facsheets/SKUK%20Factsheet%20February%202026.pdf)
-
-> **⚠️ Please read:** This guide is strictly educational — my own learning notes. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. Fund details change; verify everything with the fund's own documents before acting. I am not a financial advisor, and AI-assisted content can contain mistakes. Talk to a licensed professional before investing.
-
-> (I'm not a lawyer — these are standard educational disclaimers, written in plain language to keep things honest.)
