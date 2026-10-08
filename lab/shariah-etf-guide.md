@@ -49,13 +49,15 @@ A fatwa is a formal legal opinion. It certifies the screening method, and the sc
 
 ## The technology behind it
 
-There is real technology here, in three layers.
+Three things make a Shariah ETF work, and all three are technology.
 
-**1. The screening engine.** The key company is **IdealRatings**, founded in San Francisco in 2006. Its software scans public filings and news on 40,000+ listed companies for non-compliant activity, then a research team checks the output against 30+ revenue streams per company. Screening runs quarterly. Its data feeds power the Bloomberg Shariah sukuk indices, the FTSE IdealRatings Islamic index series, and Russell-IdealRatings indices. This is the data layer the industry runs on.
+First, the screening. A company called IdealRatings builds software that reads the financial reports and news of over 40,000 public companies and checks each one against Shariah rules. Companies that pass go on a clean list. This runs automatically, every quarter.
 
-**2. The index calculation.** MSCI, S&P, and FTSE Russell run the screens as code: business-activity filters plus financial-ratio checks, recomputed on schedule, published as indices. When a company breaches a ratio, it gets cut at the next review. This is automated and rules-based, which is why an ETF can promise to track it.
+Second, the list becomes an index. Companies like MSCI and FTSE turn that clean list into an official recipe: which stocks, and how much of each.
 
-**3. The ETF plumbing.** Most Shariah ETFs use physical replication: the fund actually buys the stocks. When Microsoft grew past 13% of the MSCI World Islamic index in 2022, BlackRock had to switch its ISWD fund from sample-based tracking to full replication to keep up. Behind the scenes, authorized participants create and redeem ETF shares in bulk against baskets of the underlying stocks, which keeps the market price close to the fund's true value. At BlackRock, this all runs on their Aladdin investment platform.
+Third, the ETF copies the recipe. The fund buys the stocks on the list. Big banks then trade ETF shares against those same stocks all day long, which keeps the ETF's price pinned to what the stocks are actually worth.
+
+The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin.
 
 ## Notable Shariah ETFs
 
