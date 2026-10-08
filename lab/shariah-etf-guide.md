@@ -57,7 +57,7 @@ Second, the list becomes an index. Companies like MSCI and FTSE turn that clean 
 
 Third, the ETF copies the basket. The fund buys the stocks in it. Then large trading firms trade ETF shares for those same stocks all day, in blocks of tens of thousands of shares. That constant trading keeps the ETF's price pinned to what the stocks are actually worth. Only big firms can do this part — it takes huge capital — but everyday investors benefit from it: the price you see on the exchange stays fair.
 
-The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin.
+The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin. Think of it as the control room: it tracks what each fund holds, measures the risk, and handles the daily work of trading and settling. About $4 trillion of BlackRock's US ETFs run on it.
 
 ## Notable Shariah ETFs
 
