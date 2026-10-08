@@ -90,7 +90,7 @@ for f in sorted((ROOT / "lab").glob("*.html")):
     entries.append({
         "title": t.title.strip(),
         "url": f"lab/{f.name}",
-        "type": "Lab note",
+        "type": "Post",
         "excerpt": (t.paras[0][:160] if t.paras else ""),
         "text": " ".join(t.headings),
     })

@@ -1,7 +1,7 @@
 # Zoya Finance opened its API: halal screening data for developers
 
 *October 7, 2026 · by Iftikar*
-> **⚠️ Educational purposes only — not investment advice.** Everything in the Lab is a learning experiment. Nothing here is a recommendation to buy, sell, or hold any security. I am not a licensed financial advisor, and AI-generated analysis can be wrong. Always do your own research and consult a qualified professional before making any financial decision.
+*Please note: this post is strictly educational — a walkthrough of publicly available developer documentation. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. I am not a financial advisor, and AI-assisted content can contain mistakes. Do your own research and talk to a licensed professional before investing.*
 
 I have been digging into [Zoya Finance's public API](https://zoya.finance/api) — the developer offering from the team behind the Zoya halal investing app. If you have ever wondered how an app decides whether a stock is halal, this API is literally that decision engine, packaged so other people can build on it. Here is what I found in their [public documentation](https://developer.zoya.finance/docs), explained simply.
 
@@ -59,8 +59,7 @@ As listed on [zoya.finance/api](https://zoya.finance/api) (check the page itself
 
 ## Why I'm writing about this
 
-This Lab is about learning how finance works — and increasingly, finance works through APIs and agents. Zoya's API is a clean example of a genuinely hard problem (Shariah screening, done properly, with scholarly methodology) turned into infrastructure anyone can build on. Whether you are a developer, a founder, or just curious how the halal badge in your brokerage app gets there, it is worth understanding. I will keep experimenting with this kind of data in my own agent work and write up what I learn.
+This post is about learning how finance works — and increasingly, finance works through APIs and agents. Zoya's API is a clean example of a genuinely hard problem (Shariah screening, done properly, with scholarly methodology) turned into infrastructure anyone can build on. Whether you are a developer, a founder, or just curious how the halal badge in your brokerage app gets there, it is worth understanding. I will keep experimenting with this kind of data in my own agent work and write up what I learn.
 
-> **⚠️ Please read:** This post is strictly educational — a walkthrough of publicly available developer documentation. I have no relationship with Zoya Finance, and nothing here is an endorsement or a recommendation to use, buy, or subscribe to anything. I am not a financial advisor, this is not financial advice, and AI-assisted content can contain mistakes. API details, pricing, and features change over time — always verify against [Zoya's own documentation](https://developer.zoya.finance/docs) before building anything. Do your own research, and talk to a licensed professional before investing.
+*Please read: this post is strictly educational — a walkthrough of publicly available developer documentation. I have no relationship with Zoya Finance, and nothing here is an endorsement or a recommendation to use, buy, or subscribe to anything. I am not a financial advisor, this is not financial advice, and AI-assisted content can contain mistakes. API details, pricing, and features change over time — always verify against [Zoya's own documentation](https://developer.zoya.finance/docs) before building anything. Do your own research, and talk to a licensed professional before investing.*
 
-> (I'm not a lawyer — these are standard educational disclaimers, written in plain language to keep things honest.)

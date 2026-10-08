@@ -1,7 +1,7 @@
 # Experiment: asking AI to value stocks like Buffett and Graham
 
 *October 7, 2026 · by Iftikar*
-> **⚠️ Educational purposes only — not investment advice.** Everything in the Lab is a learning experiment. Nothing here is a recommendation to buy, sell, or hold any security. I am not a licensed financial advisor, and AI-generated analysis can be wrong. Always do your own research and consult a qualified professional before making any financial decision.
+*Please note: this post is strictly educational — a learning experiment of my own. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. I am not a financial advisor, and AI-generated analysis can be wrong. Do your own research and talk to a licensed professional before investing.*
 
 Recently I started experimenting with an AI agent for stock analysis — not to get stock tips, but to learn *how great investors think*.
 
@@ -34,6 +34,5 @@ This is experimental, and I'm learning in public. The goal is to show — practi
 
 If you try this yourself, start by asking questions: *What is this business worth? Why? What could I be missing?*
 
-> **⚠️ Please read:** This experiment is strictly educational. I have no intention of promoting any stock or investment — any companies mentioned are examples for learning, not endorsements. I am not a financial advisor, this is not financial advice, and AI analysis frequently makes mistakes. Past performance never guarantees future results. Do your own research, and talk to a licensed professional before investing.
+*Please read: this experiment is strictly educational. I have no intention of promoting any stock or investment — any companies mentioned are examples for learning, not endorsements. I am not a financial advisor, this is not financial advice, and AI analysis frequently makes mistakes. Past performance never guarantees future results. Do your own research, and talk to a licensed professional before investing.*
 
-> (I'm not a lawyer — these are standard educational disclaimers, written in plain language to keep things honest.)
