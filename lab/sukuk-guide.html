@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sukuk, finally explained: the beginner's guide I wish I'd had</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+  .hero { background: #0f5132; color: #d1e7dd; padding: 32px 20px; border-radius: 0 0 12px 12px; text-align: center; }
+  .hero h1 { margin: 0; font-size: 24px; color: #fff; }
+  .hero p { margin: 8px 0 0; font-size: 14px; }
+  h2 { font-size: 19px; color: #0f5132; border-bottom: 2px solid #0f5132; padding-bottom: 6px; margin: 30px 0 16px; }
+  p, li { font-size: 15px; line-height: 1.7; color: #333; }
+  a { color: #0f5132; }
+  footer { text-align: center; font-size: 12px; color: #888; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Islamic Finance Daily Brief</h1>
+    <p>Posts — essays and experiments on Islamic finance and technology</p>
+  </div>
+
+  <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Posts</a>
+    <a href="../newsletters.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Daily Newsletters</a>
+    <a href="../glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
+    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
+    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
+  </nav>
+
+<div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
+
+  <p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>A note before you read:</strong> this guide is educational only, not investment advice. Nothing here is a recommendation to buy, sell, or hold any security. The funds below are listed so you know what exists, not as endorsements. I am not a licensed financial advisor. Do your own research and consult a qualified professional before investing.</p>
+
+  <p style="font-size:13px;color:#888;">October 7, 2026 · by Iftikar</p>
+  <h2 style="border:none;margin-top:4px;font-size:22px;">Sukuk, finally explained: the beginner's guide I wish I'd had</h2>
+
+  <h2>What is sukuk</h2>
+  <p>A sukuk is a certificate of ownership in a real asset: a building, a highway, an airport terminal. You earn money from what that asset produces, not from interest. The word itself just means "certificates" in Arabic.</p>
+
+  <h2>How it differs from a bond</h2>
+  <p>A bond is a loan. You lend money to a government or company, and they pay you interest. Interest (riba) is not allowed in Islamic finance, so a sukuk can't work that way. Instead of lending, you own. Instead of interest, you get a share of the asset's profits or rent. And if the asset loses value, you share that risk. A bondholder is still legally owed their money no matter what.</p>
+
+  <h2>A real life example</h2>
+  <p>In June 2014, the UK became the first Western country to issue a sovereign sukuk. It raised £200 million for five years, using an al-Ijara structure: instead of paying interest, the government paid investors profits from the rental income on three government-owned properties. The profit rate was 2.036%, in line with regular UK government bonds of the same length. Investors placed £2.3 billion in orders, more than ten times what was on offer, with buyers from the UK, the Middle East, and Asia. The UK did it again in March 2021 with a £500 million sukuk. That's the whole idea in action: real assets, real rent, no interest.</p>
+
+  <h2>Sukuk options in the USA</h2>
+  <ul>
+    <li><strong>SP Funds Dow Jones Global Sukuk ETF (SPSK)</strong> — listed on NYSE Arca. A US ETF tracking the Dow Jones Sukuk index. 0.50% expense ratio, monthly distributions.</li>
+    <li><strong>Amana Participation Fund (AMAPX)</strong> — a US mutual fund from Saturna Capital that invests in sukuk, aimed at capital preservation.</li>
+    <li><strong>Azzad Wise Capital Fund (WISEX)</strong> — a US mutual fund from Azzad Asset Management focused on sukuk.</li>
+  </ul>
+
+  <h2>Sukuk options in the UK, EU, and Australia</h2>
+  <p><strong>UK:</strong></p>
+  <ul>
+    <li><strong>HSBC Global Sukuk UCITS ETF</strong> — listed on the London Stock Exchange (tickers HBKS in GBP, HBKU in USD). Tracks the FTSE IdealRatings Sukuk Index. 0.37% annual fee.</li>
+    <li><strong>iShares $ Sukuk UCITS ETF</strong> — also listed in London, pays quarterly distributions.</li>
+    <li><strong>Franklin Global Sukuk Fund</strong> — a UCITS mutual fund registered for UK investors, running since 2013.</li>
+  </ul>
+  <p><strong>EU:</strong></p>
+  <ul>
+    <li><strong>Franklin Global Sukuk Fund</strong> — Luxembourg UCITS with EUR share classes, $1,000 minimum investment.</li>
+    <li><strong>Xtrackers Salam Sukuk ETF (XASB)</strong> — from DWS, tracks a global USD sukuk index.</li>
+    <li>The HSBC sukuk ETF above is also listed on Euronext Paris.</li>
+  </ul>
+  <p><strong>Australia:</strong></p>
+  <ul>
+    <li><strong>Hejaz Sukuk Active ETF (SKUK)</strong> — listed on the ASX since November 2023, follows AAOIFI standards.</li>
+  </ul>
+  <p>One thing worth knowing: the big UCITS sukuk funds (Franklin included) are not offered to US residents. That's why the US and European lists look different.</p>
+
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://www.sec.gov/Archives/edgar/data/1742912/000089418919008725/spfundssukuketfsummary.htm">SPSK summary prospectus (SEC filing)</a></li>
+    <li><a href="https://www.fa-mag.com/news/islamic-sukuk--a-different-take-on-fixed-income-55525.html?print">FA Magazine: US sukuk funds overview (AMAPX, WISEX, SPSK)</a></li>
+    <li><a href="https://www.justetf.com/uk/etf-profile.html?isin=IE000E8WZD37">HSBC Global Sukuk UCITS ETF profile (justETF)</a></li>
+    <li><a href="https://www.franklintempleton.lu/download/en-lu/factsheet/d89797bf-8cf0-4e37-b3eb-5263b33100e3/Factsheet-FranklinGlobalSukukFund-A(acc)EUR-16214-T-FF-LU-en-GB.PDF">Franklin Global Sukuk Fund factsheet</a></li>
+    <li><a href="https://asbc.com/news/factsheet/global-sukuk-etf-august-2026/">Xtrackers Salam Sukuk ETF (XASB) factsheet</a></li>
+    <li><a href="https://learninghub.hejazfs.com.au/hubfs/ETF%20Facsheets/SKUK%20Factsheet%20February%202026.pdf">Hejaz Sukuk Active ETF (SKUK) factsheet</a></li>
+  </ul>
+
+  <p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>Please note:</strong> this guide is strictly educational — my own learning notes. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. Fund details change; verify everything with the fund's own documents before acting. I am not a financial advisor, and AI-assisted content can contain mistakes. Talk to a licensed professional before investing.</p>
+
+  <footer>Islamic Finance Daily Brief · For educational purposes only — not investment advice.</footer>
+</div>
+</body>
+</html>
