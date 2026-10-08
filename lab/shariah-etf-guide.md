@@ -55,7 +55,7 @@ First, the screening. A company called IdealRatings builds software that reads t
 
 Second, the list becomes an index. Companies like MSCI and FTSE turn that clean list into an official recipe: which stocks, and how much of each.
 
-Third, the ETF copies the recipe. The fund buys the stocks on the list. Big banks then trade ETF shares against those same stocks all day long, which keeps the ETF's price pinned to what the stocks are actually worth.
+Third, the ETF copies the recipe. The fund buys the stocks on the list. Then large trading firms swap ETF shares for those same stocks all day, in blocks of tens of thousands of shares. That constant swapping keeps the ETF's price pinned to what the stocks are actually worth. Only big firms can do this part — it takes huge capital — but everyday investors benefit from it: the price you see on the exchange stays fair.
 
 The biggest ETF maker in the world is BlackRock, whose ETF brand is iShares. BlackRock runs its funds on a giant investment computer system called Aladdin.
 
