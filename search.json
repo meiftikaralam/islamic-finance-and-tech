@@ -14,6 +14,13 @@
   "text": "Today's 5 stories 🇺🇸 1. New York's Wafra named World's Best Islamic Fund Manager — three years running 🇺🇸 2. StepStone and ASB Capital launch Shariah-compliant private credit fund for US companies 🇺🇸 3. Halal screening platform RihalQ partners with US adviser Asal Invest 🇬🇧 4. Gulf Islamic Investments buys majority stake in London House Exchange 🇪🇺 5. Geneva hosts Ethical Finance Forum as Europe's Islamic finance supply gap takes centre stage Learn Islamic Finance: Sukuk"
  },
  {
+  "title": "Daily Brief — October 8, 2026",
+  "url": "editions/2026-10-08.html",
+  "type": "Newsletter edition",
+  "excerpt": "🇪🇺 1. Qatar opens its sukuk market to European investors through Euroclear link",
+  "text": "Today's stories 🇪🇺 1. Qatar opens its sukuk market to European investors through Euroclear link 🇺🇸 2. SP Funds' tech ETF tops IFN Investor's America league table 💡 3. GUIDANCE: The 33% debt rule — why halal stock screens avoid leverage 🇪🇺 4. Dubai Islamic Bank to redeem its $500m AT1 sukuk on first call date Learn Islamic Finance: Murabaha"
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "lab/ai-persona-stock-analysis.html",
   "type": "Lab note",
@@ -152,6 +159,83 @@
   "type": "Glossary: concept",
   "excerpt": "Owning a small slice of an expensive asset — like a fraction of a rental property — instead of buying the whole thing. Regulated exchanges now let everyday inve",
   "text": "Owning a small slice of an expensive asset — like a fraction of a rental property — instead of buying the whole thing. Regulated exchanges now let everyday investors buy and sell these slices, which fits Islamic finance naturally since returns come from a real asset you partly own."
+ },
+ {
+  "title": "SP Funds",
+  "url": "glossary/index.html#sp-funds",
+  "type": "Glossary: company",
+  "excerpt": "The ETF arm of the ShariaPortfolio group. It runs a small lineup of US-listed halal exchange-traded funds — including the S&P Global Technology ETF that topped ",
+  "text": "The ETF arm of the ShariaPortfolio group. It runs a small lineup of US-listed halal exchange-traded funds — including the S&P Global Technology ETF that topped IFN Investor's America league table by three-month returns on October 5, 2026."
+ },
+ {
+  "title": "ShariaPortfolio",
+  "url": "glossary/index.html#shariaportfolio",
+  "type": "Glossary: company",
+  "excerpt": "A US boutique asset manager (registered investment adviser with the SEC) that has offered Shariah-compliant investing since 2003. Its group of companies manages",
+  "text": "A US boutique asset manager (registered investment adviser with the SEC) that has offered Shariah-compliant investing since 2003. Its group of companies manages over $3 billion and includes the SP Funds halal ETF lineup, plus wealth management and advisory services."
+ },
+ {
+  "title": "Euroclear",
+  "url": "glossary/index.html#euroclear",
+  "type": "Glossary: company",
+  "excerpt": "A Brussels-based financial-market infrastructure group that settles and safekeeps securities for banks and investors worldwide. In October 2026, Qatar chose Eur",
+  "text": "A Brussels-based financial-market infrastructure group that settles and safekeeps securities for banks and investors worldwide. In October 2026, Qatar chose Euroclear Bank to settle its riyal-denominated government bonds and sukuk for international investors — the first time global buyers could access them this way."
+ },
+ {
+  "title": "Dubai Islamic Bank",
+  "url": "glossary/index.html#dubai-islamic-bank",
+  "type": "Glossary: company",
+  "excerpt": "The UAE's largest Islamic bank by assets and the world's first full-service Islamic bank, founded in 1975. In October 2026 it announced it would redeem its outs",
+  "text": "The UAE's largest Islamic bank by assets and the world's first full-service Islamic bank, founded in 1975. In October 2026 it announced it would redeem its outstanding $500 million Additional Tier 1 sukuk on its first call date, October 19, 2026."
+ },
+ {
+  "title": "Euronext Dublin",
+  "url": "glossary/index.html#euronext-dublin",
+  "type": "Glossary: company",
+  "excerpt": "Ireland's main stock exchange and a common listing venue for international debt securities and sukuk, including Gulf issuers. Dubai Islamic Bank's $500 million ",
+  "text": "Ireland's main stock exchange and a common listing venue for international debt securities and sukuk, including Gulf issuers. Dubai Islamic Bank's $500 million AT1 sukuk was listed here until its planned redemption in October 2026."
+ },
+ {
+  "title": "Murabaha",
+  "url": "glossary/index.html#murabaha",
+  "type": "Glossary: concept",
+  "excerpt": "A 'cost-plus' sale used across Islamic finance. The bank buys an asset (a house, car, or machine) and sells it to the customer at a disclosed price — its cost p",
+  "text": "A 'cost-plus' sale used across Islamic finance. The bank buys an asset (a house, car, or machine) and sells it to the customer at a disclosed price — its cost plus an agreed profit markup — paid in fixed installments. Because the bank genuinely buys and then sells the asset, this counts as trade rather than an interest-bearing loan. Example: halal home financing, where the bank buys a house and resells it to the buyer at a fixed marked-up price paid over years."
+ },
+ {
+  "title": "Additional Tier 1 (AT1) sukuk",
+  "url": "glossary/index.html#additional-tier-1-at1-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A type of bank funding that sits between equity and ordinary debt: it can absorb losses if the bank gets into trouble, and the bank can usually redeem (call) it",
+  "text": "A type of bank funding that sits between equity and ordinary debt: it can absorb losses if the bank gets into trouble, and the bank can usually redeem (call) it on a set date. Dubai Islamic Bank's $500 million AT1 sukuk, issued in 2021, is the Shariah-compliant version of this instrument — called on its first call date, October 19, 2026."
+ },
+ {
+  "title": "Short interest",
+  "url": "glossary/index.html#short-interest",
+  "type": "Glossary: concept",
+  "excerpt": "The total number of a stock's (or ETF's) shares that investors have borrowed and sold, betting the price will fall. A rise in short interest means more traders ",
+  "text": "The total number of a stock's (or ETF's) shares that investors have borrowed and sold, betting the price will fall. A rise in short interest means more traders are taking that side of the bet. Example: short interest in Wahed's HLAL halal ETF jumped 66% during September 2026 — though at under 1% of shares, it was still a small position."
+ },
+ {
+  "title": "Wafra",
+  "url": "glossary/index.html#wafra",
+  "type": "Glossary: company",
+  "excerpt": "A New York-based asset manager with about $30 billion under management. Its Global Sukuk Strategy, an actively managed portfolio of Islamic bonds, was named Wor",
+  "text": "A New York-based asset manager with about $30 billion under management. Its Global Sukuk Strategy, an actively managed portfolio of Islamic bonds, was named World's Best Islamic Fund Manager at the 2026 Euromoney Islamic Finance Awards — its third win in a row."
+ },
+ {
+  "title": "Baruch Islamic Investment Research Group",
+  "url": "glossary/index.html#baruch-islamic-investment-research-group",
+  "type": "Glossary: company",
+  "excerpt": "A student-run investment research group at Baruch College in New York. It was a featured organizer of the inaugural student-led Islamic Finance Conference in Se",
+  "text": "A student-run investment research group at Baruch College in New York. It was a featured organizer of the inaugural student-led Islamic Finance Conference in September 2026, part of a growing student-built Islamic finance ecosystem in the city."
+ },
+ {
+  "title": "Euromoney",
+  "url": "glossary/index.html#euromoney",
+  "type": "Glossary: company",
+  "excerpt": "A financial media and events company. Its annual Islamic Finance Awards, judged by its journalists and researchers, recognize the year's strongest Islamic finan",
+  "text": "A financial media and events company. Its annual Islamic Finance Awards, judged by its journalists and researchers, recognize the year's strongest Islamic finance institutions — Wafra won Best Islamic Fund Manager in 2026."
  },
  {
   "title": "About — Islamic Finance Daily Brief",

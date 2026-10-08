@@ -225,5 +225,181 @@
       }
     ],
     "type": "concept"
+  },
+  {
+    "name": "SP Funds",
+    "type": "company",
+    "website": "https://www.spfunds.com",
+    "description": "The ETF arm of the ShariaPortfolio group. It runs a small lineup of US-listed halal exchange-traded funds — including the S&P Global Technology ETF that topped IFN Investor's America league table by three-month returns on October 5, 2026.",
+    "sources": [
+      {
+        "label": "Official site — SP Funds",
+        "url": "https://www.spfunds.com"
+      },
+      {
+        "label": "IFN Investor League Tables America (5-Oct-2026)",
+        "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "ShariaPortfolio",
+    "type": "company",
+    "website": "https://www.shariaportfolio.com",
+    "description": "A US boutique asset manager (registered investment adviser with the SEC) that has offered Shariah-compliant investing since 2003. Its group of companies manages over $3 billion and includes the SP Funds halal ETF lineup, plus wealth management and advisory services.",
+    "sources": [
+      {
+        "label": "Official site — ShariaPortfolio",
+        "url": "https://www.shariaportfolio.com"
+      },
+      {
+        "label": "IFN Investor League Tables America (5-Oct-2026)",
+        "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Euroclear",
+    "type": "company",
+    "website": "https://www.euroclear.com",
+    "description": "A Brussels-based financial-market infrastructure group that settles and safekeeps securities for banks and investors worldwide. In October 2026, Qatar chose Euroclear Bank to settle its riyal-denominated government bonds and sukuk for international investors — the first time global buyers could access them this way.",
+    "sources": [
+      {
+        "label": "Official site — Euroclear",
+        "url": "https://www.euroclear.com"
+      },
+      {
+        "label": "Salaam Gateway — Qatar links government bonds and sukuk to Euroclear",
+        "url": "https://salaamgateway.com/story/qatar-links-government-bonds-and-sukuk-to-euroclear-in-bid-to-attract-foreign-investors"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Dubai Islamic Bank",
+    "type": "company",
+    "website": "https://www.dib.ae",
+    "description": "The UAE's largest Islamic bank by assets and the world's first full-service Islamic bank, founded in 1975. In October 2026 it announced it would redeem its outstanding $500 million Additional Tier 1 sukuk on its first call date, October 19, 2026.",
+    "sources": [
+      {
+        "label": "Official site — Dubai Islamic Bank",
+        "url": "https://www.dib.ae"
+      },
+      {
+        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Euronext Dublin",
+    "type": "company",
+    "website": "https://www.euronext.com/en/markets/dublin",
+    "description": "Ireland's main stock exchange and a common listing venue for international debt securities and sukuk, including Gulf issuers. Dubai Islamic Bank's $500 million AT1 sukuk was listed here until its planned redemption in October 2026.",
+    "sources": [
+      {
+        "label": "Official site — Euronext Dublin",
+        "url": "https://www.euronext.com/en/markets/dublin"
+      },
+      {
+        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Murabaha",
+    "type": "concept",
+    "website": null,
+    "description": "A 'cost-plus' sale used across Islamic finance. The bank buys an asset (a house, car, or machine) and sells it to the customer at a disclosed price — its cost plus an agreed profit markup — paid in fixed installments. Because the bank genuinely buys and then sells the asset, this counts as trade rather than an interest-bearing loan. Example: halal home financing, where the bank buys a house and resells it to the buyer at a fixed marked-up price paid over years.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief — Learn section (Oct 8, 2026)",
+        "url": "https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-08.html"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Additional Tier 1 (AT1) sukuk",
+    "type": "concept",
+    "website": null,
+    "description": "A type of bank funding that sits between equity and ordinary debt: it can absorb losses if the bank gets into trouble, and the bank can usually redeem (call) it on a set date. Dubai Islamic Bank's $500 million AT1 sukuk, issued in 2021, is the Shariah-compliant version of this instrument — called on its first call date, October 19, 2026.",
+    "sources": [
+      {
+        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Short interest",
+    "type": "concept",
+    "website": null,
+    "description": "The total number of a stock's (or ETF's) shares that investors have borrowed and sold, betting the price will fall. A rise in short interest means more traders are taking that side of the bet. Example: short interest in Wahed's HLAL halal ETF jumped 66% during September 2026 — though at under 1% of shares, it was still a small position.",
+    "sources": [
+      {
+        "label": "Defense World — Wahed FTSE USA Shariah ETF short interest (Oct 2, 2026)",
+        "url": "https://www.defenseworld.net/2026/10/02/wahed-ftse-usa-shariah-etf-nasdaqhlal-sees-large-growth-in-short-interest.html"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Wafra",
+    "type": "company",
+    "website": "https://www.wafra.com/",
+    "description": "A New York-based asset manager with about $30 billion under management. Its Global Sukuk Strategy, an actively managed portfolio of Islamic bonds, was named World's Best Islamic Fund Manager at the 2026 Euromoney Islamic Finance Awards — its third win in a row.",
+    "sources": [
+      {
+        "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
+        "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
+      },
+      {
+        "label": "Wafra official site",
+        "url": "https://www.wafra.com/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Baruch Islamic Investment Research Group",
+    "type": "company",
+    "description": "A student-run investment research group at Baruch College in New York. It was a featured organizer of the inaugural student-led Islamic Finance Conference in September 2026, part of a growing student-built Islamic finance ecosystem in the city.",
+    "sources": [
+      {
+        "label": "World City Press: Baruch College Islamic Finance Conference",
+        "url": "https://lifestyle.worldcitypress.com/story/369336/student-led-islamic-finance-ecosystem-takes-shape-in-new-york-at-inaugural-conference-at-baruch-college/"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
+  },
+  {
+    "name": "Euromoney",
+    "type": "company",
+    "description": "A financial media and events company. Its annual Islamic Finance Awards, judged by its journalists and researchers, recognize the year's strongest Islamic finance institutions — Wafra won Best Islamic Fund Manager in 2026.",
+    "sources": [
+      {
+        "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
+        "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
+      }
+    ],
+    "first_mentioned": "2026-10-08",
+    "edition": "editions/2026-10-08.html"
   }
 ]

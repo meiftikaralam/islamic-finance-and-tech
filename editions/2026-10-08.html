@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Islamic Finance Daily Brief — October 8, 2026</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif; background: #f7f7f7; color: #222; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 48px; }
+  .banner-slot { background: #0f5132; color: #d1e7dd; text-align: center; padding: 32px 20px; border-radius: 0 0 12px 12px; }
+  .banner-slot h1 { margin: 0; font-size: 24px; color: #fff; }
+  .banner-slot p { margin: 8px 0 0; font-size: 14px; }
+  .back { display: inline-block; margin: 20px 0 0; font-size: 14px; color: #0f5132; text-decoration: none; }
+  h2 { font-size: 19px; color: #0f5132; border-bottom: 2px solid #0f5132; padding-bottom: 6px; margin: 30px 0 16px; }
+  h3 { font-size: 16.5px; margin: 22px 0 8px; }
+  p { font-size: 15px; line-height: 1.65; color: #333; }
+  .why { background: #f0f7f2; border-left: 4px solid #0f5132; padding: 10px 14px; border-radius: 0 8px 8px 0; }
+  .src { font-size: 14px; }
+  .src a { color: #0f5132; }
+  footer { text-align: center; font-size: 12px; color: #888; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="banner-slot">
+    <h1>Islamic Finance Daily Brief</h1>
+    <p>Thursday, October 8, 2026</p>
+  </div>
+
+  <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
+    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Posts</a>
+    <a href="../newsletters.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Daily Newsletters</a>
+    <a href="../glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
+    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
+    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
+  </nav>
+
+<div style="text-align:center;padding:14px 0 0;">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
+      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
+    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  </div>
+  <script>
+  (function(){
+    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
+    if(!box) return;
+    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
+      box.addEventListener('input',function(){
+        var q=box.value.trim().toLowerCase();
+        if(q.length<2){res.innerHTML='';return;}
+        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
+        res.innerHTML=hits.length?hits.map(function(h){
+          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
+            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
+            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
+            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
+        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
+      });
+    });
+  })();
+  </script>
+
+  <a class="back" href="../newsletters.html">← All editions</a>
+
+  <p>Assalamu alaikum! Today's Islamic finance stories — and what to learn from them.</p>
+
+  <h2>Today's stories</h2>
+
+  <h3>🇪🇺 1. Qatar opens its sukuk market to European investors through Euroclear link</h3>
+  <p>Qatar is opening its domestic debt market to international investors for the first time through a new settlement link with Brussels-based Euroclear, reports Salaam Gateway. Euroclear Bank will handle international settlement of eligible Qatari riyal-denominated government bonds and sukuk, while Qatar's local depository keeps serving domestic buyers.</p>
+  <p class="why"><strong>What to learn:</strong> Governments borrow money by selling bonds and sukuk. The more buyers they can reach, the cheaper they can borrow. Until now, a fund manager in London couldn't easily buy a Qatari bond — different country, different system, too much paperwork. Euroclear is a settlement house in Brussels that thousands of global investors already use, so connecting to it lets foreign buyers settle purchases through accounts they already have. Qatar's alternatives were selling only locally (smaller pool, higher cost), listing on a foreign exchange directly, or using Clearstream, Euroclear's Luxembourg-based rival. The impact: more buyers, lower borrowing costs, and bigger future issues.</p>
+  <p class="src">🔗 Source: <a href="https://salaamgateway.com/story/qatar-links-government-bonds-and-sukuk-to-euroclear-in-bid-to-attract-foreign-investors">Salaam Gateway</a></p>
+
+  <h3>🇺🇸 2. SP Funds' tech ETF tops IFN Investor's America league table</h3>
+  <p>IFN Investor's October 5 league table ranks America's Islamic funds by three-month returns: SP Funds' S&amp;P Global Technology ETF — offered through ShariaPortfolio — leads at 41.81%, with Wahed's Dow Jones Islamic World ETF next at 31.20%.</p>
+  <p class="why"><strong>What to learn:</strong> This is the Shariah screen's sector tilt in action. The screens ban banks and highly leveraged companies, so halal funds end up heavy in technology. When tech stocks rally, halal funds rally with them — that 41.81% is mostly the tilt at work. The lesson: before judging any fund's returns, ask what its rules force it to hold. Past returns tell you what happened, not what comes next.</p>
+  <p class="src">🔗 Source: <a href="https://ifninvestor.com/league-tables-america-5-oct-2026/">IFN Investor</a></p>
+
+  <h3>💡 3. GUIDANCE: The 33% debt rule — why halal stock screens avoid leverage</h3>
+  <p><em>This is an evergreen explainer, not news.</em> One reason Shariah-compliant funds hold the stocks they do is the debt screen: a company must keep its interest-bearing debt below roughly a third of its market value or assets, and its interest income below about 5% of revenue. Conventional banks fail this screen by construction, and highly leveraged companies drop out too — which is why halal indexes naturally tilt toward low-debt sectors like technology.</p>
+  <p class="why"><strong>Why it matters for learners:</strong> When you see a halal ETF full of tech names and missing every bank, that's not a sector bet — it's the 33% rule doing its job. Understanding the screen helps you read any halal fund's holdings like a story instead of a puzzle.</p>
+
+  <h3>🇪🇺 4. Dubai Islamic Bank to redeem its $500m AT1 sukuk on first call date</h3>
+  <p>Dubai Islamic Bank will redeem its outstanding $500 million Additional Tier 1 capital sukuk on October 19, 2026 — its first call date — according to a trustee notice reported by Reuters. Holders receive 100% of face value plus any outstanding payments, and the listings in Dublin and Dubai will be cancelled.</p>
+  <p class="why"><strong>What to learn:</strong> Every sukuk has a planned ending: the call date. On that date the issuer can buy back the certificates at face value, and investors get their money back in full. Banks usually do this when they can borrow cheaper elsewhere or no longer need the capital. This one is an AT1 sukuk, a special type that counts toward the bank's regulatory capital — the cushion regulators require banks to hold. Note the Dublin listing: this is the other way to reach foreign buyers. Instead of connecting to Euroclear's system the way Qatar just did, Dubai Islamic Bank listed its sukuk directly on a European stock exchange. Two different paths to the same foreign investors.</p>
+  <p class="src">🔗 Source: <a href="https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/">Reuters via TradingView</a></p>
+
+  <h2>Learn Islamic Finance: Murabaha</h2>
+  <p>A <strong>murabaha</strong> is Islamic finance's "cost-plus" sale. Instead of lending you money at interest, the bank buys the asset itself — a house, a car, a machine — and sells it to you at a disclosed price: its cost plus an agreed profit markup, paid back in fixed installments.</p>
+  <p><strong>How it works:</strong> You pick the asset. The bank buys it and briefly owns it, carrying real ownership risk. Then the bank sells it to you at the marked-up price, and you pay over months or years. The markup is fixed and known upfront — it doesn't snowball the way compounding interest does. Because the bank genuinely bought and then sold the thing, this counts as <em>trade</em> (buying and selling). Trade is permitted in Islam; interest (riba) is prohibited.</p>
+  <p><strong>A real-world example:</strong> Halal home financing works exactly like this. A bank buys a $300,000 house and sells it to you for, say, $375,000, paid in fixed monthly installments over 20 years. You know the total price on day one — no interest rate ticking in the background. The same structure scales up: Turkey's Turkcell funded 5G infrastructure with a $1 billion murabaha facility earlier this year. Small car deal or billion-dollar corporate financing, the engine is the same: buy, mark up, sell.</p>
+
+  <footer>Sources: Salaam Gateway · IFN Investor · Reuters.<br>Summaries are original; follow the links for full stories.<br>For educational purposes only — not investment advice. Nothing here is a recommendation to buy, sell, or hold any security.</footer>
+</div>
+</body>
+</html>
