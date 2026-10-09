@@ -38,9 +38,18 @@ function MoreMenu({ active }: { active: string }) {
           strokeLinecap="round"
           aria-hidden="true"
         >
-          <line x1="4" y1="7" x2="20" y2="7" />
-          <line x1="4" y1="12" x2="20" y2="12" />
-          <line x1="4" y1="17" x2="20" y2="17" />
+          {open ? (
+            <>
+              <line x1="6" y1="6" x2="18" y2="18" />
+              <line x1="18" y1="6" x2="6" y2="18" />
+            </>
+          ) : (
+            <>
+              <line x1="4" y1="7" x2="20" y2="7" />
+              <line x1="4" y1="12" x2="20" y2="12" />
+              <line x1="4" y1="17" x2="20" y2="17" />
+            </>
+          )}
         </svg>
       </summary>
       <div className="absolute right-0 top-full mt-2 w-60 rounded-xl border border-[#e8e8e8] bg-white shadow-lg py-2">
