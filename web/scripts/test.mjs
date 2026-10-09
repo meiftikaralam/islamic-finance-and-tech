@@ -107,6 +107,28 @@ try {
   if (bad === 0) ok("all links respect the /islamic-finance-and-tech/ subpath");
 }
 
+// 6c. client bundle must not use Node-only globals (Buffer, process, require).
+// gray-matter pulled in Buffer and blanked every markdown page on hydration.
+{
+  const jsFiles = [];
+  const walkJs = (d) => {
+    for (const e of readdirSync(d, { withFileTypes: true })) {
+      const p = join(d, e.name);
+      if (e.isDirectory()) walkJs(p);
+      else if (e.name.endsWith(".js")) jsFiles.push(p.slice(DIST.length));
+    }
+  };
+  walkJs(join(DIST, "assets"));
+  let bad = 0;
+  for (const f of jsFiles) {
+    const code = readFileSync(join(DIST, f), "utf-8");
+    for (const g of ["Buffer=", "Buffer(", "process.env"]) {
+      if (code.includes(g)) { bad++; fail(`client bundle ${f} uses Node-only ${g}`); break; }
+    }
+  }
+  if (bad === 0) ok("client bundle has no Node-only globals");
+}
+
 // 7. legacy URLs preserved (spot check)
 for (const u of ["/editions/2026-10-08.html", "/lab/sukuk-guide.html", "/aaoifi/index.html", "/glossary/index.html", "/newsletters.html", "/about.html", "/playbook/index.html"]) {
   if (!existsSync(join(DIST, u.slice(1)))) fail(`legacy URL missing: ${u}`);

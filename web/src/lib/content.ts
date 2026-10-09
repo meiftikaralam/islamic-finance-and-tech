@@ -1,4 +1,7 @@
-import matter from "gray-matter";
+// Content is pre-parsed at build time (gen-routes.mjs writes content.json using
+// gray-matter in Node). The browser bundle must not import gray-matter — it uses
+// Node's Buffer and crashes client-side hydration, blanking the page.
+import generated from "../generated/content.json";
 import glossaryJson from "../../../content/glossary-data.json";
 
 export type Frontmatter = {
@@ -17,23 +20,12 @@ export type Doc = {
   body: string;
 };
 
-const contentFiles = import.meta.glob("../../../content/**/*.md", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
-
-const standardFiles = import.meta.glob("../../../aaoifi-educational-kb/standards/*.md", {
-  query: "?raw",
-  import: "default",
-  eager: true,
-}) as Record<string, string>;
-
-function toDoc(path: string, text: string): Doc {
-  const slug = path.split("/").pop()!.replace(/\.md$/, "");
-  const { data, content } = matter(text);
-  return { slug, frontmatter: data as Frontmatter, body: content };
-}
+const content = generated as {
+  editions: Doc[];
+  posts: Doc[];
+  pages: Doc[];
+  standards: Doc[];
+};
 
 function byDateDesc(a: Doc, b: Doc) {
   return (b.frontmatter.date ?? "").localeCompare(a.frontmatter.date ?? "");
@@ -41,10 +33,7 @@ function byDateDesc(a: Doc, b: Doc) {
 
 /** Markdown docs under content/<kind>/, newest first. */
 export function loadDocs(kind: "editions" | "posts" | "pages"): Doc[] {
-  return Object.entries(contentFiles)
-    .filter(([p]) => p.includes(`/content/${kind}/`))
-    .map(([p, t]) => toDoc(p, t))
-    .sort(byDateDesc);
+  return [...content[kind]].sort(byDateDesc);
 }
 
 export function loadDoc(kind: "editions" | "posts" | "pages", slug: string): Doc | undefined {
@@ -53,9 +42,7 @@ export function loadDoc(kind: "editions" | "posts" | "pages", slug: string): Doc
 
 /** All 62 AAOIFI Shariah Standards, in standard order. */
 export function loadStandards(): Doc[] {
-  return Object.entries(standardFiles)
-    .map(([p, t]) => toDoc(p, t))
-    .sort((a, b) => (a.frontmatter.ss ?? 0) - (b.frontmatter.ss ?? 0));
+  return [...content.standards].sort((a, b) => (a.frontmatter.ss ?? 0) - (b.frontmatter.ss ?? 0));
 }
 
 export type GlossaryEntry = {

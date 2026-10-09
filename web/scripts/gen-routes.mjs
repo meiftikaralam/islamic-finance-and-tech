@@ -11,6 +11,13 @@ mkdirSync(OUT, { recursive: true });
 
 const fm = (p) => matter(readFileSync(p, "utf-8")).data;
 const mdFiles = (dir) => readdirSync(dir).filter((f) => f.endsWith(".md")).sort();
+// Full parse (frontmatter + body) for content.json — parsed here in Node so the
+// browser bundle never needs gray-matter (it uses Node's Buffer and crashes
+// client-side hydration, blanking every page that loads markdown).
+const parseDoc = (p) => {
+  const { data, content } = matter(readFileSync(p, "utf-8"));
+  return { frontmatter: data, body: content };
+};
 
 const routes = [];
 const search = [];
@@ -39,24 +46,36 @@ for (const [path, kind, title, description] of statics) {
 }
 
 // --- editions ---
+const editionDocs = [];
 for (const f of mdFiles(join(ROOT, "content", "editions"))) {
   const slug = basename(f, ".md");
   const d = fm(join(ROOT, "content", "editions", f));
   routes.push({ path: `/editions/${slug}.html`, kind: "edition", slug, title: d.title, description: d.description, date: d.date });
   addSearch(d.title, `/editions/${slug}.html`, "Newsletter edition", d.description);
+  editionDocs.push({ slug, ...parseDoc(join(ROOT, "content", "editions", f)) });
 }
 
 // --- posts ---
 const postSlugs = { "sukuk-guide": 1, "shariah-etf-guide": 1, "ai-persona-stock-analysis": 1, "zoya-finance-api": 1 };
+const postDocs = [];
 for (const f of mdFiles(join(ROOT, "content", "posts"))) {
   const slug = basename(f, ".md");
   const d = fm(join(ROOT, "content", "posts", f));
   routes.push({ path: `/lab/${slug}.html`, kind: "post", slug, title: d.title, description: d.description, date: d.date });
   addSearch(d.title, `/lab/${slug}.html`, "Post", d.description);
+  postDocs.push({ slug, ...parseDoc(join(ROOT, "content", "posts", f)) });
+}
+
+// --- pages (about, playbook) ---
+const pageDocs = [];
+for (const f of mdFiles(join(ROOT, "content", "pages"))) {
+  const slug = basename(f, ".md");
+  pageDocs.push({ slug, ...parseDoc(join(ROOT, "content", "pages", f)) });
 }
 
 // --- AAOIFI standards (individual pages — one per standard for SEO/agents) ---
 const stdDir = join(ROOT, "aaoifi-educational-kb", "standards");
+const standardDocs = [];
 for (const f of mdFiles(stdDir)) {
   const slug = basename(f, ".md");
   const d = fm(join(stdDir, f));
@@ -64,6 +83,7 @@ for (const f of mdFiles(stdDir)) {
   const description = d.one_line || `AAOIFI Shariah Standard ${d.ss} explained in simple English.`;
   routes.push({ path: `/aaoifi/${slug}.html`, kind: "aaoifi-standard", slug, title, description, ss: d.ss });
   addSearch(title, `/aaoifi/${slug}.html`, "AAOIFI Standard", description);
+  standardDocs.push({ slug, ...parseDoc(join(stdDir, f)) });
 }
 
 // --- glossary entries into search ---
@@ -76,4 +96,10 @@ for (const e of glossary) {
 routes.sort((a, b) => a.path.localeCompare(b.path));
 writeFileSync(join(OUT, "routes.json"), JSON.stringify(routes, null, 1));
 writeFileSync(join(OUT, "search.json"), JSON.stringify(search, null, 1));
+writeFileSync(join(OUT, "content.json"), JSON.stringify({
+  editions: editionDocs,
+  posts: postDocs,
+  pages: pageDocs,
+  standards: standardDocs,
+}));
 console.log(`wrote ${routes.length} routes, ${search.length} search entries`);
