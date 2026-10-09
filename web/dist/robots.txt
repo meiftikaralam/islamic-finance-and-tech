@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meiftikaralam.github.io/islamic-finance-and-tech/sitemap.xml
