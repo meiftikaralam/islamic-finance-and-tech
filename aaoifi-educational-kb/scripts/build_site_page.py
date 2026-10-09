@@ -2,13 +2,13 @@
 """Generate site/aaoifi/index.html — the website's AAOIFI Standards tab —
 from the knowledge-base data (src/aaoifi_kb/data/standards.json).
 
-Run from the repo root: python3 aaoifi-kb/scripts/build_site_page.py
+Run from the repo root: python3 aaoifi-educational-kb/scripts/build_site_page.py
 """
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent  # site/
-DATA = ROOT / "aaoifi-kb" / "src" / "aaoifi_kb" / "data" / "standards.json"
+DATA = ROOT / "aaoifi-educational-kb" / "src" / "aaoifi_kb" / "data" / "standards.json"
 OUT = ROOT / "aaoifi" / "index.html"
 REPO = "https://github.com/meiftikaralam/islamic-finance-and-tech"
 
@@ -28,7 +28,7 @@ def card(s):
       <div style="font-size:13px;color:#0f5132;font-weight:700;">SS {s["ss"]}{draft}</div>
       <div style="font-size:16px;font-weight:600;margin:2px 0 4px;">{s["title"]}</div>
       <div style="font-size:14px;color:#444;">{s["one_line"]}</div>
-      <div style="margin-top:8px;"><a href="{REPO}/blob/main/aaoifi-kb/standards/{s["slug"]}.md" style="color:#0f5132;font-size:13px;">Read the full summary</a></div>
+      <div style="margin-top:8px;"><a href="{REPO}/blob/main/aaoifi-educational-kb/standards/{s["slug"]}.md" style="color:#0f5132;font-size:13px;">Read the full summary</a></div>
     </div>"""
 
 
@@ -82,7 +82,23 @@ def main():
     <strong>exposure draft</strong>, not a final standard. Summaries are for learning, not legal
     rulings — an institution's Shariah board decides real cases. Full sources are cited in each
     summary. Developers: the whole knowledge base ships as a Python package
-    (<a href="{REPO}/tree/main/aaoifi-kb">aaoifi-kb</a>) you can pip-install and query.
+    (<a href="{REPO}/tree/main/aaoifi-educational-kb">aaoifi-educational-kb</a>) you can pip-install and query.
+  </div>
+
+  <div class="note" style="margin-top:12px;">
+    <strong>Intellectual property.</strong> The AAOIFI Shariah Standards are the intellectual
+    property of the Accounting and Auditing Organization for Islamic Financial Institutions
+    (AAOIFI). These summaries are independent paraphrases written for education — not published
+    by, affiliated with, or endorsed by AAOIFI. Nothing here reproduces AAOIFI's standard texts;
+    readers who need the authoritative wording should consult AAOIFI's official publications
+    (https://aaoifi.com).
+  </div>
+
+  <div class="note" style="margin-top:12px;">
+    <strong>Non-commercial use.</strong> This knowledge base is shared under
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> for learning,
+    teaching, and research with attribution. Commercial use — including business development,
+    paid products, or paid services built on this material — is not permitted.
   </div>
 
   {"\n".join(sections)}
