@@ -29,29 +29,26 @@ function Header() {
   const { pathname } = useLocation();
   const active = activeNav(pathname);
   return (
-    <header>
-      <BrandBar />
-      <div className="max-w-[720px] mx-auto px-4">
-        <nav
-          className="flex gap-5 overflow-x-auto whitespace-nowrap py-3 text-sm"
-          aria-label="Main navigation"
-        >
-          {NAV_LINKS.map((l) => (
-            <Link
-              key={l.href}
-              to={l.href}
-              className={cn(
-                "text-brand-700 no-underline shrink-0",
-                active === l.match && "font-bold text-orange-600"
-              )}
-            >
-              {l.label}
-            </Link>
-          ))}
-        </nav>
-        <SearchBox />
-      </div>
-    </header>
+    <div className="max-w-[720px] mx-auto px-4">
+      <nav
+        className="flex gap-5 overflow-x-auto whitespace-nowrap py-3 text-sm"
+        aria-label="Main navigation"
+      >
+        {NAV_LINKS.map((l) => (
+          <Link
+            key={l.href}
+            to={l.href}
+            className={cn(
+              "text-brand-700 no-underline shrink-0",
+              active === l.match && "font-bold text-orange-600"
+            )}
+          >
+            {l.label}
+          </Link>
+        ))}
+      </nav>
+      <SearchBox />
+    </div>
   );
 }
 
@@ -67,8 +64,9 @@ function Footer() {
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Header />
+      <BrandBar />
       <div className="max-w-[720px] mx-auto px-4 pb-12">
+        <Header />
         <main>{children}</main>
         <Footer />
       </div>
