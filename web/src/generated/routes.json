@@ -1,0 +1,592 @@
+[
+ {
+  "path": "/",
+  "kind": "home",
+  "title": "Islamic Finance Daily Brief",
+  "description": "Educational resources for Islamic finance and the technology behind it. Daily newsletter, beginner guides, AAOIFI standards in simple English, and a growing glossary."
+ },
+ {
+  "path": "/aaoifi/index.html",
+  "kind": "aaoifi-index",
+  "title": "AAOIFI Standards in Simple English",
+  "description": "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."
+ },
+ {
+  "path": "/aaoifi/ss-01-trading-in-currencies.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-01-trading-in-currencies",
+  "title": "SS 1: Trading in Currencies — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for exchanging one currency for another.",
+  "ss": 1
+ },
+ {
+  "path": "/aaoifi/ss-02-debit-charge-credit-cards.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-02-debit-charge-credit-cards",
+  "title": "SS 2: Debit Card, Charge Card and Credit Card — AAOIFI in Simple English",
+  "description": "Superseded by SS 61. This file is kept as a historical pointer only.",
+  "ss": 2
+ },
+ {
+  "path": "/aaoifi/ss-03-default-in-payment-by-debtor.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-03-default-in-payment-by-debtor",
+  "title": "SS 3: Procrastinating Debtor — AAOIFI in Simple English",
+  "description": "Forbids charging extra money when a debtor pays late, and sets what creditors may do instead.",
+  "ss": 3
+ },
+ {
+  "path": "/aaoifi/ss-04-settlement-of-debts-by-set-off.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-04-settlement-of-debts-by-set-off",
+  "title": "SS 4: Settlement of Debts by Set-Off — AAOIFI in Simple English",
+  "description": "Two ways people who owe each other can cancel out their debts: by agreement, or automatically when the conditions are met.",
+  "ss": 4
+ },
+ {
+  "path": "/aaoifi/ss-05-guarantees.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-05-guarantees",
+  "title": "SS 5: Guarantees — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for guarantees that protect debts against delay and default.",
+  "ss": 5
+ },
+ {
+  "path": "/aaoifi/ss-06-conversion-of-conventional-bank.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-06-conversion-of-conventional-bank",
+  "title": "SS 6: Conversion of a Conventional Bank to an Islamic Bank — AAOIFI in Simple English",
+  "description": "Lays out how a conventional bank converts into a fully Shariah-compliant bank.",
+  "ss": 6
+ },
+ {
+  "path": "/aaoifi/ss-07-hawalah.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-07-hawalah",
+  "title": "SS 7: Hawalah — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for transferring a debt from one debtor to another.",
+  "ss": 7
+ },
+ {
+  "path": "/aaoifi/ss-08-murabaha.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-08-murabaha",
+  "title": "SS 8: Murabaha to the Purchase Orderer — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for the bank's most-used financing: buy an asset, then resell it to the customer at a disclosed markup.",
+  "ss": 8
+ },
+ {
+  "path": "/aaoifi/ss-09-ijarah.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-09-ijarah",
+  "title": "SS 9: Ijarah and Ijarah Muntahia Bittamleek — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for Islamic leasing, including leases that end with the customer owning the asset.",
+  "ss": 9
+ },
+ {
+  "path": "/aaoifi/ss-10-salam.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-10-salam",
+  "title": "SS 10: Salam and Parallel Salam — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for paying in full now for goods to be delivered later.",
+  "ss": 10
+ },
+ {
+  "path": "/aaoifi/ss-11-istisnaa.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-11-istisnaa",
+  "title": "SS 11: Istisna'a and Parallel Istisna'a — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for ordering something to be manufactured or built for future delivery.",
+  "ss": 11
+ },
+ {
+  "path": "/aaoifi/ss-12-musharaka.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-12-musharaka",
+  "title": "SS 12: Sharikah (Musharaka) and Modern Corporations — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for partnerships — including modern companies and diminishing partnerships.",
+  "ss": 12
+ },
+ {
+  "path": "/aaoifi/ss-13-mudaraba.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-13-mudaraba",
+  "title": "SS 13: Mudaraba — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for trustee partnerships: one side provides the money, the other provides the work.",
+  "ss": 13
+ },
+ {
+  "path": "/aaoifi/ss-14-documentary-credit.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-14-documentary-credit",
+  "title": "SS 14: Documentary Credit — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for letters of credit used in trade.",
+  "ss": 14
+ },
+ {
+  "path": "/aaoifi/ss-15-juala.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-15-juala",
+  "title": "SS 15: Ju'ala — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for reward-for-result contracts, where the work itself cannot be precisely defined.",
+  "ss": 15
+ },
+ {
+  "path": "/aaoifi/ss-16-commercial-papers.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-16-commercial-papers",
+  "title": "SS 16: Commercial Papers — AAOIFI in Simple English",
+  "description": "Sets the Shariah rules for dealing in cheques, bills of exchange, and promissory notes.",
+  "ss": 16
+ },
+ {
+  "path": "/aaoifi/ss-17-investment-sukuk.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-17-investment-sukuk",
+  "title": "SS 17: Investment Sukuk — AAOIFI in Simple English",
+  "description": "Sets the rules for sukuk — investment certificates that give holders ownership shares in real assets, projects, or services instead of paying interest.",
+  "ss": 17
+ },
+ {
+  "path": "/aaoifi/ss-18-possession-qabd.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-18-possession-qabd",
+  "title": "SS 18: Possession (Qabd) — AAOIFI in Simple English",
+  "description": "Defines what counts as taking possession of something in a contract, including modern forms like holding the title documents.",
+  "ss": 18
+ },
+ {
+  "path": "/aaoifi/ss-19-loan-qard.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-19-loan-qard",
+  "title": "SS 19: Loan (Qard) — AAOIFI in Simple English",
+  "description": "Sets the rules for loans, chiefly that no extra benefit may be demanded from the borrower, since that would be riba (interest).",
+  "ss": 19
+ },
+ {
+  "path": "/aaoifi/ss-20-commodities-organised-markets.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-20-commodities-organised-markets",
+  "title": "SS 20: Sale of Commodities in Organised Markets — AAOIFI in Simple English",
+  "description": "Rules out futures, options, and similar speculative derivatives on organized exchanges, allowing only genuine trade in real commodities.",
+  "ss": 20
+ },
+ {
+  "path": "/aaoifi/ss-21-financial-papers.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-21-financial-papers",
+  "title": "SS 21: Financial Paper (Shares and Bonds) — AAOIFI in Simple English",
+  "description": "Shariah rules for buying, holding and trading shares and bonds.",
+  "ss": 21
+ },
+ {
+  "path": "/aaoifi/ss-22-concession-contracts.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-22-concession-contracts",
+  "title": "SS 22: Concession Contracts — AAOIFI in Simple English",
+  "description": "Rules for long-term deals where a company builds and runs a project, then hands it back — like a toll highway.",
+  "ss": 22
+ },
+ {
+  "path": "/aaoifi/ss-23-agency-fodooli.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-23-agency-fodooli",
+  "title": "SS 23: Agency and the Act of an Uncommissioned Agent (Fodooli) — AAOIFI in Simple English",
+  "description": "Shariah rules for agency contracts and for acts done by someone who intervenes without being appointed.",
+  "ss": 23
+ },
+ {
+  "path": "/aaoifi/ss-24-syndicated-financing.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-24-syndicated-financing",
+  "title": "SS 24: Syndicated Financing — AAOIFI in Simple English",
+  "description": "Shariah rules for large financing provided jointly by a group of financial institutions.",
+  "ss": 24
+ },
+ {
+  "path": "/aaoifi/ss-25-combination-of-contracts.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-25-combination-of-contracts",
+  "title": "SS 25: Combination of Contracts — AAOIFI in Simple English",
+  "description": "Sets the rules for building one deal out of two or more contracts while keeping the whole structure compliant with Islamic law.",
+  "ss": 25
+ },
+ {
+  "path": "/aaoifi/ss-26-takaful.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-26-takaful",
+  "title": "SS 26: Islamic Insurance — AAOIFI in Simple English",
+  "description": "Defines Islamic insurance (takaful) as donation-based mutual protection and sets the controls Islamic financial institutions must follow when offering it.",
+  "ss": 26
+ },
+ {
+  "path": "/aaoifi/ss-27-indices.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-27-indices",
+  "title": "SS 27: Indices — AAOIFI in Simple English",
+  "description": "Sets the rules for building Shariah-compliant stock market indices and forbids buying or selling the index itself, which counts as gambling.",
+  "ss": 27
+ },
+ {
+  "path": "/aaoifi/ss-28-banking-services.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-28-banking-services",
+  "title": "SS 28: Banking Services in Islamic Banks — AAOIFI in Simple English",
+  "description": "States that Islamic banks may offer everyday banking services and charge fees for them, as long as the services do not involve interest-based lending.",
+  "ss": 28
+ },
+ {
+  "path": "/aaoifi/ss-29-fatwa-ethics.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-29-fatwa-ethics",
+  "title": "SS 29: Stipulations and Ethics of Fatwa in the Institutional Framework — AAOIFI in Simple English",
+  "description": "Rules for how Islamic banks obtain religious rulings from their Shariah scholars, and the ethics those scholars must follow when issuing them.",
+  "ss": 29
+ },
+ {
+  "path": "/aaoifi/ss-30-tawarruq.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-30-tawarruq",
+  "title": "SS 30: Monetization (Tawarruq) — AAOIFI in Simple English",
+  "description": "Strict conditions for tawarruq, a way of raising cash by buying a commodity on credit and selling it to a third party.",
+  "ss": 30
+ },
+ {
+  "path": "/aaoifi/ss-31-gharar-controls.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-31-gharar-controls",
+  "title": "SS 31: Controls on Gharar in Financial Transactions — AAOIFI in Simple English",
+  "description": "Defines gharar (excessive uncertainty): which kinds of uncertainty break a contract and which kinds do not.",
+  "ss": 31
+ },
+ {
+  "path": "/aaoifi/ss-32-arbitration.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-32-arbitration",
+  "title": "SS 32: Arbitration — AAOIFI in Simple English",
+  "description": "How arbitration works for Islamic financial institutions: what can be arbitrated, who may serve as arbitrator, and how the verdict is issued and enforced.",
+  "ss": 32
+ },
+ {
+  "path": "/aaoifi/ss-33-waqf.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-33-waqf",
+  "title": "SS 33: Waqf — AAOIFI in Simple English",
+  "description": "Superseded by SS 60. This file is kept as a historical pointer only.",
+  "ss": 33
+ },
+ {
+  "path": "/aaoifi/ss-34-hiring-of-persons.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-34-hiring-of-persons",
+  "title": "SS 34: Hiring of Persons — AAOIFI in Simple English",
+  "description": "Rules for hiring people — employment and service contracts — under Islamic law.",
+  "ss": 34
+ },
+ {
+  "path": "/aaoifi/ss-35-zakah.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-35-zakah",
+  "title": "SS 35: Zakah — AAOIFI in Simple English",
+  "description": "How Islamic banks and companies calculate and pay zakah on their wealth.",
+  "ss": 35
+ },
+ {
+  "path": "/aaoifi/ss-36-contingent-incidents.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-36-contingent-incidents",
+  "title": "SS 36: Impact of Contingent Incidents on Commitments — AAOIFI in Simple English",
+  "description": "What happens to a contract when an unexpected disaster or event outside anyone's control disrupts it.",
+  "ss": 36
+ },
+ {
+  "path": "/aaoifi/ss-37-credit-agreement.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-37-credit-agreement",
+  "title": "SS 37: Credit Agreement — AAOIFI in Simple English",
+  "description": "Rules for credit agreements between Islamic banks and their clients, including master agreements for future deals.",
+  "ss": 37
+ },
+ {
+  "path": "/aaoifi/ss-38-online-financial-dealings.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-38-online-financial-dealings",
+  "title": "SS 38: Online Financial Dealings — AAOIFI in Simple English",
+  "description": "Rules for making Islamic financial contracts over the internet and other online channels.",
+  "ss": 38
+ },
+ {
+  "path": "/aaoifi/ss-39-mortgage.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-39-mortgage",
+  "title": "SS 39: Mortgage and its Contemporary Applications — AAOIFI in Simple English",
+  "description": "Rules for mortgages — pledging an asset to secure a debt — and how they work in modern Islamic banking.",
+  "ss": 39
+ },
+ {
+  "path": "/aaoifi/ss-40-mudarabah-profit-distribution.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-40-mudarabah-profit-distribution",
+  "title": "SS 40: Distribution of Profit in Mudarabah-based Investment Accounts — AAOIFI in Simple English",
+  "description": "Rules for how Islamic banks share profits with the holders of mudarabah-based investment accounts.",
+  "ss": 40
+ },
+ {
+  "path": "/aaoifi/ss-41-retakaful.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-41-retakaful",
+  "title": "SS 41: Islamic Reinsurance — AAOIFI in Simple English",
+  "description": "Rules for retakaful — Islamic reinsurance, where takaful companies share large risks with each other.",
+  "ss": 41
+ },
+ {
+  "path": "/aaoifi/ss-42-financial-rights.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-42-financial-rights",
+  "title": "SS 42: Financial Rights and How They Are Exercised and Transferred — AAOIFI in Simple English",
+  "description": "The different kinds of financial rights — like ownership, usage rights, and easements — and how each may be used or passed on.",
+  "ss": 42
+ },
+ {
+  "path": "/aaoifi/ss-43-insolvency.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-43-insolvency",
+  "title": "SS 43: Insolvency — AAOIFI in Simple English",
+  "description": "Islamic rules for when a debtor cannot pay — how insolvency is declared and how creditors are treated.",
+  "ss": 43
+ },
+ {
+  "path": "/aaoifi/ss-44-liquidity.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-44-liquidity",
+  "title": "SS 44: Obtaining and Deploying Liquidity — AAOIFI in Simple English",
+  "description": "The Shariah-compliant ways Islamic banks can raise cash when short and put spare cash to work.",
+  "ss": 44
+ },
+ {
+  "path": "/aaoifi/ss-45-protection-of-capital.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-45-protection-of-capital",
+  "title": "SS 45: Protection of Capital and Investments — AAOIFI in Simple English",
+  "description": "Which methods of protecting invested capital are allowed in Islamic partnerships — and which are not.",
+  "ss": 45
+ },
+ {
+  "path": "/aaoifi/ss-46-wakalah-bi-al-istithmar.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-46-wakalah-bi-al-istithmar",
+  "title": "SS 46: Al-Wakalah Bi Al-Istithmar (Investment Agency) — AAOIFI in Simple English",
+  "description": "Rules for investment agency — where you appoint someone to invest your money for a fee.",
+  "ss": 46
+ },
+ {
+  "path": "/aaoifi/ss-47-calculating-profit.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-47-calculating-profit",
+  "title": "SS 47: Rules for Calculating Profit in Financial Transactions — AAOIFI in Simple English",
+  "description": "Rules for how Islamic banks calculate, present, and disclose profit in their financing and investment deals.",
+  "ss": 47
+ },
+ {
+  "path": "/aaoifi/ss-48-breach-of-trust-options.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-48-breach-of-trust-options",
+  "title": "SS 48: Options to Terminate Due to Breach of Trust (Trust-Based Options) — AAOIFI in Simple English",
+  "description": "Gives a buyer the right to cancel a purchase when the seller lied, hid the truth, or charged far too much.",
+  "ss": 48
+ },
+ {
+  "path": "/aaoifi/ss-49-promises.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-49-promises",
+  "title": "SS 49: Unilateral and Bilateral Promise — AAOIFI in Simple English",
+  "description": "When a promise to do a deal in the future is only a moral duty and when a court can enforce it.",
+  "ss": 49
+ },
+ {
+  "path": "/aaoifi/ss-50-musaqat.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-50-musaqat",
+  "title": "SS 50: Irrigation Partnership (Musaqat) — AAOIFI in Simple English",
+  "description": "Rules for a partnership where one person provides fruit trees and another person waters and cares for them, sharing the harvest.",
+  "ss": 50
+ },
+ {
+  "path": "/aaoifi/ss-51-incomplete-performance.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-51-incomplete-performance",
+  "title": "SS 51: Options to Revoke Contracts Due to Incomplete Performance — AAOIFI in Simple English",
+  "description": "Gives buyers the right to cancel or get compensation when goods arrive faulty, incomplete, or not as described.",
+  "ss": 51
+ },
+ {
+  "path": "/aaoifi/ss-52-options-to-reconsider.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-52-options-to-reconsider",
+  "title": "SS 52: Options to Reconsider (Cooling-Off Options, Either-Or Options, Revoke for Non-Payment) — AAOIFI in Simple English",
+  "description": "Rules for three options: thinking time after signing, canceling when the buyer does not pay, and picking one item from a list.",
+  "ss": 52
+ },
+ {
+  "path": "/aaoifi/ss-53-arboun.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-53-arboun",
+  "title": "SS 53: Arboun (Earnest Money) — AAOIFI in Simple English",
+  "description": "Rules for earnest money: a deposit a buyer pays to hold a deal, which he loses if he walks away.",
+  "ss": 53
+ },
+ {
+  "path": "/aaoifi/ss-54-cooling-off-revocation.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-54-cooling-off-revocation",
+  "title": "SS 54: Revocation of Contracts by Exercise of a Cooling-Off Option — AAOIFI in Simple English",
+  "description": "How a contract can be canceled when the parties agreed in advance that one of them may revoke it.",
+  "ss": 54
+ },
+ {
+  "path": "/aaoifi/ss-55-competitions-prizes.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-55-competitions-prizes",
+  "title": "SS 55: Competitions and Prizes — AAOIFI in Simple English",
+  "description": "Islamic rules for competitions, prizes, and promotional draws run or sponsored by financial institutions.",
+  "ss": 55
+ },
+ {
+  "path": "/aaoifi/ss-56-investment-manager-liability.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-56-investment-manager-liability",
+  "title": "SS 56: Liability of Investment Manager — AAOIFI in Simple English",
+  "description": "When a person managing someone else's investments must pay for losses: only for misconduct, negligence, or breaking the agreed terms.",
+  "ss": 56
+ },
+ {
+  "path": "/aaoifi/ss-57-gold.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-57-gold",
+  "title": "SS 57: Gold and its Trading Parameters in Shari'ah — AAOIFI in Simple English",
+  "description": "Islamic rules for buying, selling, and investing in gold.",
+  "ss": 57
+ },
+ {
+  "path": "/aaoifi/ss-58-repurchase-buyback.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-58-repurchase-buyback",
+  "title": "SS 58: Repurchase Agreement / Buyback — AAOIFI in Simple English",
+  "description": "Rules for buyback deals, where a seller sells an asset and later buys it back, and blocks structures that disguise interest.",
+  "ss": 58
+ },
+ {
+  "path": "/aaoifi/ss-59-sale-of-debt.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-59-sale-of-debt",
+  "title": "SS 59: Sale of Debt — AAOIFI in Simple English",
+  "description": "Strict rules for selling debts, banning the sale of money-debts at a discount because that is interest.",
+  "ss": 59
+ },
+ {
+  "path": "/aaoifi/ss-60-waqf.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-60-waqf",
+  "title": "SS 60: Waqf — AAOIFI in Simple English",
+  "description": "Rules for waqf, the Islamic endowment where an asset is locked in and its benefits given to charity, and it updates the earlier waqf standard.",
+  "ss": 60
+ },
+ {
+  "path": "/aaoifi/ss-61-payment-cards.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-61-payment-cards",
+  "title": "SS 61: Payment Cards — AAOIFI in Simple English",
+  "description": "Islamic rules for debit, prepaid, charge, and credit cards, banning interest-based revolving credit.",
+  "ss": 61
+ },
+ {
+  "path": "/aaoifi/ss-62-sukuk-draft.html",
+  "kind": "aaoifi-standard",
+  "slug": "ss-62-sukuk-draft",
+  "title": "SS 62: Sukuk (exposure draft) — AAOIFI in Simple English",
+  "description": "This is a draft standard that would require sukuk to involve a genuine transfer of asset ownership to investors, replacing the current sukuk standard.",
+  "ss": 62
+ },
+ {
+  "path": "/about.html",
+  "kind": "page",
+  "slug": "about",
+  "title": "About — Islamic Finance Daily Brief",
+  "description": "About the Islamic Finance Daily Brief — a free educational project by Iftikar."
+ },
+ {
+  "path": "/editions/2026-10-06.html",
+  "kind": "edition",
+  "slug": "2026-10-06",
+  "title": "Islamic Finance Daily Brief — October 6, 2026",
+  "description": "Islamic Finance Daily Brief, Oct 6 2026: student Islamic finance in New York, a new US halal ETF, Wahed's rental fund, and the AlBaraka Summit.",
+  "date": "2026-10-06"
+ },
+ {
+  "path": "/editions/2026-10-07.html",
+  "kind": "edition",
+  "slug": "2026-10-07",
+  "title": "Islamic Finance Daily Brief — October 7, 2026",
+  "description": "Islamic Finance Daily Brief, Oct 7 2026: Wafra wins top Islamic fund award, a new US halal credit fund, Geneva forum, and Sukuk explained.",
+  "date": "2026-10-07"
+ },
+ {
+  "path": "/editions/2026-10-08.html",
+  "kind": "edition",
+  "slug": "2026-10-08",
+  "title": "Islamic Finance Daily Brief — October 8, 2026",
+  "description": "Islamic Finance Daily Brief, Oct 8 2026: Qatar opens sukuk to Europe, US halal funds top the league table, the 33% debt rule, Murabaha explained.",
+  "date": "2026-10-08"
+ },
+ {
+  "path": "/glossary/index.html",
+  "kind": "glossary",
+  "title": "Glossary — Islamic Finance Daily Brief",
+  "description": "Companies and concepts from the Daily Brief, explained simply."
+ },
+ {
+  "path": "/lab/ai-persona-stock-analysis.html",
+  "kind": "post",
+  "slug": "ai-persona-stock-analysis",
+  "title": "Experiment: asking AI to value stocks like Buffett and Graham",
+  "description": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?",
+  "date": "2026-10-07"
+ },
+ {
+  "path": "/lab/shariah-etf-guide.html",
+  "kind": "post",
+  "slug": "shariah-etf-guide",
+  "title": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath",
+  "description": "A beginner's guide to ETFs: what they are, how they differ from stocks, and what makes one Shariah-compliant.",
+  "date": "2026-10-08"
+ },
+ {
+  "path": "/lab/sukuk-guide.html",
+  "kind": "post",
+  "slug": "sukuk-guide",
+  "title": "Sukuk, finally explained: the beginner's guide I wish I'd had",
+  "description": "A beginner's guide to sukuk: what it is, how it differs from a bond, a real example, and options in the USA, UK, EU and Australia.",
+  "date": "2026-10-07"
+ },
+ {
+  "path": "/lab/zoya-finance-api.html",
+  "kind": "post",
+  "slug": "zoya-finance-api",
+  "title": "Zoya Finance opened its API: halal screening data for developers",
+  "description": "Zoya Finance opened its halal screening API to developers — what it means for Islamic fintech.",
+  "date": "2026-10-07"
+ },
+ {
+  "path": "/newsletters.html",
+  "kind": "newsletters",
+  "title": "Daily Newsletters — Islamic Finance Daily Brief",
+  "description": "Archive of the Islamic Finance Daily Brief: every edition with source links and plain-English explainers."
+ },
+ {
+  "path": "/playbook/index.html",
+  "kind": "page",
+  "slug": "playbook",
+  "title": "How it's made — Islamic Finance Daily Brief",
+  "description": "The open playbook behind the Islamic Finance Daily Brief — sources, rules, and process."
+ }
+]
