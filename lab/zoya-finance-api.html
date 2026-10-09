@@ -40,48 +40,67 @@
   a { color: #0f5132; }
   footer { text-align: center; font-size: 12px; color: #888; margin-top: 40px; }
 </style>
+<style id="site-chrome">
+.site-banner{background:#0f5132;color:#d1e7dd;text-align:center;padding:32px 20px;border-radius:0 0 12px 12px;}
+.site-banner h1{margin:0;font-size:24px;color:#fff;}
+.site-banner p{margin:8px 0 0;font-size:14px;color:#d1e7dd;}
+.site-nav{text-align:center;padding:16px 0 0;font-size:14px;}
+.site-nav a{color:#0f5132;margin:0 12px;text-decoration:none;}
+.site-nav a.active{font-weight:bold;}
+.site-search-wrap{text-align:center;padding:14px 0 0;}
+.site-search-wrap input{width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;}
+.site-search-results{max-width:420px;margin:8px auto 0;text-align:left;}
+.site-search-hit{display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;}
+.site-search-hit span{display:block;}
+.site-search-type{font-size:12px;color:#0f5132;font-weight:600;}
+.site-search-title{font-size:14px;font-weight:600;color:#222;}
+.site-search-excerpt{font-size:12px;color:#666;}
+.site-search-empty{font-size:13px;color:#888;}
+.site-footer{text-align:center;font-size:12px;color:#888;margin-top:40px;}
+.edition-sources{font-size:13px;color:#666;text-align:center;}
+.page-h1{font-size:22px;color:#0f5132;text-align:center;margin:26px 0 4px;}
+.page-sub{font-size:14px;color:#555;text-align:center;margin:0 0 8px;}
+</style>
 </head>
 <body>
 <div class="wrap">
-  <div class="hero">
+  <!-- SITE-HEADER -->
+  <div class="site-banner">
     <h1>Islamic Finance Daily Brief</h1>
-    <p>Posts — essays and experiments on Islamic finance and technology</p>
+    <p>Educational resources for Islamic finance and the technology behind it</p>
   </div>
-
-  <nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Posts</a>
-    <a href="../newsletters.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Daily Newsletters</a>
-    <a href="../glossary/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Glossary</a>
-    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
-    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
+<nav class="site-nav">
+    <a href="../index.html" class="active">Posts</a>
+    <a href="../newsletters.html">Daily Newsletters</a>
+    <a href="../aaoifi/index.html">AAOIFI Standards</a>
+    <a href="../glossary/index.html">Glossary</a>
+    <a href="../about.html">About</a>
+    <a href="../playbook/index.html">How it's made</a>
   </nav>
-
-<div style="text-align:center;padding:14px 0 0;">
-    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
-      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
-    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
+  <div class="site-search-wrap">
+    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off">
+    <div id="search-results" class="site-search-results"></div>
   </div>
-  <script>
-  (function(){
-    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
-    if(!box) return;
-    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
-      box.addEventListener('input',function(){
-        var q=box.value.trim().toLowerCase();
-        if(q.length<2){res.innerHTML='';return;}
-        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
-        res.innerHTML=hits.length?hits.map(function(h){
-          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
-            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
-            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
-            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
-        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
-      });
+<script>
+(function(){
+  var PREFIX = "../";
+  var box = document.getElementById('site-search'), res = document.getElementById('search-results');
+  if(!box || !res) return;
+  fetch(PREFIX + 'search.json').then(function(r){ return r.json(); }).then(function(idx){
+    box.addEventListener('input', function(){
+      var q = box.value.trim().toLowerCase();
+      if(q.length < 2){ res.innerHTML = ''; return; }
+      var hits = idx.filter(function(e){ return (e.title + ' ' + e.text).toLowerCase().indexOf(q) >= 0; }).slice(0, 8);
+      res.innerHTML = hits.length ? hits.map(function(h){
+        return '<a href="' + PREFIX + h.url + '" class="site-search-hit">'
+          + '<span class="site-search-type">' + h.type + '</span>'
+          + '<span class="site-search-title">' + h.title + '</span>'
+          + '<span class="site-search-excerpt">' + h.excerpt + '</span></a>';
+      }).join('') : '<div class="site-search-empty">No matches.</div>';
     });
-  })();
-  </script>
-
-  <p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>Please note:</strong> this post is strictly educational — a walkthrough of publicly available developer documentation. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. I am not a financial advisor, and AI-assisted content can contain mistakes. Do your own research and talk to a licensed professional before investing.</p>
+  });
+})();
+</script><!-- /SITE-HEADER --><p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;"><strong>Please note:</strong> this post is strictly educational — a walkthrough of publicly available developer documentation. Nothing here is financial advice or a recommendation to buy, sell, or hold any security. I am not a financial advisor, and AI-assisted content can contain mistakes. Do your own research and talk to a licensed professional before investing.</p>
 
   <p style="font-size:13px;color:#888;">October 7, 2026 · by Iftikar</p>
   <h2 style="border:none;margin-top:4px;font-size:22px;">Zoya Finance opened its API: halal screening data for developers</h2>
@@ -139,7 +158,9 @@
 
   <p style="font-size:13px;color:#666;">Please read: this post is strictly educational — a walkthrough of publicly available developer documentation. I have no relationship with Zoya Finance, and nothing here is an endorsement or a recommendation to use, buy, or subscribe to anything. I am not a financial advisor, this is not financial advice, and AI-assisted content can contain mistakes. API details, pricing, and features change over time — always verify against <a href="https://developer.zoya.finance/docs">Zoya's own documentation</a> before building anything. Do your own research, and talk to a licensed professional before investing.</p>
 
-  <footer>Islamic Finance Daily Brief · For educational purposes only — not investment advice.</footer>
+  <!-- SITE-FOOTER -->
+  <footer class="site-footer">Islamic Finance Daily Brief · For educational purposes only — not investment advice.</footer>
+<!-- /SITE-FOOTER -->
 </div>
 </body>
 </html>

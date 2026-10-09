@@ -10,44 +10,17 @@ Run from the repo root: python3 glossary/build.py
 """
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import build_chrome
 
 HERE = Path(__file__).resolve().parent          # site/glossary
 DATA = HERE / "data.json"
 OUT = HERE / "index.html"
 
-NAV = """<nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Posts</a>
-    <a href="../newsletters.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Daily Newsletters</a>
-    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
-    <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">Glossary</a>
-    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
-  </nav>"""
 
-SEARCH_BOX = """<div style="text-align:center;padding:14px 0 0;">
-    <input id="site-search" type="search" placeholder="Search posts, companies, topics…" aria-label="Search the site" autocomplete="off"
-      style="width:100%;max-width:420px;padding:10px 14px;border:1px solid #ccc;border-radius:8px;font-size:14px;">
-    <div id="search-results" style="max-width:420px;margin:8px auto 0;text-align:left;"></div>
-  </div>
-  <script>
-  (function(){
-    var box=document.getElementById('site-search'), res=document.getElementById('search-results');
-    if(!box) return;
-    fetch('../search.json').then(function(r){return r.json();}).then(function(idx){
-      box.addEventListener('input',function(){
-        var q=box.value.trim().toLowerCase();
-        if(q.length<2){res.innerHTML='';return;}
-        var hits=idx.filter(function(e){return (e.title+' '+e.text).toLowerCase().indexOf(q)>=0;}).slice(0,8);
-        res.innerHTML=hits.length?hits.map(function(h){
-          return '<a href="../'+h.url+'" style="display:block;background:#fff;border:1px solid #e3e3e3;border-radius:8px;padding:10px 12px;margin-bottom:6px;text-decoration:none;color:inherit;">'
-            +'<div style="font-size:12px;color:#0f5132;font-weight:600;">'+h.type+'</div>'
-            +'<div style="font-size:14px;font-weight:600;color:#222;">'+h.title+'</div>'
-            +'<div style="font-size:12px;color:#666;">'+h.excerpt+'</div></a>';
-        }).join(''):'<div style="font-size:13px;color:#888;">No matches.</div>';
-      });
-    });
-  })();
-  </script>"""
 
 
 def slug(name):
@@ -84,6 +57,8 @@ def main():
     companies = sorted([e for e in uniq if e["type"] == "company"], key=lambda e: e["name"].lower())
     concepts = sorted([e for e in uniq if e["type"] == "concept"], key=lambda e: e["name"].lower())
 
+    chrome_header = build_chrome.header_html("../", "Glossary")
+    chrome_footer = build_chrome.footer_html(full=False)
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,12 +80,9 @@ def main():
 </head>
 <body>
 <div class="wrap">
-  {NAV}
-  {SEARCH_BOX}
-  <div class="hero" style="margin-top:16px;">
-    <h1>Glossary</h1>
-    <p>Companies and concepts from the Daily Brief, explained simply.</p>
-  </div>
+  {chrome_header}
+  <h1 class="page-h1">Glossary</h1>
+  <p class="page-sub">Companies and concepts from the Daily Brief, explained simply.</p>
 
   <p class="intro" style="margin-top:20px;">Every edition mentions companies and ideas our readers ask about.
   This page collects them in one place and grows with each new edition.</p>
@@ -121,7 +93,7 @@ def main():
   <h2>📖 Concepts</h2>
   {"".join(entry_card(e) for e in concepts) if concepts else "<p class='intro'>None yet.</p>"}
 
-  <footer>Islamic Finance Daily Brief · Educational content — not financial advice.</footer>
+  {chrome_footer}
 </div>
 </body>
 </html>

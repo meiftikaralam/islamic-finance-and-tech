@@ -5,20 +5,16 @@ from the knowledge-base data (src/aaoifi_kb/data/standards.json).
 Run from the repo root: python3 aaoifi-educational-kb/scripts/build_site_page.py
 """
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+import build_chrome
 
 ROOT = Path(__file__).resolve().parent.parent.parent  # site/
 DATA = ROOT / "aaoifi-educational-kb" / "src" / "aaoifi_kb" / "data" / "standards.json"
 OUT = ROOT / "aaoifi" / "index.html"
 REPO = "https://github.com/meiftikaralam/islamic-finance-and-tech"
-
-NAV = """<nav style="text-align:center;padding:16px 0 0;font-size:14px;">
-    <a href="../index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">Archive</a>
-    <a href="../about.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">About</a>
-    <a href="index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;font-weight:bold;">AAOIFI Standards</a>
-    <a href="../playbook/index.html" style="color:#0f5132;margin:0 12px;text-decoration:none;">How it's made</a>
-  </nav>"""
-
 
 def card(s):
     draft = ""
@@ -43,6 +39,8 @@ def main():
         cards = "\n".join(card(s) for s in by_cat[cat])
         sections.append(f"<h2>{cat}</h2>\n{cards}")
 
+    chrome_header = build_chrome.header_html("../", "AAOIFI Standards")
+    chrome_footer = build_chrome.footer_html(full=False)
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,11 +63,9 @@ def main():
 </head>
 <body>
 <div class="wrap">
-  {NAV}
-  <div class="hero" style="margin-top:16px;">
-    <h1>AAOIFI Standards in Simple English</h1>
-    <p>All 62 Shariah Standards, summarized so anyone can understand them.</p>
-  </div>
+  {chrome_header}
+  <h1 class="page-h1">AAOIFI Standards in Simple English</h1>
+  <p class="page-sub">All 62 Shariah Standards, summarized so anyone can understand them.</p>
 
   <p style="margin-top:20px;">AAOIFI — the Accounting and Auditing Organization for Islamic Financial
   Institutions — writes the global rulebook for Islamic finance. Its Shariah Standards say what is
@@ -103,7 +99,7 @@ def main():
 
   {"\n".join(sections)}
 
-  <footer>Islamic Finance Daily Brief · Educational content — not financial or religious advice.</footer>
+  {chrome_footer}
 </div>
 </body>
 </html>
