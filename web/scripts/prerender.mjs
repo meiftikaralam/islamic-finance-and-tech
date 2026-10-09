@@ -29,7 +29,7 @@ function headFor(r) {
     headline: r.title,
     description: r.description,
     author: { "@type": "Person", name: "Iftikar" },
-    publisher: { "@type": "Organization", name: "Islamic Finance Daily Brief" },
+    publisher: { "@type": "Organization", name: "Islamic Finance and Technology" },
     ...(r.date ? { datePublished: r.date } : {}),
   };
   return [
@@ -86,7 +86,7 @@ writeFileSync(
 
 // llms.txt — helps AI agents find and cite the content quickly
 const llms = [
-  "# Islamic Finance Daily Brief",
+  "# Islamic Finance and Technology",
   "",
   "> Free educational resources for Islamic finance and the technology behind it, by Iftikar. All content is educational only — not investment advice.",
   "",

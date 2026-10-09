@@ -1,3 +1,7 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
 @import "tailwindcss";
 
 @theme {
@@ -6,7 +10,7 @@
   --color-brand-600: #0f5132;
   --color-brand-700: #0c4028;
   --color-brand-800: #093020;
-  --font-sans: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif;
+  --font-sans: "Inter", -apple-system, "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
 body {

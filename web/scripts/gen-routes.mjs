@@ -26,18 +26,18 @@ const addSearch = (title, url, type, excerpt) =>
 
 // --- static pages ---
 const statics = [
-  ["/", "home", "Islamic Finance Daily Brief",
+  ["/", "home", "Islamic Finance and Technology",
     "Educational resources for Islamic finance and the technology behind it. Daily newsletter, beginner guides, AAOIFI standards in simple English, and a growing glossary."],
-  ["/newsletters.html", "newsletters", "Daily Newsletters — Islamic Finance Daily Brief",
-    "Archive of the Islamic Finance Daily Brief: every edition with source links and plain-English explainers."],
-  ["/about.html", "page", "About — Islamic Finance Daily Brief",
-    "About the Islamic Finance Daily Brief — a free educational project by Iftikar."],
-  ["/playbook/index.html", "page", "How it's made — Islamic Finance Daily Brief",
-    "The open playbook behind the Islamic Finance Daily Brief — sources, rules, and process."],
+  ["/newsletters.html", "newsletters", "Daily Newsletters — Islamic Finance and Technology",
+    "Daily newsletter archive: every edition with source links and plain-English explainers."],
+  ["/about.html", "page", "About — Islamic Finance and Technology",
+    "About Islamic Finance and Technology — a free educational project by Iftikar."],
+  ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",
+    "The open playbook behind this site — sources, rules, and process."],
   ["/aaoifi/index.html", "aaoifi-index", "AAOIFI Standards in Simple English",
     "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."],
-  ["/glossary/index.html", "glossary", "Glossary — Islamic Finance Daily Brief",
-    "Companies and concepts from the Daily Brief, explained simply."],
+  ["/glossary/index.html", "glossary", "Glossary — Islamic Finance and Technology",
+    "Companies and concepts from the newsletter, explained simply."],
 ];
 for (const [path, kind, title, description] of statics) {
   const slug = kind === "page" ? basename(path, ".html") === "about" ? "about" : "playbook" : undefined;
