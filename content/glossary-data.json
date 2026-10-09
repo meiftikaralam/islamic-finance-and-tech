@@ -505,70 +505,56 @@
   "edition": "editions/2026-10-09.html"
  },
  {
-  "name": "Accredited investor",
+  "name": "Halal robo-advisor",
   "type": "concept",
   "website": null,
-  "description": "A US SEC category for wealthy investors — individuals earning $200,000+ a year ($300,000 with a spouse) or holding $1M+ in assets excluding their home. Only accredited investors can join certain private funds; everyone else is limited to public investments or funds opened to all.",
+  "description": "An online service that builds and manages your investment portfolio automatically, using only Shariah-compliant investments. Example: Wahed, the largest halal robo-advisor for US investors, offers six risk levels from a $100 minimum.",
   "sources": [
    {
-    "label": "Oct 9 edition — accredited investor guidance",
-    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+    "label": "Oct 9 edition — halal robo-advisors explainer",
+    "url": "https://www.einnews.com/pr_news/944018043/student-led-islamic-finance-ecosystem-takes-shape-in-new-york-at-inaugural-conference-at-baruch-college"
    }
   ],
   "first_mentioned": "2026-10-09",
   "edition": "editions/2026-10-09.html"
  },
  {
-  "name": "Zakat",
-  "type": "concept",
-  "website": null,
-  "description": "The obligatory Islamic alms: 2.5% of qualifying wealth paid yearly to the poor. Example: stocks or ETFs held for a full lunar year above the nisab threshold owe 2.5% of their market value, usually paid through a charity.",
+  "name": "Manzil",
+  "type": "company",
+  "website": "https://manzil.us",
+  "description": "An Islamic fintech whose US arm (Manzil Invest USA, an SEC-registered adviser) launched a Shariah-compliant trading app in July 2026 built on Alpaca brokerage APIs with Zoya screening integrated.",
   "sources": [
    {
-    "label": "Oct 9 edition — zakat guidance",
-    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+    "label": "EIN Presswire — Manzil trading platform launch (Jul 2026)",
+    "url": "https://ott.einnews.com/pr_news/898995329/manzil-expands-u-s-footprint-with-launch-of-shariah-compliant-trading-platform-international-kyc-integration"
    }
   ],
   "first_mentioned": "2026-10-09",
   "edition": "editions/2026-10-09.html"
  },
  {
-  "name": "Nisab",
-  "type": "concept",
-  "website": null,
-  "description": "The minimum wealth threshold above which zakat becomes due — roughly the value of 85 grams of gold. Example: if your stocks are worth less than the nisab after a full lunar year, no zakat is owed on them.",
+  "name": "Alpaca",
+  "type": "company",
+  "website": "https://alpaca.markets",
+  "description": "An API-first brokerage infrastructure company (FINRA member, SIPC-insured) that lets fintech apps offer stock trading without building a brokerage. Example: Manzil's halal trading app runs its trade execution and custody on Alpaca.",
   "sources": [
    {
-    "label": "Oct 9 edition — zakat guidance",
-    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+    "label": "EIN Presswire — Manzil trading platform launch (Jul 2026)",
+    "url": "https://ott.einnews.com/pr_news/898995329/manzil-expands-u-s-footprint-with-launch-of-shariah-compliant-trading-platform-international-kyc-integration"
    }
   ],
   "first_mentioned": "2026-10-09",
   "edition": "editions/2026-10-09.html"
  },
  {
-  "name": "Ijara",
-  "type": "concept",
-  "website": null,
-  "description": "Leasing. In halal home finance, the financier buys the house and leases it to you; each payment combines rent with a buyout portion that gradually transfers ownership. Example: University Islamic Financial offers ijara-based home financing in the US.",
+  "name": "Zoya",
+  "type": "company",
+  "website": "https://zoya.finance",
+  "description": "A Shariah stock-screening service used by US Muslim investors and fintech apps. Example: Manzil integrated Zoya directly into its trading app for real-time compliance reports against AAOIFI standards.",
   "sources": [
    {
-    "label": "Oct 9 edition — ijara guidance",
-    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
-   }
-  ],
-  "first_mentioned": "2026-10-09",
-  "edition": "editions/2026-10-09.html"
- },
- {
-  "name": "Takaful",
-  "type": "concept",
-  "website": null,
-  "description": "Islamic insurance. Members contribute to a shared pool, and the pool pays out when a member suffers a covered loss. Example: family takaful works like life insurance — monthly contributions, and the pool pays the family an agreed sum if the member passes away.",
-  "sources": [
-   {
-    "label": "Oct 9 edition — Takaful explainer",
-    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+    "label": "EIN Presswire — Manzil trading platform launch (Jul 2026)",
+    "url": "https://ott.einnews.com/pr_news/898995329/manzil-expands-u-s-footprint-with-launch-of-shariah-compliant-trading-platform-international-kyc-integration"
    }
   ],
   "first_mentioned": "2026-10-09",

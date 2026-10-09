@@ -54,6 +54,12 @@
   "excerpt": "Islamic Finance Daily Brief, Oct 8 2026: Qatar opens sukuk to Europe, US halal funds top the league table, the 33% debt rule, Murabaha explained."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 9, 2026",
+  "url": "/editions/2026-10-09.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 9 2026 brief: Sentinel Shield's Sharia governance, inside Manzil's halal trading stack, Wahed's zero-debt real estate fund, halal robo-advisors."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -654,33 +660,27 @@
   "excerpt": "A separate legal company created to hold specific assets or investments, keeping them apart from the parent firm's other business. Example: the Sentinel Shield "
  },
  {
-  "title": "Accredited investor",
-  "url": "/glossary/index.html#accredited-investor",
+  "title": "Halal robo-advisor",
+  "url": "/glossary/index.html#halal-robo-advisor",
   "type": "Glossary: concept",
-  "excerpt": "A US SEC category for wealthy investors — individuals earning $200,000+ a year ($300,000 with a spouse) or holding $1M+ in assets excluding their home. Only acc"
+  "excerpt": "An online service that builds and manages your investment portfolio automatically, using only Shariah-compliant investments. Example: Wahed, the largest halal r"
  },
  {
-  "title": "Zakat",
-  "url": "/glossary/index.html#zakat",
-  "type": "Glossary: concept",
-  "excerpt": "The obligatory Islamic alms: 2.5% of qualifying wealth paid yearly to the poor. Example: stocks or ETFs held for a full lunar year above the nisab threshold owe"
+  "title": "Manzil",
+  "url": "/glossary/index.html#manzil",
+  "type": "Glossary: company",
+  "excerpt": "An Islamic fintech whose US arm (Manzil Invest USA, an SEC-registered adviser) launched a Shariah-compliant trading app in July 2026 built on Alpaca brokerage A"
  },
  {
-  "title": "Nisab",
-  "url": "/glossary/index.html#nisab",
-  "type": "Glossary: concept",
-  "excerpt": "The minimum wealth threshold above which zakat becomes due — roughly the value of 85 grams of gold. Example: if your stocks are worth less than the nisab after "
+  "title": "Alpaca",
+  "url": "/glossary/index.html#alpaca",
+  "type": "Glossary: company",
+  "excerpt": "An API-first brokerage infrastructure company (FINRA member, SIPC-insured) that lets fintech apps offer stock trading without building a brokerage. Example: Man"
  },
  {
-  "title": "Ijara",
-  "url": "/glossary/index.html#ijara",
-  "type": "Glossary: concept",
-  "excerpt": "Leasing. In halal home finance, the financier buys the house and leases it to you; each payment combines rent with a buyout portion that gradually transfers own"
- },
- {
-  "title": "Takaful",
-  "url": "/glossary/index.html#takaful",
-  "type": "Glossary: concept",
-  "excerpt": "Islamic insurance. Members contribute to a shared pool, and the pool pays out when a member suffers a covered loss. Example: family takaful works like life insu"
+  "title": "Zoya",
+  "url": "/glossary/index.html#zoya",
+  "type": "Glossary: company",
+  "excerpt": "A Shariah stock-screening service used by US Muslim investors and fintech apps. Example: Manzil integrated Zoya directly into its trading app for real-time comp"
  }
 ]
