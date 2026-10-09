@@ -1,405 +1,577 @@
 [
-  {
-    "description": "A halal screening platform that checks whether stocks and other investments meet Islamic guidelines. In September 2026 it teamed up with Asal Invest to supply that screening data to investors across the US. No official company website could be verified; it appears to be a young company covered so far only in Islamic finance trade press.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "RihalQ",
-    "sources": [
-      {
-        "label": "IFN Investor monthly review (Sept 2026) — notes RihalQ's partnership with Asal Invest",
-        "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
-      }
-    ],
-    "website": null,
-    "type": "company"
-  },
-  {
-    "description": "A large US investment firm that manages money for pension funds, governments, and other big investors, focusing on private markets like private equity and private lending. It is listed on the Nasdaq stock exchange under the ticker STEP.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "StepStone Group",
-    "sources": [
-      {
-        "label": "StepStone Group official website",
-        "url": "https://www.stepstonegroup.com"
-      }
-    ],
-    "website": "https://www.stepstonegroup.com",
-    "type": "company"
-  },
-  {
-    "description": "A fund manager based in Dubai's financial district (DIFC) and controlled by Al Salam Bank, which handles money for investors across the Middle East. In October 2026 it partnered with StepStone Group to launch a private financing fund.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "ASB Capital",
-    "sources": [
-      {
-        "label": "ASB Capital official website",
-        "url": "https://asbc.com"
-      }
-    ],
-    "website": "https://asbc.com",
-    "type": "company"
-  },
-  {
-    "description": "A US-based registered investment adviser that manages money and gives financial advice to clients. In September 2026 it partnered with RihalQ to get Islamic screening data for its US investors.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Asal Invest",
-    "sources": [
-      {
-        "label": "Asal Invest official website",
-        "url": "https://asalinvest.com"
-      },
-      {
-        "label": "IFN Investor monthly review (Sept 2026) — notes the Asal Invest / RihalQ partnership",
-        "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
-      }
-    ],
-    "website": "https://asalinvest.com",
-    "type": "company"
-  },
-  {
-    "description": "An investment company based in the United Arab Emirates that puts money into property, private businesses, and other opportunities while following Islamic rules. It manages more than $4 billion for investors and in October 2026 bought a majority stake in London House Exchange.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Gulf Islamic Investments",
-    "sources": [
-      {
-        "label": "Gulf Islamic Investments official website",
-        "url": "https://www.gii.ae"
-      }
-    ],
-    "website": "https://www.gii.ae",
-    "type": "company"
-  },
-  {
-    "description": "A UK platform that lets people buy small slices of rental properties and trade them on a regulated exchange, instead of having to buy a whole house. It started life as Property Partner and is overseen by the UK's Financial Conduct Authority.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "London House Exchange",
-    "sources": [
-      {
-        "label": "London House Exchange official website",
-        "url": "https://www.londonhouseexchange.com"
-      }
-    ],
-    "website": "https://www.londonhouseexchange.com",
-    "type": "company"
-  },
-  {
-    "description": "A UK finance company that offers home-buying and buy-to-let products built on Islamic co-ownership, so there is no interest charge. It grew fast after Gulf Islamic Investments took a majority stake, and in 2026 it bought Bank of Ireland's Alburaq Islamic home finance portfolio.",
-    "edition": "editions/2026-10-06.html",
-    "first_mentioned": "2026-10-06",
-    "name": "Offa",
-    "sources": [
-      {
-        "label": "Offa official website",
-        "url": "https://www.offa.co.uk"
-      },
-      {
-        "label": "FF News — Offa's buy-to-let rate announcement, referencing the Alburaq acquisition",
-        "url": "https://ffnews.com/news/islamic-property-finance-firm-offa-announces-buy-to-let-rate-drops"
-      }
-    ],
-    "website": "https://www.offa.co.uk",
-    "type": "company"
-  },
-  {
-    "description": "An app-based investing platform that builds portfolios only from halal stocks, Islamic bonds (sukuk), and gold, with scholars checking that everything stays within Islamic rules. It serves hundreds of thousands of customers in the US, UK, Malaysia, and other countries.",
-    "edition": "editions/2026-10-06.html",
-    "first_mentioned": "2026-10-06",
-    "name": "Wahed",
-    "sources": [
-      {
-        "label": "Wahed official website",
-        "url": "https://www.wahed.com"
-      }
-    ],
-    "website": "https://www.wahed.com",
-    "type": "company"
-  },
-  {
-    "description": "A small Seattle-based investment firm that filed with US regulators to launch an Islamic exchange-traded fund tracking large American stocks, advised by Exchange Traded Concepts and Mellon Capital with the Shariyah Review Bureau as its Islamic adviser. No official company website could be verified.",
-    "edition": "editions/2026-10-06.html",
-    "first_mentioned": "2026-10-06",
-    "name": "Falah Capital",
-    "sources": [
-      {
-        "label": "Reuters (via LSE) — Seattle-based Falah Capital is preparing an Islamic ETF (Oct 2026)",
-        "url": "https://www.lse.co.uk/news/us-firms-new-islamic-etf-looks-to-test-muted-investor-demand-grarsikkc3zgeyd.html"
-      }
-    ],
-    "website": null,
-    "type": "company"
-  },
-  {
-    "description": "An investment manager based in Bellingham, Washington, that runs the Amana mutual funds — some of the oldest Islamic mutual funds in the United States. It picks stocks and bonds that pass Islamic screening so observant Muslims can invest with a clear conscience.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Saturna Capital",
-    "sources": [
-      {
-        "label": "Saturna Capital official website",
-        "url": "https://www.saturna.com"
-      },
-      {
-        "label": "SEC — Amana fund documents naming Saturna Capital Corporation as investment adviser",
-        "url": "https://www.sec.gov/Archives/edgar/data/766285/000076628519000023/amagx-summarypro.htm"
-      }
-    ],
-    "website": "https://www.saturna.com",
-    "type": "company"
-  },
-  {
-    "description": "Germany's first Islamic bank, based in Frankfurt and owned by Turkey's Kuveyt Turk participation bank. It offers accounts, savings, and financing for individuals and businesses using profit-sharing instead of interest.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "KT Bank AG",
-    "sources": [
-      {
-        "label": "KT Bank AG official website",
-        "url": "https://www.kt-bank.de"
-      }
-    ],
-    "website": "https://www.kt-bank.de",
-    "type": "company"
-  },
-  {
-    "description": "New York-based global alternative investment manager (~$30B AUM); its Global Sukuk Team won Euromoney's World's Best Islamic Fund Manager 2026.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Wafra Inc.",
-    "sources": [
-      {
-        "label": "Wafra official website",
-        "url": "https://www.wafra.com"
-      }
-    ],
-    "website": "https://www.wafra.com",
-    "type": "company"
-  },
-  {
-    "description": "Islamic investment certificates. Instead of lending money and collecting interest (which is riba), sukuk holders own a share of a real asset or project — like an airport terminal — and earn returns from the profit it generates. Often called 'Islamic bonds,' but they are ownership certificates, not debt.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Sukuk",
-    "sources": [
-      {
-        "label": "AAOIFI knowledge base: Sukuk",
-        "url": "https://github.com/meiftikaralam/islamic-finance-and-tech/blob/kb/sukuk/knowledge-base/sukuk.md"
-      }
-    ],
-    "type": "concept"
-  },
-  {
-    "description": "How an ETF holding Apple or Microsoft can be halal: the fund tracks an index of stocks screened against Islamic rules — no interest-based income, no alcohol, gambling or arms businesses, and strict limits on debt. A Shariah board certifies compliance, and any small leftover non-compliant income is 'purified' by donating it to charity.",
-    "edition": "editions/2026-10-06.html",
-    "first_mentioned": "2026-10-06",
-    "name": "Islamic ETFs and Shariah stock screening",
-    "sources": [],
-    "type": "concept"
-  },
-  {
-    "description": "Loans made directly to companies by non-bank lenders (like investment funds) instead of through a bank. It has been one of the fastest-growing corners of conventional finance; Shariah-compliant versions structure the lending without interest — for example through cost-plus sales or profit-sharing deals.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Private credit",
-    "sources": [
-      {
-        "label": "Alternative Credit Investor: ASB StepStone fund",
-        "url": "https://alternativecreditinvestor.com/2026/10/05/stepstone-and-asb-capital-launch-shariah-compliant-private-credit-fund/"
-      }
-    ],
-    "type": "concept"
-  },
-  {
-    "description": "Owning a small slice of an expensive asset — like a fraction of a rental property — instead of buying the whole thing. Regulated exchanges now let everyday investors buy and sell these slices, which fits Islamic finance naturally since returns come from a real asset you partly own.",
-    "edition": "editions/2026-10-07.html",
-    "first_mentioned": "2026-10-07",
-    "name": "Fractional ownership",
-    "sources": [
-      {
-        "label": "Alternative Credit Investor: GII / London House Exchange",
-        "url": "https://alternativecreditinvestor.com/2026/10/02/gulf-islamic-investments-takes-majority-stake-in-london-house-exchange/"
-      }
-    ],
-    "type": "concept"
-  },
-  {
-    "name": "SP Funds",
-    "type": "company",
-    "website": "https://www.spfunds.com",
-    "description": "The ETF arm of the ShariaPortfolio group. It runs a small lineup of US-listed halal exchange-traded funds — including the S&P Global Technology ETF that topped IFN Investor's America league table by three-month returns on October 5, 2026.",
-    "sources": [
-      {
-        "label": "Official site — SP Funds",
-        "url": "https://www.spfunds.com"
-      },
-      {
-        "label": "IFN Investor League Tables America (5-Oct-2026)",
-        "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "ShariaPortfolio",
-    "type": "company",
-    "website": "https://www.shariaportfolio.com",
-    "description": "A US boutique asset manager (registered investment adviser with the SEC) that has offered Shariah-compliant investing since 2003. Its group of companies manages over $3 billion and includes the SP Funds halal ETF lineup, plus wealth management and advisory services.",
-    "sources": [
-      {
-        "label": "Official site — ShariaPortfolio",
-        "url": "https://www.shariaportfolio.com"
-      },
-      {
-        "label": "IFN Investor League Tables America (5-Oct-2026)",
-        "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Euroclear",
-    "type": "company",
-    "website": "https://www.euroclear.com",
-    "description": "A Brussels-based financial-market infrastructure group that settles and safekeeps securities for banks and investors worldwide. In October 2026, Qatar chose Euroclear Bank to settle its riyal-denominated government bonds and sukuk for international investors — the first time global buyers could access them this way.",
-    "sources": [
-      {
-        "label": "Official site — Euroclear",
-        "url": "https://www.euroclear.com"
-      },
-      {
-        "label": "Salaam Gateway — Qatar links government bonds and sukuk to Euroclear",
-        "url": "https://salaamgateway.com/story/qatar-links-government-bonds-and-sukuk-to-euroclear-in-bid-to-attract-foreign-investors"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Dubai Islamic Bank",
-    "type": "company",
-    "website": "https://www.dib.ae",
-    "description": "The UAE's largest Islamic bank by assets and the world's first full-service Islamic bank, founded in 1975. In October 2026 it announced it would redeem its outstanding $500 million Additional Tier 1 sukuk on its first call date, October 19, 2026.",
-    "sources": [
-      {
-        "label": "Official site — Dubai Islamic Bank",
-        "url": "https://www.dib.ae"
-      },
-      {
-        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
-        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Euronext Dublin",
-    "type": "company",
-    "website": "https://www.euronext.com/en/markets/dublin",
-    "description": "Ireland's main stock exchange and a common listing venue for international debt securities and sukuk, including Gulf issuers. Dubai Islamic Bank's $500 million AT1 sukuk was listed here until its planned redemption in October 2026.",
-    "sources": [
-      {
-        "label": "Official site — Euronext Dublin",
-        "url": "https://www.euronext.com/en/markets/dublin"
-      },
-      {
-        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
-        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Murabaha",
-    "type": "concept",
-    "website": null,
-    "description": "A 'cost-plus' sale used across Islamic finance. The bank buys an asset (a house, car, or machine) and sells it to the customer at a disclosed price — its cost plus an agreed profit markup — paid in fixed installments. Because the bank genuinely buys and then sells the asset, this counts as trade rather than an interest-bearing loan. Example: halal home financing, where the bank buys a house and resells it to the buyer at a fixed marked-up price paid over years.",
-    "sources": [
-      {
-        "label": "Islamic Finance Daily Brief — Learn section (Oct 8, 2026)",
-        "url": "https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-08.html"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Additional Tier 1 (AT1) sukuk",
-    "type": "concept",
-    "website": null,
-    "description": "A type of bank funding that sits between equity and ordinary debt: it can absorb losses if the bank gets into trouble, and the bank can usually redeem (call) it on a set date. Dubai Islamic Bank's $500 million AT1 sukuk, issued in 2021, is the Shariah-compliant version of this instrument — called on its first call date, October 19, 2026.",
-    "sources": [
-      {
-        "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
-        "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Short interest",
-    "type": "concept",
-    "website": null,
-    "description": "The total number of a stock's (or ETF's) shares that investors have borrowed and sold, betting the price will fall. A rise in short interest means more traders are taking that side of the bet. Example: short interest in Wahed's HLAL halal ETF jumped 66% during September 2026 — though at under 1% of shares, it was still a small position.",
-    "sources": [
-      {
-        "label": "Defense World — Wahed FTSE USA Shariah ETF short interest (Oct 2, 2026)",
-        "url": "https://www.defenseworld.net/2026/10/02/wahed-ftse-usa-shariah-etf-nasdaqhlal-sees-large-growth-in-short-interest.html"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Wafra",
-    "type": "company",
-    "website": "https://www.wafra.com/",
-    "description": "A New York-based asset manager with about $30 billion under management. Its Global Sukuk Strategy, an actively managed portfolio of Islamic bonds, was named World's Best Islamic Fund Manager at the 2026 Euromoney Islamic Finance Awards — its third win in a row.",
-    "sources": [
-      {
-        "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
-        "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
-      },
-      {
-        "label": "Wafra official site",
-        "url": "https://www.wafra.com/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Baruch Islamic Investment Research Group",
-    "type": "company",
-    "description": "A student-run investment research group at Baruch College in New York. It was a featured organizer of the inaugural student-led Islamic Finance Conference in September 2026, part of a growing student-built Islamic finance ecosystem in the city.",
-    "sources": [
-      {
-        "label": "World City Press: Baruch College Islamic Finance Conference",
-        "url": "https://lifestyle.worldcitypress.com/story/369336/student-led-islamic-finance-ecosystem-takes-shape-in-new-york-at-inaugural-conference-at-baruch-college/"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  },
-  {
-    "name": "Euromoney",
-    "type": "company",
-    "description": "A financial media and events company. Its annual Islamic Finance Awards, judged by its journalists and researchers, recognize the year's strongest Islamic finance institutions — Wafra won Best Islamic Fund Manager in 2026.",
-    "sources": [
-      {
-        "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
-        "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
-      }
-    ],
-    "first_mentioned": "2026-10-08",
-    "edition": "editions/2026-10-08.html"
-  }
+ {
+  "description": "A halal screening platform that checks whether stocks and other investments meet Islamic guidelines. In September 2026 it teamed up with Asal Invest to supply that screening data to investors across the US. No official company website could be verified; it appears to be a young company covered so far only in Islamic finance trade press.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "RihalQ",
+  "sources": [
+   {
+    "label": "IFN Investor monthly review (Sept 2026) — notes RihalQ's partnership with Asal Invest",
+    "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
+   }
+  ],
+  "website": null,
+  "type": "company"
+ },
+ {
+  "description": "A large US investment firm that manages money for pension funds, governments, and other big investors, focusing on private markets like private equity and private lending. It is listed on the Nasdaq stock exchange under the ticker STEP.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "StepStone Group",
+  "sources": [
+   {
+    "label": "StepStone Group official website",
+    "url": "https://www.stepstonegroup.com"
+   }
+  ],
+  "website": "https://www.stepstonegroup.com",
+  "type": "company"
+ },
+ {
+  "description": "A fund manager based in Dubai's financial district (DIFC) and controlled by Al Salam Bank, which handles money for investors across the Middle East. In October 2026 it partnered with StepStone Group to launch a private financing fund.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "ASB Capital",
+  "sources": [
+   {
+    "label": "ASB Capital official website",
+    "url": "https://asbc.com"
+   }
+  ],
+  "website": "https://asbc.com",
+  "type": "company"
+ },
+ {
+  "description": "A US-based registered investment adviser that manages money and gives financial advice to clients. In September 2026 it partnered with RihalQ to get Islamic screening data for its US investors.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Asal Invest",
+  "sources": [
+   {
+    "label": "Asal Invest official website",
+    "url": "https://asalinvest.com"
+   },
+   {
+    "label": "IFN Investor monthly review (Sept 2026) — notes the Asal Invest / RihalQ partnership",
+    "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
+   }
+  ],
+  "website": "https://asalinvest.com",
+  "type": "company"
+ },
+ {
+  "description": "An investment company based in the United Arab Emirates that puts money into property, private businesses, and other opportunities while following Islamic rules. It manages more than $4 billion for investors and in October 2026 bought a majority stake in London House Exchange.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Gulf Islamic Investments",
+  "sources": [
+   {
+    "label": "Gulf Islamic Investments official website",
+    "url": "https://www.gii.ae"
+   }
+  ],
+  "website": "https://www.gii.ae",
+  "type": "company"
+ },
+ {
+  "description": "A UK platform that lets people buy small slices of rental properties and trade them on a regulated exchange, instead of having to buy a whole house. It started life as Property Partner and is overseen by the UK's Financial Conduct Authority.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "London House Exchange",
+  "sources": [
+   {
+    "label": "London House Exchange official website",
+    "url": "https://www.londonhouseexchange.com"
+   }
+  ],
+  "website": "https://www.londonhouseexchange.com",
+  "type": "company"
+ },
+ {
+  "description": "A UK finance company that offers home-buying and buy-to-let products built on Islamic co-ownership, so there is no interest charge. It grew fast after Gulf Islamic Investments took a majority stake, and in 2026 it bought Bank of Ireland's Alburaq Islamic home finance portfolio.",
+  "edition": "editions/2026-10-06.html",
+  "first_mentioned": "2026-10-06",
+  "name": "Offa",
+  "sources": [
+   {
+    "label": "Offa official website",
+    "url": "https://www.offa.co.uk"
+   },
+   {
+    "label": "FF News — Offa's buy-to-let rate announcement, referencing the Alburaq acquisition",
+    "url": "https://ffnews.com/news/islamic-property-finance-firm-offa-announces-buy-to-let-rate-drops"
+   }
+  ],
+  "website": "https://www.offa.co.uk",
+  "type": "company"
+ },
+ {
+  "description": "An app-based investing platform that builds portfolios only from halal stocks, Islamic bonds (sukuk), and gold, with scholars checking that everything stays within Islamic rules. It serves hundreds of thousands of customers in the US, UK, Malaysia, and other countries.",
+  "edition": "editions/2026-10-06.html",
+  "first_mentioned": "2026-10-06",
+  "name": "Wahed",
+  "sources": [
+   {
+    "label": "Wahed official website",
+    "url": "https://www.wahed.com"
+   }
+  ],
+  "website": "https://www.wahed.com",
+  "type": "company"
+ },
+ {
+  "description": "A small Seattle-based investment firm that filed with US regulators to launch an Islamic exchange-traded fund tracking large American stocks, advised by Exchange Traded Concepts and Mellon Capital with the Shariyah Review Bureau as its Islamic adviser. No official company website could be verified.",
+  "edition": "editions/2026-10-06.html",
+  "first_mentioned": "2026-10-06",
+  "name": "Falah Capital",
+  "sources": [
+   {
+    "label": "Reuters (via LSE) — Seattle-based Falah Capital is preparing an Islamic ETF (Oct 2026)",
+    "url": "https://www.lse.co.uk/news/us-firms-new-islamic-etf-looks-to-test-muted-investor-demand-grarsikkc3zgeyd.html"
+   }
+  ],
+  "website": null,
+  "type": "company"
+ },
+ {
+  "description": "An investment manager based in Bellingham, Washington, that runs the Amana mutual funds — some of the oldest Islamic mutual funds in the United States. It picks stocks and bonds that pass Islamic screening so observant Muslims can invest with a clear conscience.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Saturna Capital",
+  "sources": [
+   {
+    "label": "Saturna Capital official website",
+    "url": "https://www.saturna.com"
+   },
+   {
+    "label": "SEC — Amana fund documents naming Saturna Capital Corporation as investment adviser",
+    "url": "https://www.sec.gov/Archives/edgar/data/766285/000076628519000023/amagx-summarypro.htm"
+   }
+  ],
+  "website": "https://www.saturna.com",
+  "type": "company"
+ },
+ {
+  "description": "Germany's first Islamic bank, based in Frankfurt and owned by Turkey's Kuveyt Turk participation bank. It offers accounts, savings, and financing for individuals and businesses using profit-sharing instead of interest.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "KT Bank AG",
+  "sources": [
+   {
+    "label": "KT Bank AG official website",
+    "url": "https://www.kt-bank.de"
+   }
+  ],
+  "website": "https://www.kt-bank.de",
+  "type": "company"
+ },
+ {
+  "description": "New York-based global alternative investment manager (~$30B AUM); its Global Sukuk Team won Euromoney's World's Best Islamic Fund Manager 2026.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Wafra Inc.",
+  "sources": [
+   {
+    "label": "Wafra official website",
+    "url": "https://www.wafra.com"
+   }
+  ],
+  "website": "https://www.wafra.com",
+  "type": "company"
+ },
+ {
+  "description": "Islamic investment certificates. Instead of lending money and collecting interest (which is riba), sukuk holders own a share of a real asset or project — like an airport terminal — and earn returns from the profit it generates. Often called 'Islamic bonds,' but they are ownership certificates, not debt.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Sukuk",
+  "sources": [
+   {
+    "label": "AAOIFI knowledge base: Sukuk",
+    "url": "https://github.com/meiftikaralam/islamic-finance-and-tech/blob/kb/sukuk/knowledge-base/sukuk.md"
+   }
+  ],
+  "type": "concept"
+ },
+ {
+  "description": "How an ETF holding Apple or Microsoft can be halal: the fund tracks an index of stocks screened against Islamic rules — no interest-based income, no alcohol, gambling or arms businesses, and strict limits on debt. A Shariah board certifies compliance, and any small leftover non-compliant income is 'purified' by donating it to charity.",
+  "edition": "editions/2026-10-06.html",
+  "first_mentioned": "2026-10-06",
+  "name": "Islamic ETFs and Shariah stock screening",
+  "sources": [],
+  "type": "concept"
+ },
+ {
+  "description": "Loans made directly to companies by non-bank lenders (like investment funds) instead of through a bank. It has been one of the fastest-growing corners of conventional finance; Shariah-compliant versions structure the lending without interest — for example through cost-plus sales or profit-sharing deals.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Private credit",
+  "sources": [
+   {
+    "label": "Alternative Credit Investor: ASB StepStone fund",
+    "url": "https://alternativecreditinvestor.com/2026/10/05/stepstone-and-asb-capital-launch-shariah-compliant-private-credit-fund/"
+   }
+  ],
+  "type": "concept"
+ },
+ {
+  "description": "Owning a small slice of an expensive asset — like a fraction of a rental property — instead of buying the whole thing. Regulated exchanges now let everyday investors buy and sell these slices, which fits Islamic finance naturally since returns come from a real asset you partly own.",
+  "edition": "editions/2026-10-07.html",
+  "first_mentioned": "2026-10-07",
+  "name": "Fractional ownership",
+  "sources": [
+   {
+    "label": "Alternative Credit Investor: GII / London House Exchange",
+    "url": "https://alternativecreditinvestor.com/2026/10/02/gulf-islamic-investments-takes-majority-stake-in-london-house-exchange/"
+   }
+  ],
+  "type": "concept"
+ },
+ {
+  "name": "SP Funds",
+  "type": "company",
+  "website": "https://www.spfunds.com",
+  "description": "The ETF arm of the ShariaPortfolio group. It runs a small lineup of US-listed halal exchange-traded funds — including the S&P Global Technology ETF that topped IFN Investor's America league table by three-month returns on October 5, 2026.",
+  "sources": [
+   {
+    "label": "Official site — SP Funds",
+    "url": "https://www.spfunds.com"
+   },
+   {
+    "label": "IFN Investor League Tables America (5-Oct-2026)",
+    "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "ShariaPortfolio",
+  "type": "company",
+  "website": "https://www.shariaportfolio.com",
+  "description": "A US boutique asset manager (registered investment adviser with the SEC) that has offered Shariah-compliant investing since 2003. Its group of companies manages over $3 billion and includes the SP Funds halal ETF lineup, plus wealth management and advisory services.",
+  "sources": [
+   {
+    "label": "Official site — ShariaPortfolio",
+    "url": "https://www.shariaportfolio.com"
+   },
+   {
+    "label": "IFN Investor League Tables America (5-Oct-2026)",
+    "url": "https://ifninvestor.com/league-tables-america-5-oct-2026/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Euroclear",
+  "type": "company",
+  "website": "https://www.euroclear.com",
+  "description": "A Brussels-based financial-market infrastructure group that settles and safekeeps securities for banks and investors worldwide. In October 2026, Qatar chose Euroclear Bank to settle its riyal-denominated government bonds and sukuk for international investors — the first time global buyers could access them this way.",
+  "sources": [
+   {
+    "label": "Official site — Euroclear",
+    "url": "https://www.euroclear.com"
+   },
+   {
+    "label": "Salaam Gateway — Qatar links government bonds and sukuk to Euroclear",
+    "url": "https://salaamgateway.com/story/qatar-links-government-bonds-and-sukuk-to-euroclear-in-bid-to-attract-foreign-investors"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Dubai Islamic Bank",
+  "type": "company",
+  "website": "https://www.dib.ae",
+  "description": "The UAE's largest Islamic bank by assets and the world's first full-service Islamic bank, founded in 1975. In October 2026 it announced it would redeem its outstanding $500 million Additional Tier 1 sukuk on its first call date, October 19, 2026.",
+  "sources": [
+   {
+    "label": "Official site — Dubai Islamic Bank",
+    "url": "https://www.dib.ae"
+   },
+   {
+    "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+    "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Euronext Dublin",
+  "type": "company",
+  "website": "https://www.euronext.com/en/markets/dublin",
+  "description": "Ireland's main stock exchange and a common listing venue for international debt securities and sukuk, including Gulf issuers. Dubai Islamic Bank's $500 million AT1 sukuk was listed here until its planned redemption in October 2026.",
+  "sources": [
+   {
+    "label": "Official site — Euronext Dublin",
+    "url": "https://www.euronext.com/en/markets/dublin"
+   },
+   {
+    "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+    "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Murabaha",
+  "type": "concept",
+  "website": null,
+  "description": "A 'cost-plus' sale used across Islamic finance. The bank buys an asset (a house, car, or machine) and sells it to the customer at a disclosed price — its cost plus an agreed profit markup — paid in fixed installments. Because the bank genuinely buys and then sells the asset, this counts as trade rather than an interest-bearing loan. Example: halal home financing, where the bank buys a house and resells it to the buyer at a fixed marked-up price paid over years.",
+  "sources": [
+   {
+    "label": "Islamic Finance Daily Brief — Learn section (Oct 8, 2026)",
+    "url": "https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-08.html"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Additional Tier 1 (AT1) sukuk",
+  "type": "concept",
+  "website": null,
+  "description": "A type of bank funding that sits between equity and ordinary debt: it can absorb losses if the bank gets into trouble, and the bank can usually redeem (call) it on a set date. Dubai Islamic Bank's $500 million AT1 sukuk, issued in 2021, is the Shariah-compliant version of this instrument — called on its first call date, October 19, 2026.",
+  "sources": [
+   {
+    "label": "Reuters via TradingView — DIB to redeem $500m AT1 sukuk (Oct 7, 2026)",
+    "url": "https://www.tradingview.com/news/reuters.com,2026-10-07:newsml_Zaw94rWVt:0-dubai-islamic-bank-to-redeem-500mln-at-1-sukuk-on-first-call-date/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Short interest",
+  "type": "concept",
+  "website": null,
+  "description": "The total number of a stock's (or ETF's) shares that investors have borrowed and sold, betting the price will fall. A rise in short interest means more traders are taking that side of the bet. Example: short interest in Wahed's HLAL halal ETF jumped 66% during September 2026 — though at under 1% of shares, it was still a small position.",
+  "sources": [
+   {
+    "label": "Defense World — Wahed FTSE USA Shariah ETF short interest (Oct 2, 2026)",
+    "url": "https://www.defenseworld.net/2026/10/02/wahed-ftse-usa-shariah-etf-nasdaqhlal-sees-large-growth-in-short-interest.html"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Wafra",
+  "type": "company",
+  "website": "https://www.wafra.com/",
+  "description": "A New York-based asset manager with about $30 billion under management. Its Global Sukuk Strategy, an actively managed portfolio of Islamic bonds, was named World's Best Islamic Fund Manager at the 2026 Euromoney Islamic Finance Awards — its third win in a row.",
+  "sources": [
+   {
+    "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
+    "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
+   },
+   {
+    "label": "Wafra official site",
+    "url": "https://www.wafra.com/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Baruch Islamic Investment Research Group",
+  "type": "company",
+  "description": "A student-run investment research group at Baruch College in New York. It was a featured organizer of the inaugural student-led Islamic Finance Conference in September 2026, part of a growing student-built Islamic finance ecosystem in the city.",
+  "sources": [
+   {
+    "label": "World City Press: Baruch College Islamic Finance Conference",
+    "url": "https://lifestyle.worldcitypress.com/story/369336/student-led-islamic-finance-ecosystem-takes-shape-in-new-york-at-inaugural-conference-at-baruch-college/"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "Euromoney",
+  "type": "company",
+  "description": "A financial media and events company. Its annual Islamic Finance Awards, judged by its journalists and researchers, recognize the year's strongest Islamic finance institutions — Wafra won Best Islamic Fund Manager in 2026.",
+  "sources": [
+   {
+    "label": "PR Newswire: Wafra named World's Best Islamic Fund Manager 2026",
+    "url": "https://www.prnewswire.co.uk/news-releases/wafra-named-worlds-best-islamic-fund-manager-for-2026-302803118.html"
+   }
+  ],
+  "first_mentioned": "2026-10-08",
+  "edition": "editions/2026-10-08.html"
+ },
+ {
+  "name": "MASNA Ventures",
+  "type": "company",
+  "website": "https://masnavc.com",
+  "description": "A Saudi venture capital firm behind the Sentinel Shield Fund I, a defense-tech fund backing the local manufacture of advanced technologies in Saudi Arabia. In October 2026 it appointed Al Marji Advisory for independent Sharia governance of the fund.",
+  "sources": [
+   {
+    "label": "mid-east.info — Sentinel Shield Fund I appoints Al Marji Advisory (Oct 2026)",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Al Marji Advisory Company",
+  "type": "company",
+  "website": "https://almarji.net",
+  "description": "A Riyadh-based Sharia advisory firm that helps Islamic financial institutions meet Sharia governance rules. In October 2026 it was appointed to set up and supervise the Sharia board for MASNA Ventures' Sentinel Shield Fund I, including audits and certification.",
+  "sources": [
+   {
+    "label": "mid-east.info — Sentinel Shield Fund I appoints Al Marji Advisory (Oct 2026)",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   },
+   {
+    "label": "Al Marji Advisory — official site",
+    "url": "https://almarji.net/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "j. awan capital",
+  "type": "company",
+  "website": "https://www.jawanpartners.com",
+  "description": "A Riyadh-based fund manager that runs MASNA Ventures' Sentinel Shield Fund I, a Saudi-regulated defense venture capital fund. It structures and manages the fund's investments in unmanned systems, AI-enabled defense, and related technologies.",
+  "sources": [
+   {
+    "label": "mid-east.info — Sentinel Shield Fund I appoints Al Marji Advisory (Oct 2026)",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Devon Bank",
+  "type": "company",
+  "website": "https://devonbank.com",
+  "description": "A Chicago community bank running one of the oldest Islamic finance programs in the US. It offers Sharia-compliant home financing (murabaha) and profit-sharing deposit accounts, giving American Muslims an alternative to interest-based banking.",
+  "sources": [
+   {
+    "label": "Devon Bank — official site",
+    "url": "https://devonbank.com"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "University Islamic Financial",
+  "type": "company",
+  "website": "https://myuif.com",
+  "description": "A Michigan-based Islamic finance provider (a subsidiary of University Bank) offering Sharia-compliant home financing through murabaha and ijara structures, plus halal deposit accounts. One of the first Islamic banking operations in the US.",
+  "sources": [
+   {
+    "label": "UIF Corporation — official site",
+    "url": "https://myuif.com"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Sharia board",
+  "type": "concept",
+  "website": null,
+  "description": "A panel of Islamic scholars that checks whether a bank's or fund's products and deals follow Islamic rules. Example: Al Marji Advisory was hired to set up and supervise an independent Sharia board for the Sentinel Shield Fund I.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — Sentinel Shield Fund I story",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Special-purpose vehicle (SPV)",
+  "type": "concept",
+  "website": null,
+  "description": "A separate legal company created to hold specific assets or investments, keeping them apart from the parent firm's other business. Example: the Sentinel Shield Fund I invests through SPVs focused on areas like unmanned systems and AI-enabled defense.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — Sentinel Shield Fund I story",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Accredited investor",
+  "type": "concept",
+  "website": null,
+  "description": "A US SEC category for wealthy investors — individuals earning $200,000+ a year ($300,000 with a spouse) or holding $1M+ in assets excluding their home. Only accredited investors can join certain private funds; everyone else is limited to public investments or funds opened to all.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — accredited investor guidance",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Zakat",
+  "type": "concept",
+  "website": null,
+  "description": "The obligatory Islamic alms: 2.5% of qualifying wealth paid yearly to the poor. Example: stocks or ETFs held for a full lunar year above the nisab threshold owe 2.5% of their market value, usually paid through a charity.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — zakat guidance",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Nisab",
+  "type": "concept",
+  "website": null,
+  "description": "The minimum wealth threshold above which zakat becomes due — roughly the value of 85 grams of gold. Example: if your stocks are worth less than the nisab after a full lunar year, no zakat is owed on them.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — zakat guidance",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Ijara",
+  "type": "concept",
+  "website": null,
+  "description": "Leasing. In halal home finance, the financier buys the house and leases it to you; each payment combines rent with a buyout portion that gradually transfers ownership. Example: University Islamic Financial offers ijara-based home financing in the US.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — ijara guidance",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ },
+ {
+  "name": "Takaful",
+  "type": "concept",
+  "website": null,
+  "description": "Islamic insurance. Members contribute to a shared pool, and the pool pays out when a member suffers a covered loss. Example: family takaful works like life insurance — monthly contributions, and the pool pays the family an agreed sum if the member passes away.",
+  "sources": [
+   {
+    "label": "Oct 9 edition — Takaful explainer",
+    "url": "https://mid-east.info/saudi-arabia-masna-ventures-sentinel-shield-fund-i-appoints-al-marji-advisory-company-to-provide-independent-sharia-assurance/"
+   }
+  ],
+  "first_mentioned": "2026-10-09",
+  "edition": "editions/2026-10-09.html"
+ }
 ]

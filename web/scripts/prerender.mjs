@@ -12,6 +12,10 @@ const SITE_URL = "https://meiftikaralam.github.io/islamic-finance-and-tech";
 
 const routes = JSON.parse(readFileSync(join(ROOT, "web", "src", "generated", "routes.json"), "utf-8"));
 
+// The site is served from this subpath on GitHub Pages. The router basename
+// needs the full path, so the prerender passes basename + route path.
+const BASENAME = "/islamic-finance-and-tech";
+
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
 function headFor(r) {
@@ -46,9 +50,14 @@ function headFor(r) {
 const server = await createServer({ server: { middlewareMode: true }, appType: "custom" });
 const { render } = await server.ssrLoadModule("/src/entry-server.tsx");
 const template = readFileSync(join(DIST, "index.html"), "utf-8");
+// The prerender overwrites dist/index.html (the "/" route), so a second run
+// without a fresh `vite build` would silently reuse a stale template.
+if (!template.includes("<!-- PRERENDER-HEAD -->") || !template.includes('<div id="root"></div>')) {
+  throw new Error("prerender template is stale (already prerendered?) — run `vite build` first");
+}
 
 for (const r of routes) {
-  const appHtml = render(r.path);
+  const appHtml = render(BASENAME + r.path);
   let html = template.replace(`<div id="root"></div>`, `<div id="root">${appHtml}</div>`);
   html = html.replace("<!-- PRERENDER-HEAD -->", headFor(r));
   const outPath = r.path === "/" ? join(DIST, "index.html") : join(DIST, r.path.slice(1));

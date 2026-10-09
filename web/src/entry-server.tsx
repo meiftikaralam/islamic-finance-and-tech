@@ -6,7 +6,7 @@ import "./index.css";
 /** Server entry used by scripts/prerender.mjs — renders one route to HTML. */
 export function render(url: string): string {
   return renderToString(
-    <StaticRouter location={url}>
+    <StaticRouter location={url} basename="/islamic-finance-and-tech">
       <App />
     </StaticRouter>
   );

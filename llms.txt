@@ -69,6 +69,7 @@
 - [Islamic Finance Daily Brief — October 6, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-06.html)
 - [Islamic Finance Daily Brief — October 7, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-07.html)
 - [Islamic Finance Daily Brief — October 8, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-08.html)
+- [Islamic Finance Daily Brief — October 9, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-09.html)
 - [Experiment: asking AI to value stocks like Buffett and Graham](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/ai-persona-stock-analysis.html)
 - [ETFs, explained: what they are, what makes one Shariah, and the tech underneath](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/shariah-etf-guide.html)
 - [Sukuk, finally explained: the beginner's guide I wish I'd had](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/sukuk-guide.html)

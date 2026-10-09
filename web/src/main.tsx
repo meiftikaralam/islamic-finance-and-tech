@@ -13,7 +13,7 @@ function ClientApp() {
 hydrateRoot(
   document.getElementById("root")!,
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/islamic-finance-and-tech">
       <ClientApp />
     </BrowserRouter>
   </StrictMode>

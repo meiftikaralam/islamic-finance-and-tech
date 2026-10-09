@@ -10,7 +10,7 @@ export default defineConfig({
   },
   // Project pages are served from /islamic-finance-and-tech/ — but the built
   // files are deployed to the repo root, so keep base relative for assets.
-  base: "./",
+  base: "/islamic-finance-and-tech/",
   build: {
     outDir: "dist",
     emptyOutDir: true,

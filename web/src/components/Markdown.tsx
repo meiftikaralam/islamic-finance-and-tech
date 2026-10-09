@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { withBase } from "@/lib/site";
 
 function textOf(node: ReactNode): string {
   if (node == null || typeof node === "boolean") return "";
@@ -34,8 +35,10 @@ export function Markdown({ body, className }: { body: string; className?: string
         },
         a({ href, children }) {
           const external = href?.startsWith("http");
+          // Root-absolute links in markdown content need the serving subpath.
+          const fixed = !external && href?.startsWith("/") ? withBase(href) : href;
           return (
-            <a href={href} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+            <a href={fixed} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
               {children}
             </a>
           );

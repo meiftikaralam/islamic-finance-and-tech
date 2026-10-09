@@ -35,7 +35,7 @@ const statics = [
 for (const [path, kind, title, description] of statics) {
   const slug = kind === "page" ? basename(path, ".html") === "about" ? "about" : "playbook" : undefined;
   routes.push({ path, kind, slug, title, description });
-  addSearch(title, path.replace(/^\//, ""), "Page", description);
+  addSearch(title, path, "Page", description);
 }
 
 // --- editions ---
@@ -43,7 +43,7 @@ for (const f of mdFiles(join(ROOT, "content", "editions"))) {
   const slug = basename(f, ".md");
   const d = fm(join(ROOT, "content", "editions", f));
   routes.push({ path: `/editions/${slug}.html`, kind: "edition", slug, title: d.title, description: d.description, date: d.date });
-  addSearch(d.title, `editions/${slug}.html`, "Newsletter edition", d.description);
+  addSearch(d.title, `/editions/${slug}.html`, "Newsletter edition", d.description);
 }
 
 // --- posts ---
@@ -52,7 +52,7 @@ for (const f of mdFiles(join(ROOT, "content", "posts"))) {
   const slug = basename(f, ".md");
   const d = fm(join(ROOT, "content", "posts", f));
   routes.push({ path: `/lab/${slug}.html`, kind: "post", slug, title: d.title, description: d.description, date: d.date });
-  addSearch(d.title, `lab/${slug}.html`, "Post", d.description);
+  addSearch(d.title, `/lab/${slug}.html`, "Post", d.description);
 }
 
 // --- AAOIFI standards (individual pages — one per standard for SEO/agents) ---
@@ -63,14 +63,14 @@ for (const f of mdFiles(stdDir)) {
   const title = `SS ${d.ss}: ${d.title} — AAOIFI in Simple English`;
   const description = d.one_line || `AAOIFI Shariah Standard ${d.ss} explained in simple English.`;
   routes.push({ path: `/aaoifi/${slug}.html`, kind: "aaoifi-standard", slug, title, description, ss: d.ss });
-  addSearch(title, `aaoifi/${slug}.html`, "AAOIFI Standard", description);
+  addSearch(title, `/aaoifi/${slug}.html`, "AAOIFI Standard", description);
 }
 
 // --- glossary entries into search ---
 const glossary = JSON.parse(readFileSync(join(ROOT, "content", "glossary-data.json"), "utf-8"));
 for (const e of glossary) {
   const anchor = e.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  addSearch(e.name, `glossary/index.html#${anchor}`, `Glossary: ${e.type}`, e.description);
+  addSearch(e.name, `/glossary/index.html#${anchor}`, `Glossary: ${e.type}`, e.description);
 }
 
 routes.sort((a, b) => a.path.localeCompare(b.path));

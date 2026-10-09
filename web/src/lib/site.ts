@@ -2,6 +2,16 @@ export const SITE_URL = "https://meiftikaralam.github.io/islamic-finance-and-tec
 export const SITE_NAME = "Islamic Finance Daily Brief";
 export const TAGLINE = "Educational resources for Islamic finance and the technology behind it";
 
+// Subpath the site is served from (GitHub Pages project site). Must match
+// vite.config.ts `base` and the router basename in main.tsx / entry-server.tsx.
+export const BASENAME = "/islamic-finance-and-tech";
+
+/** Prefix a root-absolute path ("/about.html") with the serving subpath. */
+export function withBase(path: string): string {
+  if (path.startsWith(BASENAME + "/") || path === BASENAME) return path;
+  return BASENAME + path;
+}
+
 export const DISCLAIMER =
   "For educational purposes only — not investment advice. Nothing here is a recommendation to buy, sell, or hold any security. Iftikar is not a licensed financial advisor. AI-assisted content can contain mistakes; do your own research and consult a qualified professional before making financial decisions.";
 
