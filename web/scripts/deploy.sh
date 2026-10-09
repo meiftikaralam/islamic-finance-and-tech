@@ -21,6 +21,7 @@ rsync -a --delete \
   --exclude 'aaoifi-educational-kb/' \
   --exclude '.git/' \
   --exclude 'README.md' \
+  --exclude '.gitignore' \
   --exclude 'lab/README.md' \
   "$WEB/dist/" "$ROOT/"
 
