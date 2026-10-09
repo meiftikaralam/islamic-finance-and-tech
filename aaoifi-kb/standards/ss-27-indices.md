@@ -9,22 +9,22 @@ one_line: "Sets the rules for building Shariah-compliant stock market indices an
 
 ## What this standard is about
 
-A stock market index is a number that tracks the performance of a basket of shares. An Islamic index tracks only shares that pass Shariah (Islamic law) tests, so Muslim investors can use it as a benchmark or build investment funds on it. This standard sets the rules for creating such indices.
+A stock market index is a number that tracks the performance of a basket of shares. An Islamic index tracks only shares that pass Shariah (Islamic law) tests, so Muslim investors can use it as a benchmark or build investment funds on it. This standard sets the rules for creating such indices. It requires that index components are Shariah-compliant shares, that a Shariah supervisory board oversees the index, and that the list is reviewed regularly.
 
-Companies are screened in two stages before they can join an index. First, the business is checked. A company whose core business is forbidden is excluded. Forbidden businesses include interest-based banking, conventional insurance, gambling, alcohol, pork, tobacco, and weapons. Second, the finances are checked. Companies with too much interest-bearing debt or too much income from forbidden sources are excluded.
+In practice, index providers screen companies in two stages before they can join an index. First, the business is checked. A company whose core business is forbidden is excluded. Forbidden businesses include interest-based banking, conventional insurance, gambling, alcohol, pork, tobacco, and weapons. Second, the finances are checked. Companies with too much interest-bearing debt or too much income from forbidden sources are excluded. These screening methods are industry practice used by index providers. The standard itself sets the framework above; it does not spell out the sector lists or the ratio thresholds.
 
 The standard also sets limits on how an index may be used. Building and publishing an index is allowed, because an index is a method of forecasting and observing market conditions, and Shariah accepts reasoned inference from facts. Buying or selling the index itself is forbidden, because that is paying money for a mere number, which is a form of gambling (maysir). Option contracts based on an index are forbidden for the same reason.
 
 ## Why it exists
 
-Investors who want halal (permissible under Islamic rules) investments need a trustworthy list of Shariah-compliant shares. Without a standard, each index provider could apply different tests and still call its index Islamic. The standard sets common screening principles. It also separates two uses of an index: using it as a measuring tool, which is allowed, and trading the index number itself, which the International Islamic Fiqh Academy has ruled to be pure gambling.
+Investors who want halal (permissible under Islamic rules) investments need a trustworthy list of Shariah-compliant shares. Without a standard, each index provider could apply different tests and still call its index Islamic. The standard sets the common framework: compliant components, board oversight, and regular review. It also separates two uses of an index: using it as a measuring tool, which is allowed, and trading the index number itself, which the International Islamic Fiqh Academy has ruled to be pure gambling.
 
 ## The key rules, simply put
 
 - An index may only include shares that pass Shariah screening.
-- Companies whose main business is forbidden are excluded: interest-based finance, gambling, alcohol, pork, tobacco, weapons, and conventional insurance.
-- Companies are checked on financial ratios, so firms with heavy interest-based debt or large forbidden income are excluded.
+- The index must have a Shariah supervisory board overseeing it.
 - Index providers must review the list regularly and remove companies that stop passing the tests.
+- Providers typically exclude companies whose main business is forbidden — interest-based finance, gambling, alcohol, pork, tobacco, weapons, and conventional insurance — and apply financial ratio checks. These are industry methods, not clauses of the standard.
 - Developing and publishing an index is permissible in Shariah.
 - Selling or buying an index is prohibited, because it is payment for the mere existence of a reading, a form of gambling.
 - Option contracts based on an index, or on an index multiplier, are prohibited for the same reason, and because options themselves are prohibited.

@@ -1,11 +1,11 @@
 ---
 ss: 26
-title: "Islamic Insurance (Takaful)"
+title: "Islamic Insurance"
 category: "Islamic insurance"
 one_line: "Defines Islamic insurance (takaful) as donation-based mutual protection and sets the controls Islamic financial institutions must follow when offering it."
 ---
 
-# SS 26: Islamic Insurance (Takaful)
+# SS 26: Islamic Insurance
 
 ## What this standard is about
 

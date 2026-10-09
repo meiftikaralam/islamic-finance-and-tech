@@ -1,11 +1,11 @@
 ---
 ss: 52
-title: "Options to Reconsider (Cooling-Off, Either-Or, Revoke for Non-Payment)"
+title: "Options to Reconsider (Cooling-Off Options, Either-Or Options, Revoke for Non-Payment)"
 category: "Options and promises"
 one_line: "Rules for three options: thinking time after signing, canceling when the buyer does not pay, and picking one item from a list."
 ---
 
-# SS 52: Options to Reconsider (Cooling-Off, Either-Or, Revoke for Non-Payment)
+# SS 52: Options to Reconsider (Cooling-Off Options, Either-Or Options, Revoke for Non-Payment)
 
 ## What this standard is about
 
@@ -43,4 +43,4 @@ A man agrees to buy a car and the contract gives him three days to reconsider. O
 
 ## Source
 
-- AAOIFI Shariah Standard No. 52 — https://islamicmarkets.com/publications/options-to-reconsider-cooling-off-options-either-or-options-and-options-to-2
+- AAOIFI Shariah Standard No. 52 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

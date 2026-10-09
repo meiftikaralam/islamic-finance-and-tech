@@ -22,7 +22,7 @@ Investment agency is one of the most-used structures in Islamic banking — for 
 - The agency fee must be clearly specified — a fixed amount or a ratio — and agreed by both sides. The fee stays the same whether the investment does well or badly.
 - A performance incentive may be added, but if the agency ends early, the incentive can be reduced proportionally when both sides agree.
 - The agent must follow the agreed mandate. If he breaches its conditions, he becomes liable for the resulting loss.
-- The agent is a trustee: he is not liable for market losses, and he may not guarantee the capital or the profit.
+- The agent is a trustee: he is not liable for market losses. He also may not guarantee the capital or the profit. That ban comes from SS 56, the standard on the liability of investment managers.
 - If the agency is unrestricted, the agent may place the funds in a mudarabah portfolio — but he still earns only his agency fee, not a mudarabah profit share.
 - If the agency term expires while some receivables are still uncollected, the agent must still collect them. He earns no extra fee for this unless agreed, and he may not reuse the money for himself.
 - Islamic institutions may appoint conventional banks as investment agents (and accept agency funds from them), provided the contracts are Shariah-compliant and properly supervised.
@@ -41,4 +41,4 @@ A customer gives $100,000 to an Islamic bank under a one-year investment agency 
 
 ## Source
 
-- AAOIFI Shariah Standard No. 46 — https://islamicmarkets.com/publications/al-wakalah-bi-al-istithmar-investment-agency-scope-shariah-ruling
+- AAOIFI Shariah Standard No. 46 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

@@ -43,5 +43,4 @@ A woman orders a blue sofa from a furniture store's catalog. The store delivers 
 
 ## Source
 
-- AAOIFI Shariah Standard No. 51 — https://islamicmarkets.com/index.php/publications/options-to-revoke-contracts-due-to-incomplete-performance-scope
 - AAOIFI Shariah Standard No. 51 (full text PDF) — https://aaoifi.com/wp-content/uploads/2020/08/SS-51-Options-to-Revoke-Contracts-Due-to-Incomplete-Performance.pdf

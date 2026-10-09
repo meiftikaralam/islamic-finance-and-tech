@@ -25,7 +25,7 @@ Islamic banks finance homes, cars, and businesses on deferred payment. They need
 - The asset can be held by the creditor, by his agent, or by an agreed neutral third party.
 - The creditor may require the debtor to authorize him to sell the asset and repay the debt from its value if default happens — without going to court.
 - The mortgaged asset stays owned by the debtor. It is a trust in the creditor's hands. If it is destroyed without anyone's fault, the debt still stands.
-- The asset must be halal, clearly identified, and deliverable. It can be tangible property, cash, shares, sukuk, a bank balance, or even a future asset.
+- The asset must be halal, clearly identified, and deliverable. It can be tangible property, cash, shares, sukuk, a bank balance, or future income from a specified asset.
 - The same asset can be mortgaged to more than one creditor, with rights shared in proportion to each debt.
 - The mortgage ends when the debt is paid, when the creditor releases it, or when the asset perishes without compensation.
 - The debtor must still pay zakah on the mortgaged asset, since he still owns it.

@@ -25,10 +25,8 @@ Conventional credit cards run on interest: balances revolve month to month and i
 - A revolving credit card, where balances carry forward with interest, is not allowed.
 - A Shariah-compliant credit card works as a benevolent loan (qard hasan): the holder repays only the principal in installments, and the bank charges only fees that cover its actual direct costs.
 - Fees on lending cards must not exceed the bank's actual costs of issuance, renewal, withdrawals, and currency exchange. Fees on non-lending cards follow the agreement between the parties.
-- Cards may not be used for forbidden purposes. The bank must warn customers, may cancel misused cards, and should use technical measures to block such use.
+- Cards may not be used for forbidden purposes. The bank may cancel cards that are misused.
 - Rewards such as cashback, discounts, and air miles are allowed when Shariah-compliant. Forbidden perks, such as conventional insurance or gifts linked to prohibited activities, are not.
-- Takaful (Islamic insurance) may be offered as a card feature, for example against card theft.
-- Banks must disclose all fees transparently when marketing cards and must not push customers toward excessive spending.
 
 ## An everyday example
 
@@ -44,5 +42,5 @@ An Islamic bank issues a credit card structured as qard hasan. The customer spen
 
 ## Source
 
-- AAOIFI Shariah Standard No. 61 (replaces SS 2) — https://www.scribd.com/document/825684431/Summary-of-AAOIFI-Shariah-Standards
-- Shariah rules on card structures (SS 2 summary) — https://daralsharia.ae/docs/default-source/news-pdf/standard-2.pdf
+- AAOIFI announcement: Shariah Standard on Payment Cards (SS 61) approved and issued — https://aaoifi.com/announcement/aaoifi-shariah-board-approves-and-issues-shariah-standard-payment-cards/?lang=en
+- AAOIFI exposure draft citing SS 61 clauses 5/1/1 and 5/2 (fee rules) — https://aaoifi.com/wp-content/uploads/2025/12/ED-of-FAS-__-Direct-Costs-Determination-Attribution-and-Reimbursement.pdf (no free full text of the standard is published; AAOIFI sells the complete text)

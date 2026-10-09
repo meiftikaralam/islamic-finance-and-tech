@@ -43,5 +43,4 @@ A customer applies for Islamic home financing through the bank's website. He rea
 
 ## Source
 
-- AAOIFI Shariah Standard No. 38 — https://www.slideshare.net/slideshow/contigent-impact-of-incidents-on-commitment-pptx/269687346
-- AAOIFI Standard No. 38 scope note — https://financepoly.com/best-shariah-trading-platforms/
+- AAOIFI Shariah Standard No. 38 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

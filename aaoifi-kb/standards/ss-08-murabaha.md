@@ -21,7 +21,6 @@ Murabaha to the purchase orderer is the workhorse of Islamic banking: car financ
 - The bank must own the asset before selling it. The customer must not buy it directly from the supplier first.
 - The customer's promise to buy can be binding or non-binding. A binding promise is backed by a resolution of the International Islamic Fiqh Academy.
 - If the customer breaks a binding promise, the bank may deduct only its actual loss from the security deposit. It cannot deduct its expected profit.
-- Earnest money (urbun) paid by the customer can be kept in full by the bank if the sale does not go through.
 - Once the sale price is agreed, it cannot be increased — including for late payment.
 - The bank may appoint the customer as its agent to buy from the supplier. The bank still carries the ownership risk.
 

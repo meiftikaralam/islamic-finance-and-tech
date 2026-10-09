@@ -48,4 +48,4 @@ A customer wants a laptop the bank does not own. He firmly promises the bank: "B
 
 ## Source
 
-- AAOIFI Shariah Standard No. 49 — http://islamicmarkets.com/publications/unilateral-and-bilateral-promise-scope-shariah-ruling
+- AAOIFI Shariah Standard No. 49 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

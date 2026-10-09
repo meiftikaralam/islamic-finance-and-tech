@@ -1,11 +1,11 @@
 ---
 ss: 60
-title: "Waqf (updated standard)"
+title: "Waqf"
 category: "Islamic social finance"
 one_line: "Rules for waqf, the Islamic endowment where an asset is locked in and its benefits given to charity, and it updates the earlier waqf standard."
 ---
 
-# SS 60: Waqf (updated standard)
+# SS 60: Waqf
 
 ## What this standard is about
 
@@ -43,5 +43,5 @@ A woman endows $500,000 as cash waqf to fund scholarships. The capital is invest
 
 ## Source
 
-- AAOIFI Shariah Standard No. 60 (replaces SS 33) — https://www.scribd.com/document/825684431/Summary-of-AAOIFI-Shariah-Standards
+- AAOIFI Shariah Standard No. 60 (replaces SS 33) — official AAOIFI English text — https://estithmar.org.sa/wp-content/uploads/AAOIFI-SS.-60-Waqf-English.pdf
 - Cash waqf under SS 60 — https://www.mdpi.com/1911-8074/13/4/76/

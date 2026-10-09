@@ -44,4 +44,4 @@ A buyer agrees to purchase a plot of land for $100,000 and pays $5,000 as arboun
 
 ## Source
 
-- AAOIFI Shariah Standard No. 53 — https://islamicmarkets.com/publications/arboun-earnest-money-scope-of-standard
+- AAOIFI Shariah Standard No. 53 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

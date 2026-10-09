@@ -44,4 +44,4 @@ A man buys a used car after the dealer paints over rust and rolls back the odome
 
 ## Source
 
-- AAOIFI Shariah Standard No. 48 — https://islamicmarkets.com/publications/options-to-terminate-due-to-breach-of-trust-trust-based-options
+- AAOIFI Shariah Standard No. 48 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

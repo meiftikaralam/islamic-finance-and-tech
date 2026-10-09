@@ -22,7 +22,7 @@ Prize draws and promotions sit close to gambling (maysir), which Islam forbids. 
 ## The key rules, simply put
 
 - A competition is a contest between two or more parties to determine the best among them.
-- Prizes may be funded by the competitors themselves, by some of them, or by an outside party such as the sponsoring institution.
+- Prizes may be funded by an outside party such as the sponsoring institution, or by one of the competitors. Funding by more than one competitor is not allowed.
 - Institutions may organize or sponsor competitions, subject to the standard's conditions.
 - Promotional draws must not amount to gambling. Entry must not be a payment for a mere chance to win.
 - A discount coupon that also enters the buyer into a prize draw is allowed, subject to the rules on draws.

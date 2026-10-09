@@ -11,7 +11,7 @@ one_line: "The Shariah-compliant ways Islamic banks can raise cash when short an
 
 Banks constantly balance cash: sometimes they are short and need funds quickly (obtaining liquidity), sometimes they hold idle cash that should earn a return (deploying liquidity). Conventional banks solve this with interest-based borrowing and lending, which Islam forbids.
 
-This standard lists the compliant alternatives. A bank short of cash can obtain liquidity through an investment agency (wakalah) arrangement, or by issuing investment sukuk. A bank with surplus cash can place it with another Islamic bank that needs it, through a wakalah-based interbank facility — earning a fee for the agency service rather than interest.
+This standard lists the compliant alternatives. A bank short of cash can obtain liquidity through salam, istisna'a, sale-and-leaseback, mudaraba or musharaka financing, investment sukuk, tawarruq, or an interest-free loan. A bank with surplus cash can deploy it through an investment agency (wakalah) arrangement. For example, it can place funds with another Islamic bank and pay an agency fee for the service rather than interest.
 
 ## Why it exists
 
@@ -19,15 +19,15 @@ Liquidity management is daily business for every bank. Without approved Shariah-
 
 ## The key rules, simply put
 
-- A bank needing cash may obtain it through wakalah (investment agency): it appoints another party to invest funds on its behalf for an agreed fee.
+- A bank short of cash may obtain liquidity through salam, istisna'a, sale-and-leaseback, mudaraba or musharaka financing, investment sukuk, tawarruq, or an interest-free loan.
+- A bank with surplus cash may deploy it through wakalah (investment agency): it appoints another party to invest the funds for an agreed fee. The fee is paid by the bank that owns the funds (the principal) to the agent.
 - A bank may also raise funds by issuing investment sukuk backed by real assets.
-- A bank with surplus cash may place it with a deficit bank through the wakalah-based interbank facility — similar to a mudarabah placement, except the return is a fee, not a profit share.
 - Interest-based borrowing or lending is never permitted as a liquidity tool.
-- All liquidity instruments must avoid riba (interest) and the trading of pure debt.
+- All liquidity instruments must avoid riba (interest).
 
 ## An everyday example
 
-Bank A ends the day with $50 million in spare cash; Bank B is $50 million short. Through a wakalah placement, Bank A appoints Bank B as its agent to invest the $50 million overnight in halal activities. Bank B pays Bank A an agreed agency fee. No interest changes hands.
+Bank A ends the day with $50 million in spare cash; Bank B is $50 million short. Bank A (the principal) appoints Bank B as its agent to invest the $50 million overnight in halal activities. Bank A pays Bank B an agreed agency fee. No interest changes hands.
 
 ## Words to know
 
@@ -39,4 +39,4 @@ Bank A ends the day with $50 million in spare cash; Bank B is $50 million short.
 
 ## Source
 
-- AAOIFI Shariah Standard No. 44 — https://www.scribd.com/document/712657203/Liquidity-Management-Mechanisms-of-Islamic-and-Conventional-Finance-a-Shariah-Appraisal
+- AAOIFI Shariah Standard No. 44 — full text in the 2015 Shariah Standards book (pp. 1083–1095) — https://aaoifi.com/download/24233/

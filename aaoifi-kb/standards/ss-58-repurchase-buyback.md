@@ -24,7 +24,7 @@ Buyback tricks are one of the oldest ways to dress up interest as trade. A perso
 - A price difference is acceptable when there is no collusion and it reflects a genuine change in the asset's value, or when the buyback is by an independent third party.
 - A conventional repo, where securities are "sold" for cash and repurchased later at a higher price without any real transfer of ownership risk or yield, is treated as an interest-bearing loan backed by securities. It is not permitted.
 - Lawful liquidity alternatives include selling permissible securities such as stocks, sukuk, or fund units with a unilateral promise to buy back, and tawarruq transactions.
-- Sale-and-lease-back is allowed if the lease is independent of the sale and the lease term is long enough to be genuine.
+- Sale-and-lease-back is allowed if the lease is independent of the sale.
 - A partner in a musharaka or mudaraba may promise to buy back at the market price at the time, but may not promise a fixed price that guarantees the capital.
 
 ## An everyday example
@@ -41,4 +41,4 @@ A company sells its machinery to a bank for cash and immediately leases it back 
 
 ## Source
 
-- AAOIFI Shariah Standard No. 58 — https://www.scribd.com/document/825684431/Summary-of-AAOIFI-Shariah-Standards
+- AAOIFI Shariah Standard No. 58 — clauses 3/1, 3/3, 3/4 quoted in Suhuf journal, Vol. 37 No. 1 (2025) — https://journals2.ums.ac.id/suhuf/article/download/8114/3415 (no free full text of the standard is published; AAOIFI sells the complete text)

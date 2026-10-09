@@ -22,7 +22,7 @@ Islamic banks handle other people's money at scale. Without a standard, each ban
 - Zakah is due on zakatable assets — mainly cash, trade goods, and receivables — not on fixed assets like buildings and machinery.
 - Short-term liabilities (debts due within the year) are deducted before calculating.
 - The rate is 2.5% for a lunar (Islamic calendar) year, or 2.577% if the institution uses the solar (Gregorian) calendar year, to account for the extra days.
-- Zakah is only due if the net amount reaches nisab, the minimum threshold (the value of 87.48 grams of gold or 612.36 grams of silver).
+- Zakah is only due if the net amount reaches nisab, the minimum threshold (the value of 85 grams of pure gold or 595 grams of pure silver).
 - The standard covers the parent company, its subsidiaries, and Islamic insurance companies.
 - A bank may pay zakah on behalf of shareholders if they ask it to act as their agent.
 - Collected zakah must go to the eight eligible categories of recipients named in the Quran, which include the poor, the needy, and those in debt.

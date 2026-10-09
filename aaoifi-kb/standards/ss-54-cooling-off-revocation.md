@@ -45,4 +45,4 @@ A bank leases equipment to a company, and the lease says the bank may add a supp
 
 ## Source
 
-- AAOIFI Shariah Standard No. 54 — https://islamicmarkets.com/index.php/publications/revocation-of-contracts-by-exercise-of-a-cooling-off-option
+- AAOIFI Shariah Standard No. 54 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

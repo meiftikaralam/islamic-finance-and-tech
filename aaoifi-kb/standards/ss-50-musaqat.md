@@ -38,5 +38,4 @@ A retired man owns a small orange orchard but cannot maintain it. He agrees with
 
 ## Source
 
-- AAOIFI Shariah Standard No. 50 — https://islamicmarkets.com/publications/irrigation-partnership-musaqat-appendix-b-the-shariah-basis-for
-- AAOIFI definition of Musaqat (via SS 12 document) — https://aaoifi.com/wp-content/uploads/2020/08/SS-12-Sharikah-Musharakah-and-Modern-Corporations.pdf
+- AAOIFI Shariah Standard No. 50 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

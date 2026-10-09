@@ -22,14 +22,13 @@ Debt carries heavy moral weight in Islam, and unpaid debt is a serious matter. M
 - Insolvency must be declared by a competent authority after assessing the debtor's position. A debtor cannot simply declare himself insolvent.
 - The debtor has a moral duty not to take any action that further harms his creditors — for example, hiding assets or favoring one creditor over others.
 - If creditors ask, the court may physically sequester (take control of) the debtor's assets.
-- A debt is never wiped out by insolvency. It ends only through full repayment or voluntary forgiveness by the creditors.
-- Creditors do not have to prove they are the only creditors, and they are not obliged to inform the court about other creditors' claims.
-- The declaration must be public, so every creditor learns the true position in time to make a claim.
-- Creditors who appear after a distribution still receive a pro-rata share of whatever remains.
+- Creditors do not have to prove they are the only creditors.
+- The declaration is documented and certified through official procedures. If the insolvency is later revoked, the revocation must be announced publicly.
+- A creditor who appears after a distribution must recover his share from the creditors who already received theirs, by agreement or through the courts.
 
 ## An everyday example
 
-A small business owes money to five suppliers and cannot pay. One supplier goes to court, which examines the books and publicly declares the business insolvent. The court takes control of the remaining stock and equipment. After the first distribution, a sixth creditor appears with a valid claim — he receives a proportional share of what is left.
+A small business owes money to five suppliers and cannot pay. One supplier goes to court, which examines the books and publicly declares the business insolvent. The court takes control of the remaining stock and equipment. After the first distribution, a sixth creditor appears with a valid claim — he must recover his share from the five suppliers who already received theirs, by agreement or through the courts.
 
 ## Words to know
 
@@ -38,4 +37,4 @@ A small business owes money to five suppliers and cannot pay. One supplier goes 
 
 ## Source
 
-- AAOIFI Shariah Standard No. 43 — https://ceif-iba-edu-pkproxy.boingomedia.com/pdf/IFSBWorkingPaperRecoveryResolutionandInsolvencyIssuesInstitutionsOfferingIslamicFinancialServices.pdf
+- AAOIFI Shariah Standard No. 43 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

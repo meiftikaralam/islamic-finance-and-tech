@@ -1,11 +1,11 @@
 ---
 ss: 41
-title: "Islamic Reinsurance (Retakaful)"
+title: "Islamic Reinsurance"
 category: "Islamic insurance"
 one_line: "Rules for retakaful — Islamic reinsurance, where takaful companies share large risks with each other."
 ---
 
-# SS 41: Islamic Reinsurance (Retakaful)
+# SS 41: Islamic Reinsurance
 
 ## What this standard is about
 

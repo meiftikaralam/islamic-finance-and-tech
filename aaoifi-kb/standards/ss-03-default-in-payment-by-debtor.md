@@ -1,11 +1,11 @@
 ---
 ss: 3
-title: "Default in Payment by a Debtor"
+title: "Procrastinating Debtor"
 category: "Dealing with debts"
 one_line: "Forbids charging extra money when a debtor pays late, and sets what creditors may do instead."
 ---
 
-# SS 3: Default in Payment by a Debtor
+# SS 3: Procrastinating Debtor
 
 ## What this standard is about
 

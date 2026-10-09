@@ -19,7 +19,7 @@ The standard explains the relationship between the issuer and the investors. The
 
 Before this standard, sukuk practices varied widely and some products paid fixed returns like conventional bonds. That raised doubt about whether they were truly Islamic. The standard sets clear conditions so that sukuk represent genuine ownership of real assets and income from those assets.
 
-In 2008, AAOIFI also issued a resolution saying that for sukuk to be tradable, holders must own the underlying assets with all rights and obligations of ownership. The manager issuing the sukuk must record the transfer of ownership and may not keep the assets as its own. This stopped "asset-based" structures where investors only had a claim on the issuer rather than ownership of the assets.
+In 2008, AAOIFI issued a separate resolution (not part of this standard's 2003 text) saying that for sukuk to be tradable, holders must own the underlying assets with all rights and obligations of ownership. The manager issuing the sukuk must record the transfer of ownership and may not keep the assets as its own. This stopped "asset-based" structures where investors only had a claim on the issuer rather than ownership of the assets.
 
 ## The key rules, simply put
 
@@ -29,7 +29,7 @@ In 2008, AAOIFI also issued a resolution saying that for sukuk to be tradable, h
 - Trading of sukuk follows the rules that apply to the rights the sukuk represent.
 - Sukuk holders share the return stated in the prospectus and bear losses in proportion to the certificates they hold.
 - Each sukuk type must follow a contract recognized in Islamic law (Shariah) for both issuance and trading.
-- Investment Sukuk must be kept distinct from shares and bonds: shares represent ownership of a whole company with no fixed end date, while sukuk represent specified assets for a fixed period and pay returns based on the assets' cash flow.
+- Investment Sukuk must be kept distinct from shares and bonds: shares represent ownership of a whole company with no fixed end date, while sukuk represent specified assets and pay returns based on the assets' cash flow.
 
 ## An everyday example
 

@@ -23,11 +23,10 @@ Debts sit at the heart of modern finance: loans, receivables, commercial papers,
 - Selling a money debt to a third party for money, especially at a discount, is prohibited. Transferring a debt through hawalah (assignment) is different and is allowed.
 - A money debt may be sold to a third party for goods delivered immediately on the spot, or for a clearly identified service. It may not be sold for goods delivered later or for a vague future benefit.
 - A creditor may settle a debt with the debtor himself at face value, provided no interest results: the debt may not be swapped for a larger new debt, the amount may not be raised in exchange for more time, and no 'inah tricks are allowed.
-- Discounting commercial papers (selling them below face value) is not allowed. A debtor may, however, voluntarily pay early for a reduced amount.
+- Discounting commercial papers (selling them below face value) is not allowed.
 - Bonds may not be traded at all. Sukuk that represent debts, such as salam sukuk and murabaha sukuk, may not be traded for cash.
 - When a debt is mixed with other assets, such as shares of an operating company, the shares can be traded normally as long as the debt comes from genuine business activity and does not make up the entire asset base.
 - Factoring, the business of buying invoices at a discount, is not allowed except against goods delivered on the spot or clearly identified services.
-- The debtor's consent is not needed to sell a debt to a third party, unless the two sides agreed otherwise.
 
 ## An everyday example
 
@@ -44,5 +43,5 @@ A bank is owed $10,000 under a loan. Selling that receivable to an investor for 
 
 ## Source
 
-- AAOIFI Shariah Standard No. 59 — https://islamicmarkets.com/education/bai-al-dain
-- Summary of AAOIFI Shariah Standards — https://www.scribd.com/document/825684431/Summary-of-AAOIFI-Shariah-Standards
+- AAOIFI Shariah Standard No. 59 — clause readings in the State Bank of Pakistan's Compendium of AAOIFI Shariah Standards (updated 31 Jul 2025) — https://www.sbp.org.pk/assets/document/publications/Compendium.pdf
+- PIDM Muzakarah deck quoting clauses 8/1 and 8/2 — https://www.pidm.gov.my/getContentAsset/061df5b4-052e-4bff-b29c-62343bb55780/188ea75b-0100-4438-8f97-d79a01d9e0cd/PIDM-Muzakarah-Session-2-(Presenter)-Full-Transfer-Mechanism-Shariah-Issues-and-Solutions.pdf?language=en (no free full text of the standard is published; AAOIFI sells the complete text)

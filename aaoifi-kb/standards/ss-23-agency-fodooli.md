@@ -28,7 +28,7 @@ Agency sits at the heart of Islamic banking. Fund management, sukuk structuring,
 - The agent may not appoint a sub-agent without the principal's permission.
 - If more than one agent is appointed in a single contract, they cannot act alone unless the principal allows it.
 - The agency ends on the death of either party, when the principal dismisses the agent, when the agent quits, when the task is done, or when the principal no longer owns the assets concerned.
-- A fodooli's act has no effect until the owner approves it. If the owner approves, the contract stands. If the owner refuses, the fodooli must indemnify (compensate) the owner.
+- A fodooli's act has no effect until the owner approves it. If the owner approves, the contract stands. If the owner refuses, the act does not bind the owner. It becomes binding on the fodooli himself instead, as long as he did not declare at signing that he had no authority.
 
 ## An everyday example
 

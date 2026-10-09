@@ -20,9 +20,8 @@ Salam only works for fungible goods like wheat or oil. Construction and manufact
 - The price and the specifications must be fixed at the start. The price can be a lump sum or staged installments tied to milestones.
 - The buyer does not have to supply the materials.
 - The bank may sign the istisna'a with the customer before it owns the asset or the materials.
-- A delivery deadline is not required. The buyer may still set a maximum delivery time, after which they are not bound to accept the goods.
+- A delivery deadline is not required.
 - A pre-agreed penalty for late delivery (liquidated damages) is allowed.
-- Either party may cancel before the manufacturer has incurred costs.
 - If the finished asset matches the specifications, the buyer cannot refuse it.
 - The two contracts in parallel istisna'a must be independent of each other.
 - The buyer cannot sell the asset before taking possession of it.

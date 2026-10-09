@@ -1,11 +1,11 @@
 ---
 ss: 21
-title: "Financial Papers (Shares and Bonds)"
+title: "Financial Paper (Shares and Bonds)"
 category: "Islamic financial markets"
 one_line: "Shariah rules for buying, holding and trading shares and bonds."
 ---
 
-# SS 21: Financial Papers (Shares and Bonds)
+# SS 21: Financial Paper (Shares and Bonds)
 
 ## What this standard is about
 

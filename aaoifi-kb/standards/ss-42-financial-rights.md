@@ -25,12 +25,12 @@ Modern finance constantly creates partial rights — usage licenses, shared faci
 - A mere license to use something is for personal use only and cannot be transferred to a third party.
 - Private easements are established rights of one property over another, such as irrigation rights, water channels, drainage, or rights of passage.
 - Public easements are everyone's right to benefit from public utilities; each person's use is limited to personal use.
-- Co-owners and neighbours must not act in ways that harm each other. A co-owner selling his share must offer it to the other co-owners first.
+- Co-owners and neighbours must not act in ways that harm each other. If a co-owner sells his share, the other co-owners have a right of preemption: they may step in after the sale and take the share on the same terms.
 - Water is shared fairly: people have established rights to water for crops and for drinking, and no one may monopolize a shared source.
 
 ## An everyday example
 
-Two neighbours share an irrigation channel. One of them owns the right to draw water on alternate days — a private easement attached to his land. He may use his water days himself or let his tenant use them, but he cannot sell his water right to a stranger while keeping the land, and he cannot block the channel on the other neighbour's days.
+Two neighbours share an irrigation channel. One of them owns the right to draw water on alternate days — a private easement attached to his land. He may use his water days himself or let his tenant use them, but he cannot block the channel on the other neighbour's days.
 
 ## Words to know
 

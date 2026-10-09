@@ -20,8 +20,9 @@ sources.
 ## Scope notes (accuracy first)
 
 - Summaries follow AAOIFI's published Shariah Standards as of 2026. Where
-  AAOIFI has issued a newer standard on an old topic (e.g. SS 60 on Waqf
-  alongside the original SS 33), both are covered and the relationship is noted.
+  AAOIFI has issued a newer standard on an old topic, the old file is a
+  short historical pointer and the new standard carries the full summary:
+  SS 33 (Waqf) points to SS 60, and SS 2 (cards) points to SS 61.
 - SS 62 (Sukuk) is an **exposure draft**, not a final standard. Its file says
   so clearly.
 - Summaries are simplifications for learning, not legal rulings. For any real
@@ -52,11 +53,16 @@ or RAG pipeline.
 
 ## How the text was written
 
-Drafts were researched against AAOIFI publications (via IslamicMarkets'
-per-standard pages and AAOIFI's own syllabi), kept to well-established points,
-and then edited with the [blader/humanizer](https://github.com/blader/humanizer)
-pattern list to remove AI-writing tells. Run `scripts/humanizer_check.py` to
-re-check.
+Drafts were first researched against secondary summaries (mainly
+IslamicMarkets' per-standard pages) and AAOIFI's own syllabi, kept to
+well-established points, and edited with the
+[blader/humanizer](https://github.com/blader/humanizer) pattern list to remove
+AI-writing tells. In a second pass, every summary was checked claim by claim
+against AAOIFI's own published texts and announcements, central-bank adoption
+circulars, and academic sources. Each file cites the sources its claims were
+checked against. Standards with no freely available primary text are noted in
+the verification report kept with the project files. Run
+`scripts/humanizer_check.py` to re-check for AI-writing tells.
 
 ## License
 

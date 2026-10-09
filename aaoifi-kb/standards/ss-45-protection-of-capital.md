@@ -43,4 +43,4 @@ An investor puts $1 million with an Islamic fund. The fund places $600,000 in mu
 
 ## Source
 
-- AAOIFI Shariah Standard No. 45 — https://islamicmarkets.com/publications/protection-of-capital-and-investments-scope-of-standard
+- AAOIFI Shariah Standard No. 45 — full text in the 2015 Shariah Standards book — https://aaoifi.com/download/24233/

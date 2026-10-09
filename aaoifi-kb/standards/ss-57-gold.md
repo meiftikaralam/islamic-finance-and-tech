@@ -25,9 +25,8 @@ Before this standard, there were no dedicated Shariah rules for gold investment.
 - It is not permissible to sell unallocated gold, meaning an unspecified ingot with no identified bars behind it, without physical possession.
 - Joint ownership of gold is allowed, provided each partner owns a defined percentage share of the pool.
 - Physical gold bars and coins qualify for investment. Physically backed gold funds can qualify. Futures contracts with no physical gold behind them do not.
-- A seller must offer same-day settlement or demonstrate it can deliver the exact gold sold within one day.
+- The standard's rulings on gold also apply to silver. Precious metals other than gold and silver, and currencies, are outside this standard's scope.
 - Zakah, the obligatory annual charity, applies to gold holdings.
-- The standard does not cover other precious metals or currencies, which have their own rules.
 
 ## An everyday example
 
