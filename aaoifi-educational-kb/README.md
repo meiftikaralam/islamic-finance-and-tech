@@ -6,6 +6,12 @@ or finance needed. Each summary explains what the standard is about, why it
 exists, its key rules, an everyday example, and the words you need to know.
 Every file cites its sources.
 
+## Status — review in progress
+
+This knowledge base has **not been fully reviewed yet**. The summaries are
+being checked standard by standard. Treat everything here as draft until
+this notice is removed.
+
 ## Course objectives
 
 This material is built for self-learners and study groups working through
