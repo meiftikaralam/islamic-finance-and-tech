@@ -108,6 +108,7 @@ for e in data:
 
 # About + playbook + newsletters hub
 for f, typ in [("about.html", "About"), ("playbook/index.html", "How it's made"),
+               ("playbook/edition-rules.html", "Playbook"),
                ("newsletters.html", "Newsletters")]:
     t = parse(ROOT / f)
     entries.append({
