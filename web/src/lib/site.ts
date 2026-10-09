@@ -1,6 +1,6 @@
 export const SITE_URL = "https://meiftikaralam.github.io/islamic-finance-and-tech";
 export const SITE_NAME = "Islamic Finance Daily Brief";
-export const TAGLINE = "Educational resources for Islamic finance and the technology behind it";
+export const TAGLINE = "Free daily lessons in Islamic finance.";
 
 // Subpath the site is served from (GitHub Pages project site). Must match
 // vite.config.ts `base` and the router basename in main.tsx / entry-server.tsx.

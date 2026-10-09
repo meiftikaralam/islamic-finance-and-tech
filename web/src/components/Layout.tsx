@@ -3,21 +3,35 @@ import { NAV_LINKS, SITE_NAME, TAGLINE, DISCLAIMER, activeNav } from "@/lib/site
 import { SearchBox } from "@/components/SearchBox";
 import { cn } from "@/lib/utils";
 
+const LOGO_URL = "/islamic-finance-and-tech/logo.webp";
+
 function Header() {
   const { pathname } = useLocation();
   const active = activeNav(pathname);
   return (
     <header>
-      <div className="bg-brand-600 text-brand-100 text-center px-5 py-8 rounded-b-xl">
-        <h1 className="m-0 text-2xl text-white font-bold">{SITE_NAME}</h1>
-        <p className="mt-2 text-sm">{TAGLINE}</p>
+      <div className="flex items-center gap-3 px-2 pt-6 pb-1">
+        <Link to="/" aria-label="Islamic Finance Daily Brief — home" className="shrink-0">
+          <img src={LOGO_URL} alt="" className="h-11 w-11" />
+        </Link>
+        <div>
+          <h1 className="m-0 text-2xl font-bold text-brand-700 leading-tight">
+            <Link to="/" className="no-underline text-inherit">
+              {SITE_NAME}
+            </Link>
+          </h1>
+          <p className="m-0 text-sm text-[#666]">{TAGLINE}</p>
+        </div>
       </div>
       <nav className="text-center pt-4 text-sm" aria-label="Main navigation">
         {NAV_LINKS.map((l) => (
           <Link
             key={l.href}
             to={l.href}
-            className={cn("text-brand-600 mx-3 no-underline", active === l.match && "font-bold")}
+            className={cn(
+              "text-brand-700 mx-3 no-underline",
+              active === l.match && "font-bold text-orange-600"
+            )}
           >
             {l.label}
           </Link>
