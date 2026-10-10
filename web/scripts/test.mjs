@@ -60,9 +60,8 @@ for (const r of routes) {
   const html = readFileSync(f, "utf-8");
   for (const m of html.matchAll(/href="(\/[^"#"]*)"/g)) {
     let href = m[1];
-    if (href.startsWith("/islamic-finance-and-tech/assets/")) continue; // hashed bundle, exists check below
-    const noBase = href.replace(/^\/islamic-finance-and-tech/, "") || "/";
-    const target = noBase === "/" ? "/index.html" : noBase;
+    if (href.startsWith("/assets/")) continue; // hashed bundle, exists check below
+    const target = href === "/" ? "/index.html" : href;
     if (!distFiles.has(target)) broken.add(`${r.path} -> ${href}`);
   }
 }
@@ -72,7 +71,7 @@ else ok("no broken internal links");
 // 5. assets referenced exist
 {
   const html = readFileSync(join(DIST, "index.html"), "utf-8");
-  const assets = [...html.matchAll(/(?:src|href)="(\/islamic-finance-and-tech\/assets\/[^"]+)"/g)].map((m) => m[1].replace("/islamic-finance-and-tech", ""));
+  const assets = [...html.matchAll(/(?:src|href)="(\/assets\/[^"]+)"/g)].map((m) => m[1]);
   const missingAssets = assets.filter((a) => !distFiles.has(a));
   if (missingAssets.length) fail(`missing assets: ${missingAssets.join(", ")}`);
   else ok(`${assets.length} asset references resolve`);
@@ -88,23 +87,24 @@ try {
   else ok(`search.json: ${sj.length} entries`);
 } catch { fail("search.json invalid JSON"); }
 
-// 6b. subpath safety: the site lives under /islamic-finance-and-tech/.
-// No href/src may point at the domain root ("/...") or use "./" relatives.
+// 6b. root-domain safety: the site is served from the domain root
+// (custom domain). No href/src may still point at the old
+// /islamic-finance-and-tech/ subpath.
 {
   let bad = 0;
   for (const r of routes) {
     const f = r.path === "/" ? join(DIST, "index.html") : join(DIST, r.path.slice(1));
     if (!existsSync(f)) continue;
     const html = readFileSync(f, "utf-8");
-    for (const m of html.matchAll(/(?:href|src)="(\.[^"]*|\/(?!islamic-finance-and-tech)[^"]*)"/g)) {
+    for (const m of html.matchAll(/(?:href|src)="([^"]*)"/g)) {
       const v = m[1];
-      if (v.startsWith("./assets/") || v === "./" || v.startsWith("#")) continue;
-      if (v.startsWith("http") || v.startsWith("mailto:")) continue;
+      if (!v.includes("islamic-finance-and-tech")) continue;
+      if (v.startsWith("http") && v.includes("github.com/meiftikaralam/islamic-finance-and-tech")) continue;
       bad++;
-      if (bad <= 5) fail(`${r.path}: bad subpath link ${v}`);
+      if (bad <= 5) fail(`${r.path}: stale subpath link ${v}`);
     }
   }
-  if (bad === 0) ok("all links respect the /islamic-finance-and-tech/ subpath");
+  if (bad === 0) ok("no links use the old /islamic-finance-and-tech/ subpath");
 }
 
 // 6c. client bundle must not use Node-only globals (Buffer, process, require).

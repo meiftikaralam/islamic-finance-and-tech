@@ -1,10 +1,10 @@
-export const SITE_URL = "https://meiftikaralam.github.io/islamic-finance-and-tech";
+export const SITE_URL = "https://islamicfintech.org";
 export const SITE_NAME = "Islamic Finance and Technology";
 export const TAGLINE = "Tech-focused daily lessons on riba-free finance.";
 
-// Subpath the site is served from (GitHub Pages project site). Must match
-// vite.config.ts `base` and the router basename in main.tsx / entry-server.tsx.
-export const BASENAME = "/islamic-finance-and-tech";
+// The site is served from the domain root (custom domain on GitHub Pages).
+// BASENAME stays empty; withBase() keeps root-absolute paths unchanged.
+export const BASENAME = "";
 
 /** Prefix a root-absolute path ("/about.html") with the serving subpath. */
 export function withBase(path: string): string {

@@ -8,13 +8,13 @@ import { join, dirname } from "path";
 
 const ROOT = new URL("../..", import.meta.url).pathname;
 const DIST = join(ROOT, "web", "dist");
-const SITE_URL = "https://meiftikaralam.github.io/islamic-finance-and-tech";
+const SITE_URL = "https://islamicfintech.org";
 
 const routes = JSON.parse(readFileSync(join(ROOT, "web", "src", "generated", "routes.json"), "utf-8"));
 
 // The site is served from this subpath on GitHub Pages. The router basename
 // needs the full path, so the prerender passes basename + route path.
-const BASENAME = "/islamic-finance-and-tech";
+const BASENAME = "";
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 

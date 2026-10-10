@@ -8,9 +8,8 @@ export default defineConfig({
   resolve: {
     alias: { "@": path.resolve(__dirname, "src") },
   },
-  // Project pages are served from /islamic-finance-and-tech/ — but the built
-  // files are deployed to the repo root, so keep base relative for assets.
-  base: "/islamic-finance-and-tech/",
+  // Custom domain serves the site from the domain root.
+  base: "/",
   build: {
     outDir: "dist",
     emptyOutDir: true,

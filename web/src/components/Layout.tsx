@@ -4,7 +4,7 @@ import { NAV_LINKS, SITE_NAME, TAGLINE, DISCLAIMER, activeNav } from "@/lib/site
 import { SearchBox } from "@/components/SearchBox";
 import { cn } from "@/lib/utils";
 
-const LOGO_URL = "/islamic-finance-and-tech/logo.webp";
+const LOGO_URL = "/logo.webp";
 
 const MAIN_LINKS = NAV_LINKS.slice(0, 2);
 const MORE_LINKS = NAV_LINKS.slice(2);
