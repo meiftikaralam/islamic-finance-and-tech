@@ -70,6 +70,7 @@
 - [Islamic Finance Daily Brief — October 7, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-07.html)
 - [Islamic Finance Daily Brief — October 8, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-08.html)
 - [Islamic Finance Daily Brief — October 9, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-09.html)
+- [Islamic Finance Daily Brief — October 10, 2026](https://meiftikaralam.github.io/islamic-finance-and-tech/editions/2026-10-10.html)
 - [Experiment: asking AI to value stocks like Buffett and Graham](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/ai-persona-stock-analysis.html)
 - [Halal robo-advisors, explained: what they are and who's actually offering one](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/halal-robo-advisors.html)
 - [Mapping Islamic fintech tech: Guidance, Lariba, Amana, UIF, Stearns — and who actually has an API](https://meiftikaralam.github.io/islamic-finance-and-tech/lab/islamic-fintech-landscape.html)
