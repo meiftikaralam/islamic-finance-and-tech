@@ -60,10 +60,22 @@
   "excerpt": "Oct 9 2026 brief: Sentinel Shield's Sharia governance, inside Manzil's halal trading stack, Wahed's zero-debt real estate fund, halal robo-advisors."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 10, 2026",
+  "url": "/editions/2026-10-10.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 10 2026 brief: Saturna's Islamic Financial Literacy Month, iRizq's halal investing workshop, a bogus sharia housing scheme, ANB's $750M AT1 sukuk, takaful e"
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
   "excerpt": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?"
+ },
+ {
+  "title": "Halal robo-advisors, explained: what they are and who's actually offering one",
+  "url": "/lab/halal-robo-advisors.html",
+  "type": "Post",
+  "excerpt": "What a robo-advisor does, what makes one halal, and the real options in the USA, UK, EU and Australia — with fees, minimums, and honest caveats."
  },
  {
   "title": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath",
@@ -682,5 +694,29 @@
   "url": "/glossary/index.html#zoya",
   "type": "Glossary: company",
   "excerpt": "A Shariah stock-screening service used by US Muslim investors and fintech apps. Example: Manzil integrated Zoya directly into its trading app for real-time comp"
+ },
+ {
+  "title": "iRizq",
+  "url": "/glossary/index.html#irizq",
+  "type": "Glossary: company",
+  "excerpt": "A US-based halal investing education platform that teaches a halal value-investing framework and provides Shariah stock-screening tools built by co-founder Sarf"
+ },
+ {
+  "title": "Arab National Bank",
+  "url": "/glossary/index.html#arab-national-bank",
+  "type": "Glossary: company",
+  "excerpt": "A major bank based in Riyadh, Saudi Arabia (founded 1979, listed on the Saudi Stock Exchange), offering conventional and Shariah-compliant retail, corporate and"
+ },
+ {
+  "title": "Islamic Financial Literacy Month",
+  "url": "/glossary/index.html#islamic-financial-literacy-month",
+  "type": "Glossary: concept",
+  "excerpt": "An annual October initiative by Saturna Capital that promotes Islamic financial education through in-person seminars and online webinars on topics such as halal"
+ },
+ {
+  "title": "401(k) and IRA",
+  "url": "/glossary/index.html#401-k-and-ira",
+  "type": "Glossary: concept",
+  "excerpt": "US retirement accounts where the government lets your savings grow with less tax as long as the money stays inside the account. For Muslim savers, the default i"
  }
 ]
