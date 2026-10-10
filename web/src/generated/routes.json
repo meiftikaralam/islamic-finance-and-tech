@@ -547,6 +547,14 @@
   "date": "2026-10-09"
  },
  {
+  "path": "/editions/2026-10-10.html",
+  "kind": "edition",
+  "slug": "2026-10-10",
+  "title": "Islamic Finance Daily Brief — October 10, 2026",
+  "description": "Oct 10 2026 brief: Saturna's Islamic Financial Literacy Month, iRizq's halal investing workshop, a bogus sharia housing scheme, ANB's $750M AT1 sukuk, takaful explained.",
+  "date": "2026-10-10"
+ },
+ {
   "path": "/glossary/index.html",
   "kind": "glossary",
   "title": "Glossary — Islamic Finance and Technology",
@@ -559,6 +567,14 @@
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "description": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?",
   "date": "2026-10-07"
+ },
+ {
+  "path": "/lab/halal-robo-advisors.html",
+  "kind": "post",
+  "slug": "halal-robo-advisors",
+  "title": "Halal robo-advisors, explained: what they are and who's actually offering one",
+  "description": "What a robo-advisor does, what makes one halal, and the real options in the USA, UK, EU and Australia — with fees, minimums, and honest caveats.",
+  "date": "2026-10-10"
  },
  {
   "path": "/lab/islamic-fintech-landscape.html",
