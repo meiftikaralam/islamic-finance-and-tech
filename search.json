@@ -66,6 +66,18 @@
   "excerpt": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?"
  },
  {
+  "title": "Halal robo-advisors, explained: what they are and who's actually offering one",
+  "url": "/lab/halal-robo-advisors.html",
+  "type": "Post",
+  "excerpt": "What a robo-advisor does, what makes one halal, and the real options in the USA, UK, EU and Australia — with fees, minimums, and honest caveats."
+ },
+ {
+  "title": "Mapping Islamic fintech tech: Guidance, Lariba, Amana, UIF, Stearns — and who actually has an API",
+  "url": "/lab/islamic-fintech-landscape.html",
+  "type": "Post",
+  "excerpt": "Islamic fintech tech: the five big US names are lenders, not platforms — none has an API. The buildable tech is in screening data and infrastructure firms."
+ },
+ {
   "title": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath",
   "url": "/lab/shariah-etf-guide.html",
   "type": "Post",
