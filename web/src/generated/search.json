@@ -66,6 +66,12 @@
   "excerpt": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?"
  },
  {
+  "title": "Mapping Islamic fintech tech: Guidance, Lariba, Amana, UIF, Stearns — and who actually has an API",
+  "url": "/lab/islamic-fintech-landscape.html",
+  "type": "Post",
+  "excerpt": "Islamic fintech tech: the five big US names are lenders, not platforms — none has an API. The buildable tech is in screening data and infrastructure firms."
+ },
+ {
   "title": "ETFs, explained: what they are, what makes one Shariah, and the tech underneath",
   "url": "/lab/shariah-etf-guide.html",
   "type": "Post",
