@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { Layout } from "@/components/Layout";
 import { Home } from "@/pages/Home";
 import { Newsletters } from "@/pages/Newsletters";
@@ -51,6 +51,8 @@ export function App() {
         {(routes as RouteDef[]).map((r) => (
           <Route key={r.path} path={r.path} element={elementFor(r)} />
         ))}
+        {/* GitHub Pages serves the homepage file at /index.html too; send it to the canonical /. */}
+        <Route path="/index.html" element={<Navigate to="/" replace />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
