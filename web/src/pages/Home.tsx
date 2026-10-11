@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { loadDocs } from "@/lib/content";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { SubscribeBox } from "@/components/SubscribeBox";
 
 const POST_URL: Record<string, string> = {
   "sukuk-guide": "/lab/sukuk-guide.html",
@@ -39,6 +40,8 @@ export function Home() {
           </Link>
         ))}
       </div>
+
+      <SubscribeBox />
     </div>
   );
 }
