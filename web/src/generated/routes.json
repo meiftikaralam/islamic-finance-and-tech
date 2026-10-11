@@ -636,12 +636,5 @@
   "slug": "playbook",
   "title": "How it's made — Islamic Finance and Technology",
   "description": "The open playbook behind this site — sources, rules, and process."
- },
- {
-  "path": "/sukuk.html",
-  "kind": "page",
-  "slug": "sukuk",
-  "title": "Sukuk — a beginner's guide — Islamic Finance and Technology",
-  "description": "What sukuk are, how they differ from bonds, the main types, and what AAOIFI says — in plain language."
  }
 ]
