@@ -15,7 +15,7 @@ A tokenised sukuk differs in the way certificates are stored and distributed. In
 
 With a tokenised sukuk, the token itself is the ownership record. So there is no separate chain of custodians keeping separate records. The payment terms are written as smart contracts. A smart contract moves the token to the buyer's wallet and sends the payment to the seller in one step, on the blockchain. Settlement drops from two days to minutes, and the ledger shows the new owner immediately.
 
-The technology underneath: real world example
+**The technology underneath: real world example**
 
 Let me explain how a tokenised sukuk works using real technology. I will take a real example, from news dated October 6, where the ADI Foundation and Tokinvest signed an agreement to work toward a $100 million tokenised sukuk.
 
@@ -27,7 +27,7 @@ For any deal/trade it runs a few fixed steps. It selects the asset, sets up the 
 
 With the $100 million deal, it will take existing sukuk issued by UAE entities, convert them into tokens on ADI Chain, and sell them through regulated distribution partners. The distribution stays inside regulated channels rather than open crypto markets. The partnership also covers other assets later: private credit, funds, and other yield-generating products.
 
-How the same could be built in the USA?
+**How the same could be built in the USA?**
 
 To build this in the USA, the technology is the easy part. The licences are the hard part.
 

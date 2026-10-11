@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { loadDocs } from "@/lib/content";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { SubscribeBox } from "@/components/SubscribeBox";
 
 function fmtDate(iso?: string) {
   if (!iso) return "";
@@ -33,8 +32,6 @@ export function Newsletters() {
           </Link>
         ))}
       </div>
-
-      <SubscribeBox />
     </div>
   );
 }

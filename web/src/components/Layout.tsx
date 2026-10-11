@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { NAV_LINKS, SITE_NAME, TAGLINE, DISCLAIMER, activeNav } from "@/lib/site";
 import { SearchBox } from "@/components/SearchBox";
+import { SubscribeBox } from "@/components/SubscribeBox";
 import { cn } from "@/lib/utils";
 
 const LOGO_URL = "/logo.webp";
@@ -134,6 +135,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <div className="max-w-[720px] mx-auto px-4 pb-12">
         <Header />
         <main>{children}</main>
+        <SubscribeBox />
         <Footer />
       </div>
     </>

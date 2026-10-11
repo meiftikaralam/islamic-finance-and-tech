@@ -31,6 +31,13 @@ export function Markdown({ body, className }: { body: string; className?: string
           if (t.startsWith("🔗 Source:") || t.startsWith("Source:")) {
             return <p className="text-sm my-3">{children}</p>;
           }
+          if (t.startsWith("For educational purposes only")) {
+            return (
+              <div className="border border-[#e3e3e3] rounded-xl bg-[#fafafa] px-4 py-3 my-6 text-[13px] leading-[1.6] text-[#666]">
+                {children}
+              </div>
+            );
+          }
           return <p>{children}</p>;
         },
         a({ href, children }) {
