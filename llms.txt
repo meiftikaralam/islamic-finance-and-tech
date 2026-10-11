@@ -77,7 +77,7 @@
 - [Mapping Islamic fintech tech: Guidance, Lariba, Amana, UIF, Stearns — and who actually has an API](https://islamicfintech.org/lab/islamic-fintech-landscape.html)
 - [ETFs, explained: what they are, what makes one Shariah, and the tech underneath](https://islamicfintech.org/lab/shariah-etf-guide.html)
 - [Sukuk, finally explained: the beginner's guide I wish I'd had](https://islamicfintech.org/lab/sukuk-guide.html)
-- [Tokenised sukuk, explained in plain English](https://islamicfintech.org/lab/tokenised-sukuk-explained.html)
+- [Tokenised sukuk](https://islamicfintech.org/lab/tokenised-sukuk-explained.html)
 - [Zoya Finance opened its API: halal screening data for developers](https://islamicfintech.org/lab/zoya-finance-api.html)
 
 ## Raw markdown (machine-readable)
