@@ -24,6 +24,12 @@
   "excerpt": "The open playbook behind this site — sources, rules, and process."
  },
  {
+  "title": "Sukuk — a beginner's guide — Islamic Finance and Technology",
+  "url": "/sukuk.html",
+  "type": "Page",
+  "excerpt": "What sukuk are, how they differ from bonds, the main types, and what AAOIFI says — in plain language."
+ },
+ {
   "title": "AAOIFI Standards in Simple English",
   "url": "/aaoifi/index.html",
   "type": "Page",
@@ -100,6 +106,12 @@
   "url": "/lab/sukuk-guide.html",
   "type": "Post",
   "excerpt": "A beginner's guide to sukuk: what it is, how it differs from a bond, a real example, and options in the USA, UK, EU and Australia."
+ },
+ {
+  "title": "Tokenised sukuk, explained in plain English",
+  "url": "/lab/tokenised-sukuk-explained.html",
+  "type": "Post",
+  "excerpt": "What a tokenised sukuk is, what settlement means, the tech inside the $100M ADI Foundation–Tokinvest deal, and how the same could be built in the USA."
  },
  {
   "title": "Zoya Finance opened its API: halal screening data for developers",
