@@ -66,6 +66,12 @@
   "excerpt": "Oct 10 2026 brief: Saturna's Islamic Financial Literacy Month, iRizq's halal investing workshop, a bogus sharia housing scheme, ANB's $750M AT1 sukuk, takaful e"
  },
  {
+  "title": "Islamic Finance Daily Brief — October 11, 2026",
+  "url": "/editions/2026-10-11.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 11 2026 brief: the AlBaraka Summit in London, Ayan Capital's $100M facility and how the company works, plus accredited investors explained."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -724,5 +730,29 @@
   "url": "/glossary/index.html#401-k-and-ira",
   "type": "Glossary: concept",
   "excerpt": "US retirement accounts where the government lets your savings grow with less tax as long as the money stays inside the account. For Muslim savers, the default i"
+ },
+ {
+  "title": "Ayan Capital",
+  "url": "/glossary/index.html#ayan-capital",
+  "type": "Glossary: company",
+  "excerpt": "A London fintech offering halal car finance across the UK through an Ijara wa Iqtina (lease-to-own) model, with no interest. In September 2026 it secured a $100"
+ },
+ {
+  "title": "Triple Point",
+  "url": "/glossary/index.html#triple-point",
+  "type": "Glossary: company",
+  "excerpt": "A London-based alternative investment manager. In September 2026 it originated the senior Shariah-compliant facility of up to $100 million funding Ayan Capital'"
+ },
+ {
+  "title": "Ijara wa Iqtina",
+  "url": "/glossary/index.html#ijara-wa-iqtina",
+  "type": "Glossary: concept",
+  "excerpt": "A lease-to-own contract used in Islamic finance. The financier buys the asset and stays its legal owner while the customer pays fixed rent; ownership transfers "
+ },
+ {
+  "title": "Accredited investor",
+  "url": "/glossary/index.html#accredited-investor",
+  "type": "Glossary: concept",
+  "excerpt": "In the US, an investor the SEC lets into private investments that are not open to the public: income above $200,000 a year ($300,000 with a spouse), net worth a"
  }
 ]

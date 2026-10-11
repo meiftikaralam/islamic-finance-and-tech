@@ -617,5 +617,68 @@
     ],
     "first_mentioned": "2026-10-10",
     "edition": "editions/2026-10-10.html"
+  },
+  {
+    "name": "Ayan Capital",
+    "type": "company",
+    "website": "https://www.ayan.co.uk",
+    "description": "A London fintech offering halal car finance across the UK through an Ijara wa Iqtina (lease-to-own) model, with no interest. In September 2026 it secured a $100 million Shariah-compliant facility as it prepares a UK banking licence application on its way to a full halal digital bank.",
+    "sources": [
+      {
+        "label": "Ayan Capital — official site",
+        "url": "https://www.ayan.co.uk/"
+      },
+      {
+        "label": "PR Newswire — Ayan Capital secures $100M facility (Sep 2026)",
+        "url": "https://www.prnewswire.com/apac/news-releases/uk-islamic-fintech-ayan-capital-secures-75-million-100-million-facility-originated-by-triple-point-as-it-builds-towards-a-halal-digital-bank-302881892.html"
+      }
+    ],
+    "first_mentioned": "2026-10-11",
+    "edition": "editions/2026-10-11.html"
+  },
+  {
+    "name": "Triple Point",
+    "type": "company",
+    "website": "https://www.triplepoint.co.uk",
+    "description": "A London-based alternative investment manager. In September 2026 it originated the senior Shariah-compliant facility of up to $100 million funding Ayan Capital's halal car finance growth.",
+    "sources": [
+      {
+        "label": "Triple Point — official site",
+        "url": "https://www.triplepoint.co.uk/"
+      },
+      {
+        "label": "PR Newswire — Ayan Capital secures $100M facility (Sep 2026)",
+        "url": "https://www.prnewswire.com/apac/news-releases/uk-islamic-fintech-ayan-capital-secures-75-million-100-million-facility-originated-by-triple-point-as-it-builds-towards-a-halal-digital-bank-302881892.html"
+      }
+    ],
+    "first_mentioned": "2026-10-11",
+    "edition": "editions/2026-10-11.html"
+  },
+  {
+    "name": "Ijara wa Iqtina",
+    "type": "concept",
+    "website": null,
+    "description": "A lease-to-own contract used in Islamic finance. The financier buys the asset and stays its legal owner while the customer pays fixed rent; ownership transfers at the end of the term. Because the payment is rent rather than loan repayment, no interest is involved. Example: Ayan Capital's halal car finance in the UK.",
+    "sources": [
+      {
+        "label": "PR Newswire — Ayan Capital secures $100M facility (Sep 2026)",
+        "url": "https://www.prnewswire.com/apac/news-releases/uk-islamic-fintech-ayan-capital-secures-75-million-100-million-facility-originated-by-triple-point-as-it-builds-towards-a-halal-digital-bank-302881892.html"
+      }
+    ],
+    "first_mentioned": "2026-10-11",
+    "edition": "editions/2026-10-11.html"
+  },
+  {
+    "name": "Accredited investor",
+    "type": "concept",
+    "description": "In the US, an investor the SEC lets into private investments that are not open to the public: income above $200,000 a year ($300,000 with a spouse), net worth above $1 million excluding the home, or certain finance licences.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief — Oct 11, 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-11.html"
+      }
+    ],
+    "first_mentioned": "2026-10-11",
+    "edition": "editions/2026-10-11.html"
   }
 ]
