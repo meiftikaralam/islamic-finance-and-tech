@@ -34,15 +34,13 @@ const statics = [
     "About Islamic Finance and Technology — a free educational project by Iftikar."],
   ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",
     "The open playbook behind this site — sources, rules, and process."],
-  ["/sukuk.html", "page", "Sukuk — a beginner's guide — Islamic Finance and Technology",
-    "What sukuk are, how they differ from bonds, the main types, and what AAOIFI says — in plain language."],
   ["/aaoifi/index.html", "aaoifi-index", "AAOIFI Standards in Simple English",
     "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."],
   ["/glossary/index.html", "glossary", "Glossary — Islamic Finance and Technology",
     "Companies and concepts from the newsletter, explained simply."],
 ];
 for (const [path, kind, title, description] of statics) {
-  const slug = kind === "page" ? (path === "/playbook/index.html" ? "playbook" : basename(path, ".html")) : undefined;
+  const slug = kind === "page" ? basename(path, ".html") === "about" ? "about" : "playbook" : undefined;
   routes.push({ path, kind, slug, title, description });
   addSearch(title, path, "Page", description);
 }
