@@ -20,7 +20,7 @@ My purpose in doing this is for the sake of Allah alone — not for monetization
 
 ## A note on the content
 
-Most of the notes and content on this site are generated or updated with the help of AI, so there may be mistakes. If you have any concern about the content of this website, please feel free to reach out at [contact email].
+Most of the notes and content on this site are generated or updated with the help of AI, so there may be mistakes. If you have any concern about the content of this website, please feel free to reach out at [iftikar@islamicfintech.org](mailto:iftikar@islamicfintech.org).
 
 Your concerns, feedback, and reviews are genuinely welcome — they help improve the content on a continuous basis. Thank you so much, and please enjoy reading.
 
