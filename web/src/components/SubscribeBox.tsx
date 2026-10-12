@@ -7,7 +7,7 @@ export function SubscribeBox() {
     <div className="mt-10 bg-white border border-[#e3e3e3] rounded-xl p-6 text-center">
       <h3 className="text-lg font-semibold mb-2">Get regular updates by email</h3>
       <p className="text-sm text-[#666] mb-4">
-        Occasional emails with new lessons and editions. Educational only — never investment advice.
+        You will receive emails with new lessons and editions. Educational only — never investment advice.
       </p>
       <form
         action="https://app.kit.com/forms/10015197/subscriptions"
