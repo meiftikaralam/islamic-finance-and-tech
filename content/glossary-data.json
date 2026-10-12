@@ -680,5 +680,80 @@
     ],
     "first_mentioned": "2026-10-11",
     "edition": "editions/2026-10-11.html"
+  },
+  {
+    "name": "Zakat on investments",
+    "type": "concept",
+    "description": "Zakat is the yearly obligation to give 2.5% of qualifying wealth to charity, and investments count as wealth. For stocks and funds held as a long-term investment, most scholars say you pay on the market value on your zakat due date; traders pay on the full market value of holdings treated as trade goods. Retirement accounts such as a 401(k) also count, though some scholars allow delaying payment until withdrawal.",
+    "sources": [
+      {
+        "label": "Amal Invest — how much zakat to pay on stocks",
+        "url": "https://amalinvest.com/halal-investing/how-much-zakat-should-i-pay-on-stocks"
+      }
+    ],
+    "first_mentioned": "2026-10-12",
+    "edition": "editions/2026-10-12.html"
+  },
+  {
+    "name": "Purification",
+    "type": "concept",
+    "description": "Purification means giving away the small haram income inside an otherwise halal investment, instead of keeping it. Even screened companies and funds can earn a little interest on cash balances, and Shariah standards tolerate up to 5% of revenue from such sources. Investors donate that impure portion of their dividends to charity. It is separate from zakat: zakat is the obligation on wealth, purification cleans income you should not have kept.",
+    "sources": [
+      {
+        "label": "HalalWallet — why tech stocks land in 'questionable' and how investors handle purification",
+        "url": "https://medium.com/@halalwallet/why-every-major-tech-stock-keeps-landing-in-questionable-for-muslim-investors-7734a81be537"
+      }
+    ],
+    "first_mentioned": "2026-10-12",
+    "edition": "editions/2026-10-12.html"
+  },
+  {
+    "name": "Riba",
+    "type": "concept",
+    "description": "Riba means interest: any guaranteed extra charged for the use of money. It is prohibited in the Quran and is the main dividing line between Islamic and conventional finance. Islamic finance replaces interest with shared risk — the financier shares in profit, charges rent for an asset, or sells goods at a price paid over time — so returns come from real economic activity.",
+    "sources": [
+      {
+        "label": "Investopedia — What is Riba?",
+        "url": "https://www.investopedia.com/terms/r/riba.asp"
+      }
+    ],
+    "first_mentioned": "2026-10-12",
+    "edition": "editions/2026-10-12.html"
+  },
+  {
+    "name": "Nomo",
+    "type": "company",
+    "website": "https://www.nomobank.com",
+    "description": "A UK-based Shariah-compliant digital bank, part of BLME (Bank of London and The Middle East). It offers app-based banking and investments, including professionally managed Shariah-compliant portfolios through Nomo Investments.",
+    "sources": [
+      {
+        "label": "Nomo Bank official site",
+        "url": "https://www.nomobank.com"
+      },
+      {
+        "label": "IFN Investor monthly review",
+        "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
+      }
+    ],
+    "first_mentioned": "2026-10-12",
+    "edition": "editions/2026-10-12.html"
+  },
+  {
+    "name": "Allfunds",
+    "type": "company",
+    "website": "https://www.allfunds.com",
+    "description": "A Spain-headquartered fund distribution platform that connects fund managers with banks and wealth managers. It gives partners like Nomo access to a wide shelf of investment funds through a single connection.",
+    "sources": [
+      {
+        "label": "Allfunds official site",
+        "url": "https://www.allfunds.com"
+      },
+      {
+        "label": "IFN Investor monthly review",
+        "url": "https://ifninvestor.com/ifn-investor-monthly-review-market-picks-up-momentum-in-september-on-the-back-of-healthy-islamic-investment-pipeline/"
+      }
+    ],
+    "first_mentioned": "2026-10-12",
+    "edition": "editions/2026-10-12.html"
   }
 ]

@@ -72,6 +72,12 @@
   "excerpt": "Oct 11 2026 brief: the AlBaraka Summit in London, Ayan Capital's $100M facility and how the company works, plus accredited investors explained."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 12, 2026",
+  "url": "/editions/2026-10-12.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 12 2026 brief: Nomo's Shariah-compliant investment partnership with Allfunds, and purification explained."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -760,5 +766,35 @@
   "url": "/glossary/index.html#accredited-investor",
   "type": "Glossary: concept",
   "excerpt": "In the US, an investor the SEC lets into private investments that are not open to the public: income above $200,000 a year ($300,000 with a spouse), net worth a"
+ },
+ {
+  "title": "Zakat on investments",
+  "url": "/glossary/index.html#zakat-on-investments",
+  "type": "Glossary: concept",
+  "excerpt": "Zakat is the yearly obligation to give 2.5% of qualifying wealth to charity, and investments count as wealth. For stocks and funds held as a long-term investmen"
+ },
+ {
+  "title": "Purification",
+  "url": "/glossary/index.html#purification",
+  "type": "Glossary: concept",
+  "excerpt": "Purification means giving away the small haram income inside an otherwise halal investment, instead of keeping it. Even screened companies and funds can earn a "
+ },
+ {
+  "title": "Riba",
+  "url": "/glossary/index.html#riba",
+  "type": "Glossary: concept",
+  "excerpt": "Riba means interest: any guaranteed extra charged for the use of money. It is prohibited in the Quran and is the main dividing line between Islamic and conventi"
+ },
+ {
+  "title": "Nomo",
+  "url": "/glossary/index.html#nomo",
+  "type": "Glossary: company",
+  "excerpt": "A UK-based Shariah-compliant digital bank, part of BLME (Bank of London and The Middle East). It offers app-based banking and investments, including professiona"
+ },
+ {
+  "title": "Allfunds",
+  "url": "/glossary/index.html#allfunds",
+  "type": "Glossary: company",
+  "excerpt": "A Spain-headquartered fund distribution platform that connects fund managers with banks and wealth managers. It gives partners like Nomo access to a wide shelf "
  }
 ]
