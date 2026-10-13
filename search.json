@@ -78,6 +78,12 @@
   "excerpt": "Oct 12 2026 brief: Nomo's Shariah-compliant investment partnership with Allfunds, and purification explained."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 13, 2026",
+  "url": "/editions/2026-10-13.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 13 2026 brief: SPUS hits a new 52-week high as Shariah-screened ETFs keep growing, plus a mudaraba explainer."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -796,5 +802,17 @@
   "url": "/glossary/index.html#allfunds",
   "type": "Glossary: company",
   "excerpt": "A Spain-headquartered fund distribution platform that connects fund managers with banks and wealth managers. It gives partners like Nomo access to a wide shelf "
+ },
+ {
+  "title": "Mudaraba",
+  "url": "/glossary/index.html#mudaraba",
+  "type": "Glossary: concept",
+  "excerpt": "A partnership where one side provides the capital (rabb al-mal) and the other provides the work and skill (mudarib). Profits are split by an agreed percentage; "
+ },
+ {
+  "title": "52-week high",
+  "url": "/glossary/index.html#52-week-high",
+  "type": "Glossary: concept",
+  "excerpt": "The highest price a stock or fund has traded at over the past year. When the halal ETF SPUS reached $60.49 in October 2026, it marked a new 52-week high — meani"
  }
 ]

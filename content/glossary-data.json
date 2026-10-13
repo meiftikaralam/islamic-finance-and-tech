@@ -755,5 +755,31 @@
     ],
     "first_mentioned": "2026-10-12",
     "edition": "editions/2026-10-12.html"
+  },
+  {
+    "name": "Mudaraba",
+    "type": "concept",
+    "description": "A partnership where one side provides the capital (rabb al-mal) and the other provides the work and skill (mudarib). Profits are split by an agreed percentage; losses fall on the capital provider, while the manager loses their effort — unless they were negligent. Islamic banks use it for savings accounts, with depositors as capital providers and the bank as manager.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 13 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-13.html"
+      }
+    ],
+    "first_mentioned": "2026-10-13",
+    "edition": "editions/2026-10-13.html"
+  },
+  {
+    "name": "52-week high",
+    "type": "concept",
+    "description": "The highest price a stock or fund has traded at over the past year. When the halal ETF SPUS reached $60.49 in October 2026, it marked a new 52-week high — meaning buyers were paying more than at any point in the previous twelve months.",
+    "sources": [
+      {
+        "label": "The Cerbat Gem: SPUS sets new 1-year high",
+        "url": "https://www.thecerbatgem.com/2026/10/02/sp-funds-sp-500-sharia-industry-exclusions-etf-nysearcaspus-sets-new-1-year-high-heres-why.html"
+      }
+    ],
+    "first_mentioned": "2026-10-13",
+    "edition": "editions/2026-10-13.html"
   }
 ]
