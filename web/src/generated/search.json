@@ -84,6 +84,12 @@
   "excerpt": "Oct 13 2026 brief: SPUS hits a new 52-week high as Shariah-screened ETFs keep growing, plus a mudaraba explainer."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 14, 2026",
+  "url": "/editions/2026-10-14.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 14 brief: IsDB and IFAD's $750M food-security deal, Safaricom's Shariah fund on M-Pesa, and how AI now finances halal small businesses."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -814,5 +820,53 @@
   "url": "/glossary/index.html#52-week-high",
   "type": "Glossary: concept",
   "excerpt": "The highest price a stock or fund has traded at over the past year. When the halal ETF SPUS reached $60.49 in October 2026, it marked a new 52-week high — meani"
+ },
+ {
+  "title": "AlBaraka Forum for Islamic Economy",
+  "url": "/glossary/index.html#albaraka-forum-for-islamic-economy",
+  "type": "Glossary: company",
+  "excerpt": "An independent, non-profit global think tank focused on the Islamic economy, continuing the work of its founder Sheikh Saleh Abdullah Kamel. It organises the an"
+ },
+ {
+  "title": "Expense ratio",
+  "url": "/glossary/index.html#expense-ratio",
+  "type": "Glossary: concept",
+  "excerpt": "The yearly fee for owning a fund, shown as a percentage of your investment — for example, a 0.50% expense ratio costs $50 a year on $10,000. It is taken from th"
+ },
+ {
+  "title": "Sukuk redemption (call)",
+  "url": "/glossary/index.html#sukuk-redemption-call",
+  "type": "Glossary: concept",
+  "excerpt": "When a sukuk issuer buys back its certificates on a call date named in the original terms, paying holders full face value plus any profit payments still owed. T"
+ },
+ {
+  "title": "Islamic Development Bank (IsDB)",
+  "url": "/glossary/index.html#islamic-development-bank-isdb",
+  "type": "Glossary: company",
+  "excerpt": "A development bank owned by 57 Muslim-majority countries, based in Jeddah. It finances roads, hospitals, schools, farms, and businesses using Shariah-compliant "
+ },
+ {
+  "title": "International Fund for Agricultural Development (IFAD)",
+  "url": "/glossary/index.html#international-fund-for-agricultural-development-ifad",
+  "type": "Glossary: company",
+  "excerpt": "A UN agency that finances farming and rural communities in developing countries. On Oct 14, 2026 it signed a $750 million co-financing deal with the Islamic Dev"
+ },
+ {
+  "title": "M-Pesa",
+  "url": "/glossary/index.html#m-pesa",
+  "type": "Glossary: company",
+  "excerpt": "A mobile money service started in Kenya in 2007. It lets people send money, pay bills, and save using a basic mobile phone with no bank account. About 41 millio"
+ },
+ {
+  "title": "Money market fund",
+  "url": "/glossary/index.html#money-market-fund",
+  "type": "Glossary: concept",
+  "excerpt": "A fund that pools money from many small investors and puts it into very short-term, very safe instruments. The aim is to keep your capital safe while earning a "
+ },
+ {
+  "title": "Erad",
+  "url": "/glossary/index.html#erad",
+  "type": "Glossary: company",
+  "excerpt": "A Riyadh-based fintech that gives Shariah-compliant working capital to small businesses. Its AI models study a business's cash flow to approve financing in abou"
  }
 ]

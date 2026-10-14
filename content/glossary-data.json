@@ -781,5 +781,121 @@
     ],
     "first_mentioned": "2026-10-13",
     "edition": "editions/2026-10-13.html"
+  },
+  {
+    "name": "AlBaraka Forum for Islamic Economy",
+    "type": "company",
+    "website": "https://forum.albaraka.site/",
+    "description": "An independent, non-profit global think tank focused on the Islamic economy, continuing the work of its founder Sheikh Saleh Abdullah Kamel. It organises the annual AlBaraka Summit, whose 5th edition met in London in October 2026.",
+    "sources": [
+      {
+        "label": "AlBaraka Forum official site",
+        "url": "https://forum.albaraka.site/"
+      },
+      {
+        "label": "PR Newswire — London summit day-one outcomes (Oct 13, 2026)",
+        "url": "https://www.prnewswire.com/news-releases/islamic-finance-must-compete-for-mainstream-savers-and-investors-london-summit-hears-302907435.html"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Expense ratio",
+    "type": "concept",
+    "website": null,
+    "description": "The yearly fee for owning a fund, shown as a percentage of your investment — for example, a 0.50% expense ratio costs $50 a year on $10,000. It is taken from the fund's assets, so you never see a separate bill. Halal funds often charge more than broad market funds because screening and audits add costs.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 14 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-14.html"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Sukuk redemption (call)",
+    "type": "concept",
+    "website": null,
+    "description": "When a sukuk issuer buys back its certificates on a call date named in the original terms, paying holders full face value plus any profit payments still owed. The certificates then stop trading and the listing is cancelled. A redemption is a planned contract step, different from a default, where the issuer fails to pay.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 14 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-14.html"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Islamic Development Bank (IsDB)",
+    "type": "company",
+    "website": "https://www.isdb.org",
+    "description": "A development bank owned by 57 Muslim-majority countries, based in Jeddah. It finances roads, hospitals, schools, farms, and businesses using Shariah-compliant methods like leasing and installment sales instead of interest-based lending.",
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Islamic_Development_Bank"
+      },
+      {
+        "label": "Daily Agric News",
+        "url": "https://www.dailyagricnews.com/isdb-and-ifad-scale-up-partnership-to-mobilize-us750-million-for-food-systems-and-rural-transformation/"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "International Fund for Agricultural Development (IFAD)",
+    "type": "company",
+    "description": "A UN agency that finances farming and rural communities in developing countries. On Oct 14, 2026 it signed a $750 million co-financing deal with the Islamic Development Bank for food systems and rural transformation.",
+    "sources": [
+      {
+        "label": "Daily Agric News",
+        "url": "https://www.dailyagricnews.com/isdb-and-ifad-scale-up-partnership-to-mobilize-us750-million-for-food-systems-and-rural-transformation/"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "M-Pesa",
+    "type": "company",
+    "description": "A mobile money service started in Kenya in 2007. It lets people send money, pay bills, and save using a basic mobile phone with no bank account. About 41 million people use it.",
+    "sources": [
+      {
+        "label": "TechTrendsKE",
+        "url": "https://techtrendske.co.ke/2026/10/07/safaricom-launches-sharia-compliant-money-market-fund-on-m-pesa/"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Money market fund",
+    "type": "concept",
+    "description": "A fund that pools money from many small investors and puts it into very short-term, very safe instruments. The aim is to keep your capital safe while earning a small steady return, and you can withdraw any day. A Shariah version only uses halal instruments.",
+    "sources": [
+      {
+        "label": "Hivileo",
+        "url": "https://hivileo.co.ke/safaricom-gulfcap-expand-m-pesa-investment-options-with-shariah-compliant-ziidi-fund/"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Erad",
+    "type": "company",
+    "description": "A Riyadh-based fintech that gives Shariah-compliant working capital to small businesses. Its AI models study a business's cash flow to approve financing in about 48 hours. It raised $22 million in September 2026 and has lent over $133 million to date.",
+    "sources": [
+      {
+        "label": "TechParley",
+        "url": "https://techparley.com/saudi-arabias-erad-raises-22m-to-expand-ai-powered-shariah-compliant-financing-for-smes-across-the-gulf/"
+      }
+    ],
+    "first_mentioned": "2026-10-14",
+    "edition": "editions/2026-10-14.html"
   }
 ]
