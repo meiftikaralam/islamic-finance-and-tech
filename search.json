@@ -96,6 +96,12 @@
   "excerpt": "Oct 15 brief: a thin news day, so the edition goes deep on learning — how sukuk sales work and what halal funds cost."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 16, 2026",
+  "url": "/editions/2026-10-16.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 16: no in-region news, so global stories — Jordan's first municipal sukuk, Oman's $2B sukuk programme — plus ijara explained."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -874,5 +880,35 @@
   "url": "/glossary/index.html#erad",
   "type": "Glossary: company",
   "excerpt": "A Riyadh-based fintech that gives Shariah-compliant working capital to small businesses. Its AI models study a business's cash flow to approve financing in abou"
+ },
+ {
+  "title": "Guidance Residential",
+  "url": "/glossary/index.html#guidance-residential",
+  "type": "Glossary: company",
+  "excerpt": "The largest US provider of Islamic home financing, based in Reston, Virginia. It uses a Declining Balance Co-ownership program: buyer and company buy the home t"
+ },
+ {
+  "title": "IjaraCDC",
+  "url": "/glossary/index.html#ijaracdc",
+  "type": "Glossary: company",
+  "excerpt": "Ijara Community Development Corporation, a Michigan-based nonprofit that structures Shariah-compliant home financing across the USA and Canada. It uses the Ijar"
+ },
+ {
+  "title": "Ijara",
+  "url": "/glossary/index.html#ijara",
+  "type": "Glossary: concept",
+  "excerpt": "An Islamic lease contract: one party owns an asset and the other pays fixed monthly rent to use it, with no interest. In the lease-to-own form (ijara wa iqtina)"
+ },
+ {
+  "title": "Sukuk programme",
+  "url": "/glossary/index.html#sukuk-programme",
+  "type": "Glossary: concept",
+  "excerpt": "A pre-approved framework letting an issuer sell sukuk in multiple tranches up to a set ceiling, instead of arranging each sale from scratch. Example: OQEP's $2B"
+ },
+ {
+  "title": "Municipal sukuk",
+  "url": "/glossary/index.html#municipal-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "Sukuk issued by a city or municipal government to fund public services or refinance existing debt. Example: Greater Amman Municipality's JD400M ijara sukuk — Jo"
  }
 ]

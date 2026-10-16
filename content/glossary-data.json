@@ -897,5 +897,83 @@
     ],
     "first_mentioned": "2026-10-14",
     "edition": "editions/2026-10-14.html"
+  },
+  {
+    "name": "Guidance Residential",
+    "type": "company",
+    "website": "https://www.guidanceresidential.com/",
+    "description": "The largest US provider of Islamic home financing, based in Reston, Virginia. It uses a Declining Balance Co-ownership program: buyer and company buy the home together, and the buyer gradually acquires the company's share with monthly payments instead of paying interest. It says it has funded over $4.9 billion in Shariah-compliant home financing.",
+    "sources": [
+      {
+        "label": "The Times of Texas — Guidance Residential's co-ownership program and $4.9B funded",
+        "url": "https://thetimesoftexas.com/guidance-residential-launches-new-website-to-simplify-islamic-home-financing-for-u-s-consumers/"
+      },
+      {
+        "label": "Guidance Residential official website",
+        "url": "https://www.guidanceresidential.com/"
+      }
+    ],
+    "first_mentioned": "2026-10-16",
+    "edition": "editions/2026-10-16.html"
+  },
+  {
+    "name": "IjaraCDC",
+    "type": "company",
+    "website": "https://ijaracdc.com",
+    "description": "Ijara Community Development Corporation, a Michigan-based nonprofit that structures Shariah-compliant home financing across the USA and Canada. It uses the Ijara lease-to-own model and works through licensed financing providers rather than lending itself.",
+    "sources": [
+      {
+        "label": "IjaraCDC — about its Ijara lease-to-own home financing model",
+        "url": "https://ijaracdc.com/about-islamic-home-financing-ijara-cdc/"
+      },
+      {
+        "label": "IjaraCDC official website",
+        "url": "https://ijaracdc.com"
+      }
+    ],
+    "first_mentioned": "2026-10-16",
+    "edition": "editions/2026-10-16.html"
+  },
+  {
+    "name": "Ijara",
+    "type": "concept",
+    "website": null,
+    "description": "An Islamic lease contract: one party owns an asset and the other pays fixed monthly rent to use it, with no interest. In the lease-to-own form (ijara wa iqtina), each payment is split between rent and a contribution toward ownership, so the user ends up owning the asset at the end of the term.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief — Oct 16, 2026 edition (Ijara explainer)",
+        "url": "https://islamicfintech.org/editions/2026-10-16.html"
+      }
+    ],
+    "first_mentioned": "2026-10-16",
+    "edition": "editions/2026-10-16.html"
+  },
+  {
+    "name": "Sukuk programme",
+    "type": "concept",
+    "website": null,
+    "description": "A pre-approved framework letting an issuer sell sukuk in multiple tranches up to a set ceiling, instead of arranging each sale from scratch. Example: OQEP's $2B programme lets the Omani energy company issue tranches whenever market conditions suit.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 16 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-16.html"
+      }
+    ],
+    "first_mentioned": "2026-10-16",
+    "edition": "editions/2026-10-16.html"
+  },
+  {
+    "name": "Municipal sukuk",
+    "type": "concept",
+    "website": null,
+    "description": "Sukuk issued by a city or municipal government to fund public services or refinance existing debt. Example: Greater Amman Municipality's JD400M ijara sukuk — Jordan's first — to replace expensive conventional loans.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 16 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-16.html"
+      }
+    ],
+    "first_mentioned": "2026-10-16",
+    "edition": "editions/2026-10-16.html"
   }
 ]
