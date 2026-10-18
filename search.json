@@ -102,6 +102,12 @@
   "excerpt": "Oct 16: no in-region news, so global stories — Jordan's first municipal sukuk, Oman's $2B sukuk programme — plus ijara explained."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 17, 2026",
+  "url": "/editions/2026-10-17.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 17 brief: new questions over HSBC's Islamic fund holdings, Indonesia's Rp10T sukuk auction, short-term vs long-term sukuk, Istisna explained."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -910,5 +916,23 @@
   "url": "/glossary/index.html#municipal-sukuk",
   "type": "Glossary: concept",
   "excerpt": "Sukuk issued by a city or municipal government to fund public services or refinance existing debt. Example: Greater Amman Municipality's JD400M ijara sukuk — Jo"
+ },
+ {
+  "title": "HSBC",
+  "url": "/glossary/index.html#hsbc",
+  "type": "Glossary: company",
+  "excerpt": "A British multinational bank headquartered in London. It runs the HSBC Islamic Global Equity Index Fund, one of the largest Shariah-screened equity funds, which"
+ },
+ {
+  "title": "Tokenised sukuk",
+  "url": "/glossary/index.html#tokenised-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A sukuk whose ownership is recorded as digital tokens on a shared ledger (blockchain) instead of a paper registry. The Shariah structure underneath is unchanged"
+ },
+ {
+  "title": "Istisna",
+  "url": "/glossary/index.html#istisna",
+  "type": "Glossary: concept",
+  "excerpt": "A contract to manufacture or build something that does not exist yet, to the buyer's specifications, with the price and delivery date fixed in advance. There is"
  }
 ]

@@ -975,5 +975,59 @@
     ],
     "first_mentioned": "2026-10-16",
     "edition": "editions/2026-10-16.html"
+  },
+  {
+    "name": "HSBC",
+    "type": "company",
+    "website": "https://www.hsbc.com",
+    "description": "A British multinational bank headquartered in London. It runs the HSBC Islamic Global Equity Index Fund, one of the largest Shariah-screened equity funds, which sits inside most UK halal workplace pension schemes.",
+    "sources": [
+      {
+        "label": "HSBC official site",
+        "url": "https://www.hsbc.com"
+      },
+      {
+        "label": "Media Review Network — HSBC sharia-compliant fund holdings report (Oct 2026)",
+        "url": "https://mediareviewnet.com/2026/10/hsbc-sharia-compliant-fund-spent-over-100m-on-five-israeli-military-linked-firms/"
+      }
+    ],
+    "first_mentioned": "2026-10-17",
+    "edition": "editions/2026-10-17.html"
+  },
+  {
+    "name": "Tokenised sukuk",
+    "type": "concept",
+    "website": null,
+    "description": "A sukuk whose ownership is recorded as digital tokens on a shared ledger (blockchain) instead of a paper registry. The Shariah structure underneath is unchanged; tokenisation changes the record-keeping and can cut the investment into small pieces so ordinary people can buy in. Example: Malaysia's planned retail tokenised government sukuk under Budget 2027.",
+    "sources": [
+      {
+        "label": "LEMON Blog — Malaysia plans tokenised government sukuk for retail investors (Oct 2026)",
+        "url": "https://www.lemon-web.net/lemon-blog/news/malaysia-plans-tokenised-government-sukuk-for-retail-investors-under-budget-2027"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 17 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-17.html"
+      }
+    ],
+    "first_mentioned": "2026-10-17",
+    "edition": "editions/2026-10-17.html"
+  },
+  {
+    "name": "Istisna",
+    "type": "concept",
+    "website": null,
+    "description": "A contract to manufacture or build something that does not exist yet, to the buyer's specifications, with the price and delivery date fixed in advance. There is no interest and no loan. Example: an Islamic bank commissions a contractor to build a house on a customer's plot, pays the builder as work progresses, and the customer pays the bank in instalments.",
+    "sources": [
+      {
+        "label": "Islamic Finance News glossary — Istisna",
+        "url": "https://www.islamicfinancenews.com/glossary/istisna/page/2"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 17 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-17.html"
+      }
+    ],
+    "first_mentioned": "2026-10-17",
+    "edition": "editions/2026-10-17.html"
   }
 ]
