@@ -108,6 +108,12 @@
   "excerpt": "Oct 17 brief: new questions over HSBC's Islamic fund holdings, Indonesia's Rp10T sukuk auction, short-term vs long-term sukuk, Istisna explained."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 18, 2026",
+  "url": "/editions/2026-10-18.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 18 brief: the world's first actively managed Shariah ETF lists in London, a Malaysian sukuk faces a covenant breach, Cashku brings Shariah funds to an app."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -934,5 +940,83 @@
   "url": "/glossary/index.html#istisna",
   "type": "Glossary: concept",
   "excerpt": "A contract to manufacture or build something that does not exist yet, to the buyer's specifications, with the price and delivery date fixed in advance. There is"
+ },
+ {
+  "title": "Almalia",
+  "url": "/glossary/index.html#almalia",
+  "type": "Glossary: company",
+  "excerpt": "An international financial services group behind the Almalia Sanlam Active Shariah Global Equity UCITS ETF, the first actively managed global Shariah equity ETF"
+ },
+ {
+  "title": "Sanlam Investments",
+  "url": "/glossary/index.html#sanlam-investments",
+  "type": "Glossary: company",
+  "excerpt": "A South African-owned asset manager whose UK Global High Quality equity team runs the portfolio of the Almalia Shariah ETF."
+ },
+ {
+  "title": "HANetf",
+  "url": "/glossary/index.html#hanetf",
+  "type": "Glossary: company",
+  "excerpt": "A European white-label ETF platform that handles the listing and fund mechanics for issuers like Almalia; the Almalia Shariah ETF is its tenth ETF."
+ },
+ {
+  "title": "Amanie Advisors",
+  "url": "/glossary/index.html#amanie-advisors",
+  "type": "Glossary: company",
+  "excerpt": "A Shariah advisory firm whose panel of scholars checks that the Almalia Shariah ETF holdings stay compliant with Islamic investment principles."
+ },
+ {
+  "title": "Zetrix AI",
+  "url": "/glossary/index.html#zetrix-ai",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian technology company (formerly MYEG) whose Sukuk Wakalah breached a covenant in October 2026, with RM2.0 billion in principal at risk."
+ },
+ {
+  "title": "Cashku",
+  "url": "/glossary/index.html#cashku",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian digital wealth platform (operated by licensed firm Advisonomics) offering Shariah-compliant funds, including sukuk and private credit funds, with ti"
+ },
+ {
+  "title": "Muamalat Invest",
+  "url": "/glossary/index.html#muamalat-invest",
+  "type": "Glossary: company",
+  "excerpt": "The Islamic fund management arm of Bank Muamalat Malaysia; its Shariah-compliant funds are distributed through the Cashku app."
+ },
+ {
+  "title": "Central Bank of Somalia",
+  "url": "/glossary/index.html#central-bank-of-somalia",
+  "type": "Glossary: company",
+  "excerpt": "Somalia’s central bank, which joined AAOIFI in October 2026, committing its Islamic banking sector to international Shariah standards."
+ },
+ {
+  "title": "Actively managed ETF",
+  "url": "/glossary/index.html#actively-managed-etf",
+  "type": "Glossary: concept",
+  "excerpt": "An exchange-traded fund where professionals pick the stocks instead of copying an index. The Almalia Shariah ETF on the London Stock Exchange is the first activ"
+ },
+ {
+  "title": "Sukuk covenant",
+  "url": "/glossary/index.html#sukuk-covenant",
+  "type": "Glossary: concept",
+  "excerpt": "A promise written into a sukuk’s terms, such as keeping enough cash on hand. Breaking it is a breach that can lead to a waiver vote or a dissolution event."
+ },
+ {
+  "title": "Dissolution event (sukuk)",
+  "url": "/glossary/index.html#dissolution-event-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "The sukuk equivalent of a default. If triggered, the trustee can accelerate: every outstanding sum becomes due immediately. Example: Zetrix AI’s Sukuk Wakalah, "
+ },
+ {
+  "title": "Waqf",
+  "url": "/glossary/index.html#waqf",
+  "type": "Glossary: concept",
+  "excerpt": "A permanent charitable endowment in Islamic law. The assets are locked in forever and only their income is spent, for example to fund mosques, schools, or schol"
+ },
+ {
+  "title": "Salam",
+  "url": "/glossary/index.html#salam",
+  "type": "Glossary: concept",
+  "excerpt": "A contract for buying goods in advance: the buyer pays the full price now for goods delivered later, with goods, quantity, price, and delivery date fixed in the"
  }
 ]

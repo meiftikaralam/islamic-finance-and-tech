@@ -1029,5 +1029,219 @@
     ],
     "first_mentioned": "2026-10-17",
     "edition": "editions/2026-10-17.html"
+  },
+  {
+    "name": "Almalia",
+    "type": "company",
+    "website": "https://www.almalia.com/",
+    "description": "An international financial services group behind the Almalia Sanlam Active Shariah Global Equity UCITS ETF, the first actively managed global Shariah equity ETF on the London Stock Exchange.",
+    "sources": [
+      {
+        "label": "Almalia official site",
+        "url": "https://www.almalia.com/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Sanlam Investments",
+    "type": "company",
+    "website": "https://www.sanlaminvestments.com/uk/",
+    "description": "A South African-owned asset manager whose UK Global High Quality equity team runs the portfolio of the Almalia Shariah ETF.",
+    "sources": [
+      {
+        "label": "Sanlam Investments official site",
+        "url": "https://www.sanlaminvestments.com/uk/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "HANetf",
+    "type": "company",
+    "website": "https://www.hanetf.com/",
+    "description": "A European white-label ETF platform that handles the listing and fund mechanics for issuers like Almalia; the Almalia Shariah ETF is its tenth ETF.",
+    "sources": [
+      {
+        "label": "HANetf official site",
+        "url": "https://www.hanetf.com/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Amanie Advisors",
+    "type": "company",
+    "website": "https://amanieadvisors.com/",
+    "description": "A Shariah advisory firm whose panel of scholars checks that the Almalia Shariah ETF holdings stay compliant with Islamic investment principles.",
+    "sources": [
+      {
+        "label": "Amanie Advisors official site",
+        "url": "https://amanieadvisors.com/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Zetrix AI",
+    "type": "company",
+    "website": "https://www.myeg.com.my/",
+    "description": "A Malaysian technology company (formerly MYEG) whose Sukuk Wakalah breached a covenant in October 2026, with RM2.0 billion in principal at risk.",
+    "sources": [
+      {
+        "label": "Zetrix AI official site",
+        "url": "https://www.myeg.com.my/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Cashku",
+    "type": "company",
+    "website": "https://cashku.my/",
+    "description": "A Malaysian digital wealth platform (operated by licensed firm Advisonomics) offering Shariah-compliant funds, including sukuk and private credit funds, with tiny minimums and no sales charges.",
+    "sources": [
+      {
+        "label": "Cashku official site",
+        "url": "https://cashku.my/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Muamalat Invest",
+    "type": "company",
+    "website": "https://www.muamalat.com.my/",
+    "description": "The Islamic fund management arm of Bank Muamalat Malaysia; its Shariah-compliant funds are distributed through the Cashku app.",
+    "sources": [
+      {
+        "label": "Bank Muamalat official site",
+        "url": "https://www.muamalat.com.my/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Central Bank of Somalia",
+    "type": "company",
+    "website": "https://centralbank.gov.so/",
+    "description": "Somalia’s central bank, which joined AAOIFI in October 2026, committing its Islamic banking sector to international Shariah standards.",
+    "sources": [
+      {
+        "label": "Central Bank of Somalia official site",
+        "url": "https://centralbank.gov.so/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Actively managed ETF",
+    "type": "concept",
+    "website": null,
+    "description": "An exchange-traded fund where professionals pick the stocks instead of copying an index. The Almalia Shariah ETF on the London Stock Exchange is the first actively managed global Shariah equity ETF.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Sukuk covenant",
+    "type": "concept",
+    "website": null,
+    "description": "A promise written into a sukuk’s terms, such as keeping enough cash on hand. Breaking it is a breach that can lead to a waiver vote or a dissolution event.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Dissolution event (sukuk)",
+    "type": "concept",
+    "website": null,
+    "description": "The sukuk equivalent of a default. If triggered, the trustee can accelerate: every outstanding sum becomes due immediately. Example: Zetrix AI’s Sukuk Wakalah, with RM2.0 billion in principal at risk.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Waqf",
+    "type": "concept",
+    "website": null,
+    "description": "A permanent charitable endowment in Islamic law. The assets are locked in forever and only their income is spent, for example to fund mosques, schools, or scholars.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "Salam",
+    "type": "concept",
+    "website": null,
+    "description": "A contract for buying goods in advance: the buyer pays the full price now for goods delivered later, with goods, quantity, price, and delivery date fixed in the contract. Example: an Islamic bank paying a wheat farmer at planting time for delivery after harvest.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 18 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-18.html"
+      }
+    ],
+    "first_mentioned": "2026-10-18",
+    "edition": "editions/2026-10-18.html"
   }
 ]
