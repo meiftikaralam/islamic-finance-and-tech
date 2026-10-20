@@ -1243,5 +1243,116 @@
     ],
     "first_mentioned": "2026-10-18",
     "edition": "editions/2026-10-18.html"
+  },
+  {
+    "name": "SkyWorld",
+    "type": "company",
+    "website": "https://skyworld.my/",
+    "description": "A Malaysian property developer building high-rise residential, commercial, and affordable housing (its SkyAwani series) in Kuala Lumpur and Penang. In October 2026 its financing arm set up a MYR2 billion Sukuk Wakalah programme and issued the first MYR40 million.",
+    "sources": [
+      {
+        "label": "SkyWorld official site",
+        "url": "https://skyworld.my/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Al Mal Capital REIT",
+    "type": "company",
+    "website": "https://www.almalcapitalreit.com",
+    "description": "A real estate investment trust listed on the Dubai Financial Market, investing in income-generating UAE and Gulf properties such as schools, healthcare, and industrial assets. It borrows through Shariah-compliant Corporate Ijarah facilities instead of conventional loans.",
+    "sources": [
+      {
+        "label": "Al Mal Capital REIT official site",
+        "url": "https://www.almalcapitalreit.com"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "RAK Bank",
+    "type": "company",
+    "website": "https://www.rakbank.ae",
+    "description": "A UAE bank (the National Bank of Ras Al Khaimah) offering retail, business, and Islamic banking through its RAKislamic division. In October 2026 Al Mal Capital REIT sought unitholder approval to take an Islamic banking facility from it.",
+    "sources": [
+      {
+        "label": "RAK Bank official site",
+        "url": "https://www.rakbank.ae"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Sharjah Islamic Bank",
+    "type": "company",
+    "website": "https://www.sib.ae/home",
+    "description": "A UAE Islamic bank offering Shariah-compliant retail, corporate, and investment banking. In October 2026 it was named as the bank ready to join a Pakistani sovereign sukuk issuance discussed at the World Bank-IMF meetings in Bangkok.",
+    "sources": [
+      {
+        "label": "Sharjah Islamic Bank official site",
+        "url": "https://www.sib.ae/home"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Wakala",
+    "type": "concept",
+    "description": "An agency contract: an investor appoints an agent (wakil) to invest money under an agreed set of rules, for a fixed fee. Profits belong to the investor. Example: SkyWorld's Sukuk Wakalah, where investors appoint SkyWorld Capital as their agent to fund property development.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Panda bonds",
+    "type": "concept",
+    "description": "Bonds sold in China by a foreign borrower, denominated in yuan. They let a country borrow from Chinese investors instead of only dollar markets. Example: Pakistan's RMB 7.2 billion Panda bond programme, first issued in May 2026.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Islamic REIT",
+    "type": "concept",
+    "description": "A real estate investment trust that follows Shariah rules: it owns income-generating property, avoids interest-bearing debt, and keeps tenants in permissible businesses. Investors earn from rental income. Example: Al Mal Capital REIT on the Dubai Financial Market, which finances its properties with Corporate Ijarah facilities.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-19.html"
+      }
+    ],
+    "first_mentioned": "2026-10-19",
+    "edition": "editions/2026-10-19.html"
   }
 ]

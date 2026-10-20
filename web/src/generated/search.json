@@ -114,6 +114,12 @@
   "excerpt": "Oct 18 brief: the world's first actively managed Shariah ETF lists in London, a Malaysian sukuk faces a covenant breach, Cashku brings Shariah funds to an app."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 19, 2026",
+  "url": "/editions/2026-10-19.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 19 brief: SkyWorld launches a MYR2 billion Sukuk Wakalah programme, plus a Learn piece on Wakala — appointing an agent to act for you."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1018,5 +1024,47 @@
   "url": "/glossary/index.html#salam",
   "type": "Glossary: concept",
   "excerpt": "A contract for buying goods in advance: the buyer pays the full price now for goods delivered later, with goods, quantity, price, and delivery date fixed in the"
+ },
+ {
+  "title": "SkyWorld",
+  "url": "/glossary/index.html#skyworld",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian property developer building high-rise residential, commercial, and affordable housing (its SkyAwani series) in Kuala Lumpur and Penang. In October 2"
+ },
+ {
+  "title": "Al Mal Capital REIT",
+  "url": "/glossary/index.html#al-mal-capital-reit",
+  "type": "Glossary: company",
+  "excerpt": "A real estate investment trust listed on the Dubai Financial Market, investing in income-generating UAE and Gulf properties such as schools, healthcare, and ind"
+ },
+ {
+  "title": "RAK Bank",
+  "url": "/glossary/index.html#rak-bank",
+  "type": "Glossary: company",
+  "excerpt": "A UAE bank (the National Bank of Ras Al Khaimah) offering retail, business, and Islamic banking through its RAKislamic division. In October 2026 Al Mal Capital "
+ },
+ {
+  "title": "Sharjah Islamic Bank",
+  "url": "/glossary/index.html#sharjah-islamic-bank",
+  "type": "Glossary: company",
+  "excerpt": "A UAE Islamic bank offering Shariah-compliant retail, corporate, and investment banking. In October 2026 it was named as the bank ready to join a Pakistani sove"
+ },
+ {
+  "title": "Wakala",
+  "url": "/glossary/index.html#wakala",
+  "type": "Glossary: concept",
+  "excerpt": "An agency contract: an investor appoints an agent (wakil) to invest money under an agreed set of rules, for a fixed fee. Profits belong to the investor. Example"
+ },
+ {
+  "title": "Panda bonds",
+  "url": "/glossary/index.html#panda-bonds",
+  "type": "Glossary: concept",
+  "excerpt": "Bonds sold in China by a foreign borrower, denominated in yuan. They let a country borrow from Chinese investors instead of only dollar markets. Example: Pakist"
+ },
+ {
+  "title": "Islamic REIT",
+  "url": "/glossary/index.html#islamic-reit",
+  "type": "Glossary: concept",
+  "excerpt": "A real estate investment trust that follows Shariah rules: it owns income-generating property, avoids interest-bearing debt, and keeps tenants in permissible bu"
  }
 ]
