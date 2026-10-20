@@ -35,9 +35,10 @@ const CALLOUT_LEADS = ["What to learn:", "Why it matters:"];
 
 /**
  * remark plugin: groups a "What to learn:" / "Why it matters:" paragraph with
- * the plain paragraphs that follow it, so a multi-paragraph callout renders
- * as one highlighted box instead of styling only the first paragraph.
- * Stops at headings, lists, link-only (source) paragraphs, and the disclaimer.
+ * the block content that follows it (paragraphs and lists), so a multi-part
+ * callout renders as one highlighted box instead of styling only the first
+ * paragraph. A list inside the lesson (e.g. numbered steps) stays in the box.
+ * Stops at headings, link-only (source) paragraphs, and the disclaimer.
  */
 function remarkGroupCallouts() {
   return (tree: any) => {
@@ -53,14 +54,23 @@ function remarkGroupCallouts() {
       ) {
         const group = [node];
         let j = i + 1;
-        while (
-          j < kids.length &&
-          kids[j]?.type === "paragraph" &&
-          !isLinkOnlyParagraph(kids[j]) &&
-          !mdastText(kids[j]).startsWith("For educational purposes only")
-        ) {
-          group.push(kids[j]);
-          j++;
+        while (j < kids.length) {
+          const next = kids[j];
+          if (next?.type === "list") {
+            group.push(next);
+            j++;
+            continue;
+          }
+          if (
+            next?.type === "paragraph" &&
+            !isLinkOnlyParagraph(next) &&
+            !mdastText(next).startsWith("For educational purposes only")
+          ) {
+            group.push(next);
+            j++;
+            continue;
+          }
+          break;
         }
         out.push({ type: "callout", children: group, data: { hName: "callout" } });
         i = j;
