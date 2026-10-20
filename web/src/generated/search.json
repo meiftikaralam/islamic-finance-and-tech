@@ -120,6 +120,12 @@
   "excerpt": "Oct 19 brief: SkyWorld launches a MYR2 billion Sukuk Wakalah programme, plus a Learn piece on Wakala — appointing an agent to act for you."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 20, 2026",
+  "url": "/editions/2026-10-20.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 20 brief: HSBC rethinks Palantir after pension pressure, and Arada's $411.7M sukuk buyback — the refinancing steps explained in plain order."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1066,5 +1072,23 @@
   "url": "/glossary/index.html#islamic-reit",
   "type": "Glossary: concept",
   "excerpt": "A real estate investment trust that follows Shariah rules: it owns income-generating property, avoids interest-bearing debt, and keeps tenants in permissible bu"
+ },
+ {
+  "title": "Arada Developments",
+  "url": "/glossary/index.html#arada-developments",
+  "type": "Glossary: company",
+  "excerpt": "UAE property developer building large residential and mixed-use communities in Sharjah and Dubai."
+ },
+ {
+  "title": "Nest",
+  "url": "/glossary/index.html#nest",
+  "type": "Glossary: company",
+  "excerpt": "The UK's state-backed workplace pension scheme, open to any employer; its members' retirement savings include Sharia-compliant fund options."
+ },
+ {
+  "title": "Tender offer",
+  "url": "/glossary/index.html#tender-offer",
+  "type": "Glossary: concept",
+  "excerpt": "When a company offers to buy back its own bonds or sukuk certificates from investors for cash, usually to refinance on better terms. Example: Arada's October 20"
  }
 ]

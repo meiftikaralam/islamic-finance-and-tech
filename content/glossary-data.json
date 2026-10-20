@@ -1354,5 +1354,54 @@
     ],
     "first_mentioned": "2026-10-19",
     "edition": "editions/2026-10-19.html"
+  },
+  {
+    "name": "Arada Developments",
+    "type": "company",
+    "description": "UAE property developer building large residential and mixed-use communities in Sharjah and Dubai.",
+    "sources": [
+      {
+        "label": "Arada",
+        "url": "https://www.arada.com"
+      },
+      {
+        "label": "Investegate RNS",
+        "url": "http://www.investegate.co.uk/announcement/rns/arada-sukuk-limited--ri99/launch-of-tender-offer/9831635"
+      }
+    ],
+    "first_mentioned": "2026-10-20",
+    "edition": "editions/2026-10-20.html",
+    "website": "https://www.arada.com"
+  },
+  {
+    "name": "Nest",
+    "type": "company",
+    "description": "The UK's state-backed workplace pension scheme, open to any employer; its members' retirement savings include Sharia-compliant fund options.",
+    "sources": [
+      {
+        "label": "Nest",
+        "url": "https://www.nestpensions.org.uk"
+      },
+      {
+        "label": "TradingPedia",
+        "url": "https://www.tradingpedia.com/2026/10/20/hsbc-weighs-palantir-in-9b-sharia-fund-after-backlash/"
+      }
+    ],
+    "first_mentioned": "2026-10-20",
+    "edition": "editions/2026-10-20.html",
+    "website": "https://www.nestpensions.org.uk"
+  },
+  {
+    "name": "Tender offer",
+    "type": "concept",
+    "description": "When a company offers to buy back its own bonds or sukuk certificates from investors for cash, usually to refinance on better terms. Example: Arada's October 2026 offer to buy back $411.7 million of its 2027 sukuk at face value.",
+    "sources": [
+      {
+        "label": "Investegate RNS",
+        "url": "http://www.investegate.co.uk/announcement/rns/arada-sukuk-limited--ri99/launch-of-tender-offer/9831635"
+      }
+    ],
+    "first_mentioned": "2026-10-20",
+    "edition": "editions/2026-10-20.html"
   }
 ]
