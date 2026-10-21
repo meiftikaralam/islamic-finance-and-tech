@@ -126,6 +126,12 @@
   "excerpt": "Oct 20 brief: HSBC rethinks Palantir after pension pressure, and Arada's $411.7M sukuk buyback — the refinancing steps explained in plain order."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 21, 2026",
+  "url": "/editions/2026-10-21.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 21 brief: Google starts verifying US finance advertisers, and a UK report puts a £450M price on interest-free student finance."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1090,5 +1096,35 @@
   "url": "/glossary/index.html#tender-offer",
   "type": "Glossary: concept",
   "excerpt": "When a company offers to buy back its own bonds or sukuk certificates from investors for cash, usually to refinance on better terms. Example: Arada's October 20"
+ },
+ {
+  "title": "Google",
+  "url": "/glossary/index.html#google",
+  "type": "Glossary: company",
+  "excerpt": "Technology company behind the world's most-used search engine and a major ad platform. Its Financial Services Verification program screens finance advertisers, "
+ },
+ {
+  "title": "Equi",
+  "url": "/glossary/index.html#equi",
+  "type": "Glossary: company",
+  "excerpt": "UK think tank producing ethically driven research on UK issues, drawing on Muslim insight. Its October 2026 'Have Faith in Higher Education' report put a £450 m"
+ },
+ {
+  "title": "Financial Services Verification",
+  "url": "/glossary/index.html#financial-services-verification",
+  "type": "Glossary: concept",
+  "excerpt": "Google's program that requires financial-services advertisers to prove they are authorized by a regulator or a recognized registry before their ads can run. It "
+ },
+ {
+  "title": "Alternative student finance",
+  "url": "/glossary/index.html#alternative-student-finance",
+  "type": "Glossary: concept",
+  "excerpt": "The UK's planned interest-free student finance product, built on the Islamic principle of takaful: students receive tuition and living-cost payments from a mutu"
+ },
+ {
+  "title": "Takaful (mutual support)",
+  "url": "/glossary/index.html#takaful-mutual-support",
+  "type": "Glossary: concept",
+  "excerpt": "The Islamic principle of mutual support: a group pools contributions into a shared fund that pays out when members need it. The UK's planned alternative student"
  }
 ]

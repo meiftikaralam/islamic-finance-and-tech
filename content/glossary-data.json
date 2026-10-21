@@ -1403,5 +1403,80 @@
     ],
     "first_mentioned": "2026-10-20",
     "edition": "editions/2026-10-20.html"
+  },
+  {
+    "name": "Google",
+    "type": "company",
+    "website": "https://www.google.com",
+    "description": "Technology company behind the world's most-used search engine and a major ad platform. Its Financial Services Verification program screens finance advertisers, including halal home-finance providers, before their ads can run; it reaches the US and Canada in early 2027.",
+    "sources": [
+      {
+        "label": "Search Engine Land",
+        "url": "https://searchengineland.com/google-expands-financial-services-ad-verification-to-the-us-and-canada-497503"
+      },
+      {
+        "label": "PYMNTS",
+        "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/google-mandates-further-verification-for-us-and-canada-financial-ads/"
+      }
+    ],
+    "first_mentioned": "2026-10-21",
+    "edition": "editions/2026-10-21.html"
+  },
+  {
+    "name": "Equi",
+    "type": "company",
+    "website": "https://equi.org.uk/",
+    "description": "UK think tank producing ethically driven research on UK issues, drawing on Muslim insight. Its October 2026 'Have Faith in Higher Education' report put a £450 million price on introducing interest-free alternative student finance.",
+    "sources": [
+      {
+        "label": "Equi (official site)",
+        "url": "https://equi.org.uk/"
+      },
+      {
+        "label": "Times Higher Education",
+        "url": "https://www.timeshighereducation.com/news/loans-debate-spotlights-muslim-students-need-alternative"
+      }
+    ],
+    "first_mentioned": "2026-10-21",
+    "edition": "editions/2026-10-21.html"
+  },
+  {
+    "name": "Financial Services Verification",
+    "type": "concept",
+    "description": "Google's program that requires financial-services advertisers to prove they are authorized by a regulator or a recognized registry before their ads can run. It started in the UK in 2021 and reaches the US and Canada in early 2027. Example: a halal mortgage provider advertising on Google will need to show its licence.",
+    "sources": [
+      {
+        "label": "Search Engine Land",
+        "url": "https://searchengineland.com/google-expands-financial-services-ad-verification-to-the-us-and-canada-497503"
+      }
+    ],
+    "first_mentioned": "2026-10-21",
+    "edition": "editions/2026-10-21.html"
+  },
+  {
+    "name": "Alternative student finance",
+    "type": "concept",
+    "description": "The UK's planned interest-free student finance product, built on the Islamic principle of takaful: students receive tuition and living-cost payments from a mutual fund and later pay contributions into it, ringfenced for future students, with no interest.",
+    "sources": [
+      {
+        "label": "GOV.UK",
+        "url": "https://www.gov.uk/government/publications/alternative-student-finance/alternative-student-finance"
+      }
+    ],
+    "first_mentioned": "2026-10-21",
+    "edition": "editions/2026-10-21.html"
+  },
+  {
+    "name": "Takaful (mutual support)",
+    "type": "concept",
+    "description": "The Islamic principle of mutual support: a group pools contributions into a shared fund that pays out when members need it. The UK's planned alternative student finance uses a takaful fund — graduates' contributions pay for future students, with no interest involved.",
+    "sources": [
+      {
+        "label": "GOV.UK",
+        "url": "https://www.gov.uk/government/publications/alternative-student-finance/alternative-student-finance"
+      }
+    ],
+    "first_mentioned": "2026-10-21",
+    "edition": "editions/2026-10-21.html"
   }
 ]
