@@ -31,7 +31,8 @@ For the top candidates after Step 3 (top 3 per sector, plus any stock with margi
 
 ## Step 5 — Output (sector-wise)
 - One report per day: ~/workspace/halal-screener/reports/YYYY-MM-DD.md and .html.
-- Sector-wise ranked tables (energy, healthcare, industrials, software/tech, consumer, materials, utilities, real estate, other): top 3 per sector. Columns: rank, ticker, company, what it does, price, Graham value, margin of safety, Buffett verdict, dividend yield + steady mark, due-diligence score /10, one-line 3-year potential note.
+- Sector-wise ranked tables (energy, healthcare, industrials, software/tech, consumer, materials, utilities, real estate, other): top 3 per sector. Columns: rank, ticker, company, what it does, price, intrinsic value (the Graham formula value, in dollars — the column is named "Intrinsic value ($)"), margin of safety, Buffett verdict, dividend yield + steady mark, due-diligence score /10, one-line 3-year potential note.
+- Final combined top-10 table. Columns: rank, ticker, company, sector, price, intrinsic value ($), margin of safety, due-diligence score /10, 3-year potential note. The intrinsic value column appears in every stock table in the report, never only the margin-of-safety ratio.
 - A final combined list: the day's top 10 across all sectors by combined standing (margin of safety + Buffett pass + due-diligence score).
 - Funnel counts at the top: universe size → AAOIFI pass → Buffett pass → scored finalists.
 - Plain small-text disclaimer at the top. Plain direct sentences, no analogies, no hype.
@@ -40,7 +41,7 @@ For the top candidates after Step 3 (top 3 per sector, plus any stock with margi
 ## Step 6 — Virtual portfolio monitoring
 - The virtual portfolio lives in ~/workspace/halal-screener/portfolio.json (holdings, entry prices, entry margin of safety) with a human-readable copy in portfolio.md. It is a paper portfolio: $100,000 virtual cash, no real money, no automatic buying or selling ever.
 - Every run reprices each holding at that day's close and recomputes its Graham value, margin of safety, Buffett checks, and AAOIFI ratios with the freshest filings data.
-- The daily report includes a portfolio section: total virtual value, gain or loss since entry, and one row per holding (current price, return since entry, current margin of safety, change since entry, Buffett status today).
+- The daily report includes a portfolio section: total virtual value, gain or loss since entry, and one row per holding (current price, intrinsic value ($), return since entry, current margin of safety, change since entry, Buffett status today, AAOIFI status today).
 - Alerts (raised in the report and in the chat summary):
   1. Margin of safety moves 25% or more from its entry value, in either direction — the alert states whether price or earnings drove it.
   2. A holding fails any Buffett check — the alert names the check and the new number.
