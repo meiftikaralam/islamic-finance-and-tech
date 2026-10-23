@@ -16,9 +16,9 @@ export function Newsletters() {
   const editions = loadDocs("editions");
   return (
     <div>
-      <h2 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
+      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
         Daily Newsletters
-      </h2>
+      </h1>
       <div className="space-y-4">
         {editions.map((e) => (
           <Link key={e.slug} to={`/editions/${e.slug}.html`} className="no-underline block">

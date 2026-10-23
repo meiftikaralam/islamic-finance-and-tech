@@ -27,17 +27,17 @@ const addSearch = (title, url, type, excerpt) =>
 // --- static pages ---
 const statics = [
   ["/", "home", "Islamic Finance and Technology",
-    "Educational resources for Islamic finance and the technology behind it. Daily newsletter, beginner guides, AAOIFI standards in simple English, and a growing glossary."],
+    "Educational resources for Islamic finance and the technology behind it: a daily newsletter, beginner guides, AAOIFI standards in simple English, and a glossary."],
   ["/newsletters.html", "newsletters", "Daily Newsletters — Islamic Finance and Technology",
-    "Daily newsletter archive: every edition with source links and plain-English explainers."],
+    "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."],
   ["/about.html", "page", "About — Islamic Finance and Technology",
     "About Islamic Finance and Technology — a free educational project by Iftikar."],
   ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",
     "The open playbook behind this site — sources, rules, and process."],
   ["/aaoifi/index.html", "aaoifi-index", "AAOIFI Standards in Simple English",
-    "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."],
+    "All 62 AAOIFI Shariah Standards in plain, simple English: what each standard covers, its key rules, and an everyday example. Free for learning and teaching."],
   ["/glossary/index.html", "glossary", "Glossary — Islamic Finance and Technology",
-    "Companies and concepts from the newsletter, explained simply."],
+    "Companies and concepts from the daily newsletter, explained in simple words: Islamic banks, fintech firms, sukuk, takaful, and the key terms behind them."],
 ];
 for (const [path, kind, title, description] of statics) {
   const slug = kind === "page" ? basename(path, ".html") === "about" ? "about" : "playbook" : undefined;

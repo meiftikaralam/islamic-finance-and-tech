@@ -3,13 +3,13 @@
   "title": "Islamic Finance and Technology",
   "url": "/",
   "type": "Page",
-  "excerpt": "Educational resources for Islamic finance and the technology behind it. Daily newsletter, beginner guides, AAOIFI standards in simple English, and a growing glo"
+  "excerpt": "Educational resources for Islamic finance and the technology behind it: a daily newsletter, beginner guides, AAOIFI standards in simple English, and a glossary."
  },
  {
   "title": "Daily Newsletters — Islamic Finance and Technology",
   "url": "/newsletters.html",
   "type": "Page",
-  "excerpt": "Daily newsletter archive: every edition with source links and plain-English explainers."
+  "excerpt": "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."
  },
  {
   "title": "About — Islamic Finance and Technology",
@@ -27,13 +27,13 @@
   "title": "AAOIFI Standards in Simple English",
   "url": "/aaoifi/index.html",
   "type": "Page",
-  "excerpt": "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."
+  "excerpt": "All 62 AAOIFI Shariah Standards in plain, simple English: what each standard covers, its key rules, and an everyday example. Free for learning and teaching."
  },
  {
   "title": "Glossary — Islamic Finance and Technology",
   "url": "/glossary/index.html",
   "type": "Page",
-  "excerpt": "Companies and concepts from the newsletter, explained simply."
+  "excerpt": "Companies and concepts from the daily newsletter, explained in simple words: Islamic banks, fintech firms, sukuk, takaful, and the key terms behind them."
  },
  {
   "title": "Islamic Finance Daily Brief — October 6, 2026",
@@ -135,7 +135,7 @@
   "title": "Islamic Finance Daily Brief — October 22, 2026",
   "url": "/editions/2026-10-22.html",
   "type": "Newsletter edition",
-  "excerpt": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a credit card that never charges profi"
+  "excerpt": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a non-compounding Islamic credit card."
  },
  {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",

@@ -17,9 +17,9 @@ export function AaoifiIndex() {
 
   return (
     <div>
-      <h2 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-2">
+      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-2">
         AAOIFI Standards in Simple English
-      </h2>
+      </h1>
       <p className="text-[15px] text-[#333] leading-[1.7] mb-4">
         All 62 Shariah Standards, summarized so anyone can understand them. AAOIFI — the Accounting
         and Auditing Organization for Islamic Financial Institutions — writes the global rulebook

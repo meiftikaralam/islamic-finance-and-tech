@@ -52,9 +52,9 @@ export function Glossary() {
 
   return (
     <div>
-      <h2 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-2">
+      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-2">
         Glossary
-      </h2>
+      </h1>
       <p className="text-[15px] text-[#333] leading-[1.7] mb-4">
         Companies and concepts from the Daily Brief, explained simply. This page grows with each new
         edition.

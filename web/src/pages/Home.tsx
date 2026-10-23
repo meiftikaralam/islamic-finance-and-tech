@@ -23,9 +23,9 @@ export function Home() {
   const posts = loadDocs("posts");
   return (
     <div>
-      <h2 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
+      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
         Posts
-      </h2>
+      </h1>
       <div className="space-y-4">
         {posts.map((p) => (
           <Link key={p.slug} to={POST_URL[p.slug] ?? `/lab/${p.slug}.html`} className="no-underline block">

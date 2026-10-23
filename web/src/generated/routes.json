@@ -3,13 +3,13 @@
   "path": "/",
   "kind": "home",
   "title": "Islamic Finance and Technology",
-  "description": "Educational resources for Islamic finance and the technology behind it. Daily newsletter, beginner guides, AAOIFI standards in simple English, and a growing glossary."
+  "description": "Educational resources for Islamic finance and the technology behind it: a daily newsletter, beginner guides, AAOIFI standards in simple English, and a glossary."
  },
  {
   "path": "/aaoifi/index.html",
   "kind": "aaoifi-index",
   "title": "AAOIFI Standards in Simple English",
-  "description": "All 62 AAOIFI Shariah Standards summarized in plain, simple English — free for learning, teaching, and research."
+  "description": "All 62 AAOIFI Shariah Standards in plain, simple English: what each standard covers, its key rules, and an everyday example. Free for learning and teaching."
  },
  {
   "path": "/aaoifi/ss-01-trading-in-currencies.html",
@@ -647,14 +647,14 @@
   "kind": "edition",
   "slug": "2026-10-22",
   "title": "Islamic Finance Daily Brief — October 22, 2026",
-  "description": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a credit card that never charges profit on profit.",
+  "description": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a non-compounding Islamic credit card.",
   "date": "2026-10-22"
  },
  {
   "path": "/glossary/index.html",
   "kind": "glossary",
   "title": "Glossary — Islamic Finance and Technology",
-  "description": "Companies and concepts from the newsletter, explained simply."
+  "description": "Companies and concepts from the daily newsletter, explained in simple words: Islamic banks, fintech firms, sukuk, takaful, and the key terms behind them."
  },
  {
   "path": "/lab/ai-persona-stock-analysis.html",
@@ -716,7 +716,7 @@
   "path": "/newsletters.html",
   "kind": "newsletters",
   "title": "Daily Newsletters — Islamic Finance and Technology",
-  "description": "Daily newsletter archive: every edition with source links and plain-English explainers."
+  "description": "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."
  },
  {
   "path": "/playbook/index.html",
