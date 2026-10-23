@@ -1478,5 +1478,119 @@
     ],
     "first_mentioned": "2026-10-21",
     "edition": "editions/2026-10-21.html"
+  },
+  {
+    "name": "Bank Negara Malaysia",
+    "type": "company",
+    "website": "https://www.bnm.gov.my",
+    "description": "Malaysia's central bank. In October 2026 it launched SSDS+, a distributed-ledger platform for issuing and holding tokenized bonds, including sukuk, that settles payments in central bank money around the clock.",
+    "sources": [
+      {
+        "label": "Bank Negara Malaysia official site",
+        "url": "https://www.bnm.gov.my"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "The Alternative Bank (alt bank)",
+    "type": "company",
+    "website": "https://www.altbank.ng",
+    "description": "A Nigerian bank that operates entirely on non-interest (Islamic) finance principles. It started as a non-interest window inside Sterling Bank in 2014 and became a standalone licensed bank in 2023. In October 2026 it moved all its services onto MIZAN, a core banking platform built for Islamic finance.",
+    "sources": [
+      {
+        "label": "The Alternative Bank official site",
+        "url": "https://www.altbank.ng"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "Peerless",
+    "type": "company",
+    "website": "https://bepeerless.co",
+    "description": "A Nigerian financial software firm. It built MIZAN, a core banking platform designed from the ground up for Islamic and non-interest financial institutions, with contract templates for Murabaha, Ijara, Mudaraba, Istisna, and Qard Hassan.",
+    "sources": [
+      {
+        "label": "Peerless Mizan product page",
+        "url": "https://bepeerless.co/product/mizan"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "Tokenized bond",
+    "type": "concept",
+    "website": null,
+    "description": "A bond recorded as a digital token on a shared ledger instead of in a traditional securities depository. Ownership changes when the token moves, and payment can settle at the same time. A tokenized sukuk still needs the same asset-backed structure and Shariah approvals as a conventional one — only the record-keeping changes.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "Islamic core banking platform",
+    "type": "concept",
+    "website": null,
+    "description": "Banking software built around Islamic contracts from the start. Conventional systems assume loans with interest; an Islamic core records who owns the asset at each step, rental schedules, and profit-sharing ratios. Example: Nigeria's Peerless built MIZAN, and alt bank moved all its services onto it in October 2026.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "Bank Muamalat",
+    "type": "company",
+    "website": "https://www.muamalat.com.my",
+    "description": "Malaysia's second full-fledged Islamic bank, operating since 1999. In October 2026 it launched the Awwal Credit Card-i, a Shariah-compliant credit card with a 14% annual profit rate, no annual fee, and a non-compounding profit concept.",
+    "sources": [
+      {
+        "label": "Bank Muamalat official site",
+        "url": "https://www.muamalat.com.my"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "Islamic credit card",
+    "type": "concept",
+    "website": null,
+    "description": "A credit card that follows Shariah principles: the bank charges no interest. Instead it earns a profit rate on balances the customer carries over. Some, like Bank Muamalat's 2026 Awwal Card-i, use non-compounding profit — profit is charged only on what the customer owes, never on profit added in earlier months.",
+    "sources": [
+      {
+        "label": "Islamic Finance Daily Brief, Oct 22 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-22.html"
+      }
+    ],
+    "first_mentioned": "2026-10-22",
+    "edition": "editions/2026-10-22.html"
   }
 ]

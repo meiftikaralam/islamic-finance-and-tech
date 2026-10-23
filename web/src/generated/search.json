@@ -132,6 +132,12 @@
   "excerpt": "Oct 21 brief: Google starts verifying US finance advertisers, and a UK report puts a £450M price on interest-free student finance."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 22, 2026",
+  "url": "/editions/2026-10-22.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a credit card that never charges profi"
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1126,5 +1132,47 @@
   "url": "/glossary/index.html#takaful-mutual-support",
   "type": "Glossary: concept",
   "excerpt": "The Islamic principle of mutual support: a group pools contributions into a shared fund that pays out when members need it. The UK's planned alternative student"
+ },
+ {
+  "title": "Bank Negara Malaysia",
+  "url": "/glossary/index.html#bank-negara-malaysia",
+  "type": "Glossary: company",
+  "excerpt": "Malaysia's central bank. In October 2026 it launched SSDS+, a distributed-ledger platform for issuing and holding tokenized bonds, including sukuk, that settles"
+ },
+ {
+  "title": "The Alternative Bank (alt bank)",
+  "url": "/glossary/index.html#the-alternative-bank-alt-bank",
+  "type": "Glossary: company",
+  "excerpt": "A Nigerian bank that operates entirely on non-interest (Islamic) finance principles. It started as a non-interest window inside Sterling Bank in 2014 and became"
+ },
+ {
+  "title": "Peerless",
+  "url": "/glossary/index.html#peerless",
+  "type": "Glossary: company",
+  "excerpt": "A Nigerian financial software firm. It built MIZAN, a core banking platform designed from the ground up for Islamic and non-interest financial institutions, wit"
+ },
+ {
+  "title": "Tokenized bond",
+  "url": "/glossary/index.html#tokenized-bond",
+  "type": "Glossary: concept",
+  "excerpt": "A bond recorded as a digital token on a shared ledger instead of in a traditional securities depository. Ownership changes when the token moves, and payment can"
+ },
+ {
+  "title": "Islamic core banking platform",
+  "url": "/glossary/index.html#islamic-core-banking-platform",
+  "type": "Glossary: concept",
+  "excerpt": "Banking software built around Islamic contracts from the start. Conventional systems assume loans with interest; an Islamic core records who owns the asset at e"
+ },
+ {
+  "title": "Bank Muamalat",
+  "url": "/glossary/index.html#bank-muamalat",
+  "type": "Glossary: company",
+  "excerpt": "Malaysia's second full-fledged Islamic bank, operating since 1999. In October 2026 it launched the Awwal Credit Card-i, a Shariah-compliant credit card with a 1"
+ },
+ {
+  "title": "Islamic credit card",
+  "url": "/glossary/index.html#islamic-credit-card",
+  "type": "Glossary: concept",
+  "excerpt": "A credit card that follows Shariah principles: the bank charges no interest. Instead it earns a profit rate on balances the customer carries over. Some, like Ba"
  }
 ]
