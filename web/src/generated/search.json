@@ -138,6 +138,12 @@
   "excerpt": "Oct 22 brief: Malaysia's central bank launches a DLT bond platform, a Nigerian bank moves onto Islamic core software, and a non-compounding Islamic credit card."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 23, 2026",
+  "url": "/editions/2026-10-23.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 23: Shariah indexes beat the market in Q3 on tech weight, plus a lesson on reading a fund factsheet — sectors, fees, and the tracking gap — using SPUS."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1174,5 +1180,11 @@
   "url": "/glossary/index.html#islamic-credit-card",
   "type": "Glossary: concept",
   "excerpt": "A credit card that follows Shariah principles: the bank charges no interest. Instead it earns a profit rate on balances the customer carries over. Some, like Ba"
+ },
+ {
+  "title": "S&P Dow Jones Indices",
+  "url": "/glossary/index.html#s-p-dow-jones-indices",
+  "type": "Glossary: company",
+  "excerpt": "The company behind the S&P 500 and Dow Jones indexes. It also runs the main Shariah-screened stock indexes used around the world, including the S&P Global BMI S"
  }
 ]

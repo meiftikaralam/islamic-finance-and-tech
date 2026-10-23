@@ -1592,5 +1592,23 @@
     ],
     "first_mentioned": "2026-10-22",
     "edition": "editions/2026-10-22.html"
+  },
+  {
+    "name": "S&P Dow Jones Indices",
+    "type": "company",
+    "website": "https://www.spglobal.com/spdji",
+    "description": "The company behind the S&P 500 and Dow Jones indexes. It also runs the main Shariah-screened stock indexes used around the world, including the S&P Global BMI Shariah and the Dow Jones Islamic Market indexes, and publishes quarterly reviews of how they perform.",
+    "sources": [
+      {
+        "label": "S&P DJI official site",
+        "url": "https://www.spglobal.com/spdji"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 23 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-23.html"
+      }
+    ],
+    "first_mentioned": "2026-10-23",
+    "edition": "editions/2026-10-23.html"
   }
 ]
