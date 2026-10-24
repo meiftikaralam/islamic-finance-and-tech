@@ -144,6 +144,12 @@
   "excerpt": "Oct 23: Shariah indexes beat the market in Q3 on tech weight, plus a lesson on reading a fund factsheet — sectors, fees, and the tracking gap — using SPUS."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 24, 2026",
+  "url": "/editions/2026-10-24.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 24: Oman trials automated Shariah advice, Malaysia funds its 5G network with a syndicated Islamic facility, and Shariah banking software compared."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1186,5 +1192,77 @@
   "url": "/glossary/index.html#s-p-dow-jones-indices",
   "type": "Glossary: company",
   "excerpt": "The company behind the S&P 500 and Dow Jones indexes. It also runs the main Shariah-screened stock indexes used around the world, including the S&P Global BMI S"
+ },
+ {
+  "title": "Digital Nasional Berhad",
+  "url": "/glossary/index.html#digital-nasional-berhad",
+  "type": "Glossary: company",
+  "excerpt": "The Malaysian company that built the country's wholesale 5G network and sells 5G access to mobile operators. In October 2026 it closed a MYR5.2 billion Islamic "
+ },
+ {
+  "title": "Rushd",
+  "url": "/glossary/index.html#rushd",
+  "type": "Glossary: company",
+  "excerpt": "An automated investment platform in Oman, run by Suhaib Aldughaishi Investments, that builds and manages Shariah-compliant portfolios from a client's goals and "
+ },
+ {
+  "title": "Raya Financing",
+  "url": "/glossary/index.html#raya-financing",
+  "type": "Glossary: company",
+  "excerpt": "A Saudi finance company offering retail finance, leasing, and auto finance. In October 2026 it selected the Temenos Core banking platform to centralise its oper"
+ },
+ {
+  "title": "Temenos",
+  "url": "/glossary/index.html#temenos",
+  "type": "Glossary: company",
+  "excerpt": "A banking software firm whose Temenos Core platform records accounts, payments, and financing deals for banks and finance companies. Its configurable setup lets"
+ },
+ {
+  "title": "Network International",
+  "url": "/glossary/index.html#network-international",
+  "type": "Glossary: company",
+  "excerpt": "A Dubai-based payments company that processes card payments and runs back-office operations for banks and merchants across the Middle East and Africa. In Octobe"
+ },
+ {
+  "title": "Emirates Islamic",
+  "url": "/glossary/index.html#emirates-islamic",
+  "type": "Glossary: company",
+  "excerpt": "One of the leading Islamic banks in the United Arab Emirates, offering Shariah-compliant personal, business, and corporate banking. In October 2026 it renewed i"
+ },
+ {
+  "title": "Syndicated financing",
+  "url": "/glossary/index.html#syndicated-financing",
+  "type": "Glossary: concept",
+  "excerpt": "A single large financing shared by several banks. One bank arranges the deal and sets the terms, and other banks join, each taking a share of the facility, so t"
+ },
+ {
+  "title": "Regulatory sandbox",
+  "url": "/glossary/index.html#regulatory-sandbox",
+  "type": "Glossary: concept",
+  "excerpt": "A supervised trial space where a regulator lets a new financial service run live with real clients under limits, such as caps on client numbers and transaction "
+ },
+ {
+  "title": "Payment processing",
+  "url": "/glossary/index.html#payment-processing",
+  "type": "Glossary: concept",
+  "excerpt": "The system that moves a card payment from a shop to the customer's bank. The processor checks the transaction and routes it to the bank, and the back-office wor"
+ },
+ {
+  "title": "MIZAN",
+  "url": "/glossary/index.html#mizan",
+  "type": "Glossary: company",
+  "excerpt": "A core banking platform from Peerless built for Islamic and non-interest banks. Its records follow Islamic contracts directly, including murabaha sales, ijara l"
+ },
+ {
+  "title": "iMAL",
+  "url": "/glossary/index.html#imal",
+  "type": "Glossary: company",
+  "excerpt": "An AAOIFI-certified Islamic core banking platform from Path Solutions, built for Islamic banks from the start. It covers retail, corporate, and investment banki"
+ },
+ {
+  "title": "Oracle FLEXCUBE",
+  "url": "/glossary/index.html#oracle-flexcube",
+  "type": "Glossary: company",
+  "excerpt": "A general banking platform from Oracle with a dedicated Islamic banking suite. It runs Islamic products alongside conventional ones, including Islamic windows i"
  }
 ]
