@@ -1917,5 +1917,110 @@
     ],
     "first_mentioned": "2026-10-25",
     "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "International Islamic Trade Finance Corporation (ITFC)",
+    "type": "company",
+    "website": "https://www.itfc-idb.org",
+    "description": "The trade finance arm of the Islamic Development Bank group. It finances trade between member countries using Shariah-compliant methods, and advises banks and technology platforms on setting up Shariah-compliant supply chain finance products.",
+    "sources": [
+      {
+        "label": "Trade Treasury Payments \u2014 ITFC puts Islamic finance behind open account trade (Oct 26, 2026)",
+        "url": "https://tradetreasurypayments.com/articles/itfc-puts-islamic-finance-behind-open-account-trade"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Qualco",
+    "type": "company",
+    "website": "https://www.qualco.eu",
+    "description": "A Greek technology company whose ProximaPlus platform handles factoring and supply chain finance. In February 2026 its platform was certified to process transactions using Goods Murabaha and Tawarruq structures.",
+    "sources": [
+      {
+        "label": "Trade Treasury Payments \u2014 ITFC puts Islamic finance behind open account trade (Oct 26, 2026)",
+        "url": "https://tradetreasurypayments.com/articles/itfc-puts-islamic-finance-behind-open-account-trade"
+      },
+      {
+        "label": "Qualco official site \u2014 ProximaPlus",
+        "url": "https://www.qualco.eu/systems/proximaplus"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Islamic Development Bank Institute (IsDBI)",
+    "type": "company",
+    "website": "https://isdbinstitute.org",
+    "description": "The research and knowledge arm of the Islamic Development Bank group. In October 2026 it launched Prosper MSMEs with the Universal Postal Union to explore Islamic finance-aligned digital services for small businesses through postal networks.",
+    "sources": [
+      {
+        "label": "Tripura Star News \u2014 IsDBI and UPU launch Prosper MSMEs (Oct 13, 2026)",
+        "url": "https://www.tripurastarnews.com/islamic-development-bank-institute-and-universal-postal-union-launch-prosper-msmes-to-expand-islamic-digital-financial-services-through-postal-networks/"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Universal Postal Union (UPU)",
+    "type": "company",
+    "website": "https://www.upu.int",
+    "description": "A United Nations agency, based in Bern, Switzerland, that coordinates postal services across 192 member countries. In October 2026 it partnered with the Islamic Development Bank Institute on Prosper MSMEs, exploring how postal networks can deliver digital financial services to small businesses.",
+    "sources": [
+      {
+        "label": "Tripura Star News \u2014 IsDBI and UPU launch Prosper MSMEs (Oct 13, 2026)",
+        "url": "https://www.tripurastarnews.com/islamic-development-bank-institute-and-universal-postal-union-launch-prosper-msmes-to-expand-islamic-digital-financial-services-through-postal-networks/"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Supply chain finance",
+    "type": "concept",
+    "website": null,
+    "description": "Financing that pays a supplier early for goods already shipped, instead of making the supplier wait until the buyer's payment date. The financier pays the supplier a slightly discounted amount now and collects the full amount from the buyer later. A Shariah-compliant version earns its return through a sale or lease structure, not interest.",
+    "sources": [
+      {
+        "label": "Trade Treasury Payments \u2014 ITFC puts Islamic finance behind open account trade (Oct 26, 2026)",
+        "url": "https://tradetreasurypayments.com/articles/itfc-puts-islamic-finance-behind-open-account-trade"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Tawarruq",
+    "type": "concept",
+    "website": null,
+    "description": "A chain of sales used to raise cash without interest. A person buys a commodity on deferred payment, then sells it on for cash and keeps the cash. Each sale is a separate contract, and the cash comes from a real sale of a real commodity.",
+    "sources": [
+      {
+        "label": "Trade Treasury Payments \u2014 ITFC puts Islamic finance behind open account trade (Oct 26, 2026)",
+        "url": "https://tradetreasurypayments.com/articles/itfc-puts-islamic-finance-behind-open-account-trade"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Factoring",
+    "type": "concept",
+    "description": "Selling unpaid invoices to a company, called a factor, for cash now. The factor pays most of the invoice value within a day or two and collects the full amount from the customer later. For example, a supplier with a $10,000 invoice on 60-day terms might receive $8,500 now and the rest, minus a fee, when the customer pays.",
+    "sources": [
+      {
+        "label": "Merchant Maverick \u2014 Invoice factoring guide",
+        "url": "https://www.merchantmaverick.com/invoice-factoring-basics/"
+      },
+      {
+        "label": "Oct 26 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-26.html"
+      }
+    ],
+    "first_mentioned": "2026-10-26",
+    "edition": "editions/2026-10-26.html"
   }
 ]

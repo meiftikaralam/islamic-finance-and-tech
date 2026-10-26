@@ -156,6 +156,12 @@
   "excerpt": "Oct 25: Bahrain's first sustainable collateralised murabaha, Abu Dhabi's new Shariah-compliant covered cards, and the USA rules that govern waqf endowments."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 26, 2026",
+  "url": "/editions/2026-10-26.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 26: Islamic trade finance for suppliers waiting on payment, postal networks for small businesses, and factoring in the USA, UK, EU, Australia, and Canada."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1306,5 +1312,47 @@
   "url": "/glossary/index.html#collateralised-murabaha",
   "type": "Glossary: concept",
   "excerpt": "A murabaha sale backed by pledged assets as security. The bank buys an asset and sells it at a disclosed markup paid in instalments, and the pledged collateral "
+ },
+ {
+  "title": "International Islamic Trade Finance Corporation (ITFC)",
+  "url": "/glossary/index.html#international-islamic-trade-finance-corporation-itfc",
+  "type": "Glossary: company",
+  "excerpt": "The trade finance arm of the Islamic Development Bank group. It finances trade between member countries using Shariah-compliant methods, and advises banks and t"
+ },
+ {
+  "title": "Qualco",
+  "url": "/glossary/index.html#qualco",
+  "type": "Glossary: company",
+  "excerpt": "A Greek technology company whose ProximaPlus platform handles factoring and supply chain finance. In February 2026 its platform was certified to process transac"
+ },
+ {
+  "title": "Islamic Development Bank Institute (IsDBI)",
+  "url": "/glossary/index.html#islamic-development-bank-institute-isdbi",
+  "type": "Glossary: company",
+  "excerpt": "The research and knowledge arm of the Islamic Development Bank group. In October 2026 it launched Prosper MSMEs with the Universal Postal Union to explore Islam"
+ },
+ {
+  "title": "Universal Postal Union (UPU)",
+  "url": "/glossary/index.html#universal-postal-union-upu",
+  "type": "Glossary: company",
+  "excerpt": "A United Nations agency, based in Bern, Switzerland, that coordinates postal services across 192 member countries. In October 2026 it partnered with the Islamic"
+ },
+ {
+  "title": "Supply chain finance",
+  "url": "/glossary/index.html#supply-chain-finance",
+  "type": "Glossary: concept",
+  "excerpt": "Financing that pays a supplier early for goods already shipped, instead of making the supplier wait until the buyer's payment date. The financier pays the suppl"
+ },
+ {
+  "title": "Tawarruq",
+  "url": "/glossary/index.html#tawarruq",
+  "type": "Glossary: concept",
+  "excerpt": "A chain of sales used to raise cash without interest. A person buys a commodity on deferred payment, then sells it on for cash and keeps the cash. Each sale is "
+ },
+ {
+  "title": "Factoring",
+  "url": "/glossary/index.html#factoring",
+  "type": "Glossary: concept",
+  "excerpt": "Selling unpaid invoices to a company, called a factor, for cash now. The factor pays most of the invoice value within a day or two and collects the full amount "
  }
 ]
