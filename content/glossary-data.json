@@ -1811,5 +1811,111 @@
     ],
     "first_mentioned": "2026-10-24",
     "edition": "editions/2026-10-24.html"
+  },
+  {
+    "name": "National Bank of Bahrain",
+    "type": "company",
+    "website": "https://www.nbbonline.com",
+    "description": "Bahrain's first locally owned bank, founded in 1957, and the majority owner of Bahrain Islamic Bank. It offers retail, corporate, and investment banking, and structured the sustainable murabaha deal in this edition together with its Islamic arm.",
+    "sources": [
+      {
+        "label": "National Bank of Bahrain",
+        "url": "https://www.nbbonline.com"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "Bahrain Islamic Bank (BisB)",
+    "type": "company",
+    "website": "https://www.bisb.com",
+    "description": "Bahrain's first Islamic bank, founded in 1979. It offers Shariah-compliant retail and corporate banking, and applied its Islamic treasury expertise and Sustainable Finance Framework to the murabaha deal in this edition.",
+    "sources": [
+      {
+        "label": "Bahrain Islamic Bank",
+        "url": "https://www.bisb.com"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "Abu Dhabi Islamic Bank (ADIB)",
+    "type": "company",
+    "website": "https://www.adib.ae",
+    "description": "One of the UAE's largest Islamic banks. It offers Shariah-compliant retail, corporate, and card products, including the co-branded covered cards launched with Aldar in this edition.",
+    "sources": [
+      {
+        "label": "ADIB",
+        "url": "https://www.adib.ae"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "Aldar Properties",
+    "type": "company",
+    "website": "https://www.aldar.com",
+    "description": "Abu Dhabi's leading real estate developer, investor, and manager. It runs the Darna digital loyalty programme across its malls, hotels, schools, and residential communities.",
+    "sources": [
+      {
+        "label": "Aldar",
+        "url": "https://www.aldar.com"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "Covered card",
+    "type": "concept",
+    "description": "The Shariah-compliant version of a credit card. The bank charges set fees for the card instead of interest on unpaid balances, and earns from the annual fee and the commission merchants pay when the card is used. Example: the ADIB Aldar Visa cards launched in October 2026.",
+    "sources": [
+      {
+        "label": "ADIB",
+        "url": "https://www.adib.ae/en/news/2026/oct/aldar-and-adib-launch-co-branded-darna-covered-cards"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
+  },
+  {
+    "name": "Collateralised murabaha",
+    "type": "concept",
+    "description": "A murabaha sale backed by pledged assets as security. The bank buys an asset and sells it at a disclosed markup paid in instalments, and the pledged collateral gives the lender something to fall back on if the borrower cannot pay. Example: NBB Group's sustainable murabaha in Bahrain.",
+    "sources": [
+      {
+        "label": "BizBahrain",
+        "url": "https://www.bizbahrain.com/nbb-group-executes-bahrains-first-sustainable-collateralised-murabaha-transaction/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Oct 25 2026",
+        "url": "https://islamicfintech.org/editions/2026-10-25.html"
+      }
+    ],
+    "first_mentioned": "2026-10-25",
+    "edition": "editions/2026-10-25.html"
   }
 ]

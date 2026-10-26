@@ -150,6 +150,12 @@
   "excerpt": "Oct 24: Oman trials automated Shariah advice, Malaysia funds its 5G network with a syndicated Islamic facility, and Shariah banking software compared."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 25, 2026",
+  "url": "/editions/2026-10-25.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 25: Bahrain's first sustainable collateralised murabaha, Abu Dhabi's new Shariah-compliant covered cards, and the USA rules that govern waqf endowments."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1264,5 +1270,41 @@
   "url": "/glossary/index.html#oracle-flexcube",
   "type": "Glossary: company",
   "excerpt": "A general banking platform from Oracle with a dedicated Islamic banking suite. It runs Islamic products alongside conventional ones, including Islamic windows i"
+ },
+ {
+  "title": "National Bank of Bahrain",
+  "url": "/glossary/index.html#national-bank-of-bahrain",
+  "type": "Glossary: company",
+  "excerpt": "Bahrain's first locally owned bank, founded in 1957, and the majority owner of Bahrain Islamic Bank. It offers retail, corporate, and investment banking, and st"
+ },
+ {
+  "title": "Bahrain Islamic Bank (BisB)",
+  "url": "/glossary/index.html#bahrain-islamic-bank-bisb",
+  "type": "Glossary: company",
+  "excerpt": "Bahrain's first Islamic bank, founded in 1979. It offers Shariah-compliant retail and corporate banking, and applied its Islamic treasury expertise and Sustaina"
+ },
+ {
+  "title": "Abu Dhabi Islamic Bank (ADIB)",
+  "url": "/glossary/index.html#abu-dhabi-islamic-bank-adib",
+  "type": "Glossary: company",
+  "excerpt": "One of the UAE's largest Islamic banks. It offers Shariah-compliant retail, corporate, and card products, including the co-branded covered cards launched with A"
+ },
+ {
+  "title": "Aldar Properties",
+  "url": "/glossary/index.html#aldar-properties",
+  "type": "Glossary: company",
+  "excerpt": "Abu Dhabi's leading real estate developer, investor, and manager. It runs the Darna digital loyalty programme across its malls, hotels, schools, and residential"
+ },
+ {
+  "title": "Covered card",
+  "url": "/glossary/index.html#covered-card",
+  "type": "Glossary: concept",
+  "excerpt": "The Shariah-compliant version of a credit card. The bank charges set fees for the card instead of interest on unpaid balances, and earns from the annual fee and"
+ },
+ {
+  "title": "Collateralised murabaha",
+  "url": "/glossary/index.html#collateralised-murabaha",
+  "type": "Glossary: concept",
+  "excerpt": "A murabaha sale backed by pledged assets as security. The bank buys an asset and sells it at a disclosed markup paid in instalments, and the pledged collateral "
  }
 ]
