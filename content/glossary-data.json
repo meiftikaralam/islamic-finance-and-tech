@@ -2022,5 +2022,94 @@
     ],
     "first_mentioned": "2026-10-26",
     "edition": "editions/2026-10-26.html"
+  },
+  {
+    "name": "Akinda",
+    "type": "company",
+    "website": "https://akinda.io",
+    "description": "A halal investing platform that screens more than 15,000 stocks in the US, Canada, and the UK against AAOIFI Shariah Standard No. 21, giving each company a clear verdict plus a dividend purification calculator. Its founder moved to the San Francisco Bay Area in fall 2026 to expand into the United States.",
+    "sources": [
+      {
+        "label": "TechBullion \u2014 Akinda takes halal investing global",
+        "url": "https://techbullion.com/from-tashkent-to-the-world-nurmukhammad-ismoilov-takes-halal-investing-global-with-akinda/"
+      },
+      {
+        "label": "Oct 27 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-27.html"
+      }
+    ],
+    "first_mentioned": "2026-10-27",
+    "edition": "editions/2026-10-27.html"
+  },
+  {
+    "name": "Maybank Islamic",
+    "type": "company",
+    "website": "https://www.maybank.com/islamic/",
+    "description": "Malaysia's largest Islamic bank, part of the Maybank group. It provides Shariah-compliant financing to businesses and consumers, including supply chain financing that pays small suppliers early against approved invoices.",
+    "sources": [
+      {
+        "label": "Fintech News Malaysia \u2014 Maybank Islamic, CGC supply chain financing",
+        "url": "https://fintechnews.my/61991/fintech-lending-malaysia/maybank-islamic-cgc-supply-chain-financing/"
+      },
+      {
+        "label": "Oct 27 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-27.html"
+      }
+    ],
+    "first_mentioned": "2026-10-27",
+    "edition": "editions/2026-10-27.html"
+  },
+  {
+    "name": "Credit Guarantee Corporation Malaysia (CGC)",
+    "type": "company",
+    "website": "https://www.cgc.com.my",
+    "description": "A Malaysian guarantee provider, mostly owned by the country's central bank, that promises to cover part of a lender's loss so small businesses without collateral can still get financing. In October 2026 it began guaranteeing mid-tier companies that anchor supply chain financing schemes.",
+    "sources": [
+      {
+        "label": "Fintech News Malaysia \u2014 Maybank Islamic, CGC supply chain financing",
+        "url": "https://fintechnews.my/61991/fintech-lending-malaysia/maybank-islamic-cgc-supply-chain-financing/"
+      },
+      {
+        "label": "Oct 27 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-27.html"
+      }
+    ],
+    "first_mentioned": "2026-10-27",
+    "edition": "editions/2026-10-27.html"
+  },
+  {
+    "name": "Open Bank",
+    "type": "company",
+    "website": "https://www.openbank.uz",
+    "description": "An Uzbek bank that received Uzbekistan's first Islamic banking licence (licence 1-I) in October 2026, allowing it to offer Islamic financial services through an Islamic window under the country's March 2026 Islamic banking law.",
+    "sources": [
+      {
+        "label": "Spot \u2014 Uzbekistan issues first licence for Islamic banking",
+        "url": "https://www.spot.uz/en/2026/10/26/open-bank/"
+      },
+      {
+        "label": "Oct 27 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-27.html"
+      }
+    ],
+    "first_mentioned": "2026-10-27",
+    "edition": "editions/2026-10-27.html"
+  },
+  {
+    "name": "Islamic window",
+    "type": "concept",
+    "description": "A section inside a conventional bank that offers Shariah-compliant services, with its own products, records, and Shariah oversight, while the rest of the bank continues its conventional business. For example, Uzbekistan's Open Bank and Bangladesh's Community Islamic both operate as Islamic windows inside conventional banks.",
+    "sources": [
+      {
+        "label": "Spot \u2014 Uzbekistan issues first licence for Islamic banking",
+        "url": "https://www.spot.uz/en/2026/10/26/open-bank/"
+      },
+      {
+        "label": "Oct 27 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-27.html"
+      }
+    ],
+    "first_mentioned": "2026-10-27",
+    "edition": "editions/2026-10-27.html"
   }
 ]

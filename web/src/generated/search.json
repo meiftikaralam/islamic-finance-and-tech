@@ -162,6 +162,12 @@
   "excerpt": "Oct 26: Islamic trade finance for suppliers waiting on payment, postal networks for small businesses, and factoring in the USA, UK, EU, Australia, and Canada."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 27, 2026",
+  "url": "/editions/2026-10-27.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 27: a halal screening platform expands into the USA, suppliers get paid faster in Malaysia, Uzbekistan's first licence, and how rules differ by country."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1354,5 +1360,35 @@
   "url": "/glossary/index.html#factoring",
   "type": "Glossary: concept",
   "excerpt": "Selling unpaid invoices to a company, called a factor, for cash now. The factor pays most of the invoice value within a day or two and collects the full amount "
+ },
+ {
+  "title": "Akinda",
+  "url": "/glossary/index.html#akinda",
+  "type": "Glossary: company",
+  "excerpt": "A halal investing platform that screens more than 15,000 stocks in the US, Canada, and the UK against AAOIFI Shariah Standard No. 21, giving each company a clea"
+ },
+ {
+  "title": "Maybank Islamic",
+  "url": "/glossary/index.html#maybank-islamic",
+  "type": "Glossary: company",
+  "excerpt": "Malaysia's largest Islamic bank, part of the Maybank group. It provides Shariah-compliant financing to businesses and consumers, including supply chain financin"
+ },
+ {
+  "title": "Credit Guarantee Corporation Malaysia (CGC)",
+  "url": "/glossary/index.html#credit-guarantee-corporation-malaysia-cgc",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian guarantee provider, mostly owned by the country's central bank, that promises to cover part of a lender's loss so small businesses without collatera"
+ },
+ {
+  "title": "Open Bank",
+  "url": "/glossary/index.html#open-bank",
+  "type": "Glossary: company",
+  "excerpt": "An Uzbek bank that received Uzbekistan's first Islamic banking licence (licence 1-I) in October 2026, allowing it to offer Islamic financial services through an"
+ },
+ {
+  "title": "Islamic window",
+  "url": "/glossary/index.html#islamic-window",
+  "type": "Glossary: concept",
+  "excerpt": "A section inside a conventional bank that offers Shariah-compliant services, with its own products, records, and Shariah oversight, while the rest of the bank c"
  }
 ]
