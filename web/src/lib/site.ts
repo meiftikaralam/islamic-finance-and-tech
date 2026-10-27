@@ -16,8 +16,8 @@ export const DISCLAIMER =
   "For educational purposes only — not investment advice. Nothing here is a recommendation to buy, sell, or hold any security. Iftikar is not a licensed financial advisor. AI-assisted content can contain mistakes; do your own research and consult a qualified professional before making financial decisions.";
 
 export const NAV_LINKS = [
-  { href: "/", label: "Posts", match: "posts" },
   { href: "/newsletters.html", label: "Daily Newsletters", match: "newsletters" },
+  { href: "/", label: "Posts", match: "posts" },
   { href: "/aaoifi/index.html", label: "AAOIFI Standards", match: "aaoifi" },
   { href: "/glossary/index.html", label: "Glossary", match: "glossary" },
   { href: "/about.html", label: "About", match: "about" },
