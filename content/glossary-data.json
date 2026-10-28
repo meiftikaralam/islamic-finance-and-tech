@@ -2111,5 +2111,44 @@
     ],
     "first_mentioned": "2026-10-27",
     "edition": "editions/2026-10-27.html"
+  },
+  {
+    "name": "Qard Hasan",
+    "type": "concept",
+    "description": "A benevolent loan in Islamic finance. The borrower repays exactly the amount borrowed, with no interest and no extra charge, even if repayment runs late. For example, a community fund lends a shopkeeper money to restock, and she repays it in instalments from her sales.",
+    "sources": [
+      {
+        "label": "Oct 28 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-28.html"
+      }
+    ],
+    "first_mentioned": "2026-10-28",
+    "edition": "editions/2026-10-28.html"
+  },
+  {
+    "name": "Yield",
+    "type": "concept",
+    "description": "The return earned on money over a year, shown as a percentage. For example, lending $100 and getting $105 back after one year is a 5% yield.",
+    "sources": [
+      {
+        "label": "Oct 28 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-28.html"
+      }
+    ],
+    "first_mentioned": "2026-10-28",
+    "edition": "editions/2026-10-28.html"
+  },
+  {
+    "name": "Discounting",
+    "type": "concept",
+    "description": "Working out what money promised in the future is worth today. For example, at 5% a year, $1,000 due in three years is worth $863.84 today.",
+    "sources": [
+      {
+        "label": "Oct 28 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-28.html"
+      }
+    ],
+    "first_mentioned": "2026-10-28",
+    "edition": "editions/2026-10-28.html"
   }
 ]

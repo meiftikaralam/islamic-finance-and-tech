@@ -168,6 +168,12 @@
   "excerpt": "Oct 27: a halal screening platform expands into the USA, suppliers get paid faster in Malaysia, Uzbekistan's first licence, and how rules differ by country."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 28, 2026",
+  "url": "/editions/2026-10-28.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 28: Arada closes its sukuk refinancing, with buyback basics explained first — yield, discount, and how old certificates are bought back — and qard hasan."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1390,5 +1396,23 @@
   "url": "/glossary/index.html#islamic-window",
   "type": "Glossary: concept",
   "excerpt": "A section inside a conventional bank that offers Shariah-compliant services, with its own products, records, and Shariah oversight, while the rest of the bank c"
+ },
+ {
+  "title": "Qard Hasan",
+  "url": "/glossary/index.html#qard-hasan",
+  "type": "Glossary: concept",
+  "excerpt": "A benevolent loan in Islamic finance. The borrower repays exactly the amount borrowed, with no interest and no extra charge, even if repayment runs late. For ex"
+ },
+ {
+  "title": "Yield",
+  "url": "/glossary/index.html#yield",
+  "type": "Glossary: concept",
+  "excerpt": "The return earned on money over a year, shown as a percentage. For example, lending $100 and getting $105 back after one year is a 5% yield."
+ },
+ {
+  "title": "Discounting",
+  "url": "/glossary/index.html#discounting",
+  "type": "Glossary: concept",
+  "excerpt": "Working out what money promised in the future is worth today. For example, at 5% a year, $1,000 due in three years is worth $863.84 today."
  }
 ]
