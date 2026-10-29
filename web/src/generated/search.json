@@ -174,6 +174,12 @@
   "excerpt": "Oct 28: Arada closes its sukuk refinancing, with buyback basics explained first — yield, discount, and how old certificates are bought back — and qard hasan."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 29, 2026",
+  "url": "/editions/2026-10-29.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 29: a US halal wealth group passes $5 billion, a new multi-asset Shariah portfolio launches, and gold gains a Shariah class in Singapore."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1414,5 +1420,47 @@
   "url": "/glossary/index.html#discounting",
   "type": "Glossary: concept",
   "excerpt": "Working out what money promised in the future is worth today. For example, at 5% a year, $1,000 due in three years is worth $863.84 today."
+ },
+ {
+  "title": "SP Wealth Group",
+  "url": "/glossary/index.html#sp-wealth-group",
+  "type": "Glossary: company",
+  "excerpt": "A wealth group that brings together ShariaPortfolio, SP Funds Management, SP Zero Finance, and ShariaPortfolio Canada, offering Shariah-compliant ETFs and manag"
+ },
+ {
+  "title": "Victoria Capital Management",
+  "url": "/glossary/index.html#victoria-capital-management",
+  "type": "Glossary: company",
+  "excerpt": "The Mauritius-based investment manager of Perennial, a Shariah-compliant portfolio that invests across stocks, sukuk, and commodities inside the Cayman Islands-"
+ },
+ {
+  "title": "CUSP Wealth",
+  "url": "/glossary/index.html#cusp-wealth",
+  "type": "Glossary: company",
+  "excerpt": "A Dubai-regulated investment platform that offers US stocks and personalised portfolios, including a Shariah-compliant version certified by Amanie Advisors, wit"
+ },
+ {
+  "title": "Lion Global Investors",
+  "url": "/glossary/index.html#lion-global-investors",
+  "type": "Glossary: company",
+  "excerpt": "A Singapore asset manager, part of the OCBC Group, that runs the LionGlobal Singapore Physical Gold Fund. In October 2026 it added Shariah classes to that fund "
+ },
+ {
+  "title": "Segregated portfolio",
+  "url": "/glossary/index.html#segregated-portfolio",
+  "type": "Glossary: concept",
+  "excerpt": "One legal fund company divided into separate compartments. Each compartment holds its own assets, so the assets of one portfolio are kept apart from the others."
+ },
+ {
+  "title": "Supplementary Retirement Scheme (SRS)",
+  "url": "/glossary/index.html#supplementary-retirement-scheme-srs",
+  "type": "Glossary: concept",
+  "excerpt": "Singapore's voluntary retirement savings scheme. A saver puts money aside for retirement and gets tax relief on contributions. For example, a Singapore saver ca"
+ },
+ {
+  "title": "Assets under management (AUM)",
+  "url": "/glossary/index.html#assets-under-management-aum",
+  "type": "Glossary: concept",
+  "excerpt": "The total value of client money a firm looks after. For example, SP Wealth Group reported more than $5 billion in assets under management in October 2026, up fr"
  }
 ]

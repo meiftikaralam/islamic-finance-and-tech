@@ -2150,5 +2150,100 @@
     ],
     "first_mentioned": "2026-10-28",
     "edition": "editions/2026-10-28.html"
+  },
+  {
+    "name": "SP Wealth Group",
+    "type": "company",
+    "website": "https://www.spwealthgroup.com",
+    "description": "A wealth group that brings together ShariaPortfolio, SP Funds Management, SP Zero Finance, and ShariaPortfolio Canada, offering Shariah-compliant ETFs and managed portfolios in the United States and Canada. It passed $5 billion in client money in October 2026.",
+    "sources": [
+      {
+        "label": "GlobeNewswire via The News Headliner, Oct 29, 2026",
+        "url": "https://thenewsheadliner.com/sp-wealth-group-surpasses-5-billion-in-assets-under-management/61932/"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Victoria Capital Management",
+    "type": "company",
+    "website": null,
+    "description": "The Mauritius-based investment manager of Perennial, a Shariah-compliant portfolio that invests across stocks, sukuk, and commodities inside the Cayman Islands-based Skye Investment Fund.",
+    "sources": [
+      {
+        "label": "ConvergentAssets, Oct 2026",
+        "url": "https://convergentassets.com/news/victoria-capital-management-launches-shariah-compliant-hybrid-multi-asset-portfolio/"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "CUSP Wealth",
+    "type": "company",
+    "website": "https://cuspwealth.com",
+    "description": "A Dubai-regulated investment platform that offers US stocks and personalised portfolios, including a Shariah-compliant version certified by Amanie Advisors, with screening powered by Zoya.",
+    "sources": [
+      {
+        "label": "TechBullion, Oct 28, 2026",
+        "url": "https://techbullion.com/cusp-wealth-marks-first-year-with-29-emirati-investor-base-and-two-thirds-of-portfolio-investors-choosing-halal/"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Lion Global Investors",
+    "type": "company",
+    "website": "https://www.lionglobalinvestors.com",
+    "description": "A Singapore asset manager, part of the OCBC Group, that runs the LionGlobal Singapore Physical Gold Fund. In October 2026 it added Shariah classes to that fund that can be bought with retirement savings scheme money.",
+    "sources": [
+      {
+        "label": "Minichart, Oct 28, 2026",
+        "url": "https://www.minichart.com.sg/2026/10/28/lionglobal-gold-fund-adds-shariah-classes-and-srs-access-for-seven-unlisted-classes/"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Segregated portfolio",
+    "type": "concept",
+    "description": "One legal fund company divided into separate compartments. Each compartment holds its own assets, so the assets of one portfolio are kept apart from the others. For example, Perennial sits as one compartment inside the Skye Investment Fund, with its own share classes and fees.",
+    "sources": [
+      {
+        "label": "Oct 29 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-29.html"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Supplementary Retirement Scheme (SRS)",
+    "type": "concept",
+    "description": "Singapore's voluntary retirement savings scheme. A saver puts money aside for retirement and gets tax relief on contributions. For example, a Singapore saver can use SRS money to buy the Singapore-dollar Islamic class of a physical gold fund.",
+    "sources": [
+      {
+        "label": "Oct 29 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-29.html"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Assets under management (AUM)",
+    "type": "concept",
+    "description": "The total value of client money a firm looks after. For example, SP Wealth Group reported more than $5 billion in assets under management in October 2026, up from $3 billion in December 2025.",
+    "sources": [
+      {
+        "label": "Oct 29 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-29.html"
+      }
+    ],
+    "first_mentioned": "2026-10-29",
+    "edition": "editions/2026-10-29.html"
   }
 ]
