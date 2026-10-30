@@ -2245,5 +2245,50 @@
     ],
     "first_mentioned": "2026-10-29",
     "edition": "editions/2026-10-29.html"
+  },
+  {
+    "name": "Pakistan Stock Exchange (PSX)",
+    "type": "company",
+    "website": "https://www.psx.com.pk",
+    "description": "Pakistan's national stock exchange, based in Karachi. In October 2026 it opened a Shariah-compliant trading counter where only Shariah-compliant equities and sukuk can trade.",
+    "sources": [
+      {
+        "label": "Mettis Global",
+        "url": "https://mettisglobal.news/PSX-rolls-out-ShariahCompliant-Trading-Counter-64671"
+      },
+      {
+        "label": "Official site",
+        "url": "https://www.psx.com.pk"
+      }
+    ],
+    "first_mentioned": "2026-10-30",
+    "edition": "editions/2026-10-30.html"
+  },
+  {
+    "name": "Mal",
+    "type": "company",
+    "website": "https://www.mal.ai",
+    "description": "A UAE-based Islamic financial platform built around artificial intelligence, founded in 2025. It is still pre-launch, holds no banking licence yet, and opened a global waitlist in September 2026.",
+    "sources": [
+      {
+        "label": "Fintech TV",
+        "url": "https://cms.fintech.tv/an-ai-native-islamic-bank-just-launched-in-the-uae-and-a-mortgage-takes-three-seconds/"
+      }
+    ],
+    "first_mentioned": "2026-10-30",
+    "edition": "editions/2026-10-30.html"
+  },
+  {
+    "name": "Murabaha Share Financing (MSF)",
+    "type": "concept",
+    "description": "A way to finance a share purchase without an interest-bearing loan. The financier buys shares and sells them to the investor at a disclosed markup, paid over time. Pakistan's Shariah trading counter offers it as the alternative to conventional margin lending.",
+    "sources": [
+      {
+        "label": "Oct 30 edition",
+        "url": "https://islamicfintech.org/editions/2026-10-30.html"
+      }
+    ],
+    "first_mentioned": "2026-10-30",
+    "edition": "editions/2026-10-30.html"
   }
 ]

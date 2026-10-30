@@ -180,6 +180,12 @@
   "excerpt": "Oct 29: a US halal wealth group passes $5 billion, a new multi-asset Shariah portfolio launches, and gold gains a Shariah class in Singapore."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 30, 2026",
+  "url": "/editions/2026-10-30.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 30: Pakistan opens a Shariah trading counter, Zetrix confirms a sukuk dissolution event, and Mal's AI-native Islamic platform claims a 3-second mortgage."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1462,5 +1468,23 @@
   "url": "/glossary/index.html#assets-under-management-aum",
   "type": "Glossary: concept",
   "excerpt": "The total value of client money a firm looks after. For example, SP Wealth Group reported more than $5 billion in assets under management in October 2026, up fr"
+ },
+ {
+  "title": "Pakistan Stock Exchange (PSX)",
+  "url": "/glossary/index.html#pakistan-stock-exchange-psx",
+  "type": "Glossary: company",
+  "excerpt": "Pakistan's national stock exchange, based in Karachi. In October 2026 it opened a Shariah-compliant trading counter where only Shariah-compliant equities and su"
+ },
+ {
+  "title": "Mal",
+  "url": "/glossary/index.html#mal",
+  "type": "Glossary: company",
+  "excerpt": "A UAE-based Islamic financial platform built around artificial intelligence, founded in 2025. It is still pre-launch, holds no banking licence yet, and opened a"
+ },
+ {
+  "title": "Murabaha Share Financing (MSF)",
+  "url": "/glossary/index.html#murabaha-share-financing-msf",
+  "type": "Glossary: concept",
+  "excerpt": "A way to finance a share purchase without an interest-bearing loan. The financier buys shares and sells them to the investor at a disclosed markup, paid over ti"
  }
 ]
