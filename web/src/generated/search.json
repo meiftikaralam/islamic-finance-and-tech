@@ -186,6 +186,12 @@
   "excerpt": "Oct 30: Pakistan opens a Shariah trading counter, Zetrix confirms a sukuk dissolution event, and Mal's AI-native Islamic platform claims a 3-second mortgage."
  },
  {
+  "title": "Islamic Finance Daily Brief — October 31, 2026",
+  "url": "/editions/2026-10-31.html",
+  "type": "Newsletter edition",
+  "excerpt": "Oct 31: The UAE's October Treasury sukuk auction drew AED4.54 billion in bids, about 4.1 times the AED1.1 billion on offer."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1486,5 +1492,29 @@
   "url": "/glossary/index.html#murabaha-share-financing-msf",
   "type": "Glossary: concept",
   "excerpt": "A way to finance a share purchase without an interest-bearing loan. The financier buys shares and sells them to the investor at a disclosed markup, paid over ti"
+ },
+ {
+  "title": "UAE Ministry of Finance",
+  "url": "/glossary/index.html#uae-ministry-of-finance",
+  "type": "Glossary: company",
+  "excerpt": "The UAE federal government ministry that manages public finances and issues government debt, including Treasury sukuk and bonds. Example: it issued the October "
+ },
+ {
+  "title": "Central Bank of the UAE",
+  "url": "/glossary/index.html#central-bank-of-the-uae",
+  "type": "Glossary: company",
+  "excerpt": "The UAE's central bank, which manages the dirham currency and banking regulation. Example: it acted as issuing and payment agent for the October 2026 T-Sukuk au"
+ },
+ {
+  "title": "Nasdaq Dubai",
+  "url": "/glossary/index.html#nasdaq-dubai",
+  "type": "Glossary: company",
+  "excerpt": "An international stock exchange based in Dubai's financial free zone, where sukuk and bonds are listed and traded. Example: the UAE's October 2026 T-Sukuk and T"
+ },
+ {
+  "title": "Treasury sukuk (T-Sukuk)",
+  "url": "/glossary/index.html#treasury-sukuk-t-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A short- to medium-term sukuk issued by a government to raise money in its own currency. Example: the UAE government sold a T-Sukuk tranche maturing in October "
  }
 ]
