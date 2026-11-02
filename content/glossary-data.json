@@ -2358,5 +2358,60 @@
     ],
     "first_mentioned": "2026-10-31",
     "edition": "editions/2026-10-31.html"
+  },
+  {
+    "name": "Cooperative Bank of Oromia",
+    "type": "company",
+    "website": "https://coopbankoromia.com.et/",
+    "description": "An Ethiopian bank whose interest-free banking arm, Coopbank Alhuda, offers Shariah-compliant financing. In October 2026 it launched Michuu-Mizan, a digital platform giving small businesses financing without collateral.",
+    "sources": [
+      {
+        "label": "Cooperative Bank of Oromia — Michuu-Mizan launch (Oct 30, 2026)",
+        "url": "https://coopbankoromia.com.et/coopbank-launches-michuu-mizan-a-sharia-compliant-digital-financing-platform/"
+      }
+    ],
+    "first_mentioned": "2026-11-01",
+    "edition": "editions/2026-11-01.html"
+  },
+  {
+    "name": "Kifiya Financial Technology",
+    "type": "company",
+    "website": "https://kifiya.com/",
+    "description": "An Ethiopian financial technology company that builds AI-powered credit scoring and digital lending systems for banks. It partnered with the Cooperative Bank of Oromia on the Michuu-Mizan Shariah-compliant financing platform.",
+    "sources": [
+      {
+        "label": "Cooperative Bank of Oromia — Michuu-Mizan launch (Oct 30, 2026)",
+        "url": "https://coopbankoromia.com.et/coopbank-launches-michuu-mizan-a-sharia-compliant-digital-financing-platform/"
+      }
+    ],
+    "first_mentioned": "2026-11-01",
+    "edition": "editions/2026-11-01.html"
+  },
+  {
+    "name": "AdalFi",
+    "type": "company",
+    "website": "https://adalfi.com/",
+    "description": "A Lahore-based digital lending platform that helps partner banks score borrowers from bank transaction data and automate loan approvals. It plans a Rs652 million listing on the Pakistan Stock Exchange to expand Islamic and small-business lending.",
+    "sources": [
+      {
+        "label": "FWDstart — AdalFi IPO plan (Oct 30, 2026)",
+        "url": "https://www.fwdstart.me/p/pakistani-fintech-adalfi-plans-ipo-to-expand-islamic-and-sme-lending"
+      }
+    ],
+    "first_mentioned": "2026-11-01",
+    "edition": "editions/2026-11-01.html"
+  },
+  {
+    "name": "Initial public offering (IPO)",
+    "type": "concept",
+    "description": "The first sale of a company's shares to the public on a stock exchange. A company issues new shares, investors buy them, and the shares can then be traded on the exchange. AdalFi's planned Rs652 million IPO would make it the first fintech listed on the Pakistan Stock Exchange.",
+    "sources": [
+      {
+        "label": "FWDstart — AdalFi IPO plan (Oct 30, 2026)",
+        "url": "https://www.fwdstart.me/p/pakistani-fintech-adalfi-plans-ipo-to-expand-islamic-and-sme-lending"
+      }
+    ],
+    "first_mentioned": "2026-11-01",
+    "edition": "editions/2026-11-01.html"
   }
 ]

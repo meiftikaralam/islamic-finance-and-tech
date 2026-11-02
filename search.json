@@ -192,6 +192,12 @@
   "excerpt": "Oct 31: The UAE's October Treasury sukuk auction drew AED4.54 billion in bids, about 4.1 times the AED1.1 billion on offer."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 1, 2026",
+  "url": "/editions/2026-11-01.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 1: Ethiopia launches AI-powered Shariah financing for small businesses, and a Pakistan fintech plans a $2.35 million listing."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1516,5 +1522,29 @@
   "url": "/glossary/index.html#treasury-sukuk-t-sukuk",
   "type": "Glossary: concept",
   "excerpt": "A short- to medium-term sukuk issued by a government to raise money in its own currency. Example: the UAE government sold a T-Sukuk tranche maturing in October "
+ },
+ {
+  "title": "Cooperative Bank of Oromia",
+  "url": "/glossary/index.html#cooperative-bank-of-oromia",
+  "type": "Glossary: company",
+  "excerpt": "An Ethiopian bank whose interest-free banking arm, Coopbank Alhuda, offers Shariah-compliant financing. In October 2026 it launched Michuu-Mizan, a digital plat"
+ },
+ {
+  "title": "Kifiya Financial Technology",
+  "url": "/glossary/index.html#kifiya-financial-technology",
+  "type": "Glossary: company",
+  "excerpt": "An Ethiopian financial technology company that builds AI-powered credit scoring and digital lending systems for banks. It partnered with the Cooperative Bank of"
+ },
+ {
+  "title": "AdalFi",
+  "url": "/glossary/index.html#adalfi",
+  "type": "Glossary: company",
+  "excerpt": "A Lahore-based digital lending platform that helps partner banks score borrowers from bank transaction data and automate loan approvals. It plans a Rs652 millio"
+ },
+ {
+  "title": "Initial public offering (IPO)",
+  "url": "/glossary/index.html#initial-public-offering-ipo",
+  "type": "Glossary: concept",
+  "excerpt": "The first sale of a company's shares to the public on a stock exchange. A company issues new shares, investors buy them, and the shares can then be traded on th"
  }
 ]
