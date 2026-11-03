@@ -2413,5 +2413,33 @@
     ],
     "first_mentioned": "2026-11-01",
     "edition": "editions/2026-11-01.html"
+  },
+  {
+    "name": "MARC Ratings",
+    "type": "company",
+    "website": "https://www.marc.com.my",
+    "description": "A Malaysian credit rating agency. It grades how likely a borrower is to repay its debt, from strong grades down to C, one step above default, and D, which means payment default.",
+    "sources": [
+      {
+        "label": "MARC — Zetrix AI rating downgrade to CIS (Oct 30, 2026)",
+        "url": "https://www.marc.com.my/rating-announcements/marc-ratings-downgrades-zetrix-ais-rating-to-cis-maintains-marcwatch-negative/"
+      }
+    ],
+    "first_mentioned": "2026-11-02",
+    "edition": "editions/2026-11-02.html"
+  },
+  {
+    "name": "Bank Muscat",
+    "type": "company",
+    "website": "https://www.bankmuscat.om",
+    "description": "Oman's largest bank. Through its Islamic banking arm Meethaq, it offers Shariah-compliant products, including a money market fund that reopened for regular subscriptions in November 2026 with a minimum investment of RO100.",
+    "sources": [
+      {
+        "label": "Bank Muscat — Shari'a Money Market Fund",
+        "url": "https://www.bankmuscat.om/en/Pages/sharia-money-market-fund.aspx"
+      }
+    ],
+    "first_mentioned": "2026-11-02",
+    "edition": "editions/2026-11-02.html"
   }
 ]

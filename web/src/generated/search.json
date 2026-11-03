@@ -198,6 +198,12 @@
   "excerpt": "Nov 1: Ethiopia launches AI-powered Shariah financing for small businesses, and a Pakistan fintech plans a $2.35 million listing."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 2, 2026",
+  "url": "/editions/2026-11-02.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 2: Zetrix's sukuk rating falls to near default, and Bank Muscat reopens its Shariah money market fund."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1546,5 +1552,17 @@
   "url": "/glossary/index.html#initial-public-offering-ipo",
   "type": "Glossary: concept",
   "excerpt": "The first sale of a company's shares to the public on a stock exchange. A company issues new shares, investors buy them, and the shares can then be traded on th"
+ },
+ {
+  "title": "MARC Ratings",
+  "url": "/glossary/index.html#marc-ratings",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian credit rating agency. It grades how likely a borrower is to repay its debt, from strong grades down to C, one step above default, and D, which means"
+ },
+ {
+  "title": "Bank Muscat",
+  "url": "/glossary/index.html#bank-muscat",
+  "type": "Glossary: company",
+  "excerpt": "Oman's largest bank. Through its Islamic banking arm Meethaq, it offers Shariah-compliant products, including a money market fund that reopened for regular subs"
  }
 ]
