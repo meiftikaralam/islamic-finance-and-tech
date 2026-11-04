@@ -210,6 +210,12 @@
   "excerpt": "Nov 3: Indonesia's postal sukuk falls to default, a Pakistan marketplace plans a $10.8M rights issue, and retail savings sukuk opens Nov 6."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 4, 2026",
+  "url": "/editions/2026-11-04.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 4: IILM's record $1.572B short-term sukuk auction, and mamun's AI-based trade finance."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1594,5 +1600,23 @@
   "url": "/glossary/index.html#rights-issue",
   "type": "Glossary: concept",
   "excerpt": "A way for a listed company to raise cash by offering new shares to its existing shareholders first, usually below the market price and in proportion to what the"
+ },
+ {
+  "title": "mamun",
+  "url": "/glossary/index.html#mamun",
+  "type": "Glossary: company",
+  "excerpt": "A Shariah-compliant trade finance platform based in Muscat, Oman. It connects businesses and investors to finance cross-border trade, covering the wait between "
+ },
+ {
+  "title": "International Islamic Liquidity Management Corporation (IILM)",
+  "url": "/glossary/index.html#international-islamic-liquidity-management-corporation-iilm",
+  "type": "Glossary: company",
+  "excerpt": "An international organisation set up by central banks and monetary authorities, headquartered in Kuala Lumpur. It issues short-term Shariah-compliant sukuk, fro"
+ },
+ {
+  "title": "Trade Finance",
+  "url": "/glossary/index.html#trade-finance",
+  "type": "Glossary: concept",
+  "excerpt": "Financing that covers the gap between goods being shipped and payment arriving, often 60 to 90 days later. The financier pays the exporter early or guarantees p"
  }
 ]
