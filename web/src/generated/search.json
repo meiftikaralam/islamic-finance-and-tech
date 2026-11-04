@@ -204,6 +204,12 @@
   "excerpt": "Nov 2: Zetrix's sukuk rating falls to near default, and Bank Muscat reopens its Shariah money market fund."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 3, 2026",
+  "url": "/editions/2026-11-03.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 3: Indonesia's postal sukuk falls to default, a Pakistan marketplace plans a $10.8M rights issue, and retail savings sukuk opens Nov 6."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1564,5 +1570,29 @@
   "url": "/glossary/index.html#bank-muscat",
   "type": "Glossary: company",
   "excerpt": "Oman's largest bank. Through its Islamic banking arm Meethaq, it offers Shariah-compliant products, including a money market fund that reopened for regular subs"
+ },
+ {
+  "title": "Zarea Limited",
+  "url": "/glossary/index.html#zarea-limited",
+  "type": "Glossary: company",
+  "excerpt": "A Lahore-based online marketplace where buyers and sellers trade farm produce and industrial goods such as grain, cement, and steel. It listed on the Pakistan S"
+ },
+ {
+  "title": "PT Pos Indonesia",
+  "url": "/glossary/index.html#pt-pos-indonesia",
+  "type": "Glossary: company",
+  "excerpt": "Indonesia's state-owned postal and logistics company, running post offices and agents across the country. Its Tranche I Sukuk was downgraded to default by Fitch"
+ },
+ {
+  "title": "Savings Sukuk",
+  "url": "/glossary/index.html#savings-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A government sukuk sold directly to ordinary citizens in small amounts, starting from IDR 1 million in Indonesia. It cannot be traded or transferred to another "
+ },
+ {
+  "title": "Rights Issue",
+  "url": "/glossary/index.html#rights-issue",
+  "type": "Glossary: concept",
+  "excerpt": "A way for a listed company to raise cash by offering new shares to its existing shareholders first, usually below the market price and in proportion to what the"
  }
 ]
