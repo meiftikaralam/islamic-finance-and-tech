@@ -216,6 +216,12 @@
   "excerpt": "Nov 4: IILM's record $1.572B short-term sukuk auction, and mamun's AI-based trade finance."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 5, 2026",
+  "url": "/editions/2026-11-05.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 5: Weststar's RM6 billion helicopter sukuk, and 1.5 million Kenyans join Safaricom's Shariah fund in a month."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1618,5 +1624,35 @@
   "url": "/glossary/index.html#trade-finance",
   "type": "Glossary: concept",
   "excerpt": "Financing that covers the gap between goods being shipped and payment arriving, often 60 to 90 days later. The financier pays the exporter early or guarantees p"
+ },
+ {
+  "title": "Weststar Aviation Services",
+  "url": "/glossary/index.html#weststar-aviation-services",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian helicopter operator that flies offshore oil-and-gas crews and government missions such as search and rescue and medical evacuation. In November 2026"
+ },
+ {
+  "title": "Safaricom",
+  "url": "/glossary/index.html#safaricom",
+  "type": "Glossary: company",
+  "excerpt": "Kenya’s largest mobile network operator and the company behind M-Pesa, the mobile money service most Kenyans use to send money. With GulfCap Investment Bank it "
+ },
+ {
+  "title": "GulfCap Investment Bank",
+  "url": "/glossary/index.html#gulfcap-investment-bank",
+  "type": "Glossary: company",
+  "excerpt": "A Nairobi investment bank licensed by Kenya’s Capital Markets Authority. It runs the Ziidi Shari’ah Money Market Fund with Safaricom, and its Shariah board over"
+ },
+ {
+  "title": "Leonardo",
+  "url": "/glossary/index.html#leonardo",
+  "type": "Glossary: company",
+  "excerpt": "An Italian aerospace and defence company that builds helicopters used for rescue, medical evacuation, offshore transport and military missions. Its helicopters "
+ },
+ {
+  "title": "Project finance",
+  "url": "/glossary/index.html#project-finance",
+  "type": "Glossary: concept",
+  "excerpt": "Borrowing to build or buy one specific project, where the loan is repaid from the money that project earns. A common example is a government concession: the gov"
  }
 ]
