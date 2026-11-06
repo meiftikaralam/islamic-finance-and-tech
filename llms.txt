@@ -97,6 +97,7 @@
 - [Islamic Finance Daily Brief — November 3, 2026](https://islamicfintech.org/editions/2026-11-03.html)
 - [Islamic Finance Daily Brief — November 4, 2026](https://islamicfintech.org/editions/2026-11-04.html)
 - [Islamic Finance Daily Brief — November 5, 2026](https://islamicfintech.org/editions/2026-11-05.html)
+- [Islamic Finance Daily Brief — November 6, 2026](https://islamicfintech.org/editions/2026-11-06.html)
 - [Experiment: asking AI to value stocks like Buffett and Graham](https://islamicfintech.org/lab/ai-persona-stock-analysis.html)
 - [Halal robo-advisors, explained: what they are and who's actually offering one](https://islamicfintech.org/lab/halal-robo-advisors.html)
 - [Mapping Islamic fintech tech: Guidance, Lariba, Amana, UIF, Stearns — and who actually has an API](https://islamicfintech.org/lab/islamic-fintech-landscape.html)

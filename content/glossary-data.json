@@ -2629,5 +2629,147 @@
   ],
   "first_mentioned": "2026-11-05",
   "edition": "editions/2026-11-05.html"
- }
+ },
+{
+ "name": "SITR Compliance Technology",
+ "type": "company",
+ "description": "A Bahraini regulatory technology startup that builds a platform for Islamic banks to check transactions against their Shariah board's rulings continuously, instead of in periodic samples. It connects to core banking systems through read-only links and reads contracts and scanned documents. No official website could be found; sitrsecure.com is a different company.",
+ "sources": [
+  {
+   "label": "The24X7News — SITR opens Bahrain operations (Nov 4, 2026)",
+   "url": "https://twentyfoursevennews.com/2026/11/sitr-opens-bahrain-operations-brings-a-real-time-shariah-compliance-monitoring-for-islamic-financial-institutions/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "Medtech Maldives",
+ "type": "company",
+ "website": "https://medtechmaldives.com/",
+ "description": "The leading medical equipment and healthcare company in the Maldives, founded in 2009. In November 2026 it raised MVR 80 million through a Parallel Istisna sukuk to build an oceanfront healthcare and commercial complex in Malé.",
+ "sources": [
+  {
+   "label": "Maaldif — Medtech Maldives seeks MVR 80 million sukuk (Nov 6, 2026)",
+   "url": "https://en.maaldif.com/15223/"
+  },
+  {
+   "label": "Medtech Maldives — official website",
+   "url": "https://medtechmaldives.com/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "First National Finance Corporation",
+ "type": "company",
+ "website": "https://www.firstnational.mv/",
+ "description": "A Maldivian investment firm licensed as a securities dealer and investment adviser. It arranges sukuk and bond issues in the Maldives, including Medtech Maldives' MVR 80 million sukuk in November 2026.",
+ "sources": [
+  {
+   "label": "Maaldif — Medtech Maldives seeks MVR 80 million sukuk (Nov 6, 2026)",
+   "url": "https://en.maaldif.com/15223/"
+  },
+  {
+   "label": "First National Finance Corporation — official website",
+   "url": "https://www.firstnational.mv/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "aik by BankIslami",
+ "type": "company",
+ "website": "https://bankislami.com.pk/aik-bankislami/",
+ "description": "Pakistan's first fully digital Islamic banking platform, launched by BankIslami Pakistan Limited. Customers open accounts and use banking services entirely through the aik app, including Shariah-compliant smartphone financing with PalmPay.",
+ "sources": [
+  {
+   "label": "NationPulse — aik and PalmPay launch smartphone financing (Nov 4, 2026)",
+   "url": "https://nationpulse.uk/aik-by-bankislami-and-palmpay-pakistan-launch-shariah-compliant-smartphone-financing"
+  },
+  {
+   "label": "BankIslami — aik official page",
+   "url": "https://bankislami.com.pk/aik-bankislami/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "BankIslami",
+ "type": "company",
+ "website": "https://bankislami.com.pk/",
+ "description": "Pakistan's first licensed Islamic bank, established in 2006, with over 540 branches. It launched aik, Pakistan's first fully digital Islamic banking platform.",
+ "sources": [
+  {
+   "label": "NationPulse — aik and PalmPay launch smartphone financing (Nov 4, 2026)",
+   "url": "https://nationpulse.uk/aik-by-bankislami-and-palmpay-pakistan-launch-shariah-compliant-smartphone-financing"
+  },
+  {
+   "label": "BankIslami — official website",
+   "url": "https://bankislami.com.pk/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "PalmPay",
+ "type": "company",
+ "website": "https://www.palmpay.pk/",
+ "description": "A digital financial services company that offers Shariah-compliant smartphone financing in Pakistan on instalments, using the Musawamah model. It holds a buy-now-pay-later licence from Pakistan's Securities and Exchange Commission.",
+ "sources": [
+  {
+   "label": "NationPulse — aik and PalmPay launch smartphone financing (Nov 4, 2026)",
+   "url": "https://nationpulse.uk/aik-by-bankislami-and-palmpay-pakistan-launch-shariah-compliant-smartphone-financing"
+  },
+  {
+   "label": "PalmPay Pakistan — official website",
+   "url": "https://www.palmpay.pk/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "Parallel Istisna",
+ "type": "concept",
+ "description": "Two Istisna contracts back to back. In the first, a financier agrees to deliver a finished building to investors; in the second, the financier hires a builder to construct it. Money from the sukuk pays the builder in stages, and the finished building satisfies the first contract. Example: Medtech Maldives' MVR 80 million sukuk to build a healthcare complex in Malé.",
+ "sources": [
+  {
+   "label": "Maaldif — Medtech Maldives seeks MVR 80 million sukuk (Nov 6, 2026)",
+   "url": "https://en.maaldif.com/15223/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "Shariah audit",
+ "type": "concept",
+ "description": "The check that a bank's transactions followed the rulings of its Shariah board. An internal team reviews transactions after the event, and an external audit reviews that work independently. When a transaction fails the check, the income from it cannot be kept as profit.",
+ "sources": [
+  {
+   "label": "The24X7News — SITR opens Bahrain operations (Nov 4, 2026)",
+   "url": "https://twentyfoursevennews.com/2026/11/sitr-opens-bahrain-operations-brings-a-real-time-shariah-compliance-monitoring-for-islamic-financial-institutions/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+},
+{
+ "name": "Musawamah",
+ "type": "concept",
+ "description": "A sale where the buyer and seller agree a price without the seller disclosing what the item cost. The price is fixed in advance and paid in instalments or in full. Example: PalmPay Pakistan's Shariah-compliant smartphone financing.",
+ "sources": [
+  {
+   "label": "PalmPay Pakistan — official website",
+   "url": "https://www.palmpay.pk/"
+  }
+ ],
+ "first_mentioned": "2026-11-06",
+ "edition": "editions/2026-11-06.html"
+}
 ]

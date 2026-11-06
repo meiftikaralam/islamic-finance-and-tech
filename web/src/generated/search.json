@@ -222,6 +222,12 @@
   "excerpt": "Nov 5: Weststar's RM6 billion helicopter sukuk, and 1.5 million Kenyans join Safaricom's Shariah fund in a month."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 6, 2026",
+  "url": "/editions/2026-11-06.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 6: a Bahrain startup checks Shariah compliance live, phone financing in Pakistan, and a Maldives hospital sukuk."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1654,5 +1660,59 @@
   "url": "/glossary/index.html#project-finance",
   "type": "Glossary: concept",
   "excerpt": "Borrowing to build or buy one specific project, where the loan is repaid from the money that project earns. A common example is a government concession: the gov"
+ },
+ {
+  "title": "SITR Compliance Technology",
+  "url": "/glossary/index.html#sitr-compliance-technology",
+  "type": "Glossary: company",
+  "excerpt": "A Bahraini regulatory technology startup that builds a platform for Islamic banks to check transactions against their Shariah board's rulings continuously, inst"
+ },
+ {
+  "title": "Medtech Maldives",
+  "url": "/glossary/index.html#medtech-maldives",
+  "type": "Glossary: company",
+  "excerpt": "The leading medical equipment and healthcare company in the Maldives, founded in 2009. In November 2026 it raised MVR 80 million through a Parallel Istisna suku"
+ },
+ {
+  "title": "First National Finance Corporation",
+  "url": "/glossary/index.html#first-national-finance-corporation",
+  "type": "Glossary: company",
+  "excerpt": "A Maldivian investment firm licensed as a securities dealer and investment adviser. It arranges sukuk and bond issues in the Maldives, including Medtech Maldive"
+ },
+ {
+  "title": "aik by BankIslami",
+  "url": "/glossary/index.html#aik-by-bankislami",
+  "type": "Glossary: company",
+  "excerpt": "Pakistan's first fully digital Islamic banking platform, launched by BankIslami Pakistan Limited. Customers open accounts and use banking services entirely thro"
+ },
+ {
+  "title": "BankIslami",
+  "url": "/glossary/index.html#bankislami",
+  "type": "Glossary: company",
+  "excerpt": "Pakistan's first licensed Islamic bank, established in 2006, with over 540 branches. It launched aik, Pakistan's first fully digital Islamic banking platform."
+ },
+ {
+  "title": "PalmPay",
+  "url": "/glossary/index.html#palmpay",
+  "type": "Glossary: company",
+  "excerpt": "A digital financial services company that offers Shariah-compliant smartphone financing in Pakistan on instalments, using the Musawamah model. It holds a buy-no"
+ },
+ {
+  "title": "Parallel Istisna",
+  "url": "/glossary/index.html#parallel-istisna",
+  "type": "Glossary: concept",
+  "excerpt": "Two Istisna contracts back to back. In the first, a financier agrees to deliver a finished building to investors; in the second, the financier hires a builder t"
+ },
+ {
+  "title": "Shariah audit",
+  "url": "/glossary/index.html#shariah-audit",
+  "type": "Glossary: concept",
+  "excerpt": "The check that a bank's transactions followed the rulings of its Shariah board. An internal team reviews transactions after the event, and an external audit rev"
+ },
+ {
+  "title": "Musawamah",
+  "url": "/glossary/index.html#musawamah",
+  "type": "Glossary: concept",
+  "excerpt": "A sale where the buyer and seller agree a price without the seller disclosing what the item cost. The price is fixed in advance and paid in instalments or in fu"
  }
 ]
