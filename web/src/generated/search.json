@@ -228,6 +228,12 @@
   "excerpt": "Nov 6: a Bahrain startup checks Shariah compliance live, phone financing in Pakistan, and a Maldives hospital sukuk."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 7, 2026",
+  "url": "/editions/2026-11-07.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 7: two Malaysian sukuk hit trouble in the same week — one missed a payment, the other broke a reserve rule."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1714,5 +1720,29 @@
   "url": "/glossary/index.html#musawamah",
   "type": "Glossary: concept",
   "excerpt": "A sale where the buyer and seller agree a price without the seller disclosing what the item cost. The price is fixed in advance and paid in instalments or in fu"
+ },
+ {
+  "title": "YNH Property",
+  "url": "/glossary/index.html#ynh-property",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian property developer founded in 1982, known for projects such as Kiara 163 and Solasta Dutamas in Kuala Lumpur. Its RM700 million Sukuk Wakalah progra"
+ },
+ {
+  "title": "AmanahRaya Investment Management",
+  "url": "/glossary/index.html#amanahraya-investment-management",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian fund manager, wholly owned by Amanah Raya Berhad and licensed by the Securities Commission since 1995. Its funds hold more than RM500 million of Zet"
+ },
+ {
+  "title": "Technical default",
+  "url": "/glossary/index.html#technical-default",
+  "type": "Glossary: concept",
+  "excerpt": "A breach of a rule in a sukuk or bond agreement while payments are still being made on time. It is different from a missed payment: the issuer broke a term, suc"
+ },
+ {
+  "title": "Reserve account (sukuk)",
+  "url": "/glossary/index.html#reserve-account-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A pot of money a sukuk issuer must build up before a maturity date, so the cash is already there when the repayment falls due. The agreement sets the amounts an"
  }
 ]
