@@ -240,6 +240,12 @@
   "excerpt": "Nov 8: Ominvest raises $260 million with a sukuk that never matures, and how halal savings accounts work in the USA."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 9, 2026",
+  "url": "/editions/2026-11-09.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 9: AlRayan Bank rebuilds its core banking on the cloud, and Emirates funds two A350s with a Shariah-compliant French lease."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1786,5 +1792,47 @@
   "url": "/glossary/index.html#perpetual-sukuk",
   "type": "Glossary: concept",
   "excerpt": "A sukuk with no maturity date. The issuer pays profit at set intervals and never has to repay the principal on a fixed date, though it can usually redeem the su"
+ },
+ {
+  "title": "AlRayan Bank",
+  "url": "/glossary/index.html#alrayan-bank",
+  "type": "Glossary: company",
+  "excerpt": "The UK's oldest and largest Shariah-compliant bank, founded in 2004 as the Islamic Bank of Britain. In November 2026 it signed an agreement with Monument Techno"
+ },
+ {
+  "title": "Monument Technology",
+  "url": "/glossary/index.html#monument-technology",
+  "type": "Glossary: company",
+  "excerpt": "A UK cloud-based Banking Platform as a Service provider, launched in 2023 as a separate venture from Monument Bank. Its Bank in a Box platform covers core banki"
+ },
+ {
+  "title": "Natixis Corporate & Investment Banking",
+  "url": "/glossary/index.html#natixis-corporate-investment-banking",
+  "type": "Glossary: company",
+  "excerpt": "The corporate and investment banking arm of French group BPCE. In November 2026 it acted as Islamic financier and arranger alongside Dubai Islamic Bank on a 12-"
+ },
+ {
+  "title": "Emirates",
+  "url": "/glossary/index.html#emirates",
+  "type": "Glossary: company",
+  "excerpt": "The Dubai-based international airline. In November 2026 it completed a 12-year Shariah-compliant French lease with Dubai Islamic Bank and Natixis to fund two ne"
+ },
+ {
+  "title": "Core banking system",
+  "url": "/glossary/index.html#core-banking-system",
+  "type": "Glossary: concept",
+  "excerpt": "The software that keeps a bank's central records: every account, balance, payment, loan and deposit. Staff and the bank's app both read from the same records. E"
+ },
+ {
+  "title": "French lease",
+  "url": "/glossary/index.html#french-lease",
+  "type": "Glossary: concept",
+  "excerpt": "A tax-driven way to pay for an aircraft under French law. A leasing company owned by French taxpayers buys the plane and writes its value down quickly, which cu"
+ },
+ {
+  "title": "Banking Platform as a Service (BPaaS)",
+  "url": "/glossary/index.html#banking-platform-as-a-service-bpaas",
+  "type": "Glossary: concept",
+  "excerpt": "A way for a bank to rent its core banking software instead of building and running its own. The provider hosts the software in the cloud and handles updates, an"
  }
 ]

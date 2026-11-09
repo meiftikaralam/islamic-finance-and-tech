@@ -2936,5 +2936,123 @@
     ],
     "first_mentioned": "2026-11-08",
     "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "AlRayan Bank",
+    "type": "company",
+    "website": "https://www.alrayanbank.co.uk",
+    "description": "The UK's oldest and largest Shariah-compliant bank, founded in 2004 as the Islamic Bank of Britain. In November 2026 it signed an agreement with Monument Technology to replace its core banking systems with a cloud-based platform, its largest technology investment to date.",
+    "sources": [
+      {
+        "label": "Official site — AlRayan Bank",
+        "url": "https://www.alrayanbank.co.uk"
+      },
+      {
+        "label": "The Intermediary — AlRayan Bank announces largest-ever technology investment in Monument partnership (Nov 9, 2026)",
+        "url": "https://theintermediary.co.uk/2026/11/alrayan-bank-announces-largest-ever-technology-investment-in-monument-partnership/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Monument Technology",
+    "type": "company",
+    "website": "https://www.monument.tech",
+    "description": "A UK cloud-based Banking Platform as a Service provider, launched in 2023 as a separate venture from Monument Bank. Its Bank in a Box platform covers core banking, payments and customer channels, and in November 2026 AlRayan Bank chose it to replace its core banking systems, its first move into Islamic banking.",
+    "sources": [
+      {
+        "label": "Official site — Monument Technology",
+        "url": "https://www.monument.tech/about-us"
+      },
+      {
+        "label": "The Intermediary — AlRayan Bank announces largest-ever technology investment in Monument partnership (Nov 9, 2026)",
+        "url": "https://theintermediary.co.uk/2026/11/alrayan-bank-announces-largest-ever-technology-investment-in-monument-partnership/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Natixis Corporate & Investment Banking",
+    "type": "company",
+    "website": "https://cib.natixis.com",
+    "description": "The corporate and investment banking arm of French group BPCE. In November 2026 it acted as Islamic financier and arranger alongside Dubai Islamic Bank on a 12-year Shariah-compliant French lease funding two Airbus A350-900 aircraft for Emirates.",
+    "sources": [
+      {
+        "label": "Official site — Natixis CIB",
+        "url": "https://cib.natixis.com"
+      },
+      {
+        "label": "Emirates — Emirates secures innovative Shariah-compliant French lease financing for two Airbus A350-900 aircraft (Nov 9, 2026)",
+        "url": "https://www.emirates.com/media-centre/emirates-secures-innovative-shariah-compliant-french-lease-financing-for-two-airbus-a350-900-aircraft/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Emirates",
+    "type": "company",
+    "website": "https://www.emirates.com",
+    "description": "The Dubai-based international airline. In November 2026 it completed a 12-year Shariah-compliant French lease with Dubai Islamic Bank and Natixis to fund two new Airbus A350-900 aircraft, combining a French lease structure with Shariah principles in a single financing.",
+    "sources": [
+      {
+        "label": "Emirates — Emirates secures innovative Shariah-compliant French lease financing for two Airbus A350-900 aircraft (Nov 9, 2026)",
+        "url": "https://www.emirates.com/media-centre/emirates-secures-innovative-shariah-compliant-french-lease-financing-for-two-airbus-a350-900-aircraft/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Core banking system",
+    "type": "concept",
+    "website": null,
+    "description": "The software that keeps a bank's central records: every account, balance, payment, loan and deposit. Staff and the bank's app both read from the same records. Example: in November 2026 AlRayan Bank agreed to move its core banking onto Monument Technology's cloud platform.",
+    "sources": [
+      {
+        "label": "The Intermediary — AlRayan Bank announces largest-ever technology investment in Monument partnership (Nov 9, 2026)",
+        "url": "https://theintermediary.co.uk/2026/11/alrayan-bank-announces-largest-ever-technology-investment-in-monument-partnership/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "French lease",
+    "type": "concept",
+    "website": null,
+    "description": "A tax-driven way to pay for an aircraft under French law. A leasing company owned by French taxpayers buys the plane and writes its value down quickly, which cuts the investors' tax bills, and part of that saving reaches the airline as lower rent. The airline pays rent to use the plane and does not own it during the lease. Example: in November 2026 Emirates funded two Airbus A350-900 aircraft through a 12-year Shariah-compliant French lease.",
+    "sources": [
+      {
+        "label": "Reed Smith — French tax leases for aircraft, advantages and limitations",
+        "url": "https://www.reedsmith.com/our-insights/blogs/legal-flight-deck/102k66v/french-tax-leases-for-aircraft-advantages-and-limitations/"
+      },
+      {
+        "label": "Emirates — Emirates secures innovative Shariah-compliant French lease financing for two Airbus A350-900 aircraft (Nov 9, 2026)",
+        "url": "https://www.emirates.com/media-centre/emirates-secures-innovative-shariah-compliant-french-lease-financing-for-two-airbus-a350-900-aircraft/"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Banking Platform as a Service (BPaaS)",
+    "type": "concept",
+    "website": null,
+    "description": "A way for a bank to rent its core banking software instead of building and running its own. The provider hosts the software in the cloud and handles updates, and the bank pays a fee. Example: Monument Technology's Bank in a Box platform, which AlRayan Bank chose in November 2026.",
+    "sources": [
+      {
+        "label": "The Intermediary — AlRayan Bank announces largest-ever technology investment in Monument partnership (Nov 9, 2026)",
+        "url": "https://theintermediary.co.uk/2026/11/alrayan-bank-announces-largest-ever-technology-investment-in-monument-partnership/"
+      },
+      {
+        "label": "Monument Technology — About Us",
+        "url": "https://www.monument.tech/about-us"
+      }
+    ],
+    "first_mentioned": "2026-11-09",
+    "edition": "editions/2026-11-09.html"
   }
 ]
