@@ -2833,5 +2833,108 @@
     ],
     "first_mentioned": "2026-11-07",
     "edition": "editions/2026-11-07.html"
+  },
+  {
+    "name": "Ominvest",
+    "type": "company",
+    "website": "https://ominvest.com/",
+    "description": "Oman International Development and Investment Company, an investment holding company founded in 1983 and listed on the Muscat Stock Exchange, with a portfolio spanning insurance, banking and finance, private equity, real estate and technology. In November 2026 it raised OMR 100 million (about $260 million) with a perpetual sukuk.",
+    "sources": [
+      {
+        "label": "Ominvest — official website",
+        "url": "https://ominvest.com/"
+      },
+      {
+        "label": "Dealroom — Ominvest raises $260M in oversubscribed perpetual sukuk (Nov 7, 2026)",
+        "url": "https://dealroom.co/news/170498-ominvest-raises-260m-in-oversubscribed-perpetual-sukuk/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "Alizz Islamic Bank",
+    "type": "company",
+    "website": "https://alizzislamic.om",
+    "description": "One of Oman's first full-fledged Islamic banks, operating since September 2013 and owned by Oman Arab Bank since 2020. It acted as a joint issue manager on Ominvest's November 2026 perpetual sukuk and is in a proposed merger with Bank Nizwa.",
+    "sources": [
+      {
+        "label": "Alizz Islamic Bank — official website",
+        "url": "https://alizzislamic.om"
+      },
+      {
+        "label": "Dealroom — Ominvest raises $260M in oversubscribed perpetual sukuk (Nov 7, 2026)",
+        "url": "https://dealroom.co/news/170498-ominvest-raises-260m-in-oversubscribed-perpetual-sukuk/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "Ubhar Capital",
+    "type": "company",
+    "website": "https://u-capital.net/",
+    "description": "An Omani investment firm, also known as U Capital, offering brokerage, asset management and research. It acted as a joint issue manager on Ominvest's November 2026 perpetual sukuk.",
+    "sources": [
+      {
+        "label": "Ubhar Capital — official website",
+        "url": "https://u-capital.net/"
+      },
+      {
+        "label": "Dealroom — Ominvest raises $260M in oversubscribed perpetual sukuk (Nov 7, 2026)",
+        "url": "https://dealroom.co/news/170498-ominvest-raises-260m-in-oversubscribed-perpetual-sukuk/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "Stearns Bank",
+    "type": "company",
+    "website": "https://www.stearnsbank.com",
+    "description": "A US bank that runs Salaam Banking, its Islamic division. Its Salaam Personal Market Savings account pays a share of the profit from the bank's Shariah-compliant financing and is FDIC insured up to $250,000. It is the only one of the three US halal savings providers that publishes its rates.",
+    "sources": [
+      {
+        "label": "Stearns Bank — official website",
+        "url": "https://www.stearnsbank.com"
+      },
+      {
+        "label": "Zoya — Halal Savings Accounts in the USA (checked Nov 6, 2026)",
+        "url": "https://blog.zoya.finance/halal-savings-accounts/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "Bank of Whittier",
+    "type": "company",
+    "website": "https://www.bankofwhittier.com",
+    "description": "A US bank that calls itself riba-free, with branches in California and Texas. Its savings account lets the bank use deposits in riba-free home, auto, business and nonprofit financing, and the bank splits the remaining net income with the depositor. FDIC insured up to $250,000.",
+    "sources": [
+      {
+        "label": "Bank of Whittier — official website",
+        "url": "https://www.bankofwhittier.com"
+      },
+      {
+        "label": "Zoya — Halal Savings Accounts in the USA (checked Nov 6, 2026)",
+        "url": "https://blog.zoya.finance/halal-savings-accounts/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
+  },
+  {
+    "name": "Perpetual sukuk",
+    "type": "concept",
+    "description": "A sukuk with no maturity date. The issuer pays profit at set intervals and never has to repay the principal on a fixed date, though it can usually redeem the sukuk on a call date if it chooses. It ranks below ordinary debt, so holders are paid after senior creditors if the issuer runs into trouble, and the profit rate is usually higher to reflect that extra risk. Example: Ominvest's OMR 100 million sukuk from November 2026 pays 6.50% a year and has no fixed maturity.",
+    "sources": [
+      {
+        "label": "Dealroom — Ominvest raises $260M in oversubscribed perpetual sukuk (Nov 7, 2026)",
+        "url": "https://dealroom.co/news/170498-ominvest-raises-260m-in-oversubscribed-perpetual-sukuk/"
+      }
+    ],
+    "first_mentioned": "2026-11-08",
+    "edition": "editions/2026-11-08.html"
   }
 ]

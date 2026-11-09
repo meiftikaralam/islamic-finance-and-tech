@@ -234,6 +234,12 @@
   "excerpt": "Nov 7: two Malaysian sukuk hit trouble in the same week — one missed a payment, the other broke a reserve rule."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 8, 2026",
+  "url": "/editions/2026-11-08.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 8: Ominvest raises $260 million with a sukuk that never matures, and how halal savings accounts work in the USA."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1744,5 +1750,41 @@
   "url": "/glossary/index.html#reserve-account-sukuk",
   "type": "Glossary: concept",
   "excerpt": "A pot of money a sukuk issuer must build up before a maturity date, so the cash is already there when the repayment falls due. The agreement sets the amounts an"
+ },
+ {
+  "title": "Ominvest",
+  "url": "/glossary/index.html#ominvest",
+  "type": "Glossary: company",
+  "excerpt": "Oman International Development and Investment Company, an investment holding company founded in 1983 and listed on the Muscat Stock Exchange, with a portfolio s"
+ },
+ {
+  "title": "Alizz Islamic Bank",
+  "url": "/glossary/index.html#alizz-islamic-bank",
+  "type": "Glossary: company",
+  "excerpt": "One of Oman's first full-fledged Islamic banks, operating since September 2013 and owned by Oman Arab Bank since 2020. It acted as a joint issue manager on Omin"
+ },
+ {
+  "title": "Ubhar Capital",
+  "url": "/glossary/index.html#ubhar-capital",
+  "type": "Glossary: company",
+  "excerpt": "An Omani investment firm, also known as U Capital, offering brokerage, asset management and research. It acted as a joint issue manager on Ominvest's November 2"
+ },
+ {
+  "title": "Stearns Bank",
+  "url": "/glossary/index.html#stearns-bank",
+  "type": "Glossary: company",
+  "excerpt": "A US bank that runs Salaam Banking, its Islamic division. Its Salaam Personal Market Savings account pays a share of the profit from the bank's Shariah-complian"
+ },
+ {
+  "title": "Bank of Whittier",
+  "url": "/glossary/index.html#bank-of-whittier",
+  "type": "Glossary: company",
+  "excerpt": "A US bank that calls itself riba-free, with branches in California and Texas. Its savings account lets the bank use deposits in riba-free home, auto, business a"
+ },
+ {
+  "title": "Perpetual sukuk",
+  "url": "/glossary/index.html#perpetual-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A sukuk with no maturity date. The issuer pays profit at set intervals and never has to repay the principal on a fixed date, though it can usually redeem the su"
  }
 ]
