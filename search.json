@@ -246,6 +246,12 @@
   "excerpt": "Nov 9: AlRayan Bank rebuilds its core banking on the cloud, and Emirates funds two A350s with a Shariah-compliant French lease."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 10, 2026",
+  "url": "/editions/2026-11-10.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 10: Wafr launches WafrChain, a blockchain that puts the whole sukuk lifecycle on one shared record, and a beginner's guide to stablecoins."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1834,5 +1840,29 @@
   "url": "/glossary/index.html#banking-platform-as-a-service-bpaas",
   "type": "Glossary: concept",
   "excerpt": "A way for a bank to rent its core banking software instead of building and running its own. The provider hosts the software in the cloud and handles updates, an"
+ },
+ {
+  "title": "Wafr",
+  "url": "/glossary/index.html#wafr",
+  "type": "Glossary: company",
+  "excerpt": "A Dubai-based Islamic fintech building a global Islamic financial platform. Its first product is WafrChain, a private permissioned blockchain that puts sukuk is"
+ },
+ {
+  "title": "Stablecoin",
+  "url": "/glossary/index.html#stablecoin",
+  "type": "Glossary: concept",
+  "excerpt": "A digital token designed to hold a steady value, usually one token equal to one US dollar. The issuer holds a dollar or short-term US government debt in reserve"
+ },
+ {
+  "title": "Smart contract",
+  "url": "/glossary/index.html#smart-contract",
+  "type": "Glossary: concept",
+  "excerpt": "A piece of software on a blockchain that carries out an agreed action automatically when its conditions are met, with no person typing the instruction in. Examp"
+ },
+ {
+  "title": "Permissioned blockchain",
+  "url": "/glossary/index.html#permissioned-blockchain",
+  "type": "Glossary: concept",
+  "excerpt": "A blockchain that only approved participants can join, unlike a public blockchain anyone can use. Each participant sees only its own activity, so positions stay"
  }
 ]

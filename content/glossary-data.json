@@ -3054,5 +3054,65 @@
     ],
     "first_mentioned": "2026-11-09",
     "edition": "editions/2026-11-09.html"
+  },
+  {
+    "name": "Wafr",
+    "type": "company",
+    "website": "https://wafrchain.com/",
+    "description": "A Dubai-based Islamic fintech building a global Islamic financial platform. Its first product is WafrChain, a private permissioned blockchain that puts sukuk issuance, distribution, settlement and profit payments on one shared record. Example: Wafr launched WafrChain in November 2026 with sukuk tokenisation live from day one.",
+    "sources": [
+      {
+        "label": "GlobeNewswire — Wafr Announces WafrChain for On-Chain Shariah-Compliant Sukuk and Pre-Seed Funding (Nov 10, 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399208/0/en/wafr-announces-wafrchain-for-on-chain-shariah-compliant-sukuk-and-pre-seed-funding.html"
+      },
+      {
+        "label": "Finsmes — Wafr Closes Pre-Seed Funding (Nov 10, 2026)",
+        "url": "https://www.finsmes.com/2026/11/wafr-closes-pre-seed-funding.html"
+      }
+    ],
+    "first_mentioned": "2026-11-10",
+    "edition": "editions/2026-11-10.html"
+  },
+  {
+    "name": "Stablecoin",
+    "type": "concept",
+    "website": null,
+    "description": "A digital token designed to hold a steady value, usually one token equal to one US dollar. The issuer holds a dollar or short-term US government debt in reserve for each token, so a person can buy one token for one dollar and redeem it for a dollar. Example: an investor can receive a sukuk profit payment in a stablecoin in minutes, while a bank transfer across borders can take days.",
+    "sources": [
+      {
+        "label": "GlobeNewswire — Wafr Announces WafrChain for On-Chain Shariah-Compliant Sukuk and Pre-Seed Funding (Nov 10, 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399208/0/en/wafr-announces-wafrchain-for-on-chain-shariah-compliant-sukuk-and-pre-seed-funding.html"
+      }
+    ],
+    "first_mentioned": "2026-11-10",
+    "edition": "editions/2026-11-10.html"
+  },
+  {
+    "name": "Smart contract",
+    "type": "concept",
+    "website": null,
+    "description": "A piece of software on a blockchain that carries out an agreed action automatically when its conditions are met, with no person typing the instruction in. Example: on WafrChain, smart contracts route sukuk profit payments automatically when the payment date in the schedule arrives.",
+    "sources": [
+      {
+        "label": "GlobeNewswire — Wafr Announces WafrChain for On-Chain Shariah-Compliant Sukuk and Pre-Seed Funding (Nov 10, 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399208/0/en/wafr-announces-wafrchain-for-on-chain-shariah-compliant-sukuk-and-pre-seed-funding.html"
+      }
+    ],
+    "first_mentioned": "2026-11-10",
+    "edition": "editions/2026-11-10.html"
+  },
+  {
+    "name": "Permissioned blockchain",
+    "type": "concept",
+    "website": null,
+    "description": "A blockchain that only approved participants can join, unlike a public blockchain anyone can use. Each participant sees only its own activity, so positions stay private from one another. Example: WafrChain is a private permissioned blockchain for sukuk, open to approved issuers, distributors and investors.",
+    "sources": [
+      {
+        "label": "GlobeNewswire — Wafr Announces WafrChain for On-Chain Shariah-Compliant Sukuk and Pre-Seed Funding (Nov 10, 2026)",
+        "url": "https://www.globenewswire.com/news-release/2026/11/10/3399208/0/en/wafr-announces-wafrchain-for-on-chain-shariah-compliant-sukuk-and-pre-seed-funding.html"
+      }
+    ],
+    "first_mentioned": "2026-11-10",
+    "edition": "editions/2026-11-10.html"
   }
 ]
