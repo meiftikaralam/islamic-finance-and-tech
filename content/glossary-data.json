@@ -3114,5 +3114,65 @@
     ],
     "first_mentioned": "2026-11-10",
     "edition": "editions/2026-11-10.html"
+  },
+  {
+    "name": "HiLITE Group",
+    "type": "company",
+    "website": "https://www.hilitefunds.com",
+    "description": "A real estate developer from Kozhikode, Kerala, India, behind Focus Mall, HiLITE City and the World Trade Center Kozhikode. In November 2026 it entered investment management with HiLITE Ethical Fund 1, a Shariah-certified real estate fund.",
+    "sources": [
+      {
+        "label": "The Times of Bengal — HiLITE Group to Launch Rs. 200 Crore Shariah-Certified Category II AIF (Nov 11, 2026)",
+        "url": "https://www.thetimesofbengal.com/financial/hilite-group-to-launch-rs-200-crore-shariah-certified-category-ii-aif/"
+      }
+    ],
+    "first_mentioned": "2026-11-11",
+    "edition": "editions/2026-11-11.html"
+  },
+  {
+    "name": "TASIS",
+    "type": "company",
+    "website": "https://tasis.in",
+    "description": "Taqwaa Advisory and Shariah Investment Solutions, a Mumbai-based Shariah advisory firm. It certifies financial products as Shariah-compliant, checking each product's structure against Shariah rules, and it certified HiLITE Ethical Fund 1 in November 2026.",
+    "sources": [
+      {
+        "label": "TASIS — Home page",
+        "url": "https://tasis.in/"
+      },
+      {
+        "label": "The Times of Bengal — HiLITE Group to Launch Rs. 200 Crore Shariah-Certified Category II AIF (Nov 11, 2026)",
+        "url": "https://www.thetimesofbengal.com/financial/hilite-group-to-launch-rs-200-crore-shariah-certified-category-ii-aif/"
+      }
+    ],
+    "first_mentioned": "2026-11-11",
+    "edition": "editions/2026-11-11.html"
+  },
+  {
+    "name": "Alternative Investment Fund (AIF)",
+    "type": "concept",
+    "website": null,
+    "description": "A pooled fund in India, regulated by the market regulator SEBI, that collects money from wealthy individuals and institutions to invest in private assets such as real estate and unlisted companies. Category II is the category for such funds. Example: HiLITE Ethical Fund 1, a Shariah-certified real estate AIF launched in November 2026.",
+    "sources": [
+      {
+        "label": "The Times of Bengal — HiLITE Group to Launch Rs. 200 Crore Shariah-Certified Category II AIF (Nov 11, 2026)",
+        "url": "https://www.thetimesofbengal.com/financial/hilite-group-to-launch-rs-200-crore-shariah-certified-category-ii-aif/"
+      }
+    ],
+    "first_mentioned": "2026-11-11",
+    "edition": "editions/2026-11-11.html"
+  },
+  {
+    "name": "Retail sukuk",
+    "type": "concept",
+    "website": null,
+    "description": "A sukuk sold in small amounts directly to ordinary savers, rather than in large lots to banks and funds. Indonesia has sold retail sukuk from Rp1 million since 2009, and one series in 2026 drew 93,548 investors. A savings sukuk is a retail sukuk that cannot be traded onward.",
+    "sources": [
+      {
+        "label": "FinFormed — Why Do So Few Ordinary Muslims Own Sukuk? (Nov 11, 2026)",
+        "url": "https://www.finformed.org/sukuk-oversubscribed-retail-investors/"
+      }
+    ],
+    "first_mentioned": "2026-11-11",
+    "edition": "editions/2026-11-11.html"
   }
 ]

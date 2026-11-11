@@ -252,6 +252,12 @@
   "excerpt": "Nov 10: Wafr launches WafrChain, a blockchain that puts the whole sukuk lifecycle on one shared record, and a beginner's guide to stablecoins."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 11, 2026",
+  "url": "/editions/2026-11-11.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 11: HiLITE launches a Shariah-certified real estate fund in India, and how an ordinary investor can actually buy a sukuk."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1864,5 +1870,29 @@
   "url": "/glossary/index.html#permissioned-blockchain",
   "type": "Glossary: concept",
   "excerpt": "A blockchain that only approved participants can join, unlike a public blockchain anyone can use. Each participant sees only its own activity, so positions stay"
+ },
+ {
+  "title": "HiLITE Group",
+  "url": "/glossary/index.html#hilite-group",
+  "type": "Glossary: company",
+  "excerpt": "A real estate developer from Kozhikode, Kerala, India, behind Focus Mall, HiLITE City and the World Trade Center Kozhikode. In November 2026 it entered investme"
+ },
+ {
+  "title": "TASIS",
+  "url": "/glossary/index.html#tasis",
+  "type": "Glossary: company",
+  "excerpt": "Taqwaa Advisory and Shariah Investment Solutions, a Mumbai-based Shariah advisory firm. It certifies financial products as Shariah-compliant, checking each prod"
+ },
+ {
+  "title": "Alternative Investment Fund (AIF)",
+  "url": "/glossary/index.html#alternative-investment-fund-aif",
+  "type": "Glossary: concept",
+  "excerpt": "A pooled fund in India, regulated by the market regulator SEBI, that collects money from wealthy individuals and institutions to invest in private assets such a"
+ },
+ {
+  "title": "Retail sukuk",
+  "url": "/glossary/index.html#retail-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A sukuk sold in small amounts directly to ordinary savers, rather than in large lots to banks and funds. Indonesia has sold retail sukuk from Rp1 million since "
  }
 ]
