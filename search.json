@@ -258,6 +258,12 @@
   "excerpt": "Nov 11: HiLITE launches a Shariah-certified real estate fund in India, and how an ordinary investor can actually buy a sukuk."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 12, 2026",
+  "url": "/editions/2026-11-12.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 12: ZIG Finance and Nomura's Laser Digital launch a $100M tokenized vault that opens Saudi small-business loans to global investors."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1894,5 +1900,41 @@
   "url": "/glossary/index.html#retail-sukuk",
   "type": "Glossary: concept",
   "excerpt": "A sukuk sold in small amounts directly to ordinary savers, rather than in large lots to banks and funds. Indonesia has sold retail sukuk from Rp1 million since "
+ },
+ {
+  "title": "ZIG Finance",
+  "url": "/glossary/index.html#zig-finance",
+  "type": "Glossary: company",
+  "excerpt": "A fintech building onchain investment products for institutions. Its first product is the zEMS Vault, a tokenized fund giving investors exposure to Saudi small-"
+ },
+ {
+  "title": "Laser Digital",
+  "url": "/glossary/index.html#laser-digital",
+  "type": "Glossary: company",
+  "excerpt": "The digital-assets arm of Japanese bank Nomura. It advises on risk frameworks and tokenization for onchain funds, including ZIG Finance's zEMS Vault for Saudi s"
+ },
+ {
+  "title": "Beehive",
+  "url": "/glossary/index.html#beehive",
+  "type": "Glossary: company",
+  "excerpt": "A Dubai-based platform that connects small and medium businesses with investors for Shariah-compliant term finance and working capital. Founded in 2014 and regu"
+ },
+ {
+  "title": "Zamanat",
+  "url": "/glossary/index.html#zamanat",
+  "type": "Glossary: company",
+  "excerpt": "A Shariah-aligned firm that structures tokenized investment products and provides Shariah advisory, including for ZIG Finance's zEMS Vault for Saudi small-busin"
+ },
+ {
+  "title": "KAIO",
+  "url": "/glossary/index.html#kaio",
+  "type": "Glossary: company",
+  "excerpt": "A tokenization platform built by Laser Digital and WebN that puts regulated funds on blockchains. It runs tokenization, compliance checks and lifecycle manageme"
+ },
+ {
+  "title": "Tokenized vault",
+  "url": "/glossary/index.html#tokenized-vault",
+  "type": "Glossary: concept",
+  "excerpt": "A fund whose shares are recorded as tokens on a blockchain. Investors hold tokens that stand for a share of the assets inside the fund, and they subscribe and r"
  }
 ]

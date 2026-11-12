@@ -3174,5 +3174,109 @@
     ],
     "first_mentioned": "2026-11-11",
     "edition": "editions/2026-11-11.html"
+  },
+  {
+    "name": "ZIG Finance",
+    "type": "company",
+    "website": "https://zig.finance",
+    "description": "A fintech building onchain investment products for institutions. Its first product is the zEMS Vault, a tokenized fund giving investors exposure to Saudi small-business loans, launched in November 2026 with Nomura's Laser Digital as risk-framework adviser.",
+    "sources": [
+      {
+        "label": "Official site — ZIG Finance",
+        "url": "https://zig.finance"
+      },
+      {
+        "label": "The Block — Nomura's Laser Digital helps launch Saudi SME credit vault (Nov 11, 2026)",
+        "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "Laser Digital",
+    "type": "company",
+    "website": "https://www.laserdigital.com",
+    "description": "The digital-assets arm of Japanese bank Nomura. It advises on risk frameworks and tokenization for onchain funds, including ZIG Finance's zEMS Vault for Saudi small-business loans, and received conditional approval in May 2026 to set up a national trust bank in the USA.",
+    "sources": [
+      {
+        "label": "Official site — Laser Digital",
+        "url": "https://www.laserdigital.com"
+      },
+      {
+        "label": "The Block — Nomura's Laser Digital helps launch Saudi SME credit vault (Nov 11, 2026)",
+        "url": "https://www.theblock.co/news/markets/2026-11-11-nomuras-laser-digital-helps-launch-saudi-sme-credit-vault-targeting-100-million-on-bnb-chain-437824"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "Beehive",
+    "type": "company",
+    "website": "https://www.beehive.ae",
+    "description": "A Dubai-based platform that connects small and medium businesses with investors for Shariah-compliant term finance and working capital. Founded in 2014 and regulated by the Dubai Financial Services Authority, it has funded more than $1 billion for over 2,100 businesses across the UAE, Saudi Arabia and Oman.",
+    "sources": [
+      {
+        "label": "Official site — Beehive",
+        "url": "https://www.beehive.ae"
+      },
+      {
+        "label": "HackerNoon — ZIG Finance Opens $100M Vault (Nov 12, 2026)",
+        "url": "https://hackernoon.com/zig-finance-opens-$100m-vault-to-bring-saudi-arabias-sme-lending-boom-onchain"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "Zamanat",
+    "type": "company",
+    "website": "https://zamanathq.com",
+    "description": "A Shariah-aligned firm that structures tokenized investment products and provides Shariah advisory, including for ZIG Finance's zEMS Vault for Saudi small-business loans.",
+    "sources": [
+      {
+        "label": "HackerNoon — ZIG Finance Opens $100M Vault (Nov 12, 2026)",
+        "url": "https://hackernoon.com/zig-finance-opens-$100m-vault-to-bring-saudi-arabias-sme-lending-boom-onchain"
+      },
+      {
+        "label": "Zamanat — official site",
+        "url": "https://zamanathq.com"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "KAIO",
+    "type": "company",
+    "website": "https://kaio.xyz",
+    "description": "A tokenization platform built by Laser Digital and WebN that puts regulated funds on blockchains. It runs tokenization, compliance checks and lifecycle management, including for ZIG Finance's zEMS Vault, and has transacted more than $500 million across more than 10 blockchains.",
+    "sources": [
+      {
+        "label": "Official site — KAIO",
+        "url": "https://kaio.xyz"
+      },
+      {
+        "label": "HackerNoon — ZIG Finance Opens $100M Vault (Nov 12, 2026)",
+        "url": "https://hackernoon.com/zig-finance-opens-$100m-vault-to-bring-saudi-arabias-sme-lending-boom-onchain"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "Tokenized vault",
+    "type": "concept",
+    "website": null,
+    "description": "A fund whose shares are recorded as tokens on a blockchain. Investors hold tokens that stand for a share of the assets inside the fund, and they subscribe and redeem in stablecoins. Example: ZIG Finance's zEMS Vault, launched in November 2026, holds a pool of Saudi small-business loans.",
+    "sources": [
+      {
+        "label": "HackerNoon — ZIG Finance Opens $100M Vault (Nov 12, 2026)",
+        "url": "https://hackernoon.com/zig-finance-opens-$100m-vault-to-bring-saudi-arabias-sme-lending-boom-onchain"
+      }
+    ],
+    "first_mentioned": "2026-11-12",
+    "edition": "editions/2026-11-12.html"
   }
 ]
