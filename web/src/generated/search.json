@@ -264,6 +264,12 @@
   "excerpt": "Nov 12: ZIG Finance and Nomura's Laser Digital launch a $100M tokenized vault that opens Saudi small-business loans to global investors."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 13, 2026",
+  "url": "/editions/2026-11-13.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 13: IsDB signs a €660M forward lease for an Istanbul rail crossing, and the UAE puts Islamic finance under one rulebook."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1936,5 +1942,47 @@
   "url": "/glossary/index.html#tokenized-vault",
   "type": "Glossary: concept",
   "excerpt": "A fund whose shares are recorded as tokens on a blockchain. Investors hold tokens that stand for a share of the assets inside the fund, and they subscribe and r"
+ },
+ {
+  "title": "Islamic Development Bank",
+  "url": "/glossary/index.html#islamic-development-bank",
+  "type": "Glossary: company",
+  "excerpt": "A multilateral development bank based in Jeddah, Saudi Arabia, that finances development projects in its 57 member countries using Shariah-compliant structures."
+ },
+ {
+  "title": "Forward Lease",
+  "url": "/glossary/index.html#forward-lease",
+  "type": "Glossary: concept",
+  "excerpt": "A lease agreed before the asset is ready, where the contract describes the asset in full detail and rent is paid for its use once it is delivered. Example: the "
+ },
+ {
+  "title": "Diminishing Musharaka",
+  "url": "/glossary/index.html#diminishing-musharaka",
+  "type": "Glossary: concept",
+  "excerpt": "A way to buy a home without a loan, where the bank and the buyer buy the home together. The buyer pays rent on the bank's share and buys a small piece of it eac"
+ },
+ {
+  "title": "Dubai Financial Services Authority",
+  "url": "/glossary/index.html#dubai-financial-services-authority",
+  "type": "Glossary: company",
+  "excerpt": "The independent regulator of financial services in the Dubai International Financial Centre (DIFC), including Islamic finance. It widened its Islamic Finance Ru"
+ },
+ {
+  "title": "Pinsent Masons",
+  "url": "/glossary/index.html#pinsent-masons",
+  "type": "Glossary: company",
+  "excerpt": "An international law firm with an Islamic finance practice. Its experts commented on the UAE central bank's Regulation No. 1/2026, the new rulebook for Islamic "
+ },
+ {
+  "title": "Shariah governance",
+  "url": "/glossary/index.html#shariah-governance",
+  "type": "Glossary: concept",
+  "excerpt": "The system that checks whether a bank's products follow Islamic rules: a Shariah board of scholars reviews products before launch, and a regulator can set writt"
+ },
+ {
+  "title": "Takaful",
+  "url": "/glossary/index.html#takaful",
+  "type": "Glossary: concept",
+  "excerpt": "Islamic insurance based on mutual help. Members pay into a shared pool, and the pool pays out when a member suffers a loss, such as damage to a home or a car. E"
  }
 ]

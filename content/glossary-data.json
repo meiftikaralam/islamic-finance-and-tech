@@ -3278,5 +3278,110 @@
     ],
     "first_mentioned": "2026-11-12",
     "edition": "editions/2026-11-12.html"
+  },
+  {
+    "name": "Islamic Development Bank",
+    "type": "company",
+    "website": "https://www.isdb.org",
+    "description": "A multilateral development bank based in Jeddah, Saudi Arabia, that finances development projects in its 57 member countries using Shariah-compliant structures. Example: its €660 million forward lease for the Istanbul North Rail Crossing Project, signed in November 2026.",
+    "sources": [
+      {
+        "label": "Official site — Islamic Development Bank",
+        "url": "https://www.isdb.org"
+      },
+      {
+        "label": "EuropeSays — IsDB and Türkiye Sign EUR 660 Million Financing Agreement (Nov 13, 2026)",
+        "url": "https://www.europesays.com/turkiye/72394/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Forward Lease",
+    "type": "concept",
+    "website": null,
+    "description": "A lease agreed before the asset is ready, where the contract describes the asset in full detail and rent is paid for its use once it is delivered. Example: the Islamic Development Bank leasing a new 127-kilometre railway to Türkiye under a forward lease signed in November 2026.",
+    "sources": [
+      {
+        "label": "EuropeSays — IsDB and Türkiye Sign EUR 660 Million Financing Agreement (Nov 13, 2026)",
+        "url": "https://www.europesays.com/turkiye/72394/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Diminishing Musharaka",
+    "type": "concept",
+    "website": null,
+    "description": "A way to buy a home without a loan, where the bank and the buyer buy the home together. The buyer pays rent on the bank's share and buys a small piece of it each month, until the buyer owns the home outright. Example: a family buying a $300,000 home with a $60,000 deposit and the bank funding the other $240,000.",
+    "sources": [],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Dubai Financial Services Authority",
+    "type": "company",
+    "website": "https://www.dfsa.ae",
+    "description": "The independent regulator of financial services in the Dubai International Financial Centre (DIFC), including Islamic finance. It widened its Islamic Finance Rules in 2026 so more Shariah-compliant securities and funds fall under its oversight.",
+    "sources": [
+      {
+        "label": "Official site — Dubai Financial Services Authority",
+        "url": "https://www.dfsa.ae"
+      },
+      {
+        "label": "FinTech Global — Islamic banks face document reviews under new UAE rules (Nov 13, 2026)",
+        "url": "https://fintech.global/2026/11/13/islamic-banks-face-document-reviews-under-new-uae-rules/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Pinsent Masons",
+    "type": "company",
+    "website": "https://www.pinsentmasons.com",
+    "description": "An international law firm with an Islamic finance practice. Its experts commented on the UAE central bank's Regulation No. 1/2026, the new rulebook for Islamic financial institutions.",
+    "sources": [
+      {
+        "label": "Official site — Pinsent Masons",
+        "url": "https://www.pinsentmasons.com"
+      },
+      {
+        "label": "FinTech Global — Islamic banks face document reviews under new UAE rules (Nov 13, 2026)",
+        "url": "https://fintech.global/2026/11/13/islamic-banks-face-document-reviews-under-new-uae-rules/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Shariah governance",
+    "type": "concept",
+    "website": null,
+    "description": "The system that checks whether a bank's products follow Islamic rules: a Shariah board of scholars reviews products before launch, and a regulator can set written rules and check the bank's checks. Example: the UAE central bank's Regulation No. 1/2026, which sets detailed rules for Islamic contracts.",
+    "sources": [
+      {
+        "label": "FinTech Global — Islamic banks face document reviews under new UAE rules (Nov 13, 2026)",
+        "url": "https://fintech.global/2026/11/13/islamic-banks-face-document-reviews-under-new-uae-rules/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Takaful",
+    "type": "concept",
+    "website": null,
+    "description": "Islamic insurance based on mutual help. Members pay into a shared pool, and the pool pays out when a member suffers a loss, such as damage to a home or a car. Example: a family joining a takaful plan instead of a conventional insurance policy.",
+    "sources": [
+      {
+        "label": "FinTech Global — Islamic banks face document reviews under new UAE rules (Nov 13, 2026)",
+        "url": "https://fintech.global/2026/11/13/islamic-banks-face-document-reviews-under-new-uae-rules/"
+      }
+    ],
+    "first_mentioned": "2026-11-13",
+    "edition": "editions/2026-11-13.html"
   }
 ]
