@@ -270,6 +270,12 @@
   "excerpt": "Nov 13: IsDB signs a €660M forward lease for an Istanbul rail crossing, and the UAE puts Islamic finance under one rulebook."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 14, 2026",
+  "url": "/editions/2026-11-14.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 14: no story cleared the bar, so today brings two guidance pieces — deposit vs investment accounts, and how an Islamic bank sets your return."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -1984,5 +1990,41 @@
   "url": "/glossary/index.html#takaful",
   "type": "Glossary: concept",
   "excerpt": "Islamic insurance based on mutual help. Members pay into a shared pool, and the pool pays out when a member suffers a loss, such as damage to a home or a car. E"
+ },
+ {
+  "title": "Meezan Bank",
+  "url": "/glossary/index.html#meezan-bank",
+  "type": "Glossary: company",
+  "excerpt": "Pakistan’s first and largest Islamic bank, with more than 1,000 branches in over 320 cities. It publishes the profit-sharing split on its savings pools, for exa"
+ },
+ {
+  "title": "Albaraka Türk",
+  "url": "/glossary/index.html#albaraka-t-rk",
+  "type": "Glossary: company",
+  "excerpt": "Türkiye’s first participation bank, founded in 1984. It collects funds through current and participation accounts and shares the profit with customers instead o"
+ },
+ {
+  "title": "University Bank",
+  "url": "/glossary/index.html#university-bank",
+  "type": "Glossary: company",
+  "excerpt": "An FDIC-insured community bank in Ann Arbor, Michigan. Its subsidiary UIF (University Islamic Financial) offers Shariah-compliant deposit accounts and home fina"
+ },
+ {
+  "title": "Investment account",
+  "url": "/glossary/index.html#investment-account",
+  "type": "Glossary: concept",
+  "excerpt": "An Islamic bank account where your money is invested, not just held. Your deposit joins a pool that funds Shariah-compliant financing, and the pool’s profit is "
+ },
+ {
+  "title": "Expected profit rate",
+  "url": "/glossary/index.html#expected-profit-rate",
+  "type": "Glossary: concept",
+  "excerpt": "The rate an Islamic bank publishes for a savings or investment account, based on what its financing pool actually earned. It is a target, not a promise: the ban"
+ },
+ {
+  "title": "Profit equalisation reserve",
+  "url": "/glossary/index.html#profit-equalisation-reserve",
+  "type": "Glossary: concept",
+  "excerpt": "Money an Islamic bank holds back from the profit pool in good months and releases in weak months, so the rate paid to depositors stays steadier. Example: a bank"
  }
 ]

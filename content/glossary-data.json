@@ -3383,5 +3383,113 @@
     ],
     "first_mentioned": "2026-11-13",
     "edition": "editions/2026-11-13.html"
+  },
+  {
+    "name": "Meezan Bank",
+    "type": "company",
+    "website": "https://www.meezanbank.com",
+    "description": "Pakistan’s first and largest Islamic bank, with more than 1,000 branches in over 320 cities. It publishes the profit-sharing split on its savings pools, for example 50/50 between the bank and depositors.",
+    "sources": [
+      {
+        "label": "Official site — Meezan Bank",
+        "url": "https://www.meezanbank.com"
+      },
+      {
+        "label": "HalalWallet — How Mudarabah Savings Accounts Work in Pakistan",
+        "url": "https://www.halalwallet.pk/blog/how-mudarabah-savings-accounts-work-pakistan-2026"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
+  },
+  {
+    "name": "Albaraka Türk",
+    "type": "company",
+    "website": "https://www.albaraka.com.tr",
+    "description": "Türkiye’s first participation bank, founded in 1984. It collects funds through current and participation accounts and shares the profit with customers instead of paying interest.",
+    "sources": [
+      {
+        "label": "Official site — Albaraka Türk",
+        "url": "https://www.albaraka.com.tr"
+      },
+      {
+        "label": "aInvest — Albaraka Türk Paid Off TRY 2.25 Billion in Sukuk (Nov 13, 2026)",
+        "url": "https://www.ainvest.com/news/albaraka-rk-paid-2-25-billion-sukuk-interest-bank-runs-rate-2611/"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
+  },
+  {
+    "name": "University Bank",
+    "type": "company",
+    "website": "https://www.university-bank.com",
+    "description": "An FDIC-insured community bank in Ann Arbor, Michigan. Its subsidiary UIF (University Islamic Financial) offers Shariah-compliant deposit accounts and home financing nationwide.",
+    "sources": [
+      {
+        "label": "Official site — University Bank",
+        "url": "https://www.university-bank.com"
+      },
+      {
+        "label": "Zoya — Halal Savings Accounts in the USA (2026)",
+        "url": "https://blog.zoya.finance/halal-savings-accounts/"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
+  },
+  {
+    "name": "Investment account",
+    "type": "concept",
+    "website": null,
+    "description": "An Islamic bank account where your money is invested, not just held. Your deposit joins a pool that funds Shariah-compliant financing, and the pool’s profit is split with you at an agreed ratio. The return is not guaranteed, and losses fall on the depositor unless the bank was negligent. Example: a mudaraba savings account where the bank shares the pool’s profit with you.",
+    "sources": [
+      {
+        "label": "HalalWallet — Islamic Banking Guide UAE 2026",
+        "url": "https://www.halalwallet.ae/halal-banking-guide"
+      },
+      {
+        "label": "FinTech Global — Islamic banks face document reviews under new UAE rules (Nov 13, 2026)",
+        "url": "https://fintech.global/2026/11/13/islamic-banks-face-document-reviews-under-new-uae-rules/"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
+  },
+  {
+    "name": "Expected profit rate",
+    "type": "concept",
+    "website": null,
+    "description": "The rate an Islamic bank publishes for a savings or investment account, based on what its financing pool actually earned. It is a target, not a promise: the bank cannot guarantee a return on money. Example: a bank advertising 5.25% expected on a savings account means the pool earned enough to pay about that, and the actual rate is worked out after the period ends.",
+    "sources": [
+      {
+        "label": "HalalWallet — Expected Profit vs Interest, Explained",
+        "url": "https://www.halalwallet.ae/blog/expected-profit-vs-interest-uae-2026"
+      },
+      {
+        "label": "HalalWallet — How Mudarabah Savings Accounts Work in Pakistan",
+        "url": "https://www.halalwallet.pk/blog/how-mudarabah-savings-accounts-work-pakistan-2026"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
+  },
+  {
+    "name": "Profit equalisation reserve",
+    "type": "concept",
+    "website": null,
+    "description": "Money an Islamic bank holds back from the profit pool in good months and releases in weak months, so the rate paid to depositors stays steadier. Example: a bank sets aside part of a strong month’s pool profit, then uses it to top up the rate in a month when the pool earns less.",
+    "sources": [
+      {
+        "label": "HalalWallet — Expected Profit vs Interest, Explained",
+        "url": "https://www.halalwallet.ae/blog/expected-profit-vs-interest-uae-2026"
+      },
+      {
+        "label": "HalalWallet — How Mudarabah Savings Accounts Work in Pakistan",
+        "url": "https://www.halalwallet.pk/blog/how-mudarabah-savings-accounts-work-pakistan-2026"
+      }
+    ],
+    "first_mentioned": "2026-11-14",
+    "edition": "editions/2026-11-14.html"
   }
 ]
