@@ -276,6 +276,12 @@
   "excerpt": "Nov 14: no story cleared the bar, so today brings two guidance pieces — deposit vs investment accounts, and how an Islamic bank sets your return."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 15, 2026",
+  "url": "/editions/2026-11-15.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 15: Zetrix AI tells Bursa Malaysia it cannot repay its RM2 billion sukuk, and asks holders to rewrite the deal — plus what a sukuk trustee does for holders."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2026,5 +2032,29 @@
   "url": "/glossary/index.html#profit-equalisation-reserve",
   "type": "Glossary: concept",
   "excerpt": "Money an Islamic bank holds back from the profit pool in good months and releases in weak months, so the rate paid to depositors stays steadier. Example: a bank"
+ },
+ {
+  "title": "Sukuk trustee",
+  "url": "/glossary/index.html#sukuk-trustee",
+  "type": "Glossary: concept",
+  "excerpt": "The independent party that holds a sukuk's assets on behalf of all its holders and speaks for them when something goes wrong. It checks the borrower keeps the c"
+ },
+ {
+  "title": "Escrow account",
+  "url": "/glossary/index.html#escrow-account",
+  "type": "Glossary: concept",
+  "excerpt": "A separate account controlled by a third party, where money is held and can only be used for one agreed purpose. Example: Zetrix AI proposed putting money raise"
+ },
+ {
+  "title": "Pacific Trustees Berhad",
+  "url": "/glossary/index.html#pacific-trustees-berhad",
+  "type": "Glossary: company",
+  "excerpt": "A Malaysian trust company, registered with the Securities Commission Malaysia, that acts as trustee for sukuk and other securities. It holds the assets behind a"
+ },
+ {
+  "title": "Sukuk Wakalah",
+  "url": "/glossary/index.html#sukuk-wakalah",
+  "type": "Glossary: concept",
+  "excerpt": "A sukuk built on wakala, an agency contract. Investors give money to an agent, who invests it in Shariah-compliant assets and manages them on the investors' beh"
  }
 ]
