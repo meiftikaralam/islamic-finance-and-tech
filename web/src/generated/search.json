@@ -282,6 +282,12 @@
   "excerpt": "Nov 15: Zetrix AI tells Bursa Malaysia it cannot repay its RM2 billion sukuk, and asks holders to rewrite the deal — plus what a sukuk trustee does for holders."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 16, 2026",
+  "url": "/editions/2026-11-16.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 16: a flat fee Islamic adviser launches in California, how banks borrow cash overnight, and the AI underwriter."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2056,5 +2062,53 @@
   "url": "/glossary/index.html#sukuk-wakalah",
   "type": "Glossary: concept",
   "excerpt": "A sukuk built on wakala, an agency contract. Investors give money to an agent, who invests it in Shariah-compliant assets and manages them on the investors' beh"
+ },
+ {
+  "title": "National Bank of Ethiopia",
+  "url": "/glossary/index.html#national-bank-of-ethiopia",
+  "type": "Glossary: company",
+  "excerpt": "Ethiopia's central bank. In November 2026 it issued two directives giving the country's interest-free banks their own liquidity tools and an interest-free inter"
+ },
+ {
+  "title": "Hijra Bank",
+  "url": "/glossary/index.html#hijra-bank",
+  "type": "Glossary: company",
+  "excerpt": "Ethiopia's second full-fledged interest-free bank, offering Shariah-compliant banking to customers across the country."
+ },
+ {
+  "title": "ZamZam Bank",
+  "url": "/glossary/index.html#zamzam-bank",
+  "type": "Glossary: company",
+  "excerpt": "Ethiopia's first full-fledged interest-free bank, licensed by the National Bank of Ethiopia to offer Shariah-compliant banking."
+ },
+ {
+  "title": "Interbank market",
+  "url": "/glossary/index.html#interbank-market",
+  "type": "Glossary: concept",
+  "excerpt": "A market where banks lend spare cash to each other for a night or a few days. A bank with extra cash lends to a bank that is short, and the borrower pays a retu"
+ },
+ {
+  "title": "Standing facility",
+  "url": "/glossary/index.html#standing-facility",
+  "type": "Glossary: concept",
+  "excerpt": "A window at the central bank where a bank can place spare cash overnight or borrow against collateral at short notice. Example: the National Bank of Ethiopia's "
+ },
+ {
+  "title": "ShariaWiz Advisory",
+  "url": "/glossary/index.html#shariawiz-advisory",
+  "type": "Glossary: company",
+  "excerpt": "A California registered investment adviser based in Folsom, launched on November 6, 2026. It offers financial planning and investment management for Muslim Amer"
+ },
+ {
+  "title": "CXingularity",
+  "url": "/glossary/index.html#cxingularity",
+  "type": "Glossary: company",
+  "excerpt": "A lending software company based in Dubai. Its system reads SME loan applications, scores them, and runs a Shariah compliance check inside the underwriting soft"
+ },
+ {
+  "title": "AI underwriter",
+  "url": "/glossary/index.html#ai-underwriter",
+  "type": "Glossary: concept",
+  "excerpt": "Software that reads a financing application and its papers, pulls out the numbers, checks whether the documents agree with each other, scores the file, and writ"
  }
 ]
