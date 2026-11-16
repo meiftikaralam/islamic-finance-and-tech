@@ -24,8 +24,19 @@ export function Home() {
   return (
     <div>
       <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
-        Posts
+        Islamic Finance Blog
       </h1>
+      <p className="text-[15px] leading-relaxed text-[#333] mb-6">
+        Daily lessons on Islamic finance and the technology behind it, in simple words.
+        The <Link to="/newsletters.html" className="text-brand-600 underline">daily Islamic finance newsletter</Link> covers
+        Islamic banking, sukuk, halal investing and fintech, with one concept explained in each edition.
+        The site also carries a <Link to="/glossary/index.html" className="text-brand-600 underline">glossary of Islamic finance terms</Link> and
+        the <Link to="/aaoifi/index.html" className="text-brand-600 underline">AAOIFI Shariah Standards in simple English</Link>.
+        Written by Iftikar. Free, and for education only.
+      </p>
+      <h2 className="text-lg font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mb-4">
+        Posts
+      </h2>
       <div className="space-y-4">
         {posts.map((p) => (
           <Link key={p.slug} to={POST_URL[p.slug] ?? `/lab/${p.slug}.html`} className="no-underline block">

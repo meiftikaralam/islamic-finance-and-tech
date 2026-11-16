@@ -26,12 +26,12 @@ const addSearch = (title, url, type, excerpt) =>
 
 // --- static pages ---
 const statics = [
-  ["/", "home", "Islamic Finance and Technology",
-    "Educational resources for Islamic finance and the technology behind it: a daily newsletter, beginner guides, AAOIFI standards in simple English, and a glossary."],
+  ["/", "home", "Islamic Finance Blog | Daily Islamic Finance Lessons",
+    "Islamic finance blog with daily lessons in simple words: Islamic banking, sukuk, halal investing and fintech news, a glossary, and AAOIFI standards explained."],
   ["/newsletters.html", "newsletters", "Daily Newsletters — Islamic Finance and Technology",
     "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."],
   ["/about.html", "page", "About — Islamic Finance and Technology",
-    "About Islamic Finance and Technology — a free educational project by Iftikar."],
+    "About this Islamic finance blog and its author Iftikar: a free educational project on Islamic finance and technology, with daily lessons in simple words."],
   ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",
     "The open playbook behind this site — sources, rules, and process."],
   ["/aaoifi/index.html", "aaoifi-index", "AAOIFI Standards in Simple English",

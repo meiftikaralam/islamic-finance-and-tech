@@ -2,8 +2,8 @@
  {
   "path": "/",
   "kind": "home",
-  "title": "Islamic Finance and Technology",
-  "description": "Educational resources for Islamic finance and the technology behind it: a daily newsletter, beginner guides, AAOIFI standards in simple English, and a glossary."
+  "title": "Islamic Finance Blog | Daily Islamic Finance Lessons",
+  "description": "Islamic finance blog with daily lessons in simple words: Islamic banking, sukuk, halal investing and fintech news, a glossary, and AAOIFI standards explained."
  },
  {
   "path": "/aaoifi/index.html",
@@ -512,7 +512,7 @@
   "kind": "page",
   "slug": "about",
   "title": "About — Islamic Finance and Technology",
-  "description": "About Islamic Finance and Technology — a free educational project by Iftikar."
+  "description": "About this Islamic finance blog and its author Iftikar: a free educational project on Islamic finance and technology, with daily lessons in simple words."
  },
  {
   "path": "/editions/2026-10-06.html",

@@ -32,6 +32,15 @@ function headFor(r) {
     publisher: { "@type": "Organization", name: "Islamic Finance and Technology" },
     ...(r.date ? { datePublished: r.date } : {}),
   };
+  const websiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Islamic Finance and Technology",
+    alternateName: "Islamic Finance Blog",
+    url: SITE_URL + "/",
+    description: r.description,
+    author: { "@type": "Person", name: "Iftikar" },
+  };
   return [
     `<title>${title}</title>`,
     `<meta name="description" content="${desc}">`,
@@ -44,6 +53,7 @@ function headFor(r) {
     `<meta name="twitter:title" content="${title}">`,
     `<meta name="twitter:description" content="${desc}">`,
     `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`,
+    ...(r.path === "/" ? [`<script type="application/ld+json">${JSON.stringify(websiteLd)}</script>`] : []),
   ].join("\n    ");
 }
 
