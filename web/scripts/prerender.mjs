@@ -49,6 +49,7 @@ function headFor(r) {
     `<meta property="og:description" content="${desc}">`,
     `<meta property="og:type" content="${isArticle ? "article" : "website"}">`,
     `<meta property="og:url" content="${url}">`,
+    `<link rel="alternate" type="application/rss+xml" title="Islamic Finance and Technology — RSS" href="${SITE_URL}/feed.xml">`,
     `<meta name="twitter:card" content="summary">`,
     `<meta name="twitter:title" content="${title}">`,
     `<meta name="twitter:description" content="${desc}">`,
@@ -92,6 +93,29 @@ const urls = routes
 writeFileSync(
   join(DIST, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`
+);
+
+// feed.xml — RSS feed of editions and posts, newest first (for Feedly,
+// Feedspot and other readers; added 2026-11-16 on Iftikar's order)
+const feedItems = routes
+  .filter((r) => ["edition", "post"].includes(r.kind) && r.date)
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  .map((r) => {
+    const pub = new Date(r.date + "T12:00:00Z").toUTCString();
+    return [
+      "  <item>",
+      `    <title>${esc(r.title)}</title>`,
+      `    <link>${SITE_URL}${r.path}</link>`,
+      `    <guid isPermaLink="true">${SITE_URL}${r.path}</guid>`,
+      `    <pubDate>${pub}</pubDate>`,
+      `    <description>${esc(r.description)}</description>`,
+      "  </item>",
+    ].join("\n");
+  })
+  .join("\n");
+writeFileSync(
+  join(DIST, "feed.xml"),
+  `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n  <title>Islamic Finance and Technology</title>\n  <link>${SITE_URL}/</link>\n  <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n  <description>Daily Islamic finance lessons in simple words: news editions, posts, a glossary, and AAOIFI standards explained. Free and educational only.</description>\n  <language>en-us</language>\n${feedItems}\n</channel>\n</rss>\n`
 );
 
 // llms.txt — helps AI agents find and cite the content quickly
