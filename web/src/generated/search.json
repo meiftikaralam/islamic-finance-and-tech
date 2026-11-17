@@ -288,6 +288,12 @@
   "excerpt": "Nov 16: a flat fee Islamic adviser launches in California, how banks borrow cash overnight, and the AI underwriter."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 17, 2026",
+  "url": "/editions/2026-11-17.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 17: a development bank makes its first Islamic deal, funding green projects in Türkiye — plus what a green sukuk is."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2110,5 +2116,29 @@
   "url": "/glossary/index.html#ai-underwriter",
   "type": "Glossary: concept",
   "excerpt": "Software that reads a financing application and its papers, pulls out the numbers, checks whether the documents agree with each other, scores the file, and writ"
+ },
+ {
+  "title": "Black Sea Trade and Development Bank",
+  "url": "/glossary/index.html#black-sea-trade-and-development-bank",
+  "type": "Glossary: company",
+  "excerpt": "A development bank owned by 11 countries around the Black Sea, based in Thessaloniki, Greece. It lends to projects and banks in its member countries. In Novembe"
+ },
+ {
+  "title": "Emlak Katılım",
+  "url": "/glossary/index.html#emlak-kat-l-m",
+  "type": "Glossary: company",
+  "excerpt": "Türkiye’s state-owned participation bank, operating since March 2019 with 125 branches. It offers interest-free banking and financing for homes, businesses and "
+ },
+ {
+  "title": "Green sukuk",
+  "url": "/glossary/index.html#green-sukuk",
+  "type": "Glossary: concept",
+  "excerpt": "A sukuk whose money can only go to projects that help the environment, such as solar power, clean transport or waste recycling. The issuer publishes a list of e"
+ },
+ {
+  "title": "Deposit return system",
+  "url": "/glossary/index.html#deposit-return-system",
+  "type": "Glossary: concept",
+  "excerpt": "A scheme where a person pays a small deposit when buying a bottled drink and gets the money back by returning the empty bottle to a collection point. The return"
  }
 ]
