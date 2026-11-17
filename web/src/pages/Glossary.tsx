@@ -34,7 +34,7 @@ export function Glossary() {
           </a>
         )}
         {e.sources?.length > 0 && (
-          <div className="text-[13px] text-[#888] mt-1">
+          <div className="text-[13px] text-[#666] mt-1">
             Sources:{" "}
             {e.sources.map((s, i) => (
               <span key={s.url}>
@@ -80,7 +80,7 @@ export function Glossary() {
           <div className="grid gap-3 sm:grid-cols-2">{concepts.map(renderEntry)}</div>
         </>
       )}
-      {shown.length === 0 && <p className="text-sm text-[#888] mt-4">No entries match.</p>}
+      {shown.length === 0 && <p className="text-sm text-[#666] mt-4">No entries match.</p>}
     </div>
   );
 }

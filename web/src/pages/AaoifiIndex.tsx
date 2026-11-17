@@ -68,7 +68,7 @@ export function AaoifiIndex() {
           </Link>
         ))}
       </div>
-      {shown.length === 0 && <p className="text-sm text-[#888] mt-4">No standards match.</p>}
+      {shown.length === 0 && <p className="text-sm text-[#666] mt-4">No standards match.</p>}
     </div>
   );
 }

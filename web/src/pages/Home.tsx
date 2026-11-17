@@ -42,7 +42,7 @@ export function Home() {
           <Link key={p.slug} to={POST_URL[p.slug] ?? `/lab/${p.slug}.html`} className="no-underline block">
             <Card className="hover:shadow-md transition-shadow">
               <CardHeader>
-                <div className="text-[13px] text-[#888]">{fmtDate(p.frontmatter.date)}</div>
+                <div className="text-[13px] text-[#666]">{fmtDate(p.frontmatter.date)}</div>
                 <CardTitle className="text-[17px] text-[#222]">{p.frontmatter.title}</CardTitle>
                 <CardDescription>{p.frontmatter.description}</CardDescription>
               </CardHeader>

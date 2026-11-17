@@ -121,7 +121,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer className="text-center text-xs text-[#888] mt-10">
+    <footer className="text-center text-xs text-[#666] mt-10">
       {SITE_NAME} · {DISCLAIMER}
     </footer>
   );

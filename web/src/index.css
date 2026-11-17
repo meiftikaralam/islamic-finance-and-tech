@@ -21,8 +21,8 @@ body {
 .prose-blog h1 { @apply text-2xl font-bold text-brand-600 mt-6 mb-2; }
 .prose-blog h2 { @apply text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4; }
 .prose-blog h3 { @apply text-lg font-semibold mt-6 mb-2; }
-.prose-blog p { @apply text-[15px] leading-[1.7] text-[#333] my-3; }
-.prose-blog ul, .prose-blog ol { @apply text-[15px] leading-[1.7] text-[#333] my-3 pl-6; }
+.prose-blog p { @apply text-base leading-[1.7] text-[#333] my-3; }
+.prose-blog ul, .prose-blog ol { @apply text-base leading-[1.7] text-[#333] my-3 pl-6; }
 .prose-blog ul { @apply list-disc; }
 .prose-blog ol { @apply list-decimal; }
 .prose-blog li { @apply my-1; }

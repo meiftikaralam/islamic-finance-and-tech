@@ -30,7 +30,7 @@ export function SearchBox() {
       {query.length >= 2 && (
         <div className="max-w-[420px] mx-auto mt-2 text-left">
           {hits.length === 0 ? (
-            <div className="text-[13px] text-[#888]">No matches.</div>
+            <div className="text-[13px] text-[#666]">No matches.</div>
           ) : (
             hits.map((h) => (
               <Link
