@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { loadDocs, type Doc } from "@/lib/content";
+import { deriveHeadline } from "@/lib/headline";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 function fmtDate(iso?: string) {
@@ -43,16 +44,19 @@ function groupByMonth(editions: Doc[]): MonthGroup[] {
 }
 
 function EditionCard({ e }: { e: Doc }) {
+  const { headline, summary } = deriveHeadline(e.frontmatter.description);
   return (
-    <Link key={e.slug} to={`/editions/${e.slug}.html`} className="no-underline block">
-      <Card className="hover:shadow-md transition-shadow">
-        <CardHeader>
-          <div className="text-[13px] text-[#666]">{fmtDate(e.frontmatter.date)}</div>
-          <CardTitle className="text-[17px] text-[#222]">{e.frontmatter.title}</CardTitle>
-          <CardDescription>{e.frontmatter.description}</CardDescription>
-        </CardHeader>
-      </Card>
-    </Link>
+    <div className="py-4 border-b border-neutral-200">
+      <div className="text-[13px] text-neutral-500 mb-[3px]">{fmtDate(e.frontmatter.date)}</div>
+      <h3 className="text-[19px] font-bold leading-[1.35]">
+        <Link to={`/editions/${e.slug}.html`} className="text-brand-700 no-underline">
+          {headline}
+        </Link>
+      </h3>
+      {summary && (
+        <p className="mt-1 text-[15px] leading-[1.55] text-neutral-600">{summary}</p>
+      )}
+    </div>
   );
 }
 
@@ -69,10 +73,10 @@ export function Newsletters() {
   const groups = groupByMonth(editions);
   return (
     <div>
-      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
+      <h1 className="text-[28px] leading-[1.2] font-bold text-brand-700 mt-8 mb-3">
         Daily Newsletters
       </h1>
-      <p className="text-[15px] leading-relaxed text-[#333] mb-6">
+      <p className="text-base leading-[1.65] text-neutral-600 mb-6">
         The full archive of the Islamic Finance Daily Brief. A new edition every day, each one
         explaining an Islamic finance story and one concept in simple words.{" "}
         {editions.length} editions so far, newest first.
@@ -115,11 +119,11 @@ export function Newsletters() {
         <section key={g.key} className="mt-8">
           <h2
             id={g.anchor}
-            className="text-lg font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mb-4 scroll-mt-20"
+            className="text-[15px] font-bold tracking-[1.2px] uppercase text-neutral-500 mt-[26px] mb-1.5 scroll-mt-20"
           >
             {g.label}
           </h2>
-          <div className="space-y-4">
+          <div>
             {g.items.map((e) => (
               <EditionCard key={e.slug} e={e} />
             ))}

@@ -63,8 +63,7 @@ const SECTION_LABEL = "text-[15px] font-bold tracking-[1.2px] text-neutral-500 m
 /**
  * Homepage — Option B2 (approved 2026-11-17): statement hero + subscribe,
  * the three latest editions as an open list, then most popular posts.
- * The white background is scoped to this page only, via a full-bleed white
- * band (box-shadow spread clipped vertically) inside Layout's grey page.
+ * The whole site sits on white since the 2026-11-17 consistency pass.
  */
 export function Home() {
   const editions = loadDocs("editions");
@@ -84,7 +83,7 @@ export function Home() {
   }, []);
 
   return (
-    <div className="bg-white [box-shadow:0_0_0_100vmax_#fff] [clip-path:inset(0_-100vmax)] pt-11 pb-6">
+    <div className="pt-11 pb-6">
       {/* Hero */}
       <h1 className="text-[34px] leading-[1.15] sm:text-[44px] sm:leading-[1.12] font-bold text-brand-700 tracking-[-0.5px]">
         Islamic finance, explained in simple words.

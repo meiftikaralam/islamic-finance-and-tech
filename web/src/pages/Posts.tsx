@@ -19,10 +19,10 @@ export function Posts() {
   );
   return (
     <div>
-      <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
+      <h1 className="text-[28px] leading-[1.2] font-bold text-brand-700 mt-8 mb-3">
         Posts
       </h1>
-      <p className="text-[15px] leading-relaxed text-[#333] mb-6">
+      <p className="text-base leading-[1.65] text-neutral-600 mb-6">
         Essays, experiments and beginner guides on Islamic finance and the technology behind
         it, in simple words. {posts.length} posts so far, newest first.
       </p>
