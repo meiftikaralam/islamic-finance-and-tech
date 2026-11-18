@@ -27,7 +27,7 @@ export function Posts() {
         it, in simple words. {posts.length} posts so far, newest first.
       </p>
       {posts.map((p) => (
-        <div key={p.slug} className="py-4 border-b border-neutral-200">
+        <div key={p.slug} className="py-4 border-b border-[#E9E0CE]">
           <div className="text-[13px] text-neutral-500 mb-[3px]">
             {GUIDE_SLUGS.has(p.slug) ? `Guide · ${fmtDate(p.frontmatter.date)}` : fmtDate(p.frontmatter.date)}
           </div>

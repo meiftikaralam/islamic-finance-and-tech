@@ -46,7 +46,7 @@ function groupByMonth(editions: Doc[]): MonthGroup[] {
 function EditionCard({ e }: { e: Doc }) {
   const { headline, summary } = deriveHeadline(e.frontmatter.description);
   return (
-    <div className="py-4 border-b border-neutral-200">
+    <div className="py-4 border-b border-[#E9E0CE]">
       <div className="text-[13px] text-neutral-500 mb-[3px]">{fmtDate(e.frontmatter.date)}</div>
       <h3 className="text-[19px] font-bold leading-[1.35]">
         <Link to={`/editions/${e.slug}.html`} className="text-brand-700 no-underline">

@@ -26,7 +26,7 @@ export function AaoifiIndex() {
         why it exists, its key rules, and an everyday example.
       </p>
 
-      <div className="bg-[#f7f7f7] border border-neutral-200 rounded-xl p-4 mb-4 text-sm text-neutral-600 leading-[1.7]">
+      <div className="bg-[#f7f7f7] border border-[#E9E0CE] rounded-xl p-4 mb-4 text-sm text-neutral-600 leading-[1.7]">
         <strong>Scope notes.</strong> SS 61 (Payment Cards) replaces SS 2, and SS 60 (Waqf) replaces
         SS 33 — both versions are kept and the replacement is noted. SS 62 (Sukuk) is an exposure
         draft, not a final standard. Summaries are for learning, not legal rulings — an
@@ -34,7 +34,7 @@ export function AaoifiIndex() {
         Developers: the whole knowledge base ships as a Python package (aaoifi-educational-kb) you
         can pip-install and query.
       </div>
-      <div className="bg-[#f7f7f7] border border-neutral-200 rounded-xl p-4 mb-6 text-sm text-neutral-600 leading-[1.7]">
+      <div className="bg-[#f7f7f7] border border-[#E9E0CE] rounded-xl p-4 mb-6 text-sm text-neutral-600 leading-[1.7]">
         <strong>Intellectual property.</strong> The AAOIFI Shariah Standards are the intellectual
         property of AAOIFI. These summaries are independent paraphrases written for education — not
         published by, affiliated with, or endorsed by AAOIFI. Nothing here reproduces AAOIFI's
@@ -56,7 +56,7 @@ export function AaoifiIndex() {
 
       <div>
         {shown.map((s) => (
-          <div key={s.slug} className="py-4 border-b border-neutral-200">
+          <div key={s.slug} className="py-4 border-b border-[#E9E0CE]">
             <div className="text-[13px] text-brand-600 font-semibold mb-[3px]">
               SS {s.frontmatter.ss}
             </div>

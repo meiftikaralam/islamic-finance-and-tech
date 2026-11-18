@@ -19,7 +19,7 @@ export function Glossary() {
   const concepts = shown.filter((e) => e.type === "concept");
 
   const renderEntry = (e: (typeof glossaryEntries)[number]) => (
-    <div key={e.name} className="py-4 border-b border-neutral-200">
+    <div key={e.name} className="py-4 border-b border-[#E9E0CE]">
       <h3 className="text-[17px] font-semibold leading-[1.35] text-[#222]">{e.name}</h3>
       <p className="mt-0.5 text-[15px] leading-[1.55] text-neutral-600">{e.description}</p>
       {(e.website || e.sources?.length > 0) && (

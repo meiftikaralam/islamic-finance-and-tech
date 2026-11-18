@@ -58,7 +58,7 @@ function pickPopular(posts: Doc[]): { doc: Doc; guide: boolean }[] {
   return picked.slice(0, 4);
 }
 
-const SECTION_LABEL = "text-[15px] font-bold tracking-[1.2px] text-neutral-500 mt-[26px] mb-1.5";
+const SECTION_LABEL = "text-[15px] font-bold tracking-[1.2px] text-[#8A7D68] mt-[26px] mb-1.5";
 
 /**
  * Homepage — Option B2 (approved 2026-11-17): statement hero + subscribe,
@@ -107,7 +107,7 @@ export function Home() {
         />
         <button
           type="submit"
-          className="h-12 px-5 rounded-lg bg-brand-600 text-white font-semibold hover:bg-brand-700"
+          className="h-12 px-5 rounded-lg bg-[#C2410C] text-white font-semibold hover:bg-[#9A3412]"
         >
           Subscribe
         </button>
@@ -116,7 +116,7 @@ export function Home() {
         Free. One email a week with the week's lessons. Educational only.
       </p>
 
-      <hr className="border-neutral-200 mt-[30px]" />
+      <hr className="border-[#E9E0CE] mt-[30px]" />
 
       {/* Latest editions */}
       <section>
@@ -125,9 +125,9 @@ export function Home() {
           const { headline, summary } = deriveHeadline(e.frontmatter.description);
           const isToday = i === 0 && today !== null && e.frontmatter.date === today;
           return (
-            <div key={e.slug} className="py-4 border-b border-neutral-200">
+            <div key={e.slug} className="py-4 border-b border-[#E9E0CE]">
               <div className="text-[13px] text-neutral-500 mb-[3px]">
-                {isToday && <span className="font-bold text-[#F97316]">TODAY · </span>}
+                {isToday && <span className="font-bold text-[#C2410C]">TODAY · </span>}
                 {fmtFullDate(e.frontmatter.date)}
               </div>
               <h3 className="text-[19px] font-bold leading-[1.35]">
@@ -152,7 +152,7 @@ export function Home() {
       <section>
         <h2 className={SECTION_LABEL}>MOST POPULAR POSTS</h2>
         {popular.map(({ doc, guide }) => (
-          <div key={doc.slug} className="py-4 border-b border-neutral-200">
+          <div key={doc.slug} className="py-4 border-b border-[#E9E0CE]">
             <div className="text-[13px] text-neutral-500 mb-[3px]">
               {guide ? "Guide" : `Post · ${fmtDate(doc.frontmatter.date)}`}
             </div>
@@ -177,7 +177,7 @@ export function Home() {
           visitor finds them without opening the menu (UX audit fix, 2026-11-17). */}
       <section>
         <h2 className={SECTION_LABEL}>EXPLORE</h2>
-        <div className="py-4 border-b border-neutral-200">
+        <div className="py-4 border-b border-[#E9E0CE]">
           <h3 className="text-[19px] font-bold leading-[1.35]">
             <Link to="/aaoifi/index.html" className="text-brand-700 no-underline">
               AAOIFI Standards in Simple English
@@ -188,7 +188,7 @@ export function Home() {
             rules, and an everyday example.
           </p>
         </div>
-        <div className="py-4 border-b border-neutral-200">
+        <div className="py-4 border-b border-[#E9E0CE]">
           <h3 className="text-[19px] font-bold leading-[1.35]">
             <Link to="/glossary/index.html" className="text-brand-700 no-underline">
               Glossary

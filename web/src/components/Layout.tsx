@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { NAV_LINKS, SITE_NAME, TAGLINE, DISCLAIMER, activeNav } from "@/lib/site";
 import { SearchBox } from "@/components/SearchBox";
 import { SubscribeBox } from "@/components/SubscribeBox";
+import { Sidebar } from "@/components/Sidebar";
 import { cn } from "@/lib/utils";
 
 const LOGO_URL = "/logo.webp";
@@ -15,7 +16,7 @@ function MoreMenu({ active }: { active: string }) {
   const moreActive = MORE_LINKS.some((l) => l.match === active);
   return (
     <details
-      className="relative ml-auto shrink-0"
+      className="relative ml-auto shrink-0 lg:hidden"
       open={open}
       onToggle={(e) => setOpen((e.target as HTMLDetailsElement).open)}
       onKeyDown={(e) => {
@@ -26,7 +27,7 @@ function MoreMenu({ active }: { active: string }) {
         aria-label="More pages"
         className={cn(
           "list-none cursor-pointer p-2 -m-2 text-brand-700 [&::-webkit-details-marker]:hidden",
-          moreActive && "text-orange-600"
+          moreActive && "text-[#C2410C]"
         )}
       >
         <svg
@@ -61,7 +62,7 @@ function MoreMenu({ active }: { active: string }) {
             onClick={() => setOpen(false)}
             className={cn(
               "block px-4 py-2.5 text-[15px] text-brand-700 no-underline",
-              active === l.match && "font-bold text-orange-600"
+              active === l.match && "font-bold text-[#C2410C]"
             )}
           >
             {l.label}
@@ -76,8 +77,8 @@ function BrandBar() {
   const { pathname } = useLocation();
   const active = activeNav(pathname);
   return (
-    <div className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[#e8e8e8]">
-      <div className="max-w-[720px] mx-auto px-4 py-2.5 flex items-center gap-3">
+    <div className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b-[3px] border-brand-600">
+      <div className="max-w-[1120px] mx-auto px-4 lg:px-6 py-2.5 flex items-center gap-3">
         <Link to="/" aria-label="Islamic Finance and Technology — home" className="shrink-0">
           <img src={LOGO_URL} alt="" className="h-10 w-10" />
         </Link>
@@ -98,23 +99,27 @@ function BrandBar() {
 function Header() {
   const { pathname } = useLocation();
   const active = activeNav(pathname);
+  const linkCls = (match: string) =>
+    cn(
+      "text-brand-700 no-underline font-medium",
+      active === match && "font-bold text-[#C2410C]"
+    );
   return (
-    <div className="max-w-[720px] mx-auto px-4">
+    <div className="max-w-[1120px] mx-auto px-4 lg:px-6">
       <nav className="flex gap-6 py-3 text-base" aria-label="Main navigation">
         {MAIN_LINKS.map((l) => (
-          <Link
-            key={l.href}
-            to={l.href}
-            className={cn(
-              "text-brand-700 no-underline font-medium",
-              active === l.match && "font-bold text-orange-600"
-            )}
-          >
+          <Link key={l.href} to={l.href} className={linkCls(l.match)}>
+            {l.label}
+          </Link>
+        ))}
+        {/* Desktop shows every section inline; phones keep the hamburger
+            in the brand bar for the rest (layout B, approved 2026-11-18). */}
+        {MORE_LINKS.map((l) => (
+          <Link key={l.href} to={l.href} className={cn(linkCls(l.match), "hidden lg:inline")}>
             {l.label}
           </Link>
         ))}
       </nav>
-      <SearchBox />
     </div>
   );
 }
@@ -127,15 +132,28 @@ function Footer() {
   );
 }
 
-/** Shared page chrome: sticky brand bar, nav, search, footer. */
+/** Shared page chrome: sticky brand bar, nav, search, footer.
+    Desktop (lg+) gets layout B: a 700px content column plus a 300px
+    sidebar inside a 1120px frame. Phones keep the single 720px column. */
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <BrandBar />
-      <div className="max-w-[720px] mx-auto px-4 pb-12">
-        <Header />
-        <main>{children}</main>
-        <SubscribeBox />
+      <Header />
+      <div className="max-w-[1120px] mx-auto px-4 lg:px-6 pb-12">
+        <div className="lg:flex lg:gap-12 lg:items-start">
+          <div className="flex-1 min-w-0 max-w-[720px] mx-auto lg:mx-0">
+            <SearchBox />
+            <main>{children}</main>
+            {/* On desktop the sidebar carries the subscribe form instead. */}
+            <div className="lg:hidden">
+              <SubscribeBox />
+            </div>
+          </div>
+          <aside className="hidden lg:block w-[300px] shrink-0 pt-1">
+            <Sidebar />
+          </aside>
+        </div>
         <Footer />
       </div>
     </>

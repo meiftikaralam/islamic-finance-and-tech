@@ -17,7 +17,8 @@
 }
 
 body {
-  @apply bg-white text-[#222] font-sans antialiased;
+  /* Warm-paper background (colour option 2, approved 2026-11-18). */
+  @apply bg-[#FAF6EE] text-[#222] font-sans antialiased;
 }
 
 /* Readable long-form content — NN/g article pattern (Iftikar 2026-11-17):

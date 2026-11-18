@@ -66,7 +66,7 @@ export function Edition({ slug }: { slug: string }) {
       {(previous || next) && (
         <nav
           aria-label="More editions"
-          className="mt-10 border-t border-neutral-200 pt-5 grid grid-cols-2 gap-4"
+          className="mt-10 border-t border-[#E9E0CE] pt-5 grid grid-cols-2 gap-4"
         >
           <div>{previous && <EditionNavLink doc={previous} kind="previous" />}</div>
           <div>{next && <EditionNavLink doc={next} kind="next" />}</div>
