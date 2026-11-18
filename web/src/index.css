@@ -2,6 +2,8 @@
 @import "@fontsource/inter/500.css";
 @import "@fontsource/inter/600.css";
 @import "@fontsource/inter/700.css";
+@import "@fontsource/source-serif-4/400.css";
+@import "@fontsource/source-serif-4/700.css";
 @import "tailwindcss";
 
 @theme {
@@ -11,18 +13,20 @@
   --color-brand-700: #0c4028;
   --color-brand-800: #093020;
   --font-sans: "Inter", -apple-system, "Segoe UI", Arial, Helvetica, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
 body {
   @apply bg-[#f7f7f7] text-[#222] font-sans antialiased;
 }
 
-/* Readable long-form content */
-.prose-blog h1 { @apply text-2xl font-bold text-brand-600 mt-6 mb-2; }
-.prose-blog h2 { @apply text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4; }
-.prose-blog h3 { @apply text-lg font-semibold mt-6 mb-2; }
-.prose-blog p { @apply text-base leading-[1.7] text-[#333] my-3; }
-.prose-blog ul, .prose-blog ol { @apply text-base leading-[1.7] text-[#333] my-3 pl-6; }
+/* Readable long-form content — NN/g article pattern (Iftikar 2026-11-17):
+   serif body at 20px with roomy leading, large bold sans headings. */
+.prose-blog h1 { @apply text-[34px] leading-[1.28] font-bold text-brand-600 mt-6 mb-2; }
+.prose-blog h2 { @apply text-[26px] leading-[1.25] font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4; }
+.prose-blog h3 { @apply text-[22px] leading-[1.3] font-semibold mt-6 mb-2; }
+.prose-blog p { @apply font-serif text-[20px] leading-[1.85] text-[#333] my-3; }
+.prose-blog ul, .prose-blog ol { @apply font-serif text-[20px] leading-[1.65] text-[#333] my-3 pl-6; }
 .prose-blog ul { @apply list-disc; }
 .prose-blog ol { @apply list-decimal; }
 .prose-blog li { @apply my-1; }

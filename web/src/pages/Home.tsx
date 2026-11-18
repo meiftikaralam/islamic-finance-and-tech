@@ -26,6 +26,31 @@ export function Home() {
       <h1 className="text-xl font-bold text-brand-600 border-b-2 border-brand-600 pb-1.5 mt-8 mb-4">
         Islamic Finance Blog
       </h1>
+      <div className="my-6 text-center">
+        <p className="text-[15px] text-[#333] mb-3">
+          Get new lessons and editions by email. Free — educational only, never investment advice.
+        </p>
+        <form
+          action="https://app.kit.com/forms/10015197/subscriptions"
+          method="post"
+          className="flex gap-2 justify-center max-w-[480px] mx-auto"
+        >
+          <input
+            type="email"
+            name="email_address"
+            required
+            placeholder="Enter your email"
+            aria-label="Email address"
+            className="flex-1 min-w-0 h-12 rounded-lg border border-[#ccc] bg-white px-3.5 text-base placeholder:text-[#666] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600"
+          />
+          <button
+            type="submit"
+            className="h-12 px-5 rounded-lg bg-brand-600 text-white font-semibold hover:bg-brand-700"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
       <p className="text-[15px] leading-relaxed text-[#333] mb-6">
         Daily lessons on Islamic finance and the technology behind it, in simple words.
         The <Link to="/newsletters.html" className="text-brand-600 underline">daily Islamic finance newsletter</Link> covers
