@@ -167,6 +167,11 @@ export function Home() {
             </p>
           </div>
         ))}
+        <p className="pt-3.5 text-[15px] font-semibold">
+          <Link to="/posts.html" className="text-brand-700 no-underline">
+            All posts →
+          </Link>
+        </p>
       </section>
     </div>
   );

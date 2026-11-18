@@ -30,6 +30,8 @@ const statics = [
     "Islamic finance blog with daily lessons in simple words: Islamic banking, sukuk, halal investing and fintech news, a glossary, and AAOIFI standards explained."],
   ["/newsletters.html", "newsletters", "Daily Newsletters — Islamic Finance and Technology",
     "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."],
+  ["/posts.html", "posts", "Posts — Islamic Finance and Technology",
+    "Essays, experiments and beginner guides on Islamic finance and technology: sukuk, halal ETFs, robo-advisors, private markets and stock analysis, in simple words."],
   ["/about.html", "page", "About — Islamic Finance and Technology",
     "About this Islamic finance blog and its author Iftikar: a free educational project on Islamic finance and technology, with daily lessons in simple words."],
   ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",

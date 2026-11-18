@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { Layout } from "@/components/Layout";
 import { Home } from "@/pages/Home";
 import { Newsletters } from "@/pages/Newsletters";
+import { Posts } from "@/pages/Posts";
 import { Edition } from "@/pages/Edition";
 import { Post } from "@/pages/Post";
 import { MdPage } from "@/pages/MdPage";
@@ -26,6 +27,8 @@ function elementFor(r: RouteDef) {
       return <Home />;
     case "newsletters":
       return <Newsletters />;
+    case "posts":
+      return <Posts />;
     case "edition":
       return <Edition slug={r.slug!} />;
     case "post":

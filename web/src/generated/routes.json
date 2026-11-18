@@ -932,5 +932,11 @@
   "slug": "playbook",
   "title": "How it's made — Islamic Finance and Technology",
   "description": "The open playbook behind this site — sources, rules, and process."
+ },
+ {
+  "path": "/posts.html",
+  "kind": "posts",
+  "title": "Posts — Islamic Finance and Technology",
+  "description": "Essays, experiments and beginner guides on Islamic finance and technology: sukuk, halal ETFs, robo-advisors, private markets and stock analysis, in simple words."
  }
 ]

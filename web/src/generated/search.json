@@ -12,6 +12,12 @@
   "excerpt": "The daily newsletter archive: every edition of the Islamic Finance Daily Brief, with source links, plain-English explainers, and one new concept each day."
  },
  {
+  "title": "Posts — Islamic Finance and Technology",
+  "url": "/posts.html",
+  "type": "Page",
+  "excerpt": "Essays, experiments and beginner guides on Islamic finance and technology: sukuk, halal ETFs, robo-advisors, private markets and stock analysis, in simple words"
+ },
+ {
   "title": "About — Islamic Finance and Technology",
   "url": "/about.html",
   "type": "Page",

@@ -17,7 +17,7 @@ export const DISCLAIMER =
 
 export const NAV_LINKS = [
   { href: "/newsletters.html", label: "Daily Newsletters", match: "newsletters" },
-  { href: "/", label: "Posts", match: "posts" },
+  { href: "/posts.html", label: "Posts", match: "posts" },
   { href: "/aaoifi/index.html", label: "AAOIFI Standards", match: "aaoifi" },
   { href: "/glossary/index.html", label: "Glossary", match: "glossary" },
   { href: "/about.html", label: "About", match: "about" },
@@ -26,7 +26,8 @@ export const NAV_LINKS = [
 
 // Which nav item is active for a given path.
 export function activeNav(path: string): string {
-  if (path === "/" || path === "/index.html" || path.startsWith("/lab/")) return "posts";
+  if (path === "/" || path === "/index.html") return "";
+  if (path.startsWith("/posts") || path.startsWith("/lab/")) return "posts";
   if (path.startsWith("/newsletters") || path.startsWith("/editions/")) return "newsletters";
   if (path.startsWith("/aaoifi")) return "aaoifi";
   if (path.startsWith("/glossary")) return "glossary";
