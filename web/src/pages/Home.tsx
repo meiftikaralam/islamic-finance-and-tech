@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { loadDocs, type Doc } from "@/lib/content";
+import { loadDocs, glossaryEntries, type Doc } from "@/lib/content";
 import { deriveHeadline } from "@/lib/headline";
 
 function fmtDate(iso?: string) {
@@ -171,6 +171,33 @@ export function Home() {
             All posts →
           </Link>
         </p>
+      </section>
+
+      {/* Explore — the two reference sections, linked from home so a phone
+          visitor finds them without opening the menu (UX audit fix, 2026-11-17). */}
+      <section>
+        <h2 className={SECTION_LABEL}>EXPLORE</h2>
+        <div className="py-4 border-b border-neutral-200">
+          <h3 className="text-[19px] font-bold leading-[1.35]">
+            <Link to="/aaoifi/index.html" className="text-brand-700 no-underline">
+              AAOIFI Standards in Simple English
+            </Link>
+          </h3>
+          <p className="mt-1 text-[15px] leading-[1.55] text-neutral-600">
+            All 62 Shariah Standards, summarized in plain language — what each one covers, its key
+            rules, and an everyday example.
+          </p>
+        </div>
+        <div className="py-4 border-b border-neutral-200">
+          <h3 className="text-[19px] font-bold leading-[1.35]">
+            <Link to="/glossary/index.html" className="text-brand-700 no-underline">
+              Glossary
+            </Link>
+          </h3>
+          <p className="mt-1 text-[15px] leading-[1.55] text-neutral-600">
+            {glossaryEntries.length} companies and concepts from the editions, explained simply.
+          </p>
+        </div>
       </section>
     </div>
   );
