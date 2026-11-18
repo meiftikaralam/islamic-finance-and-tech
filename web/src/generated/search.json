@@ -300,6 +300,12 @@
   "excerpt": "Nov 17: a development bank makes its first Islamic deal, funding green projects in Türkiye — plus what a green sukuk is."
  },
  {
+  "title": "Islamic Finance Daily Brief — November 18, 2026",
+  "url": "/editions/2026-11-18.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 18: a court blocks a winding-up petition against Zetrix AI over a disputed dividend — plus how a company is wound up."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2146,5 +2152,35 @@
   "url": "/glossary/index.html#deposit-return-system",
   "type": "Glossary: concept",
   "excerpt": "A scheme where a person pays a small deposit when buying a bottled drink and gets the money back by returning the empty bottle to a collection point. The return"
+ },
+ {
+  "title": "Macquarie Bank",
+  "url": "/glossary/index.html#macquarie-bank",
+  "type": "Glossary: company",
+  "excerpt": "An Australian investment bank headquartered in Sydney and listed on the Australian Securities Exchange. In November 2026 it served Zetrix AI with a statutory de"
+ },
+ {
+  "title": "Statutory demand",
+  "url": "/glossary/index.html#statutory-demand",
+  "type": "Glossary: concept",
+  "excerpt": "A formal written demand from a creditor telling a company to pay a debt it says is undisputed within a set number of days — 21 days under section 466 of Malaysi"
+ },
+ {
+  "title": "Winding-up petition",
+  "url": "/glossary/index.html#winding-up-petition",
+  "type": "Glossary: concept",
+  "excerpt": "A creditor's application asking a court to close a company down. If the court agrees, it appoints a liquidator to sell the company's assets and pay its debts fr"
+ },
+ {
+  "title": "Dividend reinvestment plan",
+  "url": "/glossary/index.html#dividend-reinvestment-plan",
+  "type": "Glossary: concept",
+  "excerpt": "A company plan that lets a shareholder take a dividend in cash or take new shares in the company instead of cash. The shareholder chooses when the dividend is d"
+ },
+ {
+  "title": "Injunction",
+  "url": "/glossary/index.html#injunction",
+  "type": "Glossary: concept",
+  "excerpt": "A court order telling a person or company to do something, or to stop doing something, while a dispute is decided. An ex parte injunction is granted without the"
  }
 ]
