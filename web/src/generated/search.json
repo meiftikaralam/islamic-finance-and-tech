@@ -306,6 +306,12 @@
   "excerpt": "Nov 18: a court blocks a winding-up petition against Zetrix AI over a disputed dividend — plus how a company is wound up."
  },
  {
+  "title": "Islamic Finance News: Anthropic Halal Screening, Uzbekistan",
+  "url": "/editions/2026-11-19.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 19: Anthropic's first Shariah screening as ANT stock starts trading — plus four more Uzbek banks win Islamic banking licences in Uzbekistan."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2182,5 +2188,53 @@
   "url": "/glossary/index.html#injunction",
   "type": "Glossary: concept",
   "excerpt": "A court order telling a person or company to do something, or to stop doing something, while a dispute is decided. An ex parte injunction is granted without the"
+ },
+ {
+  "title": "Ipak Yuli Bank",
+  "url": "/glossary/index.html#ipak-yuli-bank",
+  "type": "Glossary: company",
+  "excerpt": "A commercial bank in Uzbekistan, founded in 1990 as the country's first private bank, serving over 2.5 million clients. It received an Islamic banking licence f"
+ },
+ {
+  "title": "Asia Alliance Bank",
+  "url": "/glossary/index.html#asia-alliance-bank",
+  "type": "Glossary: company",
+  "excerpt": "A commercial bank based in Tashkent, founded in 2009. It received an Islamic banking licence from the Central Bank of Uzbekistan on November 18, 2026, one of fo"
+ },
+ {
+  "title": "Orient Finans Bank",
+  "url": "/glossary/index.html#orient-finans-bank",
+  "type": "Glossary: company",
+  "excerpt": "A private bank based in Tashkent, operating since 2010 under a licence from the Central Bank of Uzbekistan. It received an Islamic banking licence on November 1"
+ },
+ {
+  "title": "Hayot Bank",
+  "url": "/glossary/index.html#hayot-bank",
+  "type": "Glossary: company",
+  "excerpt": "A private bank in Uzbekistan, founded in 2023 and focused on digital banking. It received an Islamic banking licence from the Central Bank of Uzbekistan on Nove"
+ },
+ {
+  "title": "Central Bank of Uzbekistan",
+  "url": "/glossary/index.html#central-bank-of-uzbekistan",
+  "type": "Glossary: company",
+  "excerpt": "Uzbekistan's central bank and banking regulator. It issues Islamic banking licences under the country's March 2026 Islamic banking law; it granted the first lic"
+ },
+ {
+  "title": "Musharaka",
+  "url": "/glossary/index.html#musharaka",
+  "type": "Glossary: concept",
+  "excerpt": "A partnership in which two or more parties put money into a business or asset and share the profit and the loss. Example: a bank and a homebuyer buy a house tog"
+ },
+ {
+  "title": "Islamic banking licence",
+  "url": "/glossary/index.html#islamic-banking-licence",
+  "type": "Glossary: concept",
+  "excerpt": "A regulator's permission that lets a bank offer Islamic banking services. The licence names exactly which Islamic operations the bank may run. Example: Uzbekist"
+ },
+ {
+  "title": "Anthropic",
+  "url": "/glossary/index.html#anthropic",
+  "type": "Glossary: company",
+  "excerpt": "An American AI company behind the Claude AI assistant. It listed on the Nasdaq under the ticker ANT on November 19, 2026, and its IPO filing became a worked exa"
  }
 ]

@@ -3757,10 +3757,10 @@
     "website": null
   },
   {
-    "name": "Macquarie Bank",
-    "type": "company",
-    "website": "https://www.macquarie.com",
     "description": "An Australian investment bank headquartered in Sydney and listed on the Australian Securities Exchange. In November 2026 it served Zetrix AI with a statutory demand over RM2.06 million of unpaid dividends, then faced a court order blocking its winding-up petition.",
+    "edition": "editions/2026-11-18.html",
+    "first_mentioned": "2026-11-18",
+    "name": "Macquarie Bank",
     "sources": [
       {
         "label": "Macquarie Group — official website",
@@ -3771,14 +3771,14 @@
         "url": "https://www.klsescreener.com/v2/news/view/1829075/zetrix-ai-secures-interim-court-order-to-block-winding-up-action-over-rm2m-dividend-payment"
       }
     ],
-    "first_mentioned": "2026-11-18",
-    "edition": "editions/2026-11-18.html"
+    "type": "company",
+    "website": "https://www.macquarie.com"
   },
   {
-    "name": "Statutory demand",
-    "type": "concept",
-    "website": null,
     "description": "A formal written demand from a creditor telling a company to pay a debt it says is undisputed within a set number of days — 21 days under section 466 of Malaysia's Companies Act 2016. If the company does not pay, the creditor can ask the court to wind the company up. Example: Macquarie Bank served Zetrix AI with a statutory demand on October 27, 2026 over RM2.06 million of dividends.",
+    "edition": "editions/2026-11-18.html",
+    "first_mentioned": "2026-11-18",
+    "name": "Statutory demand",
     "sources": [
       {
         "label": "KLSE Screener (The Edge) — Zetrix AI secures interim court order (Nov 17, 2026)",
@@ -3789,14 +3789,14 @@
         "url": "https://islamicfintech.org/editions/2026-11-18.html"
       }
     ],
-    "first_mentioned": "2026-11-18",
-    "edition": "editions/2026-11-18.html"
+    "type": "concept",
+    "website": null
   },
   {
-    "name": "Winding-up petition",
-    "type": "concept",
-    "website": null,
     "description": "A creditor's application asking a court to close a company down. If the court agrees, it appoints a liquidator to sell the company's assets and pay its debts from the money raised, in a fixed order set by law. Shareholders are paid last and usually receive nothing. Example: Macquarie Bank threatened a winding-up petition against Zetrix AI in November 2026, and the court temporarily blocked it.",
+    "edition": "editions/2026-11-18.html",
+    "first_mentioned": "2026-11-18",
+    "name": "Winding-up petition",
     "sources": [
       {
         "label": "KLSE Screener (The Edge) — Zetrix AI secures interim court order (Nov 17, 2026)",
@@ -3807,14 +3807,14 @@
         "url": "https://islamicfintech.org/editions/2026-11-18.html"
       }
     ],
-    "first_mentioned": "2026-11-18",
-    "edition": "editions/2026-11-18.html"
+    "type": "concept",
+    "website": null
   },
   {
-    "name": "Dividend reinvestment plan",
-    "type": "concept",
-    "website": null,
     "description": "A company plan that lets a shareholder take a dividend in cash or take new shares in the company instead of cash. The shareholder chooses when the dividend is declared. Example: under Zetrix AI's plan dated August 26, 2026, Macquarie Bank chose cash — RM2,061,177.07 at 2.89 sen a share — and the unpaid cash dividend became the subject of a court dispute.",
+    "edition": "editions/2026-11-18.html",
+    "first_mentioned": "2026-11-18",
+    "name": "Dividend reinvestment plan",
     "sources": [
       {
         "label": "KLSE Screener (The Edge) — Zetrix AI secures interim court order (Nov 17, 2026)",
@@ -3825,14 +3825,14 @@
         "url": "https://islamicfintech.org/editions/2026-11-18.html"
       }
     ],
-    "first_mentioned": "2026-11-18",
-    "edition": "editions/2026-11-18.html"
+    "type": "concept",
+    "website": null
   },
   {
-    "name": "Injunction",
-    "type": "concept",
-    "website": null,
     "description": "A court order telling a person or company to do something, or to stop doing something, while a dispute is decided. An ex parte injunction is granted without the other side present and is temporary. Example: on November 17, 2026 a Malaysian court granted Zetrix AI an ex parte injunction stopping Macquarie Bank from serving a winding-up petition, ahead of a hearing on December 1.",
+    "edition": "editions/2026-11-18.html",
+    "first_mentioned": "2026-11-18",
+    "name": "Injunction",
     "sources": [
       {
         "label": "KLSE Screener (The Edge) — Zetrix AI secures interim court order (Nov 17, 2026)",
@@ -3843,7 +3843,151 @@
         "url": "https://islamicfintech.org/editions/2026-11-18.html"
       }
     ],
-    "first_mentioned": "2026-11-18",
-    "edition": "editions/2026-11-18.html"
+    "type": "concept",
+    "website": null
+  },
+  {
+    "description": "A commercial bank in Uzbekistan, founded in 1990 as the country's first private bank, serving over 2.5 million clients. It received an Islamic banking licence from the Central Bank of Uzbekistan on November 18, 2026, one of four banks licensed that day.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Ipak Yuli Bank",
+    "sources": [
+      {
+        "label": "Ipak Yuli Bank — official website",
+        "url": "https://www.ipakyulibank.uz"
+      },
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      }
+    ],
+    "type": "company",
+    "website": "https://www.ipakyulibank.uz"
+  },
+  {
+    "description": "A commercial bank based in Tashkent, founded in 2009. It received an Islamic banking licence from the Central Bank of Uzbekistan on November 18, 2026, one of four banks licensed that day.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Asia Alliance Bank",
+    "sources": [
+      {
+        "label": "Asia Alliance Bank — official website",
+        "url": "https://aab.uz"
+      },
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      }
+    ],
+    "type": "company",
+    "website": "https://aab.uz"
+  },
+  {
+    "description": "A private bank based in Tashkent, operating since 2010 under a licence from the Central Bank of Uzbekistan. It received an Islamic banking licence on November 18, 2026, one of four banks licensed that day.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Orient Finans Bank",
+    "sources": [
+      {
+        "label": "Orient Finans Bank — official website",
+        "url": "https://www.ofb.uz"
+      },
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      }
+    ],
+    "type": "company",
+    "website": "https://www.ofb.uz"
+  },
+  {
+    "description": "A private bank in Uzbekistan, founded in 2023 and focused on digital banking. It received an Islamic banking licence from the Central Bank of Uzbekistan on November 18, 2026, one of four banks licensed that day.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Hayot Bank",
+    "sources": [
+      {
+        "label": "Hayot Bank — official website",
+        "url": "https://www.hayotbank.uz"
+      },
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      }
+    ],
+    "type": "company",
+    "website": "https://www.hayotbank.uz"
+  },
+  {
+    "description": "Uzbekistan's central bank and banking regulator. It issues Islamic banking licences under the country's March 2026 Islamic banking law; it granted the first licence to Open Bank in October 2026 and four more in November 2026.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Central Bank of Uzbekistan",
+    "sources": [
+      {
+        "label": "Central Bank of Uzbekistan — official website",
+        "url": "https://cbu.uz"
+      },
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      }
+    ],
+    "type": "company",
+    "website": "https://cbu.uz"
+  },
+  {
+    "description": "A partnership in which two or more parties put money into a business or asset and share the profit and the loss. Example: a bank and a homebuyer buy a house together, and the buyer buys out the bank's share over time through monthly payments.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Musharaka",
+    "sources": [
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Nov 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-11-19.html"
+      }
+    ],
+    "type": "concept",
+    "website": null
+  },
+  {
+    "description": "A regulator's permission that lets a bank offer Islamic banking services. The licence names exactly which Islamic operations the bank may run. Example: Uzbekistan's central bank granted the first such licence to Open Bank in October 2026 and four more in November 2026.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Islamic banking licence",
+    "sources": [
+      {
+        "label": "Spot — Four Uzbek banks receive licences for Islamic banking (Nov 18, 2026)",
+        "url": "https://www.spot.uz/en/2026/11/18/islamic-banks/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Nov 19 2026",
+        "url": "https://islamicfintech.org/editions/2026-11-19.html"
+      }
+    ],
+    "type": "concept",
+    "website": null
+  },
+  {
+    "description": "An American AI company behind the Claude AI assistant. It listed on the Nasdaq under the ticker ANT on November 19, 2026, and its IPO filing became a worked example of how a brand-new stock gets its first Shariah screening.",
+    "edition": "editions/2026-11-19.html",
+    "first_mentioned": "2026-11-19",
+    "name": "Anthropic",
+    "sources": [
+      {
+        "label": "Anthropic — official site",
+        "url": "https://www.anthropic.com"
+      },
+      {
+        "label": "Zoya — Is Anthropic Stock Halal? Anthropic IPO Shariah Screening",
+        "url": "https://blog.zoya.finance/is-anthropic-stock-halal-or-haram/"
+      }
+    ],
+    "type": "company",
+    "website": "https://www.anthropic.com"
   }
 ]
