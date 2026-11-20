@@ -312,6 +312,12 @@
   "excerpt": "Nov 19: Anthropic's first Shariah screening as ANT stock starts trading — plus four more Uzbek banks win Islamic banking licences in Uzbekistan."
  },
  {
+  "title": "Islamic Finance News: CIMB Wealth Tools and Faraid Planning",
+  "url": "/editions/2026-11-20.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 20: CIMB Islamic launches digital wealth tools with a faraid simulator — plus how Islamic inheritance divides an estate, with a worked example."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2236,5 +2242,17 @@
   "url": "/glossary/index.html#anthropic",
   "type": "Glossary: company",
   "excerpt": "An American AI company behind the Claude AI assistant. It listed on the Nasdaq under the ticker ANT on November 19, 2026, and its IPO filing became a worked exa"
+ },
+ {
+  "title": "CIMB Islamic",
+  "url": "/glossary/index.html#cimb-islamic",
+  "type": "Glossary: company",
+  "excerpt": "The Islamic banking arm of Malaysia's CIMB Group. It offers Shariah-compliant banking, investment, takaful and wealth planning, including the CIMB OCTO app and "
+ },
+ {
+  "title": "Faraid",
+  "url": "/glossary/index.html#faraid",
+  "type": "Glossary: concept",
+  "excerpt": "The Islamic law of inheritance, which sets fixed shares of a dead person's estate for each heir. Example: when children survive, a wife receives one-eighth of t"
  }
 ]

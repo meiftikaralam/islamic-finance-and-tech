@@ -3989,5 +3989,41 @@
     ],
     "type": "company",
     "website": "https://www.anthropic.com"
+  },
+  {
+    "description": "The Islamic banking arm of Malaysia's CIMB Group. It offers Shariah-compliant banking, investment, takaful and wealth planning, including the CIMB OCTO app and its Faraid360 inheritance simulator.",
+    "edition": "editions/2026-11-20.html",
+    "first_mentioned": "2026-11-20",
+    "name": "CIMB Islamic",
+    "sources": [
+      {
+        "label": "Fintech News Malaysia — CIMB Islamic Launches Digital Islamic Wealth Management Solutions (Nov 17, 2026)",
+        "url": "https://fintechnews.my/62471/islamic-fintech/islamic-wealth-management-cimb-faraid360-zakat/"
+      },
+      {
+        "label": "CIMB — official site",
+        "url": "https://www.cimb.com.my"
+      }
+    ],
+    "type": "company",
+    "website": "https://www.cimb.com.my"
+  },
+  {
+    "description": "The Islamic law of inheritance, which sets fixed shares of a dead person's estate for each heir. Example: when children survive, a wife receives one-eighth of the estate, and a son receives twice a daughter's share.",
+    "edition": "editions/2026-11-20.html",
+    "first_mentioned": "2026-11-20",
+    "name": "Faraid",
+    "sources": [
+      {
+        "label": "Fintech News Malaysia — CIMB Islamic Launches Digital Islamic Wealth Management Solutions (Nov 17, 2026)",
+        "url": "https://fintechnews.my/62471/islamic-fintech/islamic-wealth-management-cimb-faraid360-zakat/"
+      },
+      {
+        "label": "Islamic Finance Daily Brief, Nov 20 2026",
+        "url": "https://islamicfintech.org/editions/2026-11-20.html"
+      }
+    ],
+    "type": "concept",
+    "website": null
   }
 ]
