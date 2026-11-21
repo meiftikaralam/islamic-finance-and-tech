@@ -318,6 +318,12 @@
   "excerpt": "Nov 20: CIMB Islamic launches digital wealth tools with a faraid simulator — plus how Islamic inheritance divides an estate, with a worked example."
  },
  {
+  "title": "Islamic Finance News: Shariah Bitcoin ETF, Halal Home Finance",
+  "url": "/editions/2026-11-21.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 21: Malaysia's first Shariah Bitcoin ETF plans a Dec 2 listing — plus how a halal home purchase plan works, with Guidance and Gatehouse."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2254,5 +2260,29 @@
   "url": "/glossary/index.html#faraid",
   "type": "Glossary: concept",
   "excerpt": "The Islamic law of inheritance, which sets fixed shares of a dead person's estate for each heir. Example: when children survive, a wife receives one-eighth of t"
+ },
+ {
+  "title": "Gatehouse Bank",
+  "url": "/glossary/index.html#gatehouse-bank",
+  "type": "Glossary: company",
+  "excerpt": "A UK Islamic bank offering Shariah-compliant home purchase plans, savings accounts and buy-to-let finance. Example: its home purchase plans start from a 5% depo"
+ },
+ {
+  "title": "Home Purchase Plan",
+  "url": "/glossary/index.html#home-purchase-plan",
+  "type": "Glossary: concept",
+  "excerpt": "A Shariah-compliant way to buy a home without an interest loan. The buyer and the finance provider buy the house together, and each monthly payment covers rent "
+ },
+ {
+  "title": "Halogen Capital",
+  "url": "/glossary/index.html#halogen-capital",
+  "type": "Glossary: company",
+  "excerpt": "Malaysia's first licensed digital asset fund manager. It runs Shariah-compliant bitcoin funds, including a private fund launched in August 2023 and a spot Bitco"
+ },
+ {
+  "title": "Spot Bitcoin ETF",
+  "url": "/glossary/index.html#spot-bitcoin-etf",
+  "type": "Glossary: concept",
+  "excerpt": "An exchange-traded fund that holds actual bitcoin. Investors buy units on a stock exchange through a broker, and the fund's value follows the bitcoin it holds, "
  }
 ]
