@@ -18,6 +18,14 @@ Alongside the daily newsletter, I will also share publicly available information
 
 My purpose in doing this is for the sake of Allah alone — not for monetization in any form. This blog is, and will remain, for educational purposes.
 
+## About Iftikar
+
+Iftikar is a senior software engineer with 7 years in payment software development. He was part of the team that launched a co-branded credit card, built payment capabilities for cashier-less "just walk out" stores, and built data pipelines that handle more than 140 TB of data. Alongside that work, he has spent years researching and advising on Islamic finance.
+
+He writes a daily lesson on Islamic banking, sukuk, halal investing and the technology behind them, in simple words.
+
+Questions are welcome — on payment software development, on the technical side of Islamic finance, or on system architecture: [iftikar@islamicfintech.org](mailto:iftikar@islamicfintech.org)
+
 ## A note on the content
 
 Most of the notes and content on this site are generated or updated with the help of AI, so there may be mistakes. If you have any concern about the content of this website, please feel free to reach out at [iftikar@islamicfintech.org](mailto:iftikar@islamicfintech.org).

@@ -29,9 +29,12 @@ export function ArticleHead({
       <h1 className="text-[34px] leading-[1.25] font-bold text-brand-700 mt-4 mb-3">
         {headline}
       </h1>
-      <p className="text-sm text-neutral-500 mb-5">
+      <p className="text-sm text-neutral-500 mb-1">
         By <span className="font-semibold text-brand-700">Iftikar</span> · {fmtDate(date)} ·{" "}
         {minutes} min read
+      </p>
+      <p className="text-[13px] text-neutral-500 mb-5">
+        7 years in payment software · years of Islamic finance research
       </p>
       <div className="bg-brand-50 border border-brand-100 rounded-xl px-[18px] py-4 mb-6">
         <div className="text-xs font-bold tracking-[1px] text-brand-600 mb-1.5">{label}</div>
