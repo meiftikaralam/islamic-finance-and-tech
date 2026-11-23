@@ -330,6 +330,12 @@
   "excerpt": "Nov 22: no story cleared the bar — what the 11 US halal ETFs cost and who checks them, plus what happens when a halal home finance payment is late."
  },
  {
+  "title": "Islamic Finance News: Tamara's $400m Halal BNPL Funding",
+  "url": "/editions/2026-11-23.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 23: Tamara raises $400m in Shariah-compliant funding, plus buy now pay later the halal way and how an AI assistant checks a stock."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2308,5 +2314,47 @@
   "url": "/glossary/index.html#late-payment-charge",
   "type": "Glossary: concept",
   "excerpt": "An extra amount a finance provider charges when a payment arrives late. In Islamic finance the amount owed is fixed, so a late charge may only cover the provide"
+ },
+ {
+  "title": "Tamara",
+  "url": "/glossary/index.html#tamara",
+  "type": "Glossary: company",
+  "excerpt": "A Saudi buy now, pay later company that lets shoppers split a purchase into monthly payments with no interest and no late fees, and is paid by the store instead"
+ },
+ {
+  "title": "MUFG",
+  "url": "/glossary/index.html#mufg",
+  "type": "Glossary: company",
+  "excerpt": "Mitsubishi UFJ Financial Group, Japan's largest financial group, whose bank MUFG Bank lends to companies around the world. Example: in November 2026 MUFG provid"
+ },
+ {
+  "title": "Standard Chartered",
+  "url": "/glossary/index.html#standard-chartered",
+  "type": "Glossary: company",
+  "excerpt": "An international bank based in London that operates across Asia, Africa and the Middle East. Example: in November 2026 it added $200 million to its asset-backed"
+ },
+ {
+  "title": "Securitisation",
+  "url": "/glossary/index.html#securitisation",
+  "type": "Glossary: concept",
+  "excerpt": "Turning a pool of future payments into funding: a lender gathers thousands of payments it is owed, and borrows against that pool from a bank or investors. Examp"
+ },
+ {
+  "title": "Asset-backed financing",
+  "url": "/glossary/index.html#asset-backed-financing",
+  "type": "Glossary: concept",
+  "excerpt": "Funding that is tied to real assets or payments, rather than a plain loan. The lender's money is secured by something real, such as the instalments shoppers owe"
+ },
+ {
+  "title": "Buy now, pay later",
+  "url": "/glossary/index.html#buy-now-pay-later",
+  "type": "Glossary: concept",
+  "excerpt": "A way to pay for a purchase in instalments over weeks or months instead of all at once. In the halal version the price never changes: the shopper pays no intere"
+ },
+ {
+  "title": "Model Context Protocol",
+  "url": "/glossary/index.html#model-context-protocol",
+  "type": "Glossary: concept",
+  "excerpt": "An open standard that lets an AI assistant connect to an outside service and read its live data, instead of answering from its own training data. Example: Zoya'"
  }
 ]
