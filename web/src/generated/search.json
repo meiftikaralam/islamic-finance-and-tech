@@ -324,6 +324,12 @@
   "excerpt": "Nov 21: Malaysia's first Shariah Bitcoin ETF plans a Dec 2 listing — plus how a halal home purchase plan works, with Guidance and Gatehouse."
  },
  {
+  "title": "Islamic Finance News: Halal ETF Fees, Late Payment Rules",
+  "url": "/editions/2026-11-22.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 22: no story cleared the bar — what the 11 US halal ETFs cost and who checks them, plus what happens when a halal home finance payment is late."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2284,5 +2290,23 @@
   "url": "/glossary/index.html#spot-bitcoin-etf",
   "type": "Glossary: concept",
   "excerpt": "An exchange-traded fund that holds actual bitcoin. Investors buy units on a stock exchange through a broker, and the fund's value follows the bitcoin it holds, "
+ },
+ {
+  "title": "HalalWallet",
+  "url": "/glossary/index.html#halalwallet",
+  "type": "Glossary: company",
+  "excerpt": "A US website that compares halal investing and home finance products, publishing fee, rate and screening data for Shariah-compliant funds and providers. Example"
+ },
+ {
+  "title": "Exchange-traded fund",
+  "url": "/glossary/index.html#exchange-traded-fund",
+  "type": "Glossary: concept",
+  "excerpt": "A fund that trades on a stock exchange like a single share, so one purchase buys a small piece of many stocks or sukuk at once. The fund charges a yearly fee ca"
+ },
+ {
+  "title": "Late payment charge",
+  "url": "/glossary/index.html#late-payment-charge",
+  "type": "Glossary: concept",
+  "excerpt": "An extra amount a finance provider charges when a payment arrives late. In Islamic finance the amount owed is fixed, so a late charge may only cover the provide"
  }
 ]
