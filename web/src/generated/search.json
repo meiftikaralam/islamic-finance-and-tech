@@ -336,10 +336,10 @@
   "excerpt": "Nov 23: Tamara raises $400m in Shariah-compliant funding, plus buy now pay later the halal way and how an AI assistant checks a stock."
  },
  {
-  "title": "Islamic Finance News: Trump Accounts Halal, AAOIFI Rules",
+  "title": "Islamic Finance News: Shariah Land Finance, Trump Accounts",
   "url": "/editions/2026-11-24.html",
   "type": "Newsletter edition",
-  "excerpt": "Nov 24: are Trump Accounts halal, what a parent can do with the $1,000 seed — plus what AAOIFI is and the rules behind halal screening."
+  "excerpt": "Nov 24: Walton Global's first Shariah facility for US homebuilder land — plus are Trump Accounts halal for a Muslim parent."
  },
  {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
@@ -2376,12 +2376,6 @@
   "excerpt": "A traditional IRA opened for a child under a 2025 US law, with a one-time $1,000 seed from the Treasury for US citizens born 2025-2028. The money goes into conv"
  },
  {
-  "title": "AAOIFI",
-  "url": "/glossary/index.html#aaoifi",
-  "type": "Glossary: concept",
-  "excerpt": "The Accounting and Auditing Organization for Islamic Financial Institutions, an independent not-for-profit based in Bahrain that writes the shared standards for"
- },
- {
   "title": "Azzad Asset Management",
   "url": "/glossary/index.html#azzad-asset-management",
   "type": "Glossary: company",
@@ -2392,5 +2386,17 @@
   "url": "/glossary/index.html#spym",
   "type": "Glossary: company",
   "excerpt": "State Street's low-cost fund that tracks the S&P 500 index, and the default investment for Trump Accounts. Example: a Trump Account's $1,000 seed buys SPYM, and"
+ },
+ {
+  "title": "Walton Global",
+  "url": "/glossary/index.html#walton-global",
+  "type": "Glossary: company",
+  "excerpt": "US land investment firm based in Scottsdale, Arizona. Its Builder Land Finance programme buys land chosen by large homebuilders and finances it in phases; a Sha"
+ },
+ {
+  "title": "Land banking",
+  "url": "/glossary/index.html#land-banking",
+  "type": "Glossary: concept",
+  "excerpt": "An arrangement where a specialist firm buys land a homebuilder has chosen and holds it, while the builder takes the lots in phases as its homes sell. The builde"
  }
 ]
