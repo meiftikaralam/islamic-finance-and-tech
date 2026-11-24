@@ -336,10 +336,22 @@
   "excerpt": "Nov 23: Tamara raises $400m in Shariah-compliant funding, plus buy now pay later the halal way and how an AI assistant checks a stock."
  },
  {
+  "title": "Islamic Finance News: Trump Accounts Halal, AAOIFI Rules",
+  "url": "/editions/2026-11-24.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 24: are Trump Accounts halal, what a parent can do with the $1,000 seed — plus what AAOIFI is and the rules behind halal screening."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
   "excerpt": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?"
+ },
+ {
+  "title": "Cur8 USD Income Fund Explained: Halal Income in Dollars",
+  "url": "/lab/cur8-usd-income-fund.html",
+  "type": "Post",
+  "excerpt": "Cur8 Capital's USD Income Fund pays a target 9.5% a year from halal, asset-backed deals, open from $5,000. How it works, step by step."
  },
  {
   "title": "Halal robo-advisors, explained: what they are and who's actually offering one",
@@ -2356,5 +2368,29 @@
   "url": "/glossary/index.html#model-context-protocol",
   "type": "Glossary: concept",
   "excerpt": "An open standard that lets an AI assistant connect to an outside service and read its live data, instead of answering from its own training data. Example: Zoya'"
+ },
+ {
+  "title": "Trump Account",
+  "url": "/glossary/index.html#trump-account",
+  "type": "Glossary: concept",
+  "excerpt": "A traditional IRA opened for a child under a 2025 US law, with a one-time $1,000 seed from the Treasury for US citizens born 2025-2028. The money goes into conv"
+ },
+ {
+  "title": "AAOIFI",
+  "url": "/glossary/index.html#aaoifi",
+  "type": "Glossary: concept",
+  "excerpt": "The Accounting and Auditing Organization for Islamic Financial Institutions, an independent not-for-profit based in Bahrain that writes the shared standards for"
+ },
+ {
+  "title": "Azzad Asset Management",
+  "url": "/glossary/index.html#azzad-asset-management",
+  "type": "Glossary: company",
+  "excerpt": "A US investment advisory firm based in Falls Church, Virginia, established in 1997, that runs Shariah-compliant funds. Example: its Shariah board found no objec"
+ },
+ {
+  "title": "SPYM",
+  "url": "/glossary/index.html#spym",
+  "type": "Glossary: company",
+  "excerpt": "State Street's low-cost fund that tracks the S&P 500 index, and the default investment for Trump Accounts. Example: a Trump Account's $1,000 seed buys SPYM, and"
  }
 ]

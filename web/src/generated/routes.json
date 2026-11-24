@@ -907,6 +907,14 @@
   "date": "2026-11-23"
  },
  {
+  "path": "/editions/2026-11-24.html",
+  "kind": "edition",
+  "slug": "2026-11-24",
+  "title": "Islamic Finance News: Trump Accounts Halal, AAOIFI Rules",
+  "description": "Nov 24: are Trump Accounts halal, what a parent can do with the $1,000 seed — plus what AAOIFI is and the rules behind halal screening.",
+  "date": "2026-11-24"
+ },
+ {
   "path": "/glossary/index.html",
   "kind": "glossary",
   "title": "Glossary — Islamic Finance and Technology",
@@ -919,6 +927,14 @@
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "description": "An experiment: can AI personas of Buffett and Graham value stocks by intrinsic value?",
   "date": "2026-10-07"
+ },
+ {
+  "path": "/lab/cur8-usd-income-fund.html",
+  "kind": "post",
+  "slug": "cur8-usd-income-fund",
+  "title": "Cur8 USD Income Fund Explained: Halal Income in Dollars",
+  "description": "Cur8 Capital's USD Income Fund pays a target 9.5% a year from halal, asset-backed deals, open from $5,000. How it works, step by step.",
+  "date": "2026-11-24"
  },
  {
   "path": "/lab/halal-robo-advisors.html",

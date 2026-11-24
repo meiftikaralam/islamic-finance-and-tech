@@ -4273,5 +4273,75 @@
   ],
   "first_mentioned": "2026-11-23",
   "edition": "editions/2026-11-23.html"
+ },
+ {
+  "name": "Trump Account",
+  "type": "concept",
+  "description": "A traditional IRA opened for a child under a 2025 US law, with a one-time $1,000 seed from the Treasury for US citizens born 2025-2028. The money goes into conventional index funds by default, so Muslim parents check whether the holdings pass Shariah screening. Example: a parent claims the account, then decides whether to take the $1,000, contribute and purify, or wait.",
+  "sources": [
+   {
+    "label": "Zoya — Are Trump Accounts Halal or Haram? A Muslim Parent's Guide",
+    "url": "https://blog.zoya.finance/are-trump-accounts-halal/"
+   },
+   {
+    "label": "Islamic Finance Daily Brief, Nov 24 2026",
+    "url": "https://islamicfintech.org/editions/2026-11-24.html"
+   }
+  ],
+  "first_mentioned": "2026-11-24",
+  "edition": "editions/2026-11-24.html"
+ },
+ {
+  "name": "AAOIFI",
+  "type": "concept",
+  "description": "The Accounting and Auditing Organization for Islamic Financial Institutions, an independent not-for-profit based in Bahrain that writes the shared standards for Islamic finance. Example: its Standard 21 sets the three stock-screening limits — debt under 30% of market value, interest-bearing deposits under 30%, and impermissible income at or below 5% of revenue.",
+  "sources": [
+   {
+    "label": "Devex — Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI)",
+    "url": "https://www.devex.com/organizations/accounting-and-auditing-organization-for-islamic-financial-institutions-aaoifi-120803"
+   },
+   {
+    "label": "Islamic Finance Daily Brief, Nov 24 2026",
+    "url": "https://islamicfintech.org/editions/2026-11-24.html"
+   }
+  ],
+  "first_mentioned": "2026-11-24",
+  "edition": "editions/2026-11-24.html"
+ },
+ {
+  "name": "Azzad Asset Management",
+  "type": "company",
+  "website": "https://azzadasset.com",
+  "description": "A US investment advisory firm based in Falls Church, Virginia, established in 1997, that runs Shariah-compliant funds. Example: its Shariah board found no objection to a child accepting the $1,000 Trump Account seed on its own, and it advises holding off on family contributions until compliant options exist.",
+  "sources": [
+   {
+    "label": "Azzad Asset Management — Halal Investing",
+    "url": "https://azzadasset.com/halal-investing/"
+   },
+   {
+    "label": "Islamic Finance Daily Brief, Nov 24 2026",
+    "url": "https://islamicfintech.org/editions/2026-11-24.html"
+   }
+  ],
+  "first_mentioned": "2026-11-24",
+  "edition": "editions/2026-11-24.html"
+ },
+ {
+  "name": "SPYM",
+  "type": "company",
+  "website": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym",
+  "description": "State Street's low-cost fund that tracks the S&P 500 index, and the default investment for Trump Accounts. Example: a Trump Account's $1,000 seed buys SPYM, and about $260 of every $1,000 sits in companies Zoya rates Non-Compliant.",
+  "sources": [
+   {
+    "label": "U.S. Department of the Treasury — Treasury Announces Investment Lineup for Trump Accounts",
+    "url": "https://home.treasury.gov/news/press-releases/sb0551"
+   },
+   {
+    "label": "Islamic Finance Daily Brief, Nov 24 2026",
+    "url": "https://islamicfintech.org/editions/2026-11-24.html"
+   }
+  ],
+  "first_mentioned": "2026-11-24",
+  "edition": "editions/2026-11-24.html"
  }
 ]
