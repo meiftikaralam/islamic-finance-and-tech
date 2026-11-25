@@ -21,7 +21,7 @@ export const NAV_LINKS = [
   { href: "/aaoifi/index.html", label: "AAOIFI Standards", match: "aaoifi" },
   { href: "/glossary/index.html", label: "Glossary", match: "glossary" },
   { href: "/events.html", label: "Events", match: "events" },
-  { href: "/about.html", label: "About", match: "about" },
+  { href: "/about.html", label: "About Us", match: "about" },
   { href: "/playbook/index.html", label: "How it's made", match: "playbook" },
 ] as const;
 
