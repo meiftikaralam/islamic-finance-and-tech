@@ -51,7 +51,7 @@ export function About() {
       <h2>About the author</h2>
       <p>
         Iftikar is passionate about researching Islamic finance and the
-        engineering behind real-world Islamic financial products. Over the
+        engineering behind Islamic finance products. Over the
         years, he has advised financial institutions on simplifying
         Islamic product workflows and worked closely with Shariah scholars
         to develop and launch Islamic financing solutions internationally.
