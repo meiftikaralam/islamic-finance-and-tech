@@ -70,7 +70,6 @@ export function Sidebar() {
         </Link>
         <Link to="/about.html" className={`${SIDE_LINK} border-b-0`}>
           About Iftikar
-          <span className={SIDE_SUB}>7 years in payments, Islamic finance research</span>
         </Link>
       </div>
 

@@ -90,7 +90,7 @@ export function Home() {
       </h1>
       <p className="mt-3.5 text-lg leading-[1.55] text-neutral-700 max-w-[560px]">
         A daily lesson on Islamic banking, sukuk, halal investing and the technology behind
-        them. Written by Iftikar — 7 years in payments, years of Islamic finance research.
+        them.
       </p>
       <form
         action="https://app.kit.com/forms/10015197/subscriptions"
