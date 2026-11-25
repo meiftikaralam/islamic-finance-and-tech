@@ -6,6 +6,7 @@ import { Posts } from "@/pages/Posts";
 import { Edition } from "@/pages/Edition";
 import { Post } from "@/pages/Post";
 import { MdPage } from "@/pages/MdPage";
+import { About } from "@/pages/About";
 import { AaoifiIndex } from "@/pages/AaoifiIndex";
 import { AaoifiStandard } from "@/pages/AaoifiStandard";
 import { Glossary } from "@/pages/Glossary";
@@ -34,7 +35,7 @@ function elementFor(r: RouteDef) {
     case "post":
       return <Post slug={r.slug!} />;
     case "page":
-      return <MdPage slug={r.slug!} />;
+      return r.slug === "about" ? <About /> : <MdPage slug={r.slug!} />;
     case "aaoifi-index":
       return <AaoifiIndex />;
     case "aaoifi-standard":
