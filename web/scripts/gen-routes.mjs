@@ -34,6 +34,8 @@ const statics = [
     "Essays, experiments and beginner guides on Islamic finance and technology: sukuk, halal ETFs, robo-advisors, private markets and stock analysis, in simple words."],
   ["/about.html", "page", "About Iftikar — Islamic Finance and Technology",
     "About Iftikar: Amazon payment engineer and Islamic finance researcher, writing plain-English lessons on Islamic banking, sukuk and halal investing."],
+  ["/events.html", "page", "Upcoming Islamic Finance Events in the USA",
+    "Islamic finance and Muslim business events in the USA, with dates, venues and links to register: conventions, conferences and summits."],
   ["/playbook/index.html", "page", "How it's made — Islamic Finance and Technology",
     "The open playbook behind this site — sources, rules, and process."],
   ["/aaoifi/index.html", "aaoifi-index", "AAOIFI Standards in Simple English",
@@ -42,7 +44,7 @@ const statics = [
     "Companies and concepts from the daily newsletter, explained in simple words: Islamic banks, fintech firms, sukuk, takaful, and the key terms behind them."],
 ];
 for (const [path, kind, title, description] of statics) {
-  const slug = kind === "page" ? basename(path, ".html") === "about" ? "about" : "playbook" : undefined;
+  const slug = kind === "page" ? basename(path, ".html") : undefined;
   routes.push({ path, kind, slug, title, description });
   addSearch(title, path, "Page", description);
 }

@@ -20,6 +20,7 @@ export const NAV_LINKS = [
   { href: "/posts.html", label: "Posts", match: "posts" },
   { href: "/aaoifi/index.html", label: "AAOIFI Standards", match: "aaoifi" },
   { href: "/glossary/index.html", label: "Glossary", match: "glossary" },
+  { href: "/events.html", label: "Events", match: "events" },
   { href: "/about.html", label: "About", match: "about" },
   { href: "/playbook/index.html", label: "How it's made", match: "playbook" },
 ] as const;
@@ -31,6 +32,7 @@ export function activeNav(path: string): string {
   if (path.startsWith("/newsletters") || path.startsWith("/editions/")) return "newsletters";
   if (path.startsWith("/aaoifi")) return "aaoifi";
   if (path.startsWith("/glossary")) return "glossary";
+  if (path.startsWith("/events")) return "events";
   if (path.startsWith("/about")) return "about";
   if (path.startsWith("/playbook")) return "playbook";
   return "";

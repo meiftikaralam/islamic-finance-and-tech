@@ -923,6 +923,13 @@
   "date": "2026-11-25"
  },
  {
+  "path": "/events.html",
+  "kind": "page",
+  "slug": "events",
+  "title": "Upcoming Islamic Finance Events in the USA",
+  "description": "Islamic finance and Muslim business events in the USA, with dates, venues and links to register: conventions, conferences and summits."
+ },
+ {
   "path": "/glossary/index.html",
   "kind": "glossary",
   "title": "Glossary — Islamic Finance and Technology",
@@ -1001,7 +1008,7 @@
  {
   "path": "/playbook/index.html",
   "kind": "page",
-  "slug": "playbook",
+  "slug": "index",
   "title": "How it's made — Islamic Finance and Technology",
   "description": "The open playbook behind this site — sources, rules, and process."
  },
