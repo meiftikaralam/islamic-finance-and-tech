@@ -4,7 +4,7 @@
 export function About() {
   return (
     <article className="prose-blog">
-      <h1>About</h1>
+      <h1>About Us</h1>
 
       <h2>About this blog</h2>
       <p>

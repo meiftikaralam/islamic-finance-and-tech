@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 
 const LOGO_URL = "/logo.webp";
 
-const MAIN_LINKS = NAV_LINKS.slice(0, 2);
-const MORE_LINKS = NAV_LINKS.slice(2);
+const MAIN_LINKS = NAV_LINKS.slice(0, 3);
+const MORE_LINKS = NAV_LINKS.slice(3);
 
 function MoreMenu({ active }: { active: string }) {
   const [open, setOpen] = useState(false);
