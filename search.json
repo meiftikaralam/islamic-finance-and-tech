@@ -342,6 +342,12 @@
   "excerpt": "Nov 24: Walton Global's first Shariah facility for US homebuilder land — plus are Trump Accounts halal for a Muslim parent."
  },
  {
+  "title": "Islamic Finance News: Oman Treasury Bills, QQQ Screening",
+  "url": "/editions/2026-11-25.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 25: Oman issues its first Islamic Treasury bills at 4.11% for 91 days — plus is QQQ halal for a US investor."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2398,5 +2404,29 @@
   "url": "/glossary/index.html#land-banking",
   "type": "Glossary: concept",
   "excerpt": "An arrangement where a specialist firm buys land a homebuilder has chosen and holds it, while the builder takes the lots in phases as its homes sell. The builde"
+ },
+ {
+  "title": "Central Bank of Oman",
+  "url": "/glossary/index.html#central-bank-of-oman",
+  "type": "Glossary: company",
+  "excerpt": "Oman's central bank. It runs the country's banking system and sells the government's Treasury bills, including the first Islamic Treasury bills, issued in Novem"
+ },
+ {
+  "title": "Islamic Treasury Bill",
+  "url": "/glossary/index.html#islamic-treasury-bill",
+  "type": "Glossary: concept",
+  "excerpt": "A short-term loan to a government that pays a profit rate instead of interest. Oman issued its first ones in November 2026, for 91 days at a 4.11% profit rate, "
+ },
+ {
+  "title": "Shariah board",
+  "url": "/glossary/index.html#shariah-board",
+  "type": "Glossary: concept",
+  "excerpt": "A small group of scholars who check that a fund, bank or product follows Islamic law. The board approves the product before launch, sets its purification rules,"
+ },
+ {
+  "title": "Invesco QQQ",
+  "url": "/glossary/index.html#invesco-qqq",
+  "type": "Glossary: company",
+  "excerpt": "A US exchange-traded fund that tracks the Nasdaq-100 index of 100 large non-financial companies. It has no Shariah screen and no Shariah board, and it does not "
  }
 ]
