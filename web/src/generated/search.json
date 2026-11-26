@@ -354,6 +354,12 @@
   "excerpt": "Nov 25: Oman issues its first Islamic Treasury bills at 4.11% for 91 days — plus is QQQ halal for a US investor."
  },
  {
+  "title": "Islamic Finance News: Dubai Bank Deal, Halal Portfolios",
+  "url": "/editions/2026-11-26.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 26: Dubai Islamic Bank agrees a $159bn all-share deal for Emirates Islamic — plus what a bank takeover means, and how advisors build halal portfolios."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2434,5 +2440,35 @@
   "url": "/glossary/index.html#invesco-qqq",
   "type": "Glossary: company",
   "excerpt": "A US exchange-traded fund that tracks the Nasdaq-100 index of 100 large non-financial companies. It has no Shariah screen and no Shariah board, and it does not "
+ },
+ {
+  "title": "Emirates NBD",
+  "url": "/glossary/index.html#emirates-nbd",
+  "type": "Glossary: company",
+  "excerpt": "The UAE's largest bank by assets and the owner of Emirates Islamic. It is selling Emirates Islamic to Dubai Islamic Bank in an all-share deal agreed in November"
+ },
+ {
+  "title": "Al Rajhi Bank",
+  "url": "/glossary/index.html#al-rajhi-bank",
+  "type": "Glossary: company",
+  "excerpt": "Saudi Arabia's largest Islamic bank, founded in 1957. It is the world's largest listed Islamic banking group by assets, ahead of the combined Dubai Islamic Bank"
+ },
+ {
+  "title": "All-share deal",
+  "url": "/glossary/index.html#all-share-deal",
+  "type": "Glossary: concept",
+  "excerpt": "A takeover where the buyer pays with its own shares instead of cash. The seller's owner receives new shares in the buyer and becomes a shareholder in the bigger"
+ },
+ {
+  "title": "Bank takeover",
+  "url": "/glossary/index.html#bank-takeover",
+  "type": "Glossary: concept",
+  "excerpt": "One bank buying another bank and taking control of it. The buyer signs a purchase agreement, shareholders vote on it, and regulators must clear it before the de"
+ },
+ {
+  "title": "Halal portfolio",
+  "url": "/glossary/index.html#halal-portfolio",
+  "type": "Glossary: concept",
+  "excerpt": "A set of investments chosen to follow Islamic law: every holding passes a Shariah screen, the screening rules are agreed up front, and each holding is re-checke"
  }
 ]
