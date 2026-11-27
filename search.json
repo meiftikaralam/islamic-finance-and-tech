@@ -360,6 +360,12 @@
   "excerpt": "Nov 26: Dubai Islamic Bank agrees a $159bn all-share deal for Emirates Islamic — plus what a bank takeover means, and how advisors build halal portfolios."
  },
  {
+  "title": "Islamic Finance News: Halal HSAs, Halal Car Finance",
+  "url": "/editions/2026-11-27.html",
+  "type": "Newsletter edition",
+  "excerpt": "Nov 27: Is a health savings account halal — plus how halal car financing works in the USA, and what to check before you sign."
+ },
+ {
   "title": "Experiment: asking AI to value stocks like Buffett and Graham",
   "url": "/lab/ai-persona-stock-analysis.html",
   "type": "Post",
@@ -2470,5 +2476,35 @@
   "url": "/glossary/index.html#halal-portfolio",
   "type": "Glossary: concept",
   "excerpt": "A set of investments chosen to follow Islamic law: every holding passes a Shariah screen, the screening rules are agreed up front, and each holding is re-checke"
+ },
+ {
+  "title": "UIF Corporation",
+  "url": "/glossary/index.html#uif-corporation",
+  "type": "Glossary: company",
+  "excerpt": "A US Islamic finance provider offering halal home and vehicle financing. It merged with LARIBA on April 1, 2026, and finances cars only for residents of Texas, "
+ },
+ {
+  "title": "HSA Bank",
+  "url": "/glossary/index.html#hsa-bank",
+  "type": "Glossary: company",
+  "excerpt": "A US health savings account provider, a division of Santander Bank. Its Choice investment list includes SPUS, HLAL and SPSK, so an HSA holder can invest in Shar"
+ },
+ {
+  "title": "Fidelity",
+  "url": "/glossary/index.html#fidelity",
+  "type": "Glossary: company",
+  "excerpt": "One of the largest US brokerages and a major HSA provider. Uninvested HSA cash sits in a government money market fund or a bank sweep, and both pay interest, so"
+ },
+ {
+  "title": "Health savings account",
+  "url": "/glossary/index.html#health-savings-account",
+  "type": "Glossary: concept",
+  "excerpt": "A US tax-advantaged account for medical costs, available with an HSA-eligible health plan. Money goes in before tax, grows without tax, and comes out without ta"
+ },
+ {
+  "title": "Instalment sale",
+  "url": "/glossary/index.html#instalment-sale",
+  "type": "Glossary: concept",
+  "excerpt": "A sale where the buyer pays the agreed price over time. In halal car finance the provider buys the car and resells it at a higher agreed price paid in monthly i"
  }
 ]
